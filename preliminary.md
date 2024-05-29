@@ -49,7 +49,7 @@ For further details visit https://github.com/NBISweden/AGAT?tab=readme-ov-file#u
 ### download the sequences and relative data 
 
 
-Files necessary for extracting cds (coding sequences) and exons can be downloaded using wget on the following links and redirected to the relative folders:
+Files necessary for extracting cds (coding sequences) and proteoms for all 10 species can be downloaded using wget on the following links and redirected to the relative folders:
 
 Gff files:
 
