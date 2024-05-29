@@ -4,7 +4,7 @@
 *environiment:* ...
 
 
-*aim:* set up conda environiments / obtain cds and exons / understand experimental design
+*aim:* set up conda environiments / obtain cds and proteoms / understand experimental design
 
 
 ---
@@ -83,10 +83,27 @@ Example command:
 wget https://zenodo.org/records/5636226/files/Tte_b3v08.fasta?download=1
 ```
 
-### before extracting cds and exons, make sure to keep just the longest isoforms, with the following command, to re-iterate on all gff files:
+### before extracting cds and proteoms, make sure to keep just the longest isoforms, with the following command, to re-iterate on all gff files:
 
 ```
 agat_sp_keep_longest_isoform.pl -gff gff_file -o longest_isoform_gff
 
 ```
+
+### extract nucleotide sequences with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
+
+```
+agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file --cfs --type CDS --output sp_outputcds.fa
+
+```
+The "--cfs" flag allows to remove the final stop codons.
+
+### extract proteoms with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
+
+```
+agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file -p --cfs --type exon --output sp_outputcds.fa
+
+```
+The "-p" flag allows to translate nucleotide sequences in aminoacid sequences.       
+
 
