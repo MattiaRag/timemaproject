@@ -40,7 +40,7 @@ List of tools needed to be installed:
 conda activate agat
 conda install -c bioconda agat 
 ``` 
-For further details visit https://github.com/NBISweden/AGAT?tab=readme-ov-file#using-bioconda
+For further details visit this [page](https://github.com/NBISweden/AGAT?tab=readme-ov-file#using-bioconda)
 
 ...
 
