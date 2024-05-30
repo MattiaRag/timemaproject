@@ -22,7 +22,7 @@ Clone the github to a local host and then:
 ---
 
 
-### Install the software
+## Install the software
 
 
 Due to conflicts specific environiments are necessary for expression analyses. They can be installed by: 
@@ -47,23 +47,23 @@ For further details visit this [page](https://github.com/NBISweden/AGAT?tab=read
 ---
 
 
-### Download the sequences and relative data 
+## Download the sequences and relative data 
 
 
 Files necessary for extracting cds (coding sequences) and proteoms for all 10 species can be downloaded using wget on the relative links, then redirected to the proper folders.
 
 This can be performed by running this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/download_files.sh), which will create a docs directory and use a [tsv file](https://github.com/MattiaRag/timemaproject/blob/main/scripts/downloading_links.tsv) for downloading all gff and fasta documents.
 
-### Obtain cds and proteoms
+## Obtain cds and proteoms
 
-## Before extracting cds and proteoms, make sure to keep just the longest isoforms, with the following command, to re-iterate on all gff files:
+### Before extracting cds and proteoms, make sure to keep just the longest isoforms, with the following command, to re-iterate on all gff files:
 
 ```
 agat_sp_keep_longest_isoform.pl -gff gff_file -o longest_isoform_gff
 
 ```
 
-## Extract nucleotide sequences with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
+### Extract nucleotide sequences with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
 
 ```
 agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file --cfs --type CDS --output sp_outputcds.fa
@@ -71,7 +71,7 @@ agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file --cfs 
 ```
 The "--cfs" flag allows to remove the final stop codons.
 
-## Extract proteoms with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
+### Extract proteoms with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
 
 ```
 agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file -p --cfs --type exon --output sp_outputcds.fa
