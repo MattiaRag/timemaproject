@@ -80,6 +80,6 @@ agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file -p --c
 The "-p" flag allows to translate nucleotide sequences in aminoacid sequences.       
 
 
-**NB2**: all commands needed for obtaining correctly formatted cds and proteoms have been implemented within this script. 
+**NB2**: all commands needed for obtaining correctly formatted cds and proteoms have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/agatscript.sh).
 
 
