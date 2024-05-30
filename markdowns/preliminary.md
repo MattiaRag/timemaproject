@@ -52,7 +52,7 @@ For further details visit this [page](https://github.com/NBISweden/AGAT?tab=read
 
 Files necessary for extracting cds (coding sequences) and proteoms for all 10 species can be downloaded using wget on the relative links, then redirected to the proper folders.
 
-This can be performed by running this script, which will create a docs directory and use a tsv file for downloading all gff and fasta documents.
+This can be performed by running this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/download_files.sh), which will create a docs directory and use a [tsv file](https://github.com/MattiaRag/timemaproject/blob/main/scripts/downloading_links.tsv) for downloading all gff and fasta documents.
 
 ### Obtain cds and proteoms
 
