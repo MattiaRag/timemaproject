@@ -1,7 +1,7 @@
 # Requirements and dataset explanation
 
 
-*environiment:* agat
+*environiments:* agat / orthofinder
 
 
 *aim:* set up conda environiments / obtain cds and proteoms / infer single-copy orthogroups
@@ -13,7 +13,7 @@
 Clone the github to a local host and then:
 
 
-- install the sotwares
+- install the softwares
 - download the databases
 - download the experiment data
 
@@ -30,18 +30,25 @@ Due to conflicts specific environiments are necessary for expression analyses. T
 
 ```
 conda env create -n agat
+conda env create -n orthofinder
 ``` 
 
 List of tools needed to be installed:
 
 - [AGAT](https://github.com/NBISweden/AGAT/tree/master) (Another Gtf/Gff Analysis Toolkit)
+- [Orthofinder](https://github.com/davidemms/OrthoFinder)
 
 ```
 conda activate agat
 conda install -c bioconda agat 
 ``` 
-For further details visit this [page](https://github.com/NBISweden/AGAT?tab=readme-ov-file#using-bioconda)
+For further details visit this [page](https://anaconda.org/bioconda/agat)
 
+```
+conda activate orthofinder
+conda install -c bioconda orthofinder 
+``` 
+For further details visit this [page]()
 
 
 ## Download the sequences and relative data 
@@ -83,6 +90,8 @@ The "-p" flag allows to translate nucleotide sequences in aminoacid sequences.
 
 
 
-## Experimental design
+## Inferring single-copy orthogroups
+
+Most of the subsequent analyses request the use of single-copy orthogroups, thus discarding paralogs. Orthofinder was adopted for the orthology inference, while DISCO ( 
 
 
