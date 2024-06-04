@@ -1,7 +1,7 @@
 # Requirements and dataset explanation
 
 
-*environiment:* ...
+*environiment:* agat
 
 
 *aim:* set up conda environiments / obtain cds and proteoms / understand experimental design
@@ -22,7 +22,7 @@ Clone the github to a local host and then:
 ---
 
 
-## Install the software
+## Install the softwares
 
 
 Due to conflicts specific environiments are necessary for expression analyses. They can be installed by: 
@@ -34,7 +34,7 @@ conda env create -n agat
 
 List of tools needed to be installed:
 
-- AGAT
+- [AGAT](https://github.com/NBISweden/AGAT/tree/master) (Another Gtf/Gff Analysis Toolkit)
 
 ```
 conda activate agat
@@ -42,9 +42,6 @@ conda install -c bioconda agat
 ``` 
 For further details visit this [page](https://github.com/NBISweden/AGAT?tab=readme-ov-file#using-bioconda)
 
-...
-
----
 
 
 ## Download the sequences and relative data 
@@ -53,6 +50,8 @@ For further details visit this [page](https://github.com/NBISweden/AGAT?tab=read
 Files necessary for extracting cds (coding sequences) and proteoms for all 10 species can be downloaded using wget on the relative links, then redirected to the proper folders.
 
 This can be performed by running this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/download_files.sh), which will create a docs directory and use a [tsv file](https://github.com/MattiaRag/timemaproject/blob/main/scripts/downloading_links.tsv) for downloading all gff and fasta documents.
+
+**NB:** datasets were downloaded in May 2024.
 
 ## Obtain cds and proteoms
 
@@ -83,3 +82,34 @@ The "-p" flag allows to translate nucleotide sequences in aminoacid sequences.
 **NB2**: all commands needed for obtaining correctly formatted cds and proteoms have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/agatscript.sh).
 
 
+
+## Experimental design
+
+
+This project ... with two major aims:
+
+
+1. charachterize in crema genes associated with feeding on vicia extra-floral nectar (EFN) in different tissues and timespans.
+2. understand wether we could identify in vicia any gene expression change associated to the interaction.
+
+
+To do so we generated two RNA-seq experiments:
+
+
+1. two different tissue (haead+thorax and abdomen) and four different conditions were considered for crema:
+
+
+**A**  -  never got in contact with vicia
+
+**B**  -  got in contact with vicia only since 24h before experiment
+
+**C**  -  got in contact with vicia only until 24h before experiment 
+
+**D**  -  got in contact with vicia continuously
+
+
+2. nectarium of vicia which:
+
+**N**  -  never got in contact with crema
+
+**Y**  -  2' after beeing visited by crema
