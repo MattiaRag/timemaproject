@@ -86,14 +86,15 @@ The "-p" flag allows to translate nucleotide sequences in aminoacid sequences.
 ## Experimental design
 
 
-This project ... with two major aims:
+This project tests alternative hypothesis to convergence, for parthenogenesis evolution in *Timema* stick insects. 
+Specifically, we aim at:
 
 
-1. charachterize in crema genes associated with feeding on vicia extra-floral nectar (EFN) in different tissues and timespans.
-2. understand wether we could identify in vicia any gene expression change associated to the interaction.
+1. testing the occurance of hemiplasic patterns along the species tree of Timema and for each tree of that genes possibly involved in reproduction and/or ovogenesis;
+2. testing the possibility of parthenogenesis as ancestral state for reproduction in Timema, contrary to what was believed till now (bisexuality as ancestral state). 
 
 
-To do so we generated two RNA-seq experiments:
+To do so we 
 
 
 1. two different tissue (haead+thorax and abdomen) and four different conditions were considered for crema:
