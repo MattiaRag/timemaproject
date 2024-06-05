@@ -87,14 +87,12 @@ mamba activate agat
 
 ```
 agat_sp_keep_longest_isoform.pl -gff gff_file -o longest_isoform_gff
-
 ```
 
 ### Extract nucleotide sequences with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
 
 ```
 agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file --cfs --type CDS --output sp_outputcds.fa
-
 ```
 The flag `--cfs` allows to remove the final stop codons.
 
@@ -102,8 +100,8 @@ The flag `--cfs` allows to remove the final stop codons.
 
 ```
 agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file -p --cfs --type exon --output sp_outputcds.fa
-
 ```
+
 The flag `-p` allows to translate nucleotide sequences in aminoacid sequences.       
 
 
@@ -142,7 +140,7 @@ In the current pipeline, the command has been run through this [script](https://
 
 ### Prepare input and run DISCO
 
-As input for DISCO, it is recommended to prepare a newick-formatted file composed of all gene trees produced by Orthofinder, and filed in the output directory Gene_Trees.
+As input for DISCO, it is recommended to prepare a newick-formatted file composed of all gene trees produced by Orthofinder, and filed in the output directory `Gene_Trees`.
 
 Moreover, Orthofinder will rename the tips within each gene tree adding, immediately before the unique identifier code, the name of the original fasta file from which the relative record was extracted (which usually include the species name). It is thus recommended to modify the gene trees tips' names keeping just the unique identifier code (in this case, to make the subsequent orthogroups' reconstruction quicker, even a repetition of the species name was kept in the tips' names).
 
@@ -151,9 +149,13 @@ The tips' renaming and input file formatting can be performed through this [scri
 Disco run can be performed through the following command line:
 
 ```
-python3 disco.py -i preliminary/disco/input_disco.trees -o preliminary/disco/discooutputDEF5.txt -d "_" -n 1 --keep-labels -m 5
+python3 scripts/disco.py -i preliminary/disco/input_disco.trees -o preliminary/disco/discooutputDEF5.txt -d "_" -n 1 --keep-labels -m 5
 ```
 
 The flag `--keep-labels` allows to keep original leaf labels instead of using species name, while the flag `-m` specify the minimum number of taxa required for tree to be outputted.
  
-###  
+### Reconstruct orthogroups post-DISCO
+
+Before inferring new gene trees, it is necessary to generate fasta files of both aminoacidic and nucleotidic sequences, for each new single-copy orthogroup elaborated by DISCO.
+
+This operation was performed for [aminoacids](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extractdisco_aa.sh) and [nucleotides](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extractdisco_nu.sh) with proper scripts.
