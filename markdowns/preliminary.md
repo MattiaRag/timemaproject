@@ -59,7 +59,7 @@ DISCO's exectuable can be downloaded using git clone:
 git clone https://github.com/JSdoubleL/DISCO.git
 ```
 
-It may be necessary to manually install the dependency called "treeswift":
+To make DISCO work, it may be necessary to manually install the dependency called "treeswift":
 
 ```
 pip install treeswift
@@ -95,7 +95,7 @@ agat_sp_keep_longest_isoform.pl -gff gff_file -o longest_isoform_gff
 agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file --cfs --type CDS --output sp_outputcds.fa
 
 ```
-The "--cfs" flag allows to remove the final stop codons.
+The `--cfs` flag allows to remove the final stop codons.
 
 ### Extract proteoms with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
 
@@ -103,7 +103,7 @@ The "--cfs" flag allows to remove the final stop codons.
 agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file -p --cfs --type exon --output sp_outputcds.fa
 
 ```
-The "-p" flag allows to translate nucleotide sequences in aminoacid sequences.       
+The `-p` flag allows to translate nucleotide sequences in aminoacid sequences.       
 
 
 **NB2**: all commands needed for obtaining correctly formatted cds and proteoms have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/agatscript.sh).
@@ -135,7 +135,7 @@ Orthofinder can be run on the renamed and one line aminoacidic sequences, throug
 ```
 orthofinder -f input_dirrectory -y
 ```
-The "y" flag allows to split paralogous clades below root of a HOG into separate HIGs.
+The flag `-y` allows to split paralogous clades below root of a HOG into separate HIGs.
 
 In the current pipeline, the command has been run through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/orthofinder.sh).
 
@@ -150,6 +150,8 @@ The tips' renaming and input file formatting can be performed through this [scri
 Disco run can be performed through the following command line:
 
 ```
-python3 disco.py -i input_disco.trees -o discooutputDEF5.txt -d "_" -n 1 --keep-labels -m 5
+python3 disco.py -i preliminary/disco/input_disco.trees -o preliminary/disco/discooutputDEF5.txt -d "_" -n 1 --keep-labels -m 5
 ```
 
+The flag `--keep-labels` allows to keep original leaf labels instead of using species name, while the flag "-m" specify the minimum number of taxa required for tree to be outputted.
+ 
