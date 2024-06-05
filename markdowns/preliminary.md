@@ -1,7 +1,7 @@
 # Requirements and dataset explanation
 
 
-*environiments:* agat / orthofinder
+*environiments:* base / agat / orthofinder
 
 
 *aim:* set up mamba environiments / obtain cds and proteoms / infer single-copy orthogroups and relative gene trees
@@ -33,11 +33,15 @@ mamba create --name myenvname orthofinder
 mamba create --name myenvname agat
 ``` 
 
-List of tools needed to be installed:
+### List of tools needed to be installed:
+
 
 - [Another GFF Analysis Toolkit (AGAT) - Version: v0.8.0](https://github.com/NBISweden/AGAT/tree/master)
 - [OrthoFinder version 2.5.5](https://github.com/davidemms/OrthoFinder)
 - [Decomposition Into Single-COpy gene trees (DISCO) - Version: v1.3.1](https://github.com/JSdoubleL/DISCO?tab=readme-ov-file)
+
+### Installation of tools needing dedicated environmnents:
+
 
 ```
 mamba activate agat
@@ -46,6 +50,7 @@ mamba deactivate
 ``` 
 For further details on AGAT installation visit this [page](https://bioconda.github.io/recipes/agat/README.html)
 
+
 ```
 mamba activate orthofinder
 mamba install orthofinder
@@ -53,18 +58,47 @@ mamba deactivate
 ``` 
 For further details on Orthofinder installation visit this [page](https://bioconda.github.io/recipes/orthofinder/README.html)
 
-DISCO's exectuable can be downloaded using git clone:
+
+### Installation of tools executables on base environment: 
+
 
 ```
 git clone https://github.com/JSdoubleL/DISCO.git
 ```
 
-To make DISCO work, it may be necessary to manually install the dependency called "treeswift":
+DISCO's exectuable can be downloaded using git clone, but to make DISCO work, it may be necessary to manually install the dependency called "treeswift":
 
 ```
 pip install treeswift
 ```
 In this case, `disco.py` was placed in preliminary/scripts and called from there while running the command.
+
+
+```
+mamba install -c bioconda mafft
+```
+For further details on MAFFT installation visit this [page](https://mafft.cbrc.jp/alignment/software/)
+
+
+```
+mamba install trimal
+```
+For further details on MAFFT installation visit this [page](https://bioconda.github.io/recipes/trimal/README.html)
+
+
+```
+mamba install iqtree       
+```
+For further details on iqtree installation visit this [page](https://bioconda.github.io/recipes/iqtree/README.html)
+
+
+```
+git clone https://github.com/marekborowiec/AMAS.git
+```
+
+AMAS' exectuable can be downloaded using git clone. 
+In this case, `AMAS.py` was placed in preliminary/scripts and called from there while running the command.
+
 
 ## Download the sequences and relative data 
 
@@ -77,7 +111,9 @@ This can be performed by running this [script](https://github.com/MattiaRag/time
 
 ## Obtain cds and proteoms
 
+
 ### Activate mamba environment agat
+
 
 ```
 mamba activate agat
@@ -85,11 +121,13 @@ mamba activate agat
 
 ### Before extracting cds and proteoms, make sure to keep just the longest isoforms, with the following command, to re-iterate on all gff files:
 
+
 ```
 agat_sp_keep_longest_isoform.pl -gff gff_file -o longest_isoform_gff
 ```
 
 ### Extract nucleotide sequences with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
+
 
 ```
 agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file --cfs --type CDS --output sp_outputcds.fa
@@ -97,6 +135,7 @@ agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file --cfs 
 The flag `--cfs` allows to remove the final stop codons.
 
 ### Extract proteoms with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
+
 
 ```
 agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file -p --cfs --type exon --output sp_outputcds.fa
@@ -111,10 +150,12 @@ The flag `-p` allows to translate nucleotide sequences in aminoacid sequences.
 
 ## Inferring single-copy orthogroups
 
+
 Most of the subsequent analyses request the use of single-copy orthogroups, thus discarding paralogs. Orthofinder was adopted for the orthology inference, while DISCO was used to decompose Orthofinder's gene trees into single-copy gene trees only. Orthogroups' fastas were subsequently re-built using DISCO's output. 
 
 
 ### Rename headers and set the input directory
+
 
 Before running Orthofinder and subsequent analyses, rename the fasta file headers keeping just the species name and the unique code of the sequence (e.g. TBI_11170_RA).
 This can be done through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/rename_multitoone.sh) on both aminoacidic (proteomes) and nucleotidic sequences (cds), extracted with AGAT.
@@ -123,11 +164,13 @@ As the current settings don't allow the redirection of Orthofinder's outputs, th
 
 ### Activate mamba environment orthofinder
 
+
 ```
 mamba activate orthofinder
 ```
 
 ### Run orthofinder
+
 
 Orthofinder can be run on the renamed and one line aminoacidic sequences, through the following command line:
 
@@ -139,6 +182,7 @@ The flag `-y` allows to split paralogous clades below root of a HOG into separat
 In the current pipeline, the command has been run through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/orthofinder.sh).
 
 ### Prepare input and run DISCO
+
 
 As input for DISCO, it is recommended to prepare a newick-formatted file composed of all gene trees produced by Orthofinder, and filed in the output directory `Gene_Trees`.
 
@@ -156,6 +200,7 @@ The flag `--keep-labels` allows to keep original leaf labels instead of using sp
  
 ### Reconstruct orthogroups post-DISCO
 
+
 Before inferring new gene trees, it is necessary to generate fasta files of both aminoacidic and nucleotidic sequences, for each new single-copy orthogroup elaborated by DISCO.
 
 This operation was performed for [aminoacids](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extractdisco_aa.sh) and [nucleotides](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extractdisco_nu.sh) with proper scripts, using DISCO output `discooutputDEF5.trees` as input.
@@ -163,3 +208,6 @@ This operation was performed for [aminoacids](https://github.com/MattiaRag/timem
 ### Infer gene trees for both aminoacids and nucleotides
 
 
+With slight differences later specified, the steps leading to gene tree inference are the same for aminoacids and nucleotides-composed orthogroups. Alignement and trimming are performed on aminoacids only, subsequently back-translating the trimmed files, thanks to a proper Trimal flag.
+
+The sequences alignment has been performed using MAFFT
