@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directory="preliminary/Orthofinder/renamed_headers_aa/OrthoFinder/Results_May30/Gene_Trees"
+directory="preliminary/Orthofinder/renamed_one/OrthoFinder/Results_May30/Gene_Trees"
 output_file="preliminary/disco/input_disco.trees"
 
 # Function to modify the tip names in the Newick tree
