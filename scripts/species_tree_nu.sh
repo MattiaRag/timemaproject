@@ -37,6 +37,9 @@ process_files() {
         awk '/^>/{split($1, arr, "_"); print arr[1]; next} {print}' "$i" > "${renamed_dir}/$(basename "${i}").rename"
     done
 
+    # Remove empty files from the renamed directory
+    find "$renamed_dir" -type f -size 0 -delete
+
     # Concatenation of renamed files
     echo "Checking renamed files for concatenation in ${renamed_dir}..."
     renamed_files=$(find "${renamed_dir}" -type f -name '*.rename' -print)
