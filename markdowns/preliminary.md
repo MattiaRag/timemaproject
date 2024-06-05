@@ -212,6 +212,30 @@ This operation was performed for [aminoacids](https://github.com/MattiaRag/timem
 ### Infer gene trees for both aminoacids and nucleotides
 
 
-With slight differences later specified, the steps leading to gene tree inference are the same for aminoacids and nucleotides-composed orthogroups. Alignement and trimming are performed on aminoacids only, subsequently back-translating the trimmed files, thanks to a proper Trimal flag.
+With slight differences later specified, the steps leading to gene tree inference are the same for aminoacids and nucleotides-composed orthogroups. Alignement and trimming are performed on aminoacids only, subsequently back-translating the trimmed files, thanks to a proper trimAL flag.
 
-The sequences alignment has been performed using MAFFT
+The aminoacidic sequences alignment is performed using MAFFT on each fasta file:
+
+```
+mafft --auto aa_dir/orth.fa > maff/orth.mafft.fa
+```
+
+All alignments are then trimmed, using specific flags:
+
+```
+trimal -in maff/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout > Tr_aa/orth.trimmed.fa"
+```
+
+The flag `-resoverlap` specifies the minimum overlap of a positions with other positions in the column to be considered a "good position".
+The flag `-seqoverlap` specifies the minimum percentage of "good positions" that a sequence must have in order to be conserved.
+The flag `-gappyout` automatically remove columns from the alignment that contain gaps according to a predefined threshold.
+
+The first run of trimAL produces trimmed aminoacidic sequences.
+
+```
+trimal -in maff/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout -ignorestopcodon -backtrans nu_dir/orth.fa
+```
+
+The second run of trimAL repeats trimming on aminoacidic sequences, while automatically back-translating the trimmed sequences to nucleotides, thanks to the flag `-backtrans` followed by the previously provided relative orthogroup's fasta file in nucleotides sequences.
+
+The flag `-ignorestopcodon` makes the tool ignore stop codons in the input coding sequences.
