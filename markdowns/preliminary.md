@@ -51,6 +51,17 @@ https://bioconda.github.io/recipes/orthofinder/README.html
 ``` 
 For further details visit this [page](https://bioconda.github.io/recipes/orthofinder/README.html)
 
+DISCO's exectuable can be downloaded using git clone:
+
+```
+git clone https://github.com/JSdoubleL/DISCO.git
+```
+
+It may be necessary to manually install the dependency called "treeswift":
+
+```
+pip install treeswift
+```
 
 ## Download the sequences and relative data 
 
@@ -128,4 +139,15 @@ In the current pipeline, the command has been run through this [script](https://
 
 ### Prepare input and run DISCO
 
+As input for DISCO, it is recommended to prepare a newick-formatted file composed of all gene trees produced by Orthofinder, and filed in the output directory Gene_Trees.
+
+Moreover, Orthofinder will rename the tips within each gene tree adding, immediately before the unique identifier code, the name of the original fasta file from which the relative record was extracted (which usually include the species name). It is thus recommended to modify the gene trees tips' names keeping just the unique identifier code (in this case, to make the subsequent orthogroups' reconstruction quicker, even a repetition of the species name was kept in the tips' names).
+
+The tips' renaming and input file formatting can be performed through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/discorename.sh).
+
+Disco run can be performed through the following command line:
+
+```
+python3 disco.py -i input_disco.trees -o discooutputDEF5.txt -d "_" -n 1 --keep-labels -m 5
+```
 
