@@ -4,7 +4,7 @@
 *environiments:* agat / orthofinder
 
 
-*aim:* set up conda environiments / obtain cds and proteoms / infer single-copy orthogroups
+*aim:* set up mamba environiments / obtain cds and proteoms / infer single-copy orthogroups
 
 
 ---
@@ -29,8 +29,8 @@ Due to conflicts specific environiments are necessary for expression analyses. T
 
 
 ```
-conda env create -n agat
-conda env create -n orthofinder
+mamba create --name myenvname orthofinder
+mamba create --name myenvname agat
 ``` 
 
 List of tools needed to be installed:
@@ -39,16 +39,16 @@ List of tools needed to be installed:
 - [Orthofinder](https://github.com/davidemms/OrthoFinder)
 
 ```
-conda activate agat
-conda install -c bioconda agat 
+mamba activate agat
+mamba install agat 
 ``` 
-For further details visit this [page](https://anaconda.org/bioconda/agat)
+For further details visit this [page](https://bioconda.github.io/recipes/agat/README.html)
 
 ```
-conda activate orthofinder
-conda install -c bioconda orthofinder 
+mamba activate orthofinder
+https://bioconda.github.io/recipes/orthofinder/README.html 
 ``` 
-For further details visit this [page]()
+For further details visit this [page](https://bioconda.github.io/recipes/orthofinder/README.html)
 
 
 ## Download the sequences and relative data 
@@ -61,6 +61,12 @@ This can be performed by running this [script](https://github.com/MattiaRag/time
 **NB:** datasets were downloaded in May 2024.
 
 ## Obtain cds and proteoms
+
+### Activate mamba environment agat
+
+```
+mamba activate agat
+``` 
 
 ### Before extracting cds and proteoms, make sure to keep just the longest isoforms, with the following command, to re-iterate on all gff files:
 
@@ -93,5 +99,12 @@ The "-p" flag allows to translate nucleotide sequences in aminoacid sequences.
 ## Inferring single-copy orthogroups
 
 Most of the subsequent analyses request the use of single-copy orthogroups, thus discarding paralogs. Orthofinder was adopted for the orthology inference, while DISCO ( 
+
+
+### Activate mamba environment orthofinder
+
+```
+mamba activate orthofinder
+``` 
 
 
