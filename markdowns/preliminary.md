@@ -36,12 +36,12 @@ mamba create --name myenvname agat
 ### List of tools needed to be installed:
 
 
-- [Another GFF Analysis Toolkit (AGAT) - Version: v0.8.0](https://github.com/NBISweden/AGAT/tree/master)
-- [OrthoFinder version 2.5.5](https://github.com/davidemms/OrthoFinder)
-- [Decomposition Into Single-COpy gene trees (DISCO) - Version: v1.3.1](https://github.com/JSdoubleL/DISCO?tab=readme-ov-file)
-- [Multiple Alignment using Fast Fourier Transform (MAFFT) - Version: v7.520](https://github.com/GSLBiotech/mafft)
+- [AGAT - Another GFF Analysis Toolkit - Version: v0.8.0](https://github.com/NBISweden/AGAT/tree/master)
+- [OrthoFinder - Version 2.5.5](https://github.com/davidemms/OrthoFinder)
+- [DISCO - Decomposition Into Single-COpy gene trees - Version: v1.3.1](https://github.com/JSdoubleL/DISCO?tab=readme-ov-file)
+- [MAFFT - Multiple Alignment using Fast Fourier Transform - Version: v7.520](https://github.com/GSLBiotech/mafft)
 - [trimAL - Version: v1.4.rev22](https://vicfero.github.io/trimal/index.html)
-- [Alignment manipulation and summary statistics (AMAS) - Version: v0.9](https://github.com/marekborowiec/AMAS)
+- [AMAS - Alignment manipulation and summary statistics - Version: v0.9](https://github.com/marekborowiec/AMAS)
 - [IQ-TREE multicore - Version: 2.2.2.6 COVID-edition](https://github.com/iqtree/iqtree2/releases/tag/v2.2.2.6) 
  
 ### Installation of tools needing dedicated environmnents:
