@@ -4,7 +4,7 @@
 *environiments:* agat / orthofinder
 
 
-*aim:* set up mamba environiments / obtain cds and proteoms / infer single-copy orthogroups
+*aim:* set up mamba environiments / obtain cds and proteoms / infer single-copy orthogroups and relative gene trees
 
 
 ---
@@ -114,7 +114,7 @@ The flag `-p` allows to translate nucleotide sequences in aminoacid sequences.
 Most of the subsequent analyses request the use of single-copy orthogroups, thus discarding paralogs. Orthofinder was adopted for the orthology inference, while DISCO was used to decompose Orthofinder's gene trees into single-copy gene trees only. Orthogroups' fastas were subsequently re-built using DISCO's output. 
 
 
-### Rename headers and set the input folder
+### Rename headers and set the input directory
 
 Before running Orthofinder and subsequent analyses, rename the fasta file headers keeping just the species name and the unique code of the sequence (e.g. TBI_11170_RA).
 This can be done through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/rename_multitoone.sh) on both aminoacidic (proteomes) and nucleotidic sequences (cds), extracted with AGAT.
