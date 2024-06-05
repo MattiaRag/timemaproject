@@ -35,8 +35,9 @@ mamba create --name myenvname agat
 
 List of tools needed to be installed:
 
-- [Another GFF Analysis Toolkit (AGAT) - Version: v0.8.0](https://github.com/NBISweden/AGAT/tree/master) (Another Gtf/Gff Analysis Toolkit)
+- [Another GFF Analysis Toolkit (AGAT) - Version: v0.8.0](https://github.com/NBISweden/AGAT/tree/master)
 - [OrthoFinder version 2.5.5](https://github.com/davidemms/OrthoFinder)
+- [Decomposition Into Single-COpy gene trees (DISCO) - Version: v1.3.1](https://github.com/JSdoubleL/DISCO?tab=readme-ov-file)
 
 ```
 mamba activate agat
@@ -98,7 +99,7 @@ The "-p" flag allows to translate nucleotide sequences in aminoacid sequences.
 
 ## Inferring single-copy orthogroups
 
-Most of the subsequent analyses request the use of single-copy orthogroups, thus discarding paralogs. Orthofinder was adopted for the orthology inference, while DISCO ( 
+Most of the subsequent analyses request the use of single-copy orthogroups, thus discarding paralogs. Orthofinder was adopted for the orthology inference, while DISCO was used to decompose Orthofinder's gene trees into single-copy gene trees only. Orthogroups' fastas were subsequently re-built using DISCO's output. 
 
 
 ### Rename headers and set the input folder
@@ -124,3 +125,7 @@ orthofinder -f input_dirrectory -y
 The "y" flag allows to split paralogous clades below root of a HOG into separate HIGs.
 
 In the current pipeline, the command has been run through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/orthofinder.sh).
+
+### Prepare input and run DISCO
+
+
