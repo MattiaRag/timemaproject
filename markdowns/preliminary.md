@@ -64,6 +64,7 @@ To make DISCO work, it may be necessary to manually install the dependency calle
 ```
 pip install treeswift
 ```
+In this case, `disco.py` was placed in preliminary/scripts and called from there while running the command.
 
 ## Download the sequences and relative data 
 
@@ -155,3 +156,4 @@ python3 disco.py -i preliminary/disco/input_disco.trees -o preliminary/disco/dis
 
 The flag `--keep-labels` allows to keep original leaf labels instead of using species name, while the flag `-m` specify the minimum number of taxa required for tree to be outputted.
  
+###  
