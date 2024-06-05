@@ -42,14 +42,16 @@ List of tools needed to be installed:
 ```
 mamba activate agat
 mamba install agat 
+mamba deactivate
 ``` 
-For further details visit this [page](https://bioconda.github.io/recipes/agat/README.html)
+For further details on AGAT installation visit this [page](https://bioconda.github.io/recipes/agat/README.html)
 
 ```
 mamba activate orthofinder
-https://bioconda.github.io/recipes/orthofinder/README.html 
+mamba install orthofinder
+mamba deactivate 
 ``` 
-For further details visit this [page](https://bioconda.github.io/recipes/orthofinder/README.html)
+For further details on Orthofinder installation visit this [page](https://bioconda.github.io/recipes/orthofinder/README.html)
 
 DISCO's exectuable can be downloaded using git clone:
 
