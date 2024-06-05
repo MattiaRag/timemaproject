@@ -35,8 +35,8 @@ mamba create --name myenvname agat
 
 List of tools needed to be installed:
 
-- [AGAT](https://github.com/NBISweden/AGAT/tree/master) (Another Gtf/Gff Analysis Toolkit)
-- [Orthofinder](https://github.com/davidemms/OrthoFinder)
+- [Another GFF Analysis Toolkit (AGAT) - Version: v0.8.0](https://github.com/NBISweden/AGAT/tree/master) (Another Gtf/Gff Analysis Toolkit)
+- [OrthoFinder version 2.5.5](https://github.com/davidemms/OrthoFinder)
 
 ```
 mamba activate agat
