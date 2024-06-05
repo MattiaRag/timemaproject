@@ -101,10 +101,24 @@ The "-p" flag allows to translate nucleotide sequences in aminoacid sequences.
 Most of the subsequent analyses request the use of single-copy orthogroups, thus discarding paralogs. Orthofinder was adopted for the orthology inference, while DISCO ( 
 
 
+### Rename headers and set the input folder
+
+Before running Orthofinder and subsequent analyses, rename the fasta file headers keeping just the species name and the unique code of the sequence (e.g. TBI_11170_RA).
+This can be done through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/rename_multitoone.sh) on both aminoacidic (proteomes) and nucleotidic sequences (cds), extracted with AGAT.
+As the current settings don't allow the redirection of Orthofinder's outputs, they will be produced within the same input folder. For this reason, in order to keep directories' order, copy the renamed and one line aminoacidic sequences into a new directory, possibly called "Orthofinder".
+
 ### Activate mamba environment orthofinder
 
 ```
 mamba activate orthofinder
-``` 
+```
 
+### Run orthofinder
 
+Orthofinder can be run on the renamed and one line aminoacidic sequences, through the following command line:
+
+```
+orthofinder -f input_dirrectory -y
+```
+The "y" flag allows to split paralogous clades below root of a HOG into separate HIGs.
+In the current pipeline, the command has been run through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/orthofinder.sh).
