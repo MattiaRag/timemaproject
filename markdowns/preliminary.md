@@ -95,9 +95,10 @@ In this case, `AMAS.py` was placed in preliminary/scripts and called from there 
 git clone https://github.com/lhugolach/HeIST.git
 cd HeIST
 mkdir lib
+pip install .
 ```
 
-HeIST's executable can be downloaded using `git clone`, while some dependencies, including ms and seq-gen, must be installed manually.
+HeIST's executable can be downloaded using `git clone` and compiled with `pip`, while some dependencies, including ms and seq-gen, must be installed manually.
 
 ```
 pip install biopython numpy matplotlib ete3
