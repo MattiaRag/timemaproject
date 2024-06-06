@@ -33,6 +33,7 @@ mamba create --name myenvname orthofinder
 mamba create --name myenvname agat
 ``` 
 
+
 #### List of tools needed to be installed:
 
 
@@ -43,6 +44,7 @@ mamba create --name myenvname agat
 - [trimAL](https://vicfero.github.io/trimal/index.html) - Version: v1.4.rev22
 - [AMAS](https://github.com/marekborowiec/AMAS) - Version: v0.9
 - [IQ-TREE](https://github.com/iqtree/iqtree2/releases/tag/v2.2.2.6) multicore - Version: 2.2.2.6 COVID-edition 
+
  
 #### Installation of tools needing dedicated environmnents:
 
@@ -113,7 +115,11 @@ This can be performed by running this [script](https://github.com/MattiaRag/time
 
 **NB:** datasets were downloaded in May 2024.
 
+
 ## Obtain cds and proteoms
+
+
+**NB**: all commands needed for obtaining correctly formatted cds and proteoms have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/agatscript.sh). The current chapter provides a detailed description of commands constituting the concerned pipeline.
 
 
 #### Activate mamba environment agat
@@ -130,13 +136,16 @@ mamba activate agat
 agat_sp_keep_longest_isoform.pl -gff gff_file -o longest_isoform_gff
 ```
 
+
 #### Extract nucleotide sequences with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
 
 
 ```
 agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file --cfs --type CDS --output sp_outputcds.fa
 ```
+
 The flag `--cfs` allows to remove the final stop codons.
+
 
 #### Extract proteoms with AGAT, re-iterating on longest isoform gff and fasta of all 10 species:
 
@@ -146,10 +155,6 @@ agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file -p --c
 ```
 
 The flag `-p` allows to translate nucleotide sequences in aminoacid sequences.       
-
-
-**NB**: all commands needed for obtaining correctly formatted cds and proteoms have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/agatscript.sh).
-
 
 
 ## Inferring single-copy orthogroups
@@ -166,12 +171,14 @@ This can be done through this [script](https://github.com/MattiaRag/timemaprojec
 
 As the current settings don't allow the redirection of Orthofinder's outputs, they will be produced within the same input folder. For this reason, in order to keep directories' order, copy the renamed and one line aminoacidic sequences into a new directory, possibly called "Orthofinder".
 
+
 #### Activate mamba environment orthofinder
 
 
 ```
 mamba activate orthofinder
 ```
+
 
 #### Run orthofinder
 
@@ -185,6 +192,7 @@ The flag `-y` allows to split paralogous clades below root of a HOG into separat
 
 In the current pipeline, the command has been run through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/orthofinder.sh).
 
+
 #### Prepare input and run DISCO
 
 
@@ -196,11 +204,14 @@ The tips' renaming and input file formatting can be performed through this [scri
 
 Disco run can be performed through the following command line:
 
+
 ```
 python3 scripts/disco.py -i preliminary/disco/input_disco.trees -o preliminary/disco/discooutputDEF5.txt -d "_" -n 1 --keep-labels -m 5
 ```
 
+
 The flag `--keep-labels` allows to keep original leaf labels instead of using species name, while the flag `-m` specifies the minimum number of taxa required for tree to be outputted.
+
  
 #### Reconstruct orthogroups post-DISCO
 
@@ -208,6 +219,7 @@ The flag `--keep-labels` allows to keep original leaf labels instead of using sp
 Before inferring new gene trees, it is necessary to generate fasta files of both aminoacidic and nucleotidic sequences, for each new single-copy orthogroup elaborated by DISCO.
 
 This operation was performed for [aminoacids](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extractdisco_aa.sh) and [nucleotides](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extractdisco_nu.sh) with proper scripts, using DISCO output `discooutputDEF5.trees` as input.
+
 
 #### Infer gene trees for both aminoacids and nucleotides
 
@@ -217,6 +229,7 @@ With slight differences later specified, the steps leading to gene tree inferenc
 **NB**: all commands needed for obtaining gene trees for both aminoacidic and nucleotidic sequences have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/gene_trees.sh). The current chapter provides a detailed description of commands constituting the concerned pipeline.
 
 The aminoacidic sequences alignment is performed using MAFFT on each fasta file:
+
 
 ```
 mafft --auto orthogroupsdisco_aa/orth.fa > Maffted/orth.mafft.fa
@@ -229,15 +242,18 @@ All alignments are then trimmed, using specific flags:
 trimal -in Maffted/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout > Trimmed_aa/orth.trimmed.fa
 ```
 
+
 The flag `-resoverlap` specifies the minimum overlap of a positions with other positions in the column to be considered a "good position".
 The flag `-seqoverlap` specifies the minimum percentage of "good positions" that a sequence must have in order to be conserved.
 The flag `-gappyout` automatically remove columns from the alignment that contain gaps according to a predefined threshold.
 
 The first run of trimAL produces trimmed aminoacidic sequences.
 
+
 ```
 trimal -in Maffted/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout -ignorestopcodon -backtrans orthogroupsdisco_nu/orth.fa > Trimmed_nu/orth.trimmed.fa
 ```
+
 
 The second run of trimAL repeats trimming on aminoacidic sequences, while automatically back-translating the trimmed sequences to nucleotides, thanks to the flag `-backtrans` followed by the previously provided relative orthogroup's fasta file in nucleotides sequences.
 
@@ -248,11 +264,14 @@ Trimmed fasta files are then processed independtly for aminoacidic and nucleotid
 
 After renaming the headers, keeping just the species name, fasta aminoacids files are checked for the number of headers they include. If this is smaller than 5, they are moved to the separate directory `lessthan5headers`, otherwise, Iqtree2 is performed:
 
+
 ```
 iqtree2 -s Iqtreeinput_aa/orth.input.fa --prefix Iqtreeoutput_aa/loci_orth -T 8
 ``` 
 
+
 The same steps are performed on fasta nucleotides files, followed by Iqtree2:
+
 
 ```
 iqtree2 -s Iqtreeinput_nu/orth.input.fa --prefix Iqtreeoutput_nu/loci_orth -T 8
