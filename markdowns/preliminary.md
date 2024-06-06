@@ -217,13 +217,14 @@ With slight differences later specified, the steps leading to gene tree inferenc
 The aminoacidic sequences alignment is performed using MAFFT on each fasta file:
 
 ```
-mafft --auto aa_dir/orth.fa > maff/orth.mafft.fa
+mafft --auto orthogroupsdisco_aa/orth.fa > Maffted/orth.mafft.fa
 ```
+
 
 All alignments are then trimmed, using specific flags:
 
 ```
-trimal -in maff/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout > Tr_aa/orth.trimmed.fa"
+trimal -in Maffted/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout > Trimmed_aa/orth.trimmed.fa"
 ```
 
 The flag `-resoverlap` specifies the minimum overlap of a positions with other positions in the column to be considered a "good position".
@@ -233,9 +234,25 @@ The flag `-gappyout` automatically remove columns from the alignment that contai
 The first run of trimAL produces trimmed aminoacidic sequences.
 
 ```
-trimal -in maff/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout -ignorestopcodon -backtrans nu_dir/orth.fa
+trimal -in Maffted/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout -ignorestopcodon -backtrans orthogroupsdisco_nu/orth.fa
 ```
 
 The second run of trimAL repeats trimming on aminoacidic sequences, while automatically back-translating the trimmed sequences to nucleotides, thanks to the flag `-backtrans` followed by the previously provided relative orthogroup's fasta file in nucleotides sequences.
 
 The flag `-ignorestopcodon` makes the tool ignore stop codons in the input coding sequences.
+
+
+Trimmed fasta files are then processed independtly for aminoacidic and nucleotidic sequences.
+
+After renaming the headers, keeping just the species name, fasta aminoacids files are checked for the number of headers they include. If this is smaller than 5, they are moved to the separate directory `lessthan5headers`, otherwise, Iqtree is performed:
+
+```
+iqtree2 -s Iqtreeinput_aa/orth.input.fa --prefix Iqtreeoutput_aa/loci_orth -T 8
+``` 
+
+The same steps are performed on fasta nucleotides files:
+
+```
+iqtree2 -s Iqtreeinput_nu/orth.input.fa --prefix Iqtreeoutput_nu/loci_orth -T 8
+
+``` 
