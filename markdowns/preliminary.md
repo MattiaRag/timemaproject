@@ -200,7 +200,7 @@ Disco run can be performed through the following command line:
 python3 scripts/disco.py -i preliminary/disco/input_disco.trees -o preliminary/disco/discooutputDEF5.txt -d "_" -n 1 --keep-labels -m 5
 ```
 
-The flag `--keep-labels` allows to keep original leaf labels instead of using species name, while the flag `-m` specify the minimum number of taxa required for tree to be outputted.
+The flag `--keep-labels` allows to keep original leaf labels instead of using species name, while the flag `-m` specifies the minimum number of taxa required for tree to be outputted.
  
 ### Reconstruct orthogroups post-DISCO
 
