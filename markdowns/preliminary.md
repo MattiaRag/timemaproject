@@ -47,7 +47,7 @@ mamba create --name myenvname agat
 - [trimAL](https://vicfero.github.io/trimal/index.html) - Version: v1.4.rev22
 - [AMAS](https://github.com/marekborowiec/AMAS) - Version: v0.9
 - [IQ-TREE](https://github.com/iqtree/iqtree2/releases/tag/v2.2.2.6) multicore - Version: 2.2.2.6 COVID-edition 
-
+- [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file) - Version: 0.4.1
  
 #### Manual installation of tools needing dedicated environmnents:
 
@@ -87,8 +87,38 @@ In this case, `disco.py` was placed in preliminary/scripts and called from there
 git clone https://github.com/marekborowiec/AMAS.git
 ```
 
-AMAS' exectuable can be downloaded using git clone. 
+AMAS' exectuable can be downloaded using `git clone`. 
 In this case, `AMAS.py` was placed in preliminary/scripts and called from there while running the command.
+
+
+```
+git clone https://github.com/lhugolach/HeIST.git
+cd HeIST
+mkdir lib
+```
+
+HeIST's executable can be downloaded using `git clone`, while some dependencies, including ms and seq-gen, must be installed manually.
+
+```
+pip install biopython numpy matplotlib ete3
+```
+
+The online ms' repository doesn't provide a link for downloading the executable with `wget`, it is therefore necessary to download the file `ms.tar.gz` from [here](https://uchicago.app.box.com/s/l3e5uf13tikfjm7e1il1eujitlsjdx13) and place it into a `lib/` directory, to be able to compile it and get the executable `./ms`:
+
+```
+tar xvf ms.tar.gz
+cd msdir
+./clms
+```
+
+It is possible to install and compile seq-gen, getting the executable `./seq-gen`, with:
+
+```
+wget https://github.com/rambaut/Seq-Gen/archive/refs/tags/1.3.4.tar.gz
+tar xvf 1.3.4.tar.gz
+cd Seq-Gen-1.3.4/source
+make
+```
 
 
 ## Download the sequences and relative data 
