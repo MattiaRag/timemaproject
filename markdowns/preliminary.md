@@ -244,15 +244,16 @@ The flag `-ignorestopcodon` makes the tool ignore stop codons in the input codin
 
 Trimmed fasta files are then processed independtly for aminoacidic and nucleotidic sequences.
 
-After renaming the headers, keeping just the species name, fasta aminoacids files are checked for the number of headers they include. If this is smaller than 5, they are moved to the separate directory `lessthan5headers`, otherwise, Iqtree is performed:
+After renaming the headers, keeping just the species name, fasta aminoacids files are checked for the number of headers they include. If this is smaller than 5, they are moved to the separate directory `lessthan5headers`, otherwise, Iqtree2 is performed:
 
 ```
 iqtree2 -s Iqtreeinput_aa/orth.input.fa --prefix Iqtreeoutput_aa/loci_orth -T 8
 ``` 
 
-The same steps are performed on fasta nucleotides files:
+The same steps are performed on fasta nucleotides files, followed by Iqtree2:
 
 ```
 iqtree2 -s Iqtreeinput_nu/orth.input.fa --prefix Iqtreeoutput_nu/loci_orth -T 8
-
-``` 
+```
+ 
+**NB3**: all commands needed for obtaining gene trees for both aminoacidic and nucleotidic sequences have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/gene_trees.sh).
