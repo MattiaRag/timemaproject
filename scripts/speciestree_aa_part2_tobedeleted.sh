@@ -4,7 +4,7 @@
 AMAS_PATH="scripts/AMAS.py"
 
 # Create directories if they don't exist
-mkdir -p 1a/species_trees/sptree_aa/min_5sp/Renamed 1a/species_trees/sptree_aa/min_5sp/Iqtreeinput 1a/species_trees/sptree_aa/min_5sp/Iqtreeoutput
+mkdir -p part_1a/species_trees/sptree_aa/min_5sp/Renamed part_1a/species_trees/sptree_aa/min_5sp/Iqtreeinput part_1a/species_trees/sptree_aa/min_5sp/Iqtreeoutput
 
 # Function to process files in a given directory
 process_files() {
@@ -27,7 +27,7 @@ process_files() {
     renamed_files=$(find "${renamed_dir}" -type f -name '*.rename' -print)
     if [ -n "$renamed_files" ]; then
         echo "Concatenating renamed files in ${renamed_dir}"
-        python "${AMAS_PATH}" concat -y nexus -i "${renamed_dir}"/*.rename -f fasta -d aa -t "${iqtreeinput_dir}/${concat_file}"
+        python "${AMAS_PATH}" concat -y nexus -i "${renamed_files}" -f fasta -d aa -t "${iqtreeinput_dir}/${concat_file}"
     else
         echo "There are no renamed files to concatenate in ${renamed_dir}."
     fi
@@ -42,4 +42,4 @@ process_files() {
 }
 
 # Process files in min_5sp directory
-process_files "1a/species_trees/sptree_aa/min_5sp" "1a/species_trees/sptree_aa/min_5sp/Renamed" "1a/species_trees/sptree_aa/min_5sp/Iqtreeinput" "1a/species_trees/sptree_aa/min_5sp/Iqtreeoutput" "timema_5sp.concat.faa"
+process_files "part_1a/species_trees/sptree_aa/min_5sp" "part_1a/species_trees/sptree_aa/min_5sp/Renamed" "part_1a/species_trees/sptree_aa/min_5sp/Iqtreeinput" "part_1a/species_trees/sptree_aa/min_5sp/Iqtreeoutput" "timema_5sp.concat.faa"

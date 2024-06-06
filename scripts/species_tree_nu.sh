@@ -4,21 +4,21 @@
 AMAS_PATH="scripts/AMAS.py"
 
 # Create directories if they don't exist
-mkdir -p 1a/species_trees/sptree_nu/min_5sp/Renamed 1a/species_trees/sptree_nu/min_5sp/Iqtreeinput 1a/species_trees/sptree_nu/min_5sp/Iqtreeoutput
-mkdir -p 1a/species_trees/sptree_nu/min_10sp/Renamed 1a/species_trees/sptree_nu/min_10sp/Iqtreeinput 1a/species_trees/sptree_nu/min_10sp/Iqtreeoutput
+mkdir -p part_1a/species_trees/sptree_nu/min_5sp/Renamed part_1a/species_trees/sptree_nu/min_5sp/Iqtreeinput part_1a/species_trees/sptree_nu/min_5sp/Iqtreeoutput
+mkdir -p part_1a/species_trees/sptree_nu/min_10sp/Renamed part_1a/species_trees/sptree_nu/min_10sp/Iqtreeinput part_1a/species_trees/sptree_nu/min_10sp/Iqtreeoutput
 
-# Copy all fasta files from preliminary/orthogroupsdisco_nu/Trimmed_nu to 1a/species_trees/sptree_nu/min_5sp
-cp preliminary/orthogroupsdisco_nu/Trimmed_nu/*.fa 1a/species_trees/sptree_nu/min_5sp
+# Copy all fasta files from preliminary/orthogroupsdisco_nu/Trimmed_nu to part_1a/species_trees/sptree_nu/min_5sp
+cp preliminary/orthogroupsdisco_nu/Trimmed_nu/*.fa part_1a/species_trees/sptree_nu/min_5sp
 
 # Loop through all files with .fa extension in the min_5sp directory
-for i in 1a/species_trees/sptree_nu/min_5sp/*.fa; do
+for i in part_1a/species_trees/sptree_nu/min_5sp/*.fa; do
     # Count the number of headers in the file
     num_headers=$(grep -c '^>' "$i")
 
     # If the number of headers is greater than or equal to 10
     if [ "$num_headers" -ge 10 ]; then
         # Copy the file to min_10sp directory
-        cp "$i" 1a/species_trees/sptree_nu/min_10sp/
+        cp "$i" part_1a/species_trees/sptree_nu/min_10sp/
     else
         echo "The file $i contains less than 10 headers. Skipping to the next step."
     fi
@@ -60,7 +60,7 @@ process_files() {
 }
 
 # Process files in min_5sp directory
-process_files "1a/species_trees/sptree_nu/min_5sp" "1a/species_trees/sptree_nu/min_5sp/Renamed" "1a/species_trees/sptree_nu/min_5sp/Iqtreeinput" "1a/species_trees/sptree_nu/min_5sp/Iqtreeoutput" "timema_5sp.concat.faa"
+process_files "part_1a/species_trees/sptree_nu/min_5sp" "part_1a/species_trees/sptree_nu/min_5sp/Renamed" "part_1a/species_trees/sptree_nu/min_5sp/Iqtreeinput" "part_1a/species_trees/sptree_nu/min_5sp/Iqtreeoutput" "timema_5sp.concat.faa"
 
 # Process files in min_10sp directory
-process_files "1a/species_trees/sptree_nu/min_10sp" "1a/species_trees/sptree_nu/min_10sp/Renamed" "1a/species_trees/sptree_nu/min_10sp/Iqtreeinput" "1a/species_trees/sptree_nu/min_10sp/Iqtreeoutput" "timema_10sp.concat.faa"
+process_files "part_1a/species_trees/sptree_nu/min_10sp" "part_1a/species_trees/sptree_nu/min_10sp/Renamed" "part_1a/species_trees/sptree_nu/min_10sp/Iqtreeinput" "part_1a/species_trees/sptree_nu/min_10sp/Iqtreeoutput" "timema_10sp.concat.faa"
