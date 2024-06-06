@@ -17,7 +17,7 @@ Clone the github to a local host and then:
 - download the databases
 - download the experiment data
 
-**NB1**: all command lines reported here have to be launched from the project main folder.
+**NB**: all command lines reported here have to be launched from the project main folder.
 
 ---
 
@@ -148,7 +148,7 @@ agat_sp_extract_sequences.pl --gff longest_isoform_gff --fasta fasta_file -p --c
 The flag `-p` allows to translate nucleotide sequences in aminoacid sequences.       
 
 
-**NB2**: all commands needed for obtaining correctly formatted cds and proteoms have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/agatscript.sh).
+**NB**: all commands needed for obtaining correctly formatted cds and proteoms have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/agatscript.sh).
 
 
 
@@ -256,4 +256,4 @@ The same steps are performed on fasta nucleotides files, followed by Iqtree2:
 iqtree2 -s Iqtreeinput_nu/orth.input.fa --prefix Iqtreeoutput_nu/loci_orth -T 8
 ```
  
-**NB3**: all commands needed for obtaining gene trees for both aminoacidic and nucleotidic sequences have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/gene_trees.sh).
+**NB**: all commands needed for obtaining gene trees for both aminoacidic and nucleotidic sequences have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/gene_trees.sh).
