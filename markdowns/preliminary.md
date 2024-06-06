@@ -1,7 +1,7 @@
 # Requirements and dataset explanation
 
 
-*environiments:* base / agat / orthofinder
+*environiments:* yaml.main / agat / orthofinder
 
 
 *aim:* set up conda environiments / obtain cds and proteoms / infer single-copy orthogroups and relative gene trees
@@ -25,7 +25,10 @@ Clone the github to a local host and then:
 ## Install the softwares
 
 
-Due to conflicts specific environiments are necessary for expression analyses. They can be installed by: 
+Most softwares can be installed via conda using ```conda env create -f yaml.main```. Other tools have been installed as executables (later specified).
+
+
+Due to conflicts specific environiments are necessary for some analyses. They can be installed by: 
 
 
 ```
@@ -46,7 +49,7 @@ mamba create --name myenvname agat
 - [IQ-TREE](https://github.com/iqtree/iqtree2/releases/tag/v2.2.2.6) multicore - Version: 2.2.2.6 COVID-edition 
 
  
-#### Installation of tools needing dedicated environmnents:
+#### Manual installation of tools needing dedicated environmnents:
 
 
 ```
@@ -65,7 +68,7 @@ mamba deactivate
 For further details on Orthofinder installation visit this [page](https://bioconda.github.io/recipes/orthofinder/README.html)
 
 
-#### Installation of tools executables on base environment: 
+#### Manual installation of some tools' executables on base environment: 
 
 
 ```
@@ -78,24 +81,6 @@ DISCO's exectuable can be downloaded using git clone, but to make DISCO work, it
 pip install treeswift
 ```
 In this case, `disco.py` was placed in preliminary/scripts and called from there while running the command.
-
-
-```
-mamba install mafft
-```
-For further details on MAFFT installation visit this [page](https://mafft.cbrc.jp/alignment/software/)
-
-
-```
-mamba install trimal
-```
-For further details on MAFFT installation visit this [page](https://bioconda.github.io/recipes/trimal/README.html)
-
-
-```
-mamba install iqtree       
-```
-For further details on iqtree installation visit this [page](https://bioconda.github.io/recipes/iqtree/README.html)
 
 
 ```
