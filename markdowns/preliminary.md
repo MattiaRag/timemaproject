@@ -280,7 +280,7 @@ The flag `-ignorestopcodon` makes the tool ignore stop codons in the input codin
 
 Trimmed fasta files are then processed independtly for aminoacidic and nucleotidic sequences.
 
-After renaming the headers, keeping just the species name, fasta aminoacids files are checked for the number of headers they include. If this is smaller than 5, they are moved to the separate directory `lessthan5headers`, otherwise, Iqtree2 is performed:
+After renaming the headers, keeping just the species name, fasta aminoacids files are checked for the number of headers they include. If this is smaller than 5, they are moved to the separate directory `lessthan5headers`, otherwise, IQ-TREE is performed:
 
 
 ```
@@ -288,7 +288,7 @@ iqtree2 -s Iqtreeinput_aa/orth.input.fa --prefix Iqtreeoutput_aa/loci_orth -T 8
 ``` 
 
 
-The same steps are performed on fasta nucleotides files, followed by Iqtree2:
+The same steps are performed on fasta nucleotides files, followed by IQ-TREE:
 
 
 ```
