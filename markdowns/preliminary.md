@@ -224,7 +224,7 @@ mafft --auto orthogroupsdisco_aa/orth.fa > Maffted/orth.mafft.fa
 All alignments are then trimmed, using specific flags:
 
 ```
-trimal -in Maffted/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout > Trimmed_aa/orth.trimmed.fa"
+trimal -in Maffted/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout > Trimmed_aa/orth.trimmed.fa
 ```
 
 The flag `-resoverlap` specifies the minimum overlap of a positions with other positions in the column to be considered a "good position".
@@ -234,7 +234,7 @@ The flag `-gappyout` automatically remove columns from the alignment that contai
 The first run of trimAL produces trimmed aminoacidic sequences.
 
 ```
-trimal -in Maffted/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout -ignorestopcodon -backtrans orthogroupsdisco_nu/orth.fa
+trimal -in Maffted/orth.mafft.fa -resoverlap 0.5 -seqoverlap 50 -gappyout -ignorestopcodon -backtrans orthogroupsdisco_nu/orth.fa > Trimmed_nu/orth.trimmed.fa
 ```
 
 The second run of trimAL repeats trimming on aminoacidic sequences, while automatically back-translating the trimmed sequences to nucleotides, thanks to the flag `-backtrans` followed by the previously provided relative orthogroup's fasta file in nucleotides sequences.
