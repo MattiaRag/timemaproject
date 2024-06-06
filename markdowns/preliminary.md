@@ -176,7 +176,9 @@ The flag `-p` allows to translate nucleotide sequences in aminoacid sequences.
 ## Inferring single-copy orthogroups
 
 
-Most of the subsequent analyses request the use of single-copy orthogroups, thus discarding paralogs. Orthofinder was adopted for the orthology inference, while DISCO was used to decompose Orthofinder's gene trees into single-copy gene trees only. Orthogroups' fastas were subsequently re-built using DISCO's output. 
+Most of the subsequent analyses request the use of single-copy orthogroups, thus discarding paralogs. Orthofinder was adopted for the orthology inference, while DISCO was used to decompose Orthofinder's gene trees into single-copy gene trees only. Orthogroups' fastas were subsequently re-built using DISCO's output.
+
+In order to keep the representativity of each orthogroup in subsequent analyses, only ones including a minimum of 5 species were selected after DISCO. 
 
 
 #### Rename headers and set the input directory
