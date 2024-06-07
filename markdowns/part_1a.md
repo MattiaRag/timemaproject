@@ -98,7 +98,7 @@ The flag `--gcf` specifies a `loci.treefile`, a file including the list of gene 
 
 The input file for HeIST is a modified NEXUS format. It includes two species trees (in newick format) and a list of taxa showcasing the derived character to investigate (parthenogenesis, in this case).  
 
-The first species tree (must be named "tree_1") should have branch lengths in average substitutions per site and branches must be labeled with concordance factors. The second tree (named "tree_2") should have the same branch lengths as tree_1, but have internal branch labels rather than concordance factors. These labels can be arbitrary (I1-I8, in this case).
+The first species tree (must be named `tree_1`) should have branch lengths in average substitutions per site and branches must be labeled with concordance factors. The second tree (named `tree_2`) should have the same branch lengths as tree_1, but have internal branch labels rather than concordance factors. These labels can be arbitrary (I1-I8, in this case).
 
 ```
 #NEXUS
@@ -133,4 +133,4 @@ The flag `-g` specifies the path to seq-gen dependency.
 The flag `-o` indicates the output directory/prefix.
 The flag `-s` specifies the Seq-gen mutation rate.
 
-The Seq-gen mutation rate 
+Four different values of Seq-gen mutation rate `-s` are tested: `0.01`, `0.005`, `0.001`, `0.0005`. The number of focal cases detected by HeIST will be of course lower the lower the mutation rate. The values' range was calculated according to the maximum, average and minimum known values of population-scaled mutation rate. A lower value (0.0005), compared to the minimum of 0.001, was adopted as HeIST assumes that transitions between character states are controlled by a single site, and therefore that the nucleotide mutation rate is a good approximation of the trait mutation rate. 
