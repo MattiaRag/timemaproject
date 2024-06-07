@@ -8,21 +8,25 @@
 
 As input for HeIST, it is necessary to prepare a txt file including two species trees, one of which indicates the gene concordance factors (gCFs), a measure for quantifying genealogical concordance in phylogenomic datasets. For every branch of a reference tree, gCF is defined as the percentage of “decisive” gene trees containing that branch. 
 
+**NB:** In order to test the performances of subsequent analyses on different subsets of data, both sets of orthogroups are split into two subsets: one including all orthogroups (with a minimum of 5 species each) and one including only orthogroups comprising all 10 species. 
+
+Each of the following commands must thus be applied to 4 subsets, in total: 
+* all aminoacids-composed orthogroups (min 5 species);
+* aminoacids-composed orthogroups with minimimum 10 species;
+* all nucleotides-composed orthogroups (min 5 species);
+* nucleotides-composed orthogroups with minimimum 10 species.
 
 ## Infer species tree for both nucleotidic and aminoacidic sequences
 
 
-**NB1:** The species trees are inferred using this [script for aminoacidic sequences](https://github.com/MattiaRag/timemaproject/blob/main/scripts/species_tree_aa.sh) and this [script for nucleotidic sequences](https://github.com/MattiaRag/timemaproject/blob/main/scripts/species_tree_nu.sh). The current chapter provides a detailed description of commands constituting the concerned pipeline, taking aminoacidic sequences as example model. 
-
-
-**NB2:** In order to test the performances of subsequent analyses on different subsets of data, both sets of orthogroups are split into two subsets: one including all orthogroups (with a minimum of 5 species each) and one including only orthogroups comprising all 10 species.
+**NB:** The species trees are inferred using this [script for aminoacidic sequences](https://github.com/MattiaRag/timemaproject/blob/main/scripts/species_tree_aa.sh) and this [script for nucleotidic sequences](https://github.com/MattiaRag/timemaproject/blob/main/scripts/species_tree_nu.sh). The current chapter provides a detailed description of commands constituting the concerned pipeline, taking aminoacidic sequences as example model. 
 
 
 At first, all trimmed files are copied and paste into the new directory `sptree_aa/min_5sp`:
 
+
 ```
 cp preliminary/orthogroupsdisco_aa/Trimmed_aa/*.fa species_trees/sptree_aa/min_5sp
-
 ```
 
 One further directory called `sptree_aa/min_10sp` is generated and orthogroups' fastas including all 10 species are copied and paste in there. These steps are performed through a `for` cycle:
@@ -75,4 +79,18 @@ The flag `-m TESTNEW` specifies the model selection strategy, involving a compre
 ## Infer gene concordance factors (gCFs)
 
 
+Once inferred the gene trees and species trees with both aminoacidic and nucleotidic sequences, it is possible to infer the gene concordance factors. 
+
+**NB:** NB: all commands needed for obtaining gCFs have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/gCF.sh).
+
+The concordance factors can be easily inferred through a single command line:
+
+```
+iqtree2 -t concat.treefile --gcf loci.treefile --prefix concord
+```
+
+The flag `-t` specifies the species tree.
+The flag `--gcf` specifies a `loci.treefile`, a file including the list of gene trees in newick format. 
+
+## Preoare input for HeIST and run it
 
