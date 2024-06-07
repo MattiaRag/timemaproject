@@ -81,7 +81,7 @@ The flag `-m TESTNEW` specifies the model selection strategy, involving a compre
 
 Once inferred the gene trees and species trees with both aminoacidic and nucleotidic sequences, it is possible to infer the gene concordance factors. 
 
-**NB:** NB: all commands needed for obtaining gCFs have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/gCF.sh).
+**NB:** all commands needed for obtaining gCFs have been implemented within this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/gCF.sh).
 
 The concordance factors can be easily inferred through a single command line:
 
@@ -92,5 +92,5 @@ iqtree2 -t concat.treefile --gcf loci.treefile --prefix concord
 The flag `-t` specifies the species tree.
 The flag `--gcf` specifies a `loci.treefile`, a file including the list of gene trees in newick format. 
 
-## Preoare input for HeIST and run it
+## Prepare input for HeIST and run it
 
