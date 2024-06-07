@@ -10,7 +10,7 @@ As input for HeIST, it is necessary to prepare a txt file including two species 
 
 **NB:** In order to test the performances of subsequent analyses on different subsets of data, both sets of orthogroups are split into two subsets: one including all orthogroups (with a minimum of 5 species each) and one including only orthogroups comprising all 10 species. 
 
-Each of the following commands must thus be applied to 4 subsets, in total: 
+Each of the following commands must thus be applied to four subsets, in total: 
 * all aminoacids-composed orthogroups (min 5 species);
 * aminoacids-composed orthogroups with minimimum 10 species;
 * all nucleotides-composed orthogroups (min 5 species);
@@ -120,3 +120,17 @@ end;
 #### Run HeIST
 
 
+HeIST can be run through the following command line:
+
+```
+heist -v -n 100000000 -t 12 -p ../../../HeIST/lib/msdir/ms -g ../../../HeIST/lib/Seq-Gen-1.3.4/source/seq-gen -o ./output_10_aa_0.0005.txt ./heistinput_aa_min10.txt -s 0.0005
+```
+
+The flag `-v` (or `--verbose`) enables debugging messages to be displayed.
+The flag `-n` specifies the number of replicates per batch.
+The flag `-p` specifies the path to ms dependency.
+The flag `-g` specifies the path to seq-gen dependency.
+The flag `-o` indicates the output directory/prefix.
+The flag `-s` specifies the Seq-gen mutation rate.
+
+The Seq-gen mutation rate 
