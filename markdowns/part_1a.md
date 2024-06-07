@@ -92,5 +92,31 @@ iqtree2 -t concat.treefile --gcf loci.treefile --prefix concord
 The flag `-t` specifies the species tree.
 The flag `--gcf` specifies a `loci.treefile`, a file including the list of gene trees in newick format. 
 
-## Prepare input for HeIST and run it
+## Run HeIST
+
+#### Prepare the NEXUS input for HeIST
+
+The input file for HeIST is a modified NEXUS format. It includes two species trees (in newick format) and a list of taxa showcasing the derived character to investigate (parthenogenesis, in this case).  
+
+The first species tree (must be named "tree_1") should have branch lengths in average substitutions per site and branches must be labeled with concordance factors. The second tree (named "tree_2") should have the same branch lengths as tree_1, but have internal branch labels rather than concordance factors. These labels can be arbitrary (I1-I8, in this case).
+
+```
+#NEXUS
+begin trees;
+tree tree_1 = (TBI:0.0216811821,(((TCE:0.0258830720,TMS:0.0223835875)85.6:0.0313337511,((TCM:0.0257016099,TSI:0.0215270659)75:0.0211077249,(TDI:0.0227873921,TPS:0.0298985030)68.4:0.0167929055)73:0.0234755438)83.9:0.0502147658,(TGE:0.0282544807,TPA:0.0490445735)60.1:0.0097146123)79.1:0.0203223997,TTE:0.0170368202);
+tree tree_2 = (TBI:0.0216811821,(((TCE:0.0258830720,TMS:0.0223835875)I1:0.0313337511,((TCM:0.0257016099,TSI:0.0215270659)I2:0.0211077249,(TDI:0.0227873921,TPS:0.0298985030)I3:0.0167929055)I4:0.0234755438)I5:0.0502147658,(TGE:0.0282544807,TPA:0.0490445735)I6:0.0097146123)I7:0.0203223997,TTE:0.0170368202)I8;
+end;
+
+begin hemiplasytool;
+set derived taxon=TDI
+set derived taxon=TSI
+set derived taxon=TMS
+set derived taxon=TGE
+set derived taxon=TTE
+set conversion type=extend
+end;
+```
+
+#### Run HeIST
+
 
