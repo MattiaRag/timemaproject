@@ -133,4 +133,12 @@ The flag `-g` specifies the path to seq-gen dependency.
 The flag `-o` indicates the output directory/prefix.
 The flag `-s` specifies the Seq-gen mutation rate.
 
-Four different values of Seq-gen mutation rate `-s` are tested: `0.01`, `0.005`, `0.001`, `0.0005`. The number of focal cases detected by HeIST will be of course lower the lower the mutation rate. The values' range was calculated according to the maximum, average and minimum known values of population-scaled mutation rate. A lower value (0.0005), compared to the minimum of 0.001, was adopted as HeIST assumes that transitions between character states are controlled by a single site, and therefore that the nucleotide mutation rate is a good approximation of the trait mutation rate. 
+Four different values of Seq-gen mutation rate `-s` are tested: `0.01`, `0.005`, `0.001`, `0.0005`. The number of focal cases detected by HeIST will be of course lower the lower the mutation rate. The values' range was calculated according to the maximum, average and minimum known values of population-scaled mutation rate. A lower value (`0.0005`), compared to the minimum of `0.001`, was adopted as HeIST assumes that transitions between character states are controlled by a single site, and therefore that the nucleotide mutation rate is a good approximation of the trait mutation rate. 
+
+As the inferential approach adopted by this tool is computationally demanding, we used to run the command line multiple times on the same input file, just to later merge the output through the `heistmerge` tool, directly working on the HeIST outputs' directory:
+
+```
+heistMerge -d heist_output/
+```
+
+`heistMerge` will write the merged output summary to standard out and create a new files `merged_trees.trees` which contains all observed focal gene trees.
