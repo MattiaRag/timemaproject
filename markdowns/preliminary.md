@@ -48,7 +48,8 @@ mamba create --name myenvname agat
 - [AMAS](https://github.com/marekborowiec/AMAS) - Version: v0.9
 - [IQ-TREE](https://github.com/iqtree/iqtree2/releases/tag/v2.2.2.6) multicore - Version: 2.2.2.6 COVID-edition 
 - [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file) - Version: 0.4.1
- 
+- [BEAST2](https://www.beast2.org/) - Version: 2.7.6
+  
 #### Manual installation of tools needing dedicated environmnents:
 
 
@@ -120,6 +121,15 @@ tar xvf 1.3.4.tar.gz
 cd Seq-Gen-1.3.4/source
 make
 ```
+
+
+```
+wget https://github.com/CompEvol/beast2/releases/download/v2.7.6/BEAST.v2.7.6.Linux.x86.tgz
+tar -xzvf BEAST.v2.7.6.Linux.x86.tgz
+```
+
+BEAST2's exectuable can be downloaded using `wget`.  
+In this case, the executable was placed in preliminary/scripts and called from there while running the command.
 
 
 ## Download the sequences and relative data 
