@@ -27,3 +27,10 @@ This was perform by using the online tools set provided by OMA (Orthologous MAtr
 This tool accepts an input fasta file, containing all aminoacidic sequences from all species and orthogroups. Not to lose any of the identifier codes, the header of each sequence was renamed with the identification code of the orthogroups as first field and the identification code of the sequence as second field, separated by an underscore (e.g. `>10000_TCE_01291-RA`). This was performed using a proper [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/OMAinput.sh). 
 
 The complete fasta input file was submitted to OMA browser and an output was subsequently retrieved in `.txt` format. 
+
+## Gene enrichment in R
+
+As input for gene enrichment in R, a properly formatted `.txt` document is necessary. It is composed of a first column indicating the orthogroup's name, and a second tab-delimited column composed of all comma-delimited GO terms assigned to the relative orthogroup. This can be performed through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/OMAoutput_formatting.sh) on the OMA output file.
+
+ 
+ 
