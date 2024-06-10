@@ -37,36 +37,35 @@ pscore<-function(tree,x,...){
 }
 
 
-files <- list.files(args[1], pattern=".treefile",  full.name = T)
-#files <- list.files(pattern=".treefile", path=".", full.name = T)
+table_genetrees <- read.table(file = args[1], sep = "\t") 
 
+for (i in 1:dim(table_genetrees)[1]) {
 
-for (i in files) {
-
-	tree = read.tree(i)
+  tree <-  table_genetrees$V2[i]
+	tree <- read.newick(text=tree)
 
 	parthenogens=c("TDI","TSI","TMS","TGE","TTE")
-        bisexualsspp=c("TPA","TCE","TCM","TPS","TBI")
+  bisexualsspp=c("TPA","TCE","TCM","TPS","TBI")
 	
 	prt<-length(intersect(parthenogens, tree$tip.label))
 	bsx<-length(intersect(bisexualsspp, tree$tip.label))
 
-	trait = read.table("trait.tsv", sep = "\t", header = T)
+	trait = read.table(file = args[2], sep = "\t", header = T)
 
 	row.names(trait) = trait$sp
 	trait$sp = NULL
-	cat(gsub(args[1],"",i), "\t")
+	gene <- table_genetrees$V1[i]
 
 	if ((prt - pscore(tree,trait)) == 0) {
-                cat("full homoplasy", "\t", pscore(tree,trait), "\t", prt, "\t", bsx, "\t", length( tree$tip.label))
+                cat(gene, "full homoplasy", "\t", pscore(tree,trait), "\t", prt, "\t", bsx, "\t", length( tree$tip.label))
                 cat("", sep="\n")
 
         } else if ((pscore(tree,trait)) == 1) {
-                cat("full hemiplasy", "\t", pscore(tree,trait), "\t", prt, "\t", bsx, "\t", length( tree$tip.label))
+                cat(gene, "full hemiplasy", "\t", pscore(tree,trait), "\t", prt, "\t", bsx, "\t", length( tree$tip.label))
                 cat("", sep="\n")
 
 	} else {
-		cat("some hemiplasy", "\t", pscore(tree,trait), "\t", prt, "\t", bsx, "\t", length( tree$tip.label))
+		cat(gene, "some hemiplasy", "\t", pscore(tree,trait), "\t", prt, "\t", bsx, "\t", length( tree$tip.label))
 		cat("", sep="\n")
 	}
 
