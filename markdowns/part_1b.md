@@ -9,18 +9,19 @@
 
 ## Infer Fitch parsimony
 
-The Fitch parsimony test was applied on a properly formatted input file, composed of a first column indicating the orthogroup's name, followed with a second tab-delimited column including the relative aminoacidic sequences-derived gene trees in Newick format. As the same input was used for the [part_2a](), along with an analogous file including nucleotidic sequences-derived gene trees, these files were obtained using a single [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/fitch_asr_input.sh). They can be retrieved [here](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/fitch_asr_inputs).
+The Fitch parsimony test was applied on a properly formatted input file, composed of a first column indicating the orthogroup's name, followed with a second tab-delimited column including the relative sequences-derived gene trees in Newick format. As the same input was used for the [part_2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md), these files were obtained using a single [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/fitch_asr_input.sh). They can be retrieved [here](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/fitch_asr_inputs).
 
 An other input file, in `.tsv` format, is needed, and composed of a first column including codes from all 10 species, followed by a second column including a codified information on the species (0 = bisexual species, 1 = parthenogenetic species).
 
-The Fitch parsimony test [Rscript](https://github.com/MattiaRag/timemaproject/blob/main/scripts/fitch.R) was run using the following command line:
+The Fitch parsimony test [Rscript](https://github.com/MattiaRag/timemaproject/blob/main/scripts/fitch.R) was run using the following command lines:
 
 
 ```
-Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_aa.txt scripts/trait.tsv >> part_1b/fitch_test/fitch_results.txt
+Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_aa.txt scripts/trait.tsv >> part_1b/fitch_test/fitch_results_aa.txt
+Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_nu.txt scripts/trait.tsv >> part_1b/fitch_test/fitch_results_nu.txt
 ```
 
-The fitch parsimony result can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_results.txt).
+The fitch parsimony results can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_results.txt).
 
 
 ## GO terms assignment
