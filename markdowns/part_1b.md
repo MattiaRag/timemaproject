@@ -7,14 +7,6 @@
 *aim:* infer Fitch parsimony / assigne GO terms through OMA / gene enrichment 
 
 
-**NB:** In order to test the performances of subsequent analyses on different subsets of data, both sets of orthogroups are split into two subsets: one including all orthogroups (with a minimum of 5 species each) and one including only orthogroups comprising all 10 species. 
-
-Each of the following commands must thus be applied to four subsets, in total: 
-* all aminoacids-composed orthogroups (min 5 species);
-* aminoacids-composed orthogroups with minimimum 10 species;
-* all nucleotides-composed orthogroups (min 5 species);
-* nucleotides-composed orthogroups with minimimum 10 species.
-
 ## Infer Fitch parsimony
 
 The Fitch parsimony test was applied on a properly formatted input file, composed of a first column indicating the orthogroup's name, followed with a second tab-delimited column including the relative aminoacidic sequences-derived gene trees in Newick format. As the same input was used for the [part_2a](), along with an analogous file including nucleotidic sequences-derived gene trees, these files were retrieved using a single [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/fitch_asr_input.sh).
