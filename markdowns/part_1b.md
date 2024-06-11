@@ -9,7 +9,7 @@
 
 ## Infer Fitch parsimony
 
-The Fitch parsimony test was applied on a properly formatted input file, composed of a first column indicating the orthogroup's name, followed with a second tab-delimited column including the relative aminoacidic sequences-derived gene trees in Newick format. As the same input was used for the [part_2a](), along with an analogous file including nucleotidic sequences-derived gene trees, these files were retrieved using a single [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/fitch_asr_input.sh).
+The Fitch parsimony test was applied on a properly formatted input file, composed of a first column indicating the orthogroup's name, followed with a second tab-delimited column including the relative aminoacidic sequences-derived gene trees in Newick format. As the same input was used for the [part_2a](), along with an analogous file including nucleotidic sequences-derived gene trees, these files were obtained using a single [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/fitch_asr_input.sh). They can be retrieved [here](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/fitch_asr_inputs).
 
 An other input file, in `.tsv` format, is needed, and composed of a first column including codes from all 10 species, followed by a second column including a codified information on the species (0 = bisexual species, 1 = parthenogenetic species).
 
@@ -19,6 +19,8 @@ The Fitch parsimony test [Rscript](https://github.com/MattiaRag/timemaproject/bl
 ```
 Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_aa.txt scripts/trait.tsv >> part_1b/fitch_test/fitch_results.txt
 ```
+
+The fitch parsimony result can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_results.txt).
 
 
 ## GO terms assignment
@@ -32,7 +34,7 @@ The complete fasta input file was submitted to OMA browser and an output was sub
 
 ## Gene enrichment in R
 
-As input for gene enrichment in R, a properly formatted `.txt` document is necessary. It is composed of a first column indicating the orthogroup's name, and a second tab-delimited column composed of all comma-delimited GO terms assigned to the relative orthogroup. This can be performed through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/OMAoutput_formatting.sh) on the OMA output file.
+As input for gene enrichment in R, a properly formatted `.txt` document is necessary. It is composed of a first column indicating the orthogroup's name, and a second tab-delimited column composed of all comma-delimited GO terms assigned to the relative orthogroup. This can be performed through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/OMAoutput_formatting.sh) on the OMA output file. The computed file can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/OMA_formatted.txt).
 
  
  
