@@ -49,6 +49,8 @@ mamba create --name myenvname agat
 - [IQ-TREE](https://github.com/iqtree/iqtree2/releases/tag/v2.2.2.6) multicore - Version: 2.2.2.6 COVID-edition 
 - [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file) - Version: 0.4.1
 - [BEAST2](https://www.beast2.org/) - Version: 2.7.6
+- [R](https://cran.r-project.org/bin/windows/base/old/4.1.2/) - Version: 4.1.2
+
   
 #### Manual installation of tools needing dedicated environmnents:
 
