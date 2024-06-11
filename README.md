@@ -5,9 +5,20 @@
 ### Significance
 ### Abstract
 
-The manuscript will be made available [here](---) when published.
+The manuscript will be made available [here](https://docs.google.com/document/d/1YVz-CRNq2tLGpSSgd1OIrnAWtQ3ydXKF29ssKeqFaRc/edit?usp=sharing) when published.
 
 The data were downloaded from [here](https://zenodo.org/records/5636226).
 
-Intermediate files producted during these analyses have been uploaded on this [repository](---).
+Heaviest intermediate files producted during these analyses have been uploaded on this [repository](---).
 
+- [**exp design**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) - experimental design explanation
+
+- [**preliminary**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) - requirements and dataset explanation
+
+- [**part 1a**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) - Hemiplasy hypothesis - inference-based approach
+
+- [**part 1b**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) - Hemiplasy hypothesis - detection of hemiplasic candidate genes
+
+- [**part 2a**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) - Ancestral state hypothesis - ...
+
+- [**part 2b**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md) - Ancestral state hypothesis - ...
