@@ -37,3 +37,14 @@ The exported `.xml` file was then submitted to beast, running 2 analyses indepen
 
 A proper [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extract_100trees.sh) was then adopted to randomly select 50 trees from each run (performing an initial burnin of 10%) and create a further `.trees` file including a total of 100 randomly extracted trees. The computed file can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/extracted_100.trees).
 
+---
+
+
+[main](https://github.com/MattiaRag/timemaproject/tree/main) /
+[exp_des](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) /
+[prel](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) /
+[1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) /
+[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) /
+[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) /
+[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)  
+
