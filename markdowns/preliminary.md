@@ -40,16 +40,16 @@ mamba create --name myenvname agat
 #### List of tools needed to be installed:
 
 
-- [AGAT](https://github.com/NBISweden/AGAT/tree/master) - Version: v0.8.0
-- [OrthoFinder](https://github.com/davidemms/OrthoFinder) - Version 2.5.5
-- [DISCO](https://github.com/JSdoubleL/DISCO?tab=readme-ov-file) - Version: v1.3.1
-- [MAFFT](https://github.com/GSLBiotech/mafft) - Version: v7.520
-- [trimAL](https://vicfero.github.io/trimal/index.html) - Version: v1.4.rev22
-- [AMAS](https://github.com/marekborowiec/AMAS) - Version: v0.9
-- [IQ-TREE](https://github.com/iqtree/iqtree2/releases/tag/v2.2.2.6) multicore - Version: 2.2.2.6 COVID-edition 
-- [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file) - Version: 0.4.1
+- [AGAT](https://github.com/NBISweden/AGAT/tree/master) - Version: 0.8.0
+- [AMAS](https://github.com/marekborowiec/AMAS) - Version: 0.9
 - [BEAST2](https://www.beast2.org/) - Version: 2.7.6
+- [DISCO](https://github.com/JSdoubleL/DISCO?tab=readme-ov-file) - Version: 1.3.1
+- [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file) - Version: 0.4.1
+- [IQ-TREE](https://github.com/iqtree/iqtree2/releases/tag/v2.2.2.6) multicore - Version: 2.2.2.6 COVID-edition 
+- [MAFFT](https://github.com/GSLBiotech/mafft) - Version: 7.520
+- [OrthoFinder](https://github.com/davidemms/OrthoFinder) - Version 2.5.5
 - [R](https://cran.r-project.org/bin/windows/base/old/4.1.2/) - Version: 4.1.2
+- [trimAL](https://vicfero.github.io/trimal/index.html) - Version: 1.4.rev22
 
   
 #### Manual installation of tools needing dedicated environmnents:
