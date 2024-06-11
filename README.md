@@ -1,6 +1,6 @@
 # timemaproject
 
-![image](https://github.com/MattiaRag/Hemiplasy.proj/assets/152391922/4d53ef76-b67b-4190-b63f-00e2a1558c2f)
+![image](https://photos.smugmug.com/Insects/Orthopteroid-Insects/Stick-Insects/i-S3tTc4h/2/4GPDB7Wg267WQ3QTvSKKFFcQsGR2NcVcf6h9F7Ph/XL/Timema5-XL.jpg)
 
 ### Significance
 ### Abstract
