@@ -2,38 +2,53 @@
 
 # Define the percentage of trees to exclude
 percentage_to_exclude=0.10
+num_trees_to_select=50
 
-# Read the Nexus file
-input_file="treerun1/beastTIMEMAdefinitiveee2-trimmedDEFINITIVEspnames.trees"
-output_file="output1.trees"
+process_trees() {
+    local input_file=$1
+    local temp_file=$(mktemp)
 
-# Split the lines into three parts: lines_before_trees, trees_block, and lines_after_trees
-lines_before_trees=$(head -n 72 "$input_file")
-trees_block=$(tail -n +73 "$input_file" | head -n -1)  # Excludes the first 72 lines and the last line
-last_line=$(tail -n 1 "$input_file")
+    # Read the file and separate header, trees block, and last line
+    header=$(head -n 72 "$input_file")
+    trees=$(sed -n '73,$p' "$input_file" | head -n -1)
+    last_line=$(tail -n 1 "$input_file")
 
-# Convert trees_block into an array
-IFS=$'\n' read -rd '' -a trees_array <<<"$trees_block"
-num_trees=${#trees_array[@]}
+    # Calculate how many trees to exclude
+    total_trees=$(echo "$trees" | wc -l)
+    num_trees_to_exclude=$(echo "$total_trees * $percentage_to_exclude" | bc | awk '{print int($1+0.5)}')
 
-# Calculate how many trees to exclude
-num_trees_to_exclude=$(echo "$num_trees * $percentage_to_exclude" | bc)
-num_trees_to_exclude=${num_trees_to_exclude%.*}  # Convert to an integer
+    # Exclude the first 10% of trees
+    trees_to_choose_from=$(echo "$trees" | tail -n +$((num_trees_to_exclude + 1)))
 
-# Exclude the first 10% of trees
-trees_to_choose_from=("${trees_array[@]:num_trees_to_exclude}")
+    # Choose 50 trees randomly
+    chosen_trees=$(echo "$trees_to_choose_from" | shuf -n $num_trees_to_select)
 
-# Choose 50 trees randomly
-chosen_trees=()
-for i in $(seq 1 50); do
-  random_index=$(shuf -i 0-$((${#trees_to_choose_from[@]}-1)) -n 1)
-  chosen_trees+=("${trees_to_choose_from[$random_index]}")
-done
+    # Write the selected trees to the temporary file
+    echo "$header" > "$temp_file"
+    echo "$chosen_trees" >> "$temp_file"
+    echo "$last_line" >> "$temp_file"
 
-# Concatenate the lines before trees, chosen trees, and the last line
-output_lines=$(printf "%s\n" "$lines_before_trees")
-output_lines+=$(printf "%s\n" "${chosen_trees[@]}")
-output_lines+=$(printf "%s\n" "$last_line")
+    echo "$temp_file"
+}
 
-# Write the modified Nexus file
-echo -e "$output_lines" > "$output_file"
+# Process the files and get the paths to temporary files
+file1=$(process_trees "part_2a/beast/treerun1/beastTIMEMA.trees")
+file2=$(process_trees "part_2a/beast/treerun2/beastTIMEMA.trees")
+
+# Combine the chosen trees from both files into the final output
+output_file="part_2a/beast/extracted_100.trees"
+
+# Get the header from the first file
+head -n 72 "$file1" > "$output_file"
+
+# Concatenate the chosen trees from both files
+sed -n '73,$p' "$file1" | head -n -1 >> "$output_file"
+sed -n '73,$p' "$file2" | head -n -1 >> "$output_file"
+
+# Add the last line from the first file to the output
+tail -n 1 "$file1" >> "$output_file"
+
+# Clean up temporary files
+rm "$file1" "$file2"
+
+echo "Output written to $output_file"
