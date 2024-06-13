@@ -17,8 +17,8 @@ The Fitch parsimony test [Rscript](https://github.com/MattiaRag/timemaproject/bl
 
 
 ```
-Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_aa.txt scripts/trait.tsv >> part_1b/fitch_test/fitch_results_aa.txt
-Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_nu.txt scripts/trait.tsv >> part_1b/fitch_test/fitch_results_nu.txt
+Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_aa.txt scripts/trait.tsv > part_1b/fitch_test/fitch_results_aa.txt
+Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_nu.txt scripts/trait.tsv > part_1b/fitch_test/fitch_results_nu.txt
 ```
 
 The fitch parsimony results can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_results.txt).
