@@ -49,6 +49,7 @@ mamba create --name myenvname agat
 - [MAFFT](https://github.com/GSLBiotech/mafft) - Version: 7.520
 - [OrthoFinder](https://github.com/davidemms/OrthoFinder) - Version 2.5.5
 - [R](https://cran.r-project.org/bin/windows/base/old/4.1.2/) - Version: 4.1.2
+- [Tracer](https://github.com/beast-dev/tracer/releases/tag/v1.7.2) - Version: 1.7.2
 - [trimAL](https://vicfero.github.io/trimal/index.html) - Version: 1.4.rev22
 
   
@@ -132,6 +133,16 @@ tar -xzvf BEAST.v2.7.6.Linux.x86.tgz
 
 BEAST2's exectuable can be downloaded using `wget`.  
 In this case, the executable was placed in preliminary/scripts and called from there while running the command.
+
+
+```
+wget https://github.com/beast-dev/tracer/releases/download/v1.7.2/Tracer_v1.7.2.tgz
+tar -xzvf Tracer_v1.7.2.tgz
+cd bin/
+./tracer
+```
+
+Tracer's exectuable can be downloaded using `wget`.
 
 
 ## Download the sequences and relative data 
