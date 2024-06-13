@@ -37,6 +37,11 @@ The exported `.xml` file was then submitted to beast, running 2 analyses indepen
 
 Both runs were checked for convergence and ESS values using Tracer. A proper [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extract_100trees.sh) was then adopted to randomly select 50 trees from each run (performing an initial burnin of 10%) and create a further `.trees` file including a total of 100 randomly extracted trees. The computed file can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/extracted_100.trees).
 
+
+## Infer the ancestral state reconstruction
+
+A [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/ASR.R) in R can be used.
+
 ---
 
 
