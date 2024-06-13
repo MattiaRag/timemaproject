@@ -19,6 +19,6 @@ Heaviest intermediate files producted during these analyses have been uploaded o
 
 - [**part 1b**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) - Hemiplasy hypothesis - detection of hemiplasic candidate genes
 
-- [**part 2a**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) - Ancestral state hypothesis - ...
+- [**part 2a**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) - Ancestral state hypothesis - impact of evolutionary model assumption
 
-- [**part 2b**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md) - Ancestral state hypothesis - ...
+- [**part 2b**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md) - Ancestral state hypothesis - parthenogens underwent fewer changes than bisexual spp
