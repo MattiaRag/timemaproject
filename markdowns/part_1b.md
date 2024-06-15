@@ -37,6 +37,9 @@ The complete fasta input file was submitted to OMA browser and an output was sub
 
 As input for gene enrichment in R, a properly formatted `.txt` document is necessary. It is composed of a first column indicating the orthogroup's name, and a second tab-delimited column composed of all comma-delimited GO terms assigned to the relative orthogroup. This can be performed through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/OMAoutput_formatting.sh) on the OMA output file. The computed file can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/OMA_formatted.txt).
 
+The R script for gene enrichment can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/scripts/timema_enrichment.R).
+
+
 ---
 
 
