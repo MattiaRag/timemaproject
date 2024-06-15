@@ -99,7 +99,7 @@ The flag `--gcf` specifies a `loci.treefile`, a file including the list of gene 
 
 The input file for HeIST is a modified NEXUS format. It includes two species trees (in newick format) and a list of taxa showcasing the derived character to investigate (parthenogenesis, in this case).  
 
-The first species tree (must be named `tree_1`) should have branch lengths in average substitutions per site and branches must be labeled with concordance factors. The second tree (named `tree_2`) should have the same branch lengths as tree_1, but have internal branch labels rather than concordance factors. These labels can be arbitrary (I1-I8, in this case).
+The first species tree (must be named `tree_1`) should have branch lengths in average substitutions per site and branches must be labeled with concordance factors. The second tree (named `tree_2`) should have the same branch lengths as tree_1, but have internal branch labels rather than concordance factors. These labels can be arbitrary (I1-I8, in this case). The computed input files can be retrieved [here](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/heist_inputs).
 
 ```
 #NEXUS
