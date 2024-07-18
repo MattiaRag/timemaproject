@@ -1,0 +1,70 @@
+### RESULTS ###
+
+
+[1] loci matched the species character states
+
+
+"True" hemiplasy (1 mutation) occurs [0] time(s)
+
+
+Combinations of hemiplasy and homoplasy (1 < # mutations < 5) occur [1] time(s)
+
+
+"True" homoplasy (>= 5 mutations) occurs [0] time(s)
+
+
+[1] loci have a discordant gene tree
+
+[0] loci are concordant with the species tree
+
+
+[0] loci originate from an introgressed history
+
+[1] loci originate from the species history
+
+
+Distribution of mutation counts:
+
+
+# Mutations	# Trees
+
+On all trees:
+
+1		[0]
+
+2		[1]
+
+3		[0]
+
+4		[0]
+
+
+On concordant trees:
+
+# Mutations	# Trees
+
+
+On discordant trees:
+
+# Mutations	# Trees
+
+1		[0]
+
+2		[1]
+
+3		[0]
+
+4		[0]
+
+
+Origins of mutations leading to observed character states for hemiplasy + homoplasy cases:
+
+
+	Tip mutation	Internal branch mutation	Tip reversal
+
+Taxa 2	[0]	[1]	[0]
+Taxa 3	[0]	[1]	[0]
+Taxa 6	[0]	[1]	[0]
+Taxa 8	[0]	[1]	[0]
+Taxa 9	[0]	[1]	[0]
+
