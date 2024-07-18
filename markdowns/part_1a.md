@@ -152,7 +152,7 @@ python heist_summary_extract.py heist_aa_summary heist_aa_summary.tsv
 python heist_summary_extract.py heist_nu_summary heist_nu_summary.tsv
 ```
 
-This script accepts, as input, the output file produced by `summary.py`.
+This script accepts, as input, the output files produced by `summary.py`.
 
 ---
 
