@@ -136,14 +136,22 @@ The flag `-s` specifies the Seq-gen mutation rate.
 
 Four different values of Seq-gen mutation rate `-s` are tested: `0.01`, `0.005`, `0.001`, `0.0005`. The number of focal cases detected by HeIST will be of course lower the lower the mutation rate. The values' range was calculated according to the maximum, average and minimum known values of population-scaled mutation rate. A lower value (`0.0005`), compared to the minimum of `0.001`, was adopted as HeIST assumes that transitions between character states are controlled by a single site, and therefore that the nucleotide mutation rate is a good approximation of the trait mutation rate. 
 
-As the inferential approach adopted by this tool is computationally demanding, we used to run the command line multiple times on the same input file, just to later merge the output through the `heistmerge` tool, directly working on the HeIST outputs' directory:
+As the inferential approach adopted by this tool is computationally demanding, we used to run the command line multiple times on the same input file, just to later merge the output through a properly designed [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/heist_summary.py), summarizing data included in the `RESULTS` section of each `.txt` HeIST output file, for both aminoacids and nucleotides:
 
 ```
-heistMerge -d heist_output/
+python summary.py heist_aa
+python summary.py heist_nu
+```
+This script accepts, as input, the directories including all sub-directories composed of results from several runs of the same HeIST analyses, characterized by a certain combination of parameters. The result is a [directory](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/heist_aa_summary) including `.txt` files for all combinations of parameters.
+
+The data on number of focal cases recognized as representing "Full hemiplasy", "Some hemiplasy" and "Full homoplasy" were subsequently included into a `.tsv` files for both [aminoacids](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/heist_aa_summary.tsv) and [nucleotides](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/heist_nu_summary.tsv), using a proper [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/heist_summary_extract.py):
+
+```
+python heist_summary_extract.py heist_aa_summary heist_aa_summary.tsv
+python heist_summary_extract.py heist_nu_summary heist_nu_summary.tsv
 ```
 
-`heistMerge` will write the merged output summary to standard out and create a new files `merged_trees.trees` which contains all observed focal gene trees.
-
+This scriptcaccepts, as input, the output file produced by `summary.py`.
 
 ---
 
