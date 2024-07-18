@@ -142,7 +142,8 @@ As the inferential approach adopted by this tool is computationally demanding, w
 python summary.py heist_aa
 python summary.py heist_nu
 ```
-This script accepts, as input, the directories including all sub-directories composed of results from several runs of the same HeIST analyses, characterized by a certain combination of parameters. The result is a [directory](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/heist_aa_summary) including `.txt` files for all combinations of parameters.
+
+This script accepts, as input, the directories including all sub-directories composed of results from several runs of the same HeIST analyses, characterized by a certain combination of parameters. The result is a directory, for both [aminoacids](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/heist_aa_summary) and [nucleotides](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/heist_nu_summary), including all resulting `.txt` files. 
 
 The data on number of focal cases recognized as representing "Full hemiplasy", "Some hemiplasy" and "Full homoplasy" were subsequently included into a `.tsv` files for both [aminoacids](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/heist_aa_summary.tsv) and [nucleotides](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/heist_nu_summary.tsv), using a proper [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/heist_summary_extract.py):
 
@@ -151,7 +152,7 @@ python heist_summary_extract.py heist_aa_summary heist_aa_summary.tsv
 python heist_summary_extract.py heist_nu_summary heist_nu_summary.tsv
 ```
 
-This scriptcaccepts, as input, the output file produced by `summary.py`.
+This script accepts, as input, the output file produced by `summary.py`.
 
 ---
 
