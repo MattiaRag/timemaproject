@@ -19,6 +19,8 @@ Specifically, we aim at:
 
 
 
+
+
 To test the **first hypothesis**, we adopted two approaches:
 
 
@@ -29,6 +31,8 @@ To test the **first hypothesis**, we adopted two approaches:
 **[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md)**  -  an approach based on the detection of hemiplasic candidate genes, inferring the probability of hemiplasy of each orthogroup and corresponding gene tree, and performing a gene ontology and gene enrichment analyses.
 
  
+
+
 
 To test the **second hypothesis**, we performed two different analyses:
 
