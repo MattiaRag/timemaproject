@@ -12,7 +12,7 @@ Specifically, we aim at:
 
 
 
-**1.** testing the occurance of hemiplasic patterns along the species tree of *Timema* and for each tree of that genes possibly involved in reproduction and/or ovogenesis;
+___**1.** testing the occurance of hemiplasic patterns along the species tree of *Timema* and for each tree of that genes possibly involved in reproduction and/or ovogenesis;
 
 
 **2.** testing the possibility of parthenogenesis as ancestral state for reproduction in *Timema*, contrary to what was believed till now (bisexuality as ancestral state). 
