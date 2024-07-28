@@ -15,13 +15,14 @@ Specifically, we aim at:
 To test the first hypothesis, we adopted two approaches:
 
 
-   **[1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md)**  -  an inference-based approach involving the use of [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file), a tool able to make statistical inferences about the probability of hemiplasy and homoplasy in large datasets that possibly contain both ILS and introgression
+**[1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md)**  -  an inference-based approach involving the use of [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file), a tool able to make statistical inferences about the probability of hemiplasy and homoplasy in large datasets that possibly contain both ILS and introgression
+**[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md)**  -  an approach based on the detection of hemiplasic candidate genes, inferring the probability of hemiplasy of each orthogroup and corresponding gene tree, and performing a gene ontology and gene enrichment analyses.
+ 
+To test the second hypothesis, we performed two different analyses:
 
-   **[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md)**  -  
 
-**C**  -  got in contact with vicia only until 24h before experiment 
-
-**D**  -  got in contact with vicia continuously
+**[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md)**  -   
+**[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)**  -  got in contact with vicia continuously
 
 
 2. nectarium of vicia which:
