@@ -12,15 +12,12 @@ Specifically, we aim at:
 2. testing the possibility of parthenogenesis as ancestral state for reproduction in *Timema*, contrary to what was believed till now (bisexuality as ancestral state). 
 
 
-To do so we 
+To test the first hypothesis, we adopted two approaches:
 
 
-1. two different tissue (haead+thorax and abdomen) and four different conditions were considered for crema:
+**[1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md)**  -  an inference-based approach involving the use of [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file), a tool able to make statistical inferences about the probability of hemiplasy and homoplasy in large datasets that possibly contain both ILS and introgression
 
-
-**A**  -  never got in contact with vicia
-
-**B**  -  got in contact with vicia only since 24h before experiment
+**[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md)**  -  
 
 **C**  -  got in contact with vicia only until 24h before experiment 
 
