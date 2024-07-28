@@ -4,7 +4,7 @@
 *environiments:* yaml.main 
 
 
-*aim:* infer an ultrametric tree with BEAST2 / ... 
+*aim:* infer an ultrametric tree with BEAST2 / infer the Ancestral State Recostruction (ASR) 
 
 
 ## Infer an ultrametric tree with BEAST2
