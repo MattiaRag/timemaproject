@@ -6,7 +6,6 @@
 
 **Abstract** – 
 
-<br>
 
 The manuscript will be made available [here](https://docs.google.com/document/d/1YVz-CRNq2tLGpSSgd1OIrnAWtQ3ydXKF29ssKeqFaRc/edit?usp=sharing) when published.
 
@@ -14,9 +13,8 @@ The data were downloaded from [here](https://zenodo.org/records/5636226).
 
 Heaviest intermediate files producted during these analyses have been uploaded on this [repository](---).
 
-<br>
 
-Navigation menu:
+**Navigation menu:**
 
 - [**exp design**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) - experimental design explanation
 
