@@ -37,7 +37,7 @@ To do so we
 
 
 [main](https://github.com/MattiaRag/timemaproject/tree/main) / 
-exp_des 
+exp_des / 
 [prel](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) / 
 [1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) / 
 [1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) / 
