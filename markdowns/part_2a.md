@@ -50,6 +50,6 @@ A [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/ASR.R) i
 [prel](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) /
 [1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) /
 [1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) /
-[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) /
+2a /
 [2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)  
 

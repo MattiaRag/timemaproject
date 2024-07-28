@@ -12,5 +12,5 @@
 [1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) /
 [1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) /
 [2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) /
-[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)  
+2b  
 

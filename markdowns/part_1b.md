@@ -47,7 +47,7 @@ The R script for gene enrichment can be retrieved [here](https://github.com/Matt
 [exp_des](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) /
 [prel](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) /
 [1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) /
-[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) /
+1b /
 [2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) /
 [2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)  
 
