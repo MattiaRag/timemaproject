@@ -38,10 +38,10 @@ To test the **second hypothesis**, we performed two different analyses:
 
 
 
-**[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md)**  -  Ancestral State Recostruction (ASR) based on an ultrametric tree and the trait state for each species;
+**[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md)**  -  an Ancestral State Recostruction (ASR) based on an ultrametric tree and the trait state for each species;
 
 
-**[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)**  -  inference of the probability, for parthenogenetic species, to undergo fewer changes than bisexual species.
+**[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)**  -  the inference of probability, for parthenogenetic species, to undergo fewer changes than bisexual species.
 
 
 
