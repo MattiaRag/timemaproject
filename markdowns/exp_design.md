@@ -1,7 +1,7 @@
 # Experimental design
 
 
-*aim:* understand experimental design
+*aim:* understand the experimental design
 
 ---
 
