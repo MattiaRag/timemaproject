@@ -1,11 +1,9 @@
 # Experimental design
 
----
-
 
 *aim:* understand experimental design
 
-
+---
 
 This project tests alternative hypothesis to convergence, for parthenogenesis evolution in *Timema* stick insects. 
 
