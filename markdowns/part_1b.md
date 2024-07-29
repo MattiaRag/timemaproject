@@ -21,7 +21,7 @@ Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_aa.txt scripts/trait.tsv > p
 Rscript scripts/fitch.R part_2a/asr/fitch_asr_input_nu.txt scripts/trait.tsv > part_1b/fitch_test/fitch_results_nu.txt
 ```
 
-The fitch parsimony results can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_results.txt).
+The fitch parsimony results can be retrieved [here](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/fitch_results).
 
 
 ## GO terms assignment
