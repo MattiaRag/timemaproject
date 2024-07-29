@@ -1,4 +1,4 @@
-# Experimental design
+# Experimental design explanation
 
 
 *aim:* understand the experimental design
