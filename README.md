@@ -2,7 +2,7 @@
 
 ![image](https://photos.smugmug.com/Insects/Orthopteroid-Insects/Stick-Insects/i-S3tTc4h/2/4GPDB7Wg267WQ3QTvSKKFFcQsGR2NcVcf6h9F7Ph/XL/Timema5-XL.jpg)
  
-**Significance** – Convergent evolution, or parallelism, refers to the acquisition of similar phenotypes independently, playing a crucial role in understanding evolutionary processes. Seeking convergence in a trait that evolved once and was subsequently inherited would lead to erroneous conclusions, as similarities observed stem from the same trait rather than indicative of a broader evolutionary pattern. Here we revised one of the more iconic cases of parallel evolution, the evolution of parthenogenesis in _Timema insects_. There are two scenarios regarding the evolution of parthenogenesis in Timema which would imply a reconsideration of previous interpretation: either it evolved once through Incomplete Lineage Sorting (ILS), or parthenogenesis was the ancestral state.
+**Significance** – Convergent evolution, or parallelism, refers to the acquisition of similar phenotypes independently, playing a crucial role in understanding evolutionary processes. Seeking convergence in a trait that evolved once and was subsequently inherited would lead to erroneous conclusions, as similarities observed stem from the same trait rather than indicative of a broader evolutionary pattern. Here we revised one of the more iconic cases of parallel evolution, the evolution of parthenogenesis in _Timema_ stick insects. There are two scenarios regarding the evolution of parthenogenesis in _Timema_ which would imply a reconsideration of previous interpretation: either it evolved once through Incomplete Lineage Sorting (ILS), or parthenogenesis was the ancestral state.
 
 **Abstract** – 
 
