@@ -16,9 +16,9 @@ Heaviest intermediate files producted during these analyses have been uploaded o
 
 **Navigation menu:**
 
-- [**exp design**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) - experimental design explanation
+- [**exp design**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) - Experimental design explanation
 
-- [**preliminary**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) - requirements and dataset explanation
+- [**preliminary**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) - Requirements and dataset explanation
 
 - [**part 1a**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) - Hemiplasy hypothesis - inference-based approach
 
