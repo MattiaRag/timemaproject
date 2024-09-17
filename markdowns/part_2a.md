@@ -37,6 +37,12 @@ The exported `.xml` file was then submitted to beast, running 2 analyses indepen
 
 Both runs were checked for convergence and ESS values using Tracer. A proper [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extract_1000trees.sh) was then adopted to randomly select 500 trees from each run (performing an initial burnin of 10%) and create a further `.trees` file including a total of 1000 randomly extracted trees. The computed file can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/extracted_1000.trees).
 
+Both MCMC (Markov Chain Monte Carlo) runs were combined using LogCombiner, while subsequently summarizing the trees sampled using TreeAnnotator, obtaining a single [tree](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/treeannotator_output.tree):
+
+```
+./../beast/bin/logcombiner -log part_2a/beast/treerun1/beastTIMEMA-trimmedDEFINITIVEspnames.trees -log part_2a/beast/treerun2/beastTIMEMA-trimmedDEFINITIVEspnames.trees -o combined.trees -burnin 1000
+./../beast/bin/treeannotator -burnin 10 -height CA part_2a/beast/combined.trees part_2a/beast/treeannotator_output.tree
+```
 
 ## Infer the ancestral state reconstruction
 
