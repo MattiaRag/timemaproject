@@ -1,0 +1,1070 @@
+Query #26: TTE_10785-RA_607.fa Query ID: lcl|Query_12268559 Length: 381
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      776    776   100%  0.0    100.00 381        CAD7464034.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      488    488   69%   4e-167 92.48  503        CAD7408956.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     483    483   72%   3e-165 89.09  508        CAD7434620.1     
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      447    447   72%   1e-150 82.91  540        XP_063232582.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Periplaneta...  Periplaneta ... American coc... 6978       432    432   62%   2e-149 88.61  245        AFB73848.1       
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       441    441   72%   1e-148 80.73  528        QRN45450.1       
+nicotinic acetylcholine receptor alpha8 subunit [Periplaneta...   Periplaneta ... American coc... 6978       442    442   72%   1e-148 80.36  538        AFA28130.1       
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       441    441   72%   2e-148 80.73  543        QRN45449.1       
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       441    441   83%   2e-148 71.25  536        QQH14664.1       
+alpha 8 nicotinic acetylcholine receptor subunit [Periplaneta...  Periplaneta ... American coc... 6978       439    439   72%   2e-147 80.00  540        QQH14654.1       
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       435    435   68%   6e-146 82.82  542        AKV94623.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     432    432   83%   9e-145 70.06  546        XP_067005935.1   
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     430    430   83%   5e-144 70.86  536        XP_023721509.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Zootermopsis... NA              136037     426    426   72%   3e-143 78.18  468        XP_021933390.1   
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       425    425   80%   2e-142 72.84  515        CAA04053.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Zootermopsis... NA              136037     426    426   72%   2e-142 78.18  538        XP_021933381.1   
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       426    426   80%   3e-142 72.84  540        AHJ11218.1       
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     422    422   62%   8e-142 85.42  484        XP_067005952.1   
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       422    422   80%   8e-141 71.88  540        XP_049836798.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     422    422   80%   8e-141 71.88  540        XP_049765695.1   
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       419    419   80%   2e-139 71.47  546        AHJ11219.1       
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       416    416   80%   3e-138 70.53  546        XP_049836797.1   
+nicotinic acetylcholine receptor alpha8 variant C [Locusta...     Locusta migr... migratory lo... 7004       410    410   80%   1e-135 65.71  574        AHJ11220.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Schistocerca... NA              7010       405    405   80%   8e-134 64.84  574        XP_049836796.1   
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... American gra... 7009       405    405   80%   9e-134 64.84  574        XP_047003447.1   
+nicotinic acetylcholine receptor alpha8 variant D [Locusta...     Locusta migr... migratory lo... 7004       403    403   80%   6e-133 64.59  580        AHJ11221.1       
+nicotinic acetylcholine receptor beta 2 [Forficula auricularia]   Forficula au... European earwig 13068      398    398   83%   2e-131 66.77  544        QFR37032.1       
+hypothetical protein R5R35_011097 [Gryllus longicercus]           Gryllus long... NA              2509291    394    394   85%   1e-129 65.69  545        KAK7870122.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Homalodisca ... glassy-winge... 197043     387    387   72%   3e-127 72.76  541        XP_046678227.1   
+LOW QUALITY PROTEIN: acetylcholine receptor subunit beta-like ... Homalodisca ... glassy-winge... 197043     387    387   69%   3e-127 75.28  536        XP_046687053.1   
+Acetylcholine receptor subunit beta-like 2 [Zootermopsis...       Zootermopsis... NA              136037     379    379   72%   3e-124 67.00  508        KDR23474.1       
+acetylcholine receptor subunit beta-like 2 [Macrosteles...        Macrosteles ... aster leafho... 74068      379    379   72%   8e-124 72.30  544        XP_054286159.1   
+Acetylcholine receptor subunit beta-like 2 [Homalodisca...        Homalodisca ... glassy-winge... 197043     377    377   72%   1e-123 72.04  524        KAG8311234.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Homalodisca ... glassy-winge... 197043     377    377   72%   2e-123 72.04  539        XP_046678228.1   
+hypothetical protein L9F63_027151 [Diploptera punctata]           Diploptera p... Pacific beet... 6984       363    363   51%   2e-122 89.80  208        KAJ9596228.1     
+acetylcholine receptor subunit beta-like 2 [Athalia rosae]        Athalia rosae   coleseed sawfly 37344      375    375   84%   2e-122 64.65  535        XP_012251055.1   
+hypothetical protein L9F63_018754 [Diploptera punctata]           Diploptera p... Pacific beet... 6984       367    367   51%   5e-122 89.34  332        KAJ9587811.1     
+acetylcholine receptor subunit beta-like 2 [Neodiprion lecontei]  Neodiprion l... redheaded pi... 441921     370    370   85%   2e-120 63.50  536        XP_015512110.1   
+acetylcholine receptor subunit beta-like 2 [Diprion similis]      Diprion similis NA              362088     370    370   85%   2e-120 63.50  536        XP_046748943.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Liposcelis...   Liposcelis b... NA              185214     369    369   72%   4e-120 70.29  535        ACG49259.1       
+acetylcholine receptor subunit beta-like 2 [Ischnura elegans]     Ischnura ele... NA              197161     367    367   72%   3e-119 68.92  556        XP_046400493.1   
+Acetylcholine receptor subunit beta-like 2 [Polyplax serrata]     Polyplax ser... house mouse ... 468196     363    363   72%   1e-117 69.40  541        KAK6631318.1     
+Acetylcholine receptor subunit beta-like 2 [Blattella germanica]  Blattella ge... German cockr... 6973       350    350   50%   2e-117 88.48  194        PSN34857.1       
+hypothetical protein AAG570_003839 [Ranatra chinensis]            Ranatra chin... NA              642074     360    360   77%   8e-117 66.67  516        KAL1117523.1     
+acetylcholine receptor protein alpha 1, 2, 3, 4 invertebrate,...  Pediculus hu... human body l... 121224     357    357   72%   2e-115 67.26  534        XP_002424148.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Thrips...  Thrips palmi    NA              161013     356    356   70%   1e-114 69.96  559        XP_034241492.1   
+nicotinic acetylcholine receptor subunit alpha 8 [Cyrtorhinus...  Cyrtorhinus ... NA              1032904    355    355   72%   2e-114 68.95  546        AIG92772.1       
+unnamed protein product [Timema bartmani]                         Timema bartmani NA              61472      349    349   47%   4e-114 95.16  395        CAD7446648.1     
+nicotinic acetylcholine receptor alpha 8 isoform 1...             Frankliniell... western flow... 133901     354    354   70%   5e-114 69.23  561        BAN81842.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Frankliniell... western flow... 133901     354    354   70%   5e-114 69.23  561        XP_026287027.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Thrips...  Thrips palmi    NA              161013     351    351   70%   2e-112 66.90  587        XP_034241491.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Orius...        Orius laevig... NA              82742      349    349   72%   3e-112 65.45  531        WUR05317.1       
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cephus...  Cephus cinctus  wheat stem s... 211228     346    346   72%   5e-111 69.42  536        XP_015610090.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Frankliniell... western flow... 133901     346    346   69%   2e-110 67.74  587        XP_026287026.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Belonocnema ... NA              2817044    342    342   72%   3e-110 69.78  469        XP_033229451.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      343    343   72%   4e-110 66.43  534        XP_014244614.1   
+acetylcholine receptor subunit beta-like 2 [Bombus impatiens]     Bombus impat... common easte... 132113     343    343   77%   6e-110 66.12  535        XP_024228372.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus vanco... NA              2705178    343    343   77%   7e-110 65.79  538        XP_033192676.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus huntii   NA              85661      343    343   77%   8e-110 65.79  538        XP_050487834.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus vosne... NA              207650     343    343   77%   8e-110 65.79  538        XP_033355606.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Apis...    Apis florea     little honeybee 7463       341    341   84%   9e-110 62.31  484        XP_031774129.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Apis...    Apis dorsata    giant honeybee  7462       341    341   84%   1e-109 62.31  485        XP_031365352.1   
+hypothetical protein KPH14_006906 [Odynerus spinipes]             Odynerus spi... NA              1348599    342    342   86%   2e-109 62.20  530        KAK2584537.1     
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus pyrosoma NA              396416     342    342   77%   2e-109 65.79  535        XP_043582670.1   
+acetylcholine receptor subunit beta-like 2 isoform X5 [Apis...    Apis laboriosa  Himalayan ho... 183418     339    339   72%   2e-109 69.42  458        XP_043792482.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus pascu... NA              65598      341    341   77%   3e-109 65.79  535        XP_060825872.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus huntii   NA              85661      341    341   77%   3e-109 65.89  534        XP_050487837.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Apis...    Apis cerana     Asiatic hone... 7461       341    341   84%   3e-109 62.31  534        XP_016910163.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cephus...  Cephus cinctus  wheat stem s... 211228     342    342   72%   3e-109 66.78  547        XP_015610089.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus vosne... NA              207650     341    341   77%   3e-109 65.89  534        XP_033355607.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus vanco... NA              2705178    341    341   77%   3e-109 65.89  534        XP_033192677.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Belonocnema ... NA              2817044    342    342   72%   3e-109 69.78  560        XP_033229449.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Belonocnema ... NA              2817044    341    341   72%   4e-109 69.78  545        XP_033229450.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Apis...    Apis dorsata    giant honeybee  7462       341    341   84%   4e-109 62.31  534        XP_006613662.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Apis...    Apis florea     little honeybee 7463       341    341   84%   4e-109 62.31  533        XP_003696335.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Osmia...   Osmia lignaria  orchard maso... 473952     340    340   72%   6e-109 69.42  535        XP_034177835.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Osmia...   Osmia bicorn... NA              1437191    340    340   72%   7e-109 69.42  535        XP_029046104.1   
+unnamed protein product [Xylocopa violacea]                       Xylocopa vio... NA              135666     340    340   77%   8e-109 65.56  531        CAL7950101.1     
+nicotinic acetylcholine receptor alpha8 subunit [Apis mellifer... Apis mellife... Caucasian ho... 200407     340    340   84%   9e-109 62.31  534        KAG6799677.1     
+nicotinic acetylcholine receptor beta2 precursor [Apis mellifera] Apis mellifera  honey bee       7460       340    340   84%   9e-109 62.31  537        NP_001011575.1   
+unnamed protein product [Xylocopa violacea]                       Xylocopa vio... NA              135666     340    340   77%   9e-109 65.56  534        CAL7950100.1     
+acetylcholine receptor subunit beta-like 2 isoform X3 [Apis...    Apis laboriosa  Himalayan ho... 183418     340    340   72%   1e-108 69.42  534        XP_043792479.1   
+Acetylcholine receptor subunit beta [Apis cerana cerana]          Apis cerana ... NA              94128      341    341   84%   1e-108 62.31  575        PBC31729.1       
+acetylcholine receptor subunit beta-like 2 [Halyomorpha halys]    Halyomorpha ... brown marmor... 286706     333    333   72%   1e-108 63.54  347        XP_014287843.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Poliste... Polistes fus... common paper... 30207      340    340   72%   1e-108 69.45  530        XP_043501151.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus terre... buff-tailed ... 30195      340    340   77%   1e-108 65.89  531        XP_012163745.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus terre... buff-tailed ... 30195      340    340   77%   1e-108 65.46  535        XP_012163744.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus pascu... NA              65598      339    339   77%   1e-108 65.89  531        XP_060825873.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus pyrosoma NA              396416     339    339   77%   1e-108 65.89  531        XP_043582671.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Apis...    Apis laboriosa  Himalayan ho... 183418     340    340   72%   1e-108 69.42  553        XP_043792476.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Osmia...   Osmia lignaria  orchard maso... 473952     340    340   72%   1e-108 69.42  558        XP_034177832.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Hylaeus... Hylaeus volc... NA              313075     340    340   84%   1e-108 61.63  535        XP_053984385.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Hylaeus... Hylaeus anth... NA              313031     340    340   84%   1e-108 61.63  535        XP_054010349.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Apis...    Apis cerana     Asiatic hone... 7461       339    339   84%   1e-108 62.39  530        XP_016910164.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Poliste... Polistes dom... European pap... 743375     340    340   72%   1e-108 69.45  548        XP_015181374.1   
+hypothetical protein QLX08_011561 [Tetragonisca angustula]        Tetragonisca... NA              166442     339    339   72%   1e-108 69.93  532        KAK9293536.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Apis...    Apis dorsata    giant honeybee  7462       339    339   84%   2e-108 62.39  530        XP_006613663.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Apis...    Apis florea     little honeybee 7463       339    339   84%   2e-108 62.39  529        XP_012346088.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Osmia...   Osmia bicorn... NA              1437191    340    340   72%   2e-108 69.42  558        XP_029046102.2   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Eufries... Eufriesea me... NA              516756     338    338   77%   3e-108 65.89  531        XP_017760627.1   
+
+
+Query #27: TCE_05705-RB_607.fa Query ID: lcl|Query_12268560 Length: 503
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      1037   1037  100%  0.0   100.00 503        CAD7408956.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     938    938   94%   0.0   96.62  508        CAD7434620.1     
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       881    881   96%   0.0   87.04  543        QRN45449.1       
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      881    881   96%   0.0   87.86  540        XP_063232582.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     861    861   96%   0.0   85.39  546        XP_067005935.1   
+alpha 8 nicotinic acetylcholine receptor subunit [Periplaneta...  Periplaneta ... American coc... 6978       858    858   96%   0.0   85.15  540        QQH14654.1       
+nicotinic acetylcholine receptor alpha8 subunit [Periplaneta...   Periplaneta ... American coc... 6978       857    857   96%   0.0   85.15  538        AFA28130.1       
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       857    857   94%   0.0   86.13  536        QQH14664.1       
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       857    857   96%   0.0   85.15  542        AKV94623.1       
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       853    853   94%   0.0   86.47  528        QRN45450.1       
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     844    844   94%   0.0   85.50  536        XP_023721509.1   
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       835    835   94%   0.0   85.15  540        AHJ11218.1       
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       835    835   94%   0.0   85.15  515        CAA04053.1       
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       832    832   94%   0.0   84.94  540        XP_049836798.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     831    831   94%   0.0   84.73  540        XP_049765695.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Zootermopsis... NA              136037     830    830   94%   0.0   83.82  538        XP_021933381.1   
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       829    829   94%   0.0   84.09  546        AHJ11219.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Zootermopsis... NA              136037     827    827   94%   0.0   83.61  468        XP_021933390.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       825    825   94%   0.0   83.88  546        XP_049836797.1   
+nicotinic acetylcholine receptor beta 2 [Forficula auricularia]   Forficula au... European earwig 13068      815    815   95%   0.0   82.61  544        QFR37032.1       
+hypothetical protein R5R35_011097 [Gryllus longicercus]           Gryllus long... NA              2509291    804    804   94%   0.0   82.19  545        KAK7870122.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Homalodisca ... glassy-winge... 197043     788    788   94%   0.0   80.83  541        XP_046678227.1   
+LOW QUALITY PROTEIN: acetylcholine receptor subunit beta-like ... Homalodisca ... glassy-winge... 197043     788    788   94%   0.0   80.83  536        XP_046687053.1   
+acetylcholine receptor subunit beta-like 2 [Macrosteles...        Macrosteles ... aster leafho... 74068      783    783   94%   0.0   80.58  544        XP_054286159.1   
+acetylcholine receptor subunit beta-like 2 [Ischnura elegans]     Ischnura ele... NA              197161     779    779   96%   0.0   78.54  556        XP_046400493.1   
+Acetylcholine receptor subunit beta-like 2 [Homalodisca...        Homalodisca ... glassy-winge... 197043     779    779   94%   0.0   80.42  524        KAG8311234.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Homalodisca ... glassy-winge... 197043     779    779   94%   0.0   80.42  539        XP_046678228.1   
+acetylcholine receptor subunit beta-like 2 [Neodiprion lecontei]  Neodiprion l... redheaded pi... 441921     771    771   95%   0.0   80.29  536        XP_015512110.1   
+acetylcholine receptor subunit beta-like 2 [Diprion similis]      Diprion similis NA              362088     771    771   95%   0.0   80.21  536        XP_046748943.1   
+acetylcholine receptor subunit beta-like 2 [Athalia rosae]        Athalia rosae   coleseed sawfly 37344      770    770   95%   0.0   80.41  535        XP_012251055.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Liposcelis...   Liposcelis b... NA              185214     768    768   95%   0.0   78.96  535        ACG49259.1       
+hypothetical protein RUM43_000085 [Polyplax serrata]              Polyplax ser... house mouse ... 468196     764    764   94%   0.0   78.01  1709       KAK6643822.1     
+Acetylcholine receptor subunit beta-like 2 [Zootermopsis...       Zootermopsis... NA              136037     763    763   92%   0.0   76.92  508        KDR23474.1       
+Acetylcholine receptor subunit beta-like 2 [Polyplax serrata]     Polyplax ser... house mouse ... 468196     755    755   94%   0.0   78.01  541        KAK6631318.1     
+hypothetical protein AAG570_003839 [Ranatra chinensis]            Ranatra chin... NA              642074     753    753   96%   0.0   77.35  516        KAL1117523.1     
+nicotinic acetylcholine receptor subunit alpha 8 [Cyrtorhinus...  Cyrtorhinus ... NA              1032904    751    751   94%   0.0   78.03  546        AIG92772.1       
+acetylcholine receptor protein alpha 1, 2, 3, 4 invertebrate,...  Pediculus hu... human body l... 121224     749    749   94%   0.0   76.76  534        XP_002424148.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Nilaparvata...  Nilaparvata ... brown planth... 108931     746    746   94%   0.0   77.64  539        ACK75719.1       
+acetylcholine receptor subunit beta-like 2 [Nilaparvata lugens]   Nilaparvata ... brown planth... 108931     745    745   94%   0.0   78.05  541        XP_039291421.1   
+hypothetical protein GE061_013510 [Apolygus lucorum]              Apolygus luc... NA              248454     744    744   94%   0.0   76.57  678        KAF6210405.1     
+nicotinic acetylcholine receptor alpha 8 subunit [Orius...        Orius laevig... NA              82742      743    743   94%   0.0   75.42  531        WUR05317.1       
+nicotinic acetylcholine receptors alpha 8 subunit [Nilaparvata... Nilaparvata ... brown planth... 108931     743    743   94%   0.0   77.85  539        XFF04602.1       
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     740    740   82%   0.0   85.78  484        XP_067005952.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Laodelphax...   Laodelphax s... small brown ... 195883     739    739   94%   0.0   76.64  544        AWX65627.1       
+unnamed protein product [Nezara viridula]                         Nezara viridula southern gre... 85310      734    734   94%   0.0   74.90  527        CAH1407727.1     
+acetylcholine receptor subunit beta-like 2 [Frieseomelitta varia] Frieseomelit... NA              561572     732    732   93%   0.0   79.41  532        XP_043508786.1   
+acetylcholine receptor subunit beta-like 2 [Nomia melanderi]      Nomia melanderi Alkali bee      2448451    732    732   94%   0.0   79.11  531        XP_031831693.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cephus...  Cephus cinctus  wheat stem s... 211228     731    731   95%   0.0   77.57  536        XP_015610090.1   
+Acetylcholine receptor subunit beta-like 2 [Melipona...           Melipona qua... NA              166423     729    729   93%   0.0   79.41  527        KOX75921.1       
+Acetylcholine receptor subunit beta-like 2 [Melipona bicolor]     Melipona bic... NA              60889      729    729   93%   0.0   79.41  520        KAK1132820.1     
+hypothetical protein TSAR_004107 [Trichomalopsis sarcophagae]     Trichomalops... NA              543379     728    728   94%   0.0   77.87  537        OXU25983.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2...          Ceratosolen ... NA              326594     728    728   95%   0.0   78.22  537        XP_011496213.1   
+nicotinic acetylcholine receptor alpha 8 subunit precursor...     Nasonia vitr... jewel wasp      7425       728    728   94%   0.0   77.87  537        NP_001166022.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Belonocnema ... NA              2817044    728    728   96%   0.0   77.10  560        XP_033229449.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Belonocnema ... NA              2817044    727    727   96%   0.0   77.10  469        XP_033229451.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     727    727   94%   0.0   77.85  525        XP_018360484.1   
+hypothetical protein M0802_008033 [Mischocyttarus mexicanus]      Mischocyttar... NA              91405      726    726   95%   0.0   77.55  531        KAI4496166.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Poliste... Polistes dom... European pap... 743375     726    726   95%   0.0   77.75  548        XP_015181374.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Osmia...   Osmia lignaria  orchard maso... 473952     726    726   93%   0.0   78.86  535        XP_034177835.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Poliste... Polistes fus... common paper... 30207      726    726   95%   0.0   77.55  530        XP_043501151.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      726    726   94%   0.0   75.31  534        XP_014244614.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus vanco... NA              2705178    726    726   94%   0.0   77.73  538        XP_033192676.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cephus...  Cephus cinctus  wheat stem s... 211228     726    726   95%   0.0   75.86  547        XP_015610089.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus vosne... NA              207650     726    726   94%   0.0   77.73  538        XP_033355606.1   
+acetylcholine receptor subunit beta-like 2 [Bombus impatiens]     Bombus impat... common easte... 132113     726    726   93%   0.0   78.65  535        XP_024228372.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus huntii   NA              85661      725    725   94%   0.0   77.73  538        XP_050487834.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Osmia...   Osmia bicorn... NA              1437191    725    725   93%   0.0   78.65  535        XP_029046104.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus pascu... NA              65598      725    725   93%   0.0   78.44  535        XP_060825872.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus vanco... NA              2705178    724    724   94%   0.0   77.85  534        XP_033192677.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus vosne... NA              207650     724    724   94%   0.0   77.85  534        XP_033355607.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus pyrosoma NA              396416     724    724   93%   0.0   78.44  535        XP_043582670.1   
+hypothetical protein QLX08_011561 [Tetragonisca angustula]        Tetragonisca... NA              166442     724    724   93%   0.0   78.77  532        KAK9293536.1     
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex...       Trachymyrmex... NA              471704     724    724   94%   0.0   77.85  460        KYN21946.1       
+acetylcholine receptor subunit beta-like 2 isoform X4 [Osmia...   Osmia lignaria  orchard maso... 473952     724    724   94%   0.0   78.48  531        XP_034177836.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Poliste... Polistes can... NA              91411      724    724   95%   0.0   77.34  548        XP_014605900.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2...          Acromyrmex e... Panamanian l... 103372     724    724   94%   0.0   77.64  526        XP_011049287.1   
+acetylcholine receptor subunit beta-like 2 isoform X4 [Osmia...   Osmia bicorn... NA              1437191    723    723   93%   0.0   78.77  531        XP_029046105.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus huntii   NA              85661      723    723   94%   0.0   77.85  534        XP_050487837.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus pyrosoma NA              396416     723    723   93%   0.0   78.56  531        XP_043582671.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus terre... buff-tailed ... 30195      723    723   93%   0.0   78.22  535        XP_012163744.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus pascu... NA              65598      723    723   93%   0.0   78.56  531        XP_060825873.1   
+unnamed protein product [Xylocopa violacea]                       Xylocopa vio... NA              135666     723    723   93%   0.0   78.34  531        CAL7950101.1     
+unnamed protein product [Xylocopa violacea]                       Xylocopa vio... NA              135666     723    723   93%   0.0   78.34  534        CAL7950100.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus terre... buff-tailed ... 30195      723    723   93%   0.0   78.56  531        XP_012163745.1   
+hypothetical protein KM043_010008 [Ampulex compressa]             Ampulex comp... NA              860918     723    723   93%   0.0   78.44  532        KAG7202858.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     722    722   94%   0.0   77.94  534        XP_003706508.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Eufries... Eufriesea me... NA              516756     722    722   92%   0.0   79.44  531        XP_017760627.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Vespa...   Vespa crabro    European hornet 7445       722    722   94%   0.0   78.22  529        XP_046817858.1   
+hypothetical protein KPH14_006906 [Odynerus spinipes]             Odynerus spi... NA              1348599    722    722   93%   0.0   78.30  530        KAK2584537.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Atta...    Atta cephalotes NA              12957      722    722   94%   0.0   77.64  526        XP_012064375.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Atta...    Atta colombica  NA              520822     721    721   94%   0.0   77.64  526        XP_018058914.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Vespa...   Vespa mandar... Asian giant ... 7446       721    721   94%   0.0   78.22  529        XP_035737650.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Frankliniell... western flow... 133901     721    721   94%   0.0   75.16  561        XP_026287027.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Nylanderia f... NA              613905     721    721   95%   0.0   77.59  528        XP_029164271.1   
+acetylcholine receptor subunit beta-like 2 [Formica exsecta]      Formica exsecta NA              72781      721    721   95%   0.0   77.34  528        XP_029676557.1   
+nicotinic acetylcholine receptor alpha 8 isoform 1...             Frankliniell... western flow... 133901     721    721   94%   0.0   75.16  561        BAN81842.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Wasmannia au... little fire ant 64793      721    721   94%   0.0   77.89  526        XP_011703562.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Hylaeus... Hylaeus volc... NA              313075     721    721   92%   0.0   78.68  535        XP_053984385.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Hylaeus... Hylaeus anth... NA              313031     721    721   92%   0.0   78.68  535        XP_054010349.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Vespa...   Vespa mandar... Asian giant ... 7446       721    721   94%   0.0   78.22  461        XP_035737651.1   
+
+
+Query #28: TMS_10359-RA_607.fa Query ID: lcl|Query_12268561 Length: 508
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     1046   1046  100%  0.0   100.00 508        CAD7434620.1     
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       949    949   100%  0.0   88.58  528        QRN45450.1       
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      940    940   100%  0.0   87.00  540        XP_063232582.1   
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       939    939   100%  0.0   86.04  543        QRN45449.1       
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      938    938   90%   0.0   96.62  503        CAD7408956.1     
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       920    920   98%   0.0   85.96  536        QQH14664.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     915    915   99%   0.0   85.33  546        XP_067005935.1   
+nicotinic acetylcholine receptor alpha8 subunit [Periplaneta...   Periplaneta ... American coc... 6978       913    913   98%   0.0   85.66  538        AFA28130.1       
+alpha 8 nicotinic acetylcholine receptor subunit [Periplaneta...  Periplaneta ... American coc... 6978       913    913   98%   0.0   85.66  540        QQH14654.1       
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       909    909   98%   0.0   85.33  542        AKV94623.1       
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     904    904   98%   0.0   85.38  536        XP_023721509.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Zootermopsis... NA              136037     891    891   98%   0.0   83.82  538        XP_021933381.1   
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       889    889   98%   0.0   84.47  540        AHJ11218.1       
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       888    888   98%   0.0   84.27  540        XP_049836798.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     886    886   98%   0.0   84.08  540        XP_049765695.1   
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       883    883   98%   0.0   83.49  546        AHJ11219.1       
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       882    882   96%   0.0   85.38  515        CAA04053.1       
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       881    881   98%   0.0   83.30  546        XP_049836797.1   
+nicotinic acetylcholine receptor beta 2 [Forficula auricularia]   Forficula au... European earwig 13068      873    873   98%   0.0   83.17  544        QFR37032.1       
+hypothetical protein R5R35_011097 [Gryllus longicercus]           Gryllus long... NA              2509291    858    858   97%   0.0   82.52  545        KAK7870122.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Homalodisca ... glassy-winge... 197043     842    842   98%   0.0   80.66  541        XP_046678227.1   
+LOW QUALITY PROTEIN: acetylcholine receptor subunit beta-like ... Homalodisca ... glassy-winge... 197043     840    840   98%   0.0   80.66  536        XP_046687053.1   
+acetylcholine receptor subunit beta-like 2 [Macrosteles...        Macrosteles ... aster leafho... 74068      832    832   98%   0.0   80.23  544        XP_054286159.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Homalodisca ... glassy-winge... 197043     832    832   98%   0.0   80.27  539        XP_046678228.1   
+Acetylcholine receptor subunit beta-like 2 [Homalodisca...        Homalodisca ... glassy-winge... 197043     831    831   98%   0.0   80.27  524        KAG8311234.1     
+acetylcholine receptor subunit beta-like 2 [Ischnura elegans]     Ischnura ele... NA              197161     830    830   98%   0.0   79.18  556        XP_046400493.1   
+acetylcholine receptor subunit beta-like 2 [Athalia rosae]        Athalia rosae   coleseed sawfly 37344      823    823   98%   0.0   80.46  535        XP_012251055.1   
+acetylcholine receptor subunit beta-like 2 [Neodiprion lecontei]  Neodiprion l... redheaded pi... 441921     823    823   98%   0.0   80.35  536        XP_015512110.1   
+acetylcholine receptor subunit beta-like 2 [Diprion similis]      Diprion similis NA              362088     821    821   98%   0.0   80.27  536        XP_046748943.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Liposcelis...   Liposcelis b... NA              185214     820    820   97%   0.0   79.22  535        ACG49259.1       
+hypothetical protein RUM43_000085 [Polyplax serrata]              Polyplax ser... house mouse ... 468196     816    816   98%   0.0   77.69  1709       KAK6643822.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Zootermopsis... NA              136037     812    812   88%   0.0   85.97  468        XP_021933390.1   
+Acetylcholine receptor subunit beta-like 2 [Zootermopsis...       Zootermopsis... NA              136037     809    809   94%   0.0   77.59  508        KDR23474.1       
+Acetylcholine receptor subunit beta-like 2 [Polyplax serrata]     Polyplax ser... house mouse ... 468196     805    805   98%   0.0   77.69  541        KAK6631318.1     
+acetylcholine receptor protein alpha 1, 2, 3, 4 invertebrate,...  Pediculus hu... human body l... 121224     804    804   98%   0.0   76.69  534        XP_002424148.1   
+hypothetical protein AAG570_003839 [Ranatra chinensis]            Ranatra chin... NA              642074     801    801   100%  0.0   77.04  516        KAL1117523.1     
+nicotinic acetylcholine receptor alpha 8 subunit [Nilaparvata...  Nilaparvata ... brown planth... 108931     798    798   96%   0.0   78.36  539        ACK75719.1       
+nicotinic acetylcholine receptor subunit alpha 8 [Cyrtorhinus...  Cyrtorhinus ... NA              1032904    797    797   98%   0.0   77.48  546        AIG92772.1       
+acetylcholine receptor subunit beta-like 2 [Nilaparvata lugens]   Nilaparvata ... brown planth... 108931     797    797   96%   0.0   78.75  541        XP_039291421.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     793    793   85%   0.0   85.68  484        XP_067005952.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Laodelphax...   Laodelphax s... small brown ... 195883     791    791   96%   0.0   77.41  544        AWX65627.1       
+hypothetical protein GE061_013510 [Apolygus lucorum]              Apolygus luc... NA              248454     790    790   98%   0.0   76.12  678        KAF6210405.1     
+nicotinic acetylcholine receptors alpha 8 subunit [Nilaparvata... Nilaparvata ... brown planth... 108931     790    790   96%   0.0   78.17  539        XFF04602.1       
+nicotinic acetylcholine receptor alpha 8 subunit [Orius...        Orius laevig... NA              82742      790    790   98%   0.0   75.05  531        WUR05317.1       
+acetylcholine receptor subunit beta-like 2 [Nomia melanderi]      Nomia melanderi Alkali bee      2448451    787    787   97%   0.0   79.26  531        XP_031831693.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Belonocnema ... NA              2817044    786    786   98%   0.0   79.60  545        XP_033229450.1   
+acetylcholine receptor subunit beta-like 2 [Frieseomelitta varia] Frieseomelit... NA              561572     784    784   95%   0.0   79.68  532        XP_043508786.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cephus...  Cephus cinctus  wheat stem s... 211228     782    782   97%   0.0   77.76  536        XP_015610090.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Poliste... Polistes dom... European pap... 743375     781    781   99%   0.0   77.65  548        XP_015181374.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Osmia...   Osmia lignaria  orchard maso... 473952     781    781   96%   0.0   78.82  535        XP_034177835.1   
+hypothetical protein TSAR_004107 [Trichomalopsis sarcophagae]     Trichomalops... NA              543379     781    781   97%   0.0   78.08  537        OXU25983.1       
+acetylcholine receptor subunit beta-like 2 isoform X3 [Osmia...   Osmia bicorn... NA              1437191    780    780   96%   0.0   78.82  535        XP_029046104.1   
+hypothetical protein M0802_008033 [Mischocyttarus mexicanus]      Mischocyttar... NA              91405      780    780   98%   0.0   77.97  531        KAI4496166.1     
+Acetylcholine receptor subunit beta-like 2 [Melipona...           Melipona qua... NA              166423     780    780   95%   0.0   79.48  527        KOX75921.1       
+Acetylcholine receptor subunit beta-like 2 [Melipona bicolor]     Melipona bic... NA              60889      780    780   95%   0.0   79.48  520        KAK1132820.1     
+acetylcholine receptor subunit beta-like 2 isoform X1 [Poliste... Polistes fus... common paper... 30207      780    780   99%   0.0   77.46  530        XP_043501151.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2...          Ceratosolen ... NA              326594     780    780   97%   0.0   78.21  537        XP_011496213.1   
+nicotinic acetylcholine receptor alpha 8 subunit precursor...     Nasonia vitr... jewel wasp      7425       779    779   97%   0.0   78.08  537        NP_001166022.1   
+acetylcholine receptor subunit beta-like 2 isoform X4 [Osmia...   Osmia bicorn... NA              1437191    779    779   96%   0.0   78.94  531        XP_029046105.1   
+acetylcholine receptor subunit beta-like 2 isoform X4 [Osmia...   Osmia lignaria  orchard maso... 473952     778    778   96%   0.0   78.94  531        XP_034177836.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Poliste... Polistes can... NA              91411      778    778   99%   0.0   77.26  548        XP_014605900.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     778    778   96%   0.0   78.22  525        XP_018360484.1   
+unnamed protein product [Nezara viridula]                         Nezara viridula southern gre... 85310      777    777   98%   0.0   74.37  527        CAH1407727.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Belonocnema ... NA              2817044    777    777   98%   0.0   77.31  560        XP_033229449.1   
+unnamed protein product [Heterotrigona itama]                     Heterotrigon... NA              395501     777    777   94%   0.0   81.40  499        CAD1469567.1     
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus vosne... NA              207650     777    777   96%   0.0   78.11  538        XP_033355606.1   
+acetylcholine receptor subunit beta-like 2 [Bombus impatiens]     Bombus impat... common easte... 132113     777    777   95%   0.0   78.97  535        XP_024228372.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cephus...  Cephus cinctus  wheat stem s... 211228     776    776   97%   0.0   76.14  547        XP_015610089.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus vanco... NA              2705178    776    776   96%   0.0   78.11  538        XP_033192676.1   
+unnamed protein product [Xylocopa violacea]                       Xylocopa vio... NA              135666     776    776   95%   0.0   78.73  534        CAL7950100.1     
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus pyrosoma NA              396416     776    776   95%   0.0   78.77  535        XP_043582670.1   
+hypothetical protein KM043_010008 [Ampulex compressa]             Ampulex comp... NA              860918     776    776   95%   0.0   78.97  532        KAG7202858.1     
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus pascu... NA              65598      776    776   95%   0.0   78.77  535        XP_060825872.1   
+unnamed protein product [Xylocopa violacea]                       Xylocopa vio... NA              135666     776    776   95%   0.0   78.73  531        CAL7950101.1     
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus huntii   NA              85661      776    776   96%   0.0   78.11  538        XP_050487834.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus vanco... NA              2705178    775    775   96%   0.0   78.22  534        XP_033192677.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus vosne... NA              207650     775    775   96%   0.0   78.22  534        XP_033355607.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Hylaeus... Hylaeus anth... NA              313031     775    775   95%   0.0   79.04  535        XP_054010349.1   
+hypothetical protein KPH14_006906 [Odynerus spinipes]             Odynerus spi... NA              1348599    775    775   95%   0.0   78.69  530        KAK2584537.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Hylaeus... Hylaeus volc... NA              313075     775    775   95%   0.0   79.04  535        XP_053984385.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2...          Acromyrmex e... Panamanian l... 103372     775    775   96%   0.0   78.02  526        XP_011049287.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus pyrosoma NA              396416     775    775   95%   0.0   78.88  531        XP_043582671.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus terre... buff-tailed ... 30195      775    775   95%   0.0   78.88  531        XP_012163745.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Bombus...  Bombus terre... buff-tailed ... 30195      775    775   95%   0.0   78.57  535        XP_012163744.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus pascu... NA              65598      775    775   95%   0.0   78.88  531        XP_060825873.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Bombus...  Bombus huntii   NA              85661      775    775   96%   0.0   78.22  534        XP_050487837.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      774    774   98%   0.0   75.15  534        XP_014244614.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Vespa...   Vespa crabro    European hornet 7445       774    774   96%   0.0   78.42  529        XP_046817858.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     774    774   96%   0.0   78.30  534        XP_003706508.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Vespa...   Vespa mandar... Asian giant ... 7446       774    774   96%   0.0   78.42  529        XP_035737650.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Hylaeus... Hylaeus anth... NA              313031     773    773   95%   0.0   79.16  531        XP_054010350.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Wasmannia au... little fire ant 64793      773    773   96%   0.0   78.15  526        XP_011703562.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Atta...    Atta cephalotes NA              12957      773    773   96%   0.0   78.02  526        XP_012064375.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Hylaeus... Hylaeus volc... NA              313075     773    773   95%   0.0   79.16  531        XP_053984386.1   
+hypothetical protein QLX08_011561 [Tetragonisca angustula]        Tetragonisca... NA              166442     773    773   96%   0.0   78.35  532        KAK9293536.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Eufries... Eufriesea me... NA              516756     773    773   94%   0.0   79.52  531        XP_017760627.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Dufoure... Dufourea nov... NA              178035     772    772   96%   0.0   78.66  531        XP_015440086.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Hylaeus... Hylaeus anth... NA              313031     772    772   95%   0.0   78.26  540        XP_054010348.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Atta...    Atta colombica  NA              520822     772    772   95%   0.0   78.49  526        XP_018058914.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Hylaeus... Hylaeus volc... NA              313075     772    772   95%   0.0   78.26  540        XP_053984384.1   
+
+
+Query #29: TBI_06217-RA_607.fa Query ID: lcl|Query_12268562 Length: 395
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+unnamed protein product [Timema bartmani]                         Timema bartmani NA              61472      804    804   100%  0.0    100.00 395        CAD7446648.1     
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       609    609   96%   0.0    75.55  536        QQH14664.1       
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      600    600   94%   0.0    76.43  540        XP_063232582.1   
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       600    600   96%   0.0    74.76  543        QRN45449.1       
+nicotinic acetylcholine receptor alpha8 variant D [Locusta...     Locusta migr... migratory lo... 7004       600    600   96%   0.0    75.37  580        AHJ11221.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... NA              7010       600    600   96%   0.0    75.37  580        XP_049836794.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... South Americ... 274614     600    600   96%   0.0    75.37  580        XP_049765693.1   
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       599    599   93%   0.0    76.57  542        AKV94623.1       
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       598    598   96%   0.0    75.37  546        AHJ11219.1       
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... NA              2023355    598    598   95%   0.0    75.86  576        XP_049938330.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       598    598   96%   0.0    75.37  546        XP_049836797.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     597    597   93%   0.0    76.13  484        XP_067005952.1   
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     596    596   95%   0.0    75.00  536        XP_023721509.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Schistocerca... NA              7010       596    596   94%   0.0    75.50  574        XP_049836796.1   
+nicotinic acetylcholine receptor alpha8 variant C [Locusta...     Locusta migr... migratory lo... 7004       596    596   94%   0.0    75.50  574        AHJ11220.1       
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... American gra... 7009       596    596   94%   0.0    75.50  574        XP_047003447.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     595    595   93%   0.0    76.13  546        XP_067005935.1   
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       595    595   94%   0.0    75.50  540        AHJ11218.1       
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       594    594   94%   0.0    75.50  540        XP_049836798.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     594    594   94%   0.0    75.50  540        XP_049765695.1   
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       587    587   92%   0.0    76.65  515        CAA04053.1       
+acetylcholine receptor subunit beta-like 2 [Ischnura elegans]     Ischnura ele... NA              197161     568    568   94%   0.0    73.65  556        XP_046400493.1   
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       561    561   96%   0.0    71.36  528        QRN45450.1       
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      557    557   81%   0.0    81.92  503        CAD7408956.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Homalodisca ... glassy-winge... 197043     557    557   95%   0.0    72.59  539        XP_046678228.1   
+Acetylcholine receptor subunit beta-like 2 [Homalodisca...        Homalodisca ... glassy-winge... 197043     556    556   95%   0.0    72.35  524        KAG8311234.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Homalodisca ... glassy-winge... 197043     555    555   94%   0.0    72.52  541        XP_046678227.1   
+LOW QUALITY PROTEIN: acetylcholine receptor subunit beta-like ... Homalodisca ... glassy-winge... 197043     555    555   95%   0.0    71.81  536        XP_046687053.1   
+acetylcholine receptor subunit beta-like 2 [Macrosteles...        Macrosteles ... aster leafho... 74068      554    554   94%   0.0    72.03  544        XP_054286159.1   
+Acetylcholine receptor subunit beta-like 2, variant 2...          Homalodisca ... glassy-winge... 197043     552    552   94%   0.0    72.28  416        KAG8311235.1     
+Acetylcholine receptor subunit beta-like 2 [Orchesella cincta]    Orchesella c... NA              48709      548    548   94%   0.0    70.62  521        ODM91301.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      546    546   94%   0.0    70.54  534        XP_014244614.1   
+unnamed protein product [Orchesella dallaii]                      Orchesella d... NA              48710      546    546   94%   0.0    70.37  568        CAL8069492.1     
+hypothetical protein AAG570_003839 [Ranatra chinensis]            Ranatra chin... NA              642074     546    546   94%   0.0    71.71  516        KAL1117523.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cimex...   Cimex lectul... bed bug         79782      544    544   93%   0.0    71.18  526        XP_014244615.1   
+nicotinic acetylcholine receptor subunit alpha 8 [Cyrtorhinus...  Cyrtorhinus ... NA              1032904    540    540   95%   0.0    70.37  546        AIG92772.1       
+unnamed protein product [Nezara viridula]                         Nezara viridula southern gre... 85310      538    538   95%   0.0    69.95  527        CAH1407727.1     
+hypothetical protein KM043_010008 [Ampulex compressa]             Ampulex comp... NA              860918     536    536   93%   0.0    72.36  532        KAG7202858.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     534    534   93%   0.0    71.86  534        XP_003706508.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     533    533   93%   0.0    71.86  457        XP_012148109.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2...          Ceratosolen ... NA              326594     530    530   93%   0.0    71.43  537        XP_011496213.1   
+hypothetical protein KPH14_006906 [Odynerus spinipes]             Odynerus spi... NA              1348599    529    529   93%   0.0    71.43  530        KAK2584537.1     
+acetylcholine receptor subunit beta-like 2 [Anoplophora...        Anoplophora ... Asian longho... 217634     529    529   95%   0.0    68.38  533        XP_018569935.1   
+hypothetical protein FQR65_LT04774 [Abscondita terminalis]        Abscondita t... NA              2069292    529    529   92%   0.0    70.28  537        KAF5273032.1     
+acetylcholine receptor subunit beta-like 2 [Linepithema humile]   Linepithema ... Argentine ant   83485      528    528   94%   0.0    70.54  528        XP_067205150.1   
+GSCOCG00005697001-RA-CDS [Cotesia congregata]                     Cotesia cong... NA              51543      528    528   93%   0.0    71.61  544        CAD6225474.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cotesia... Cotesia glom... NA              32391      528    528   93%   0.0    71.61  544        XP_044575876.1   
+hypothetical protein TSAR_004107 [Trichomalopsis sarcophagae]     Trichomalops... NA              543379     528    528   93%   0.0    71.18  537        OXU25983.1       
+nicotinic acetylcholine receptor alpha 8 subunit precursor...     Nasonia vitr... jewel wasp      7425       528    528   93%   0.0    71.18  537        NP_001166022.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cotesia... Cotesia glom... NA              32391      528    528   93%   0.0    71.61  547        XP_044575875.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Prorops... Prorops nasuta  NA              863751     528    528   96%   0.0    69.76  520        XP_066594398.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Odontomachus... NA              486640     526    526   93%   0.0    71.11  528        XP_032676536.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Vespa...   Vespa crabro    European hornet 7445       526    526   93%   0.0    71.18  529        XP_046817858.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Anophel... Anopheles be... NA              139047     526    526   96%   0.0    66.91  542        XP_058062600.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Vespa...   Vespa mandar... Asian giant ... 7446       526    526   93%   0.0    71.18  529        XP_035737650.1   
+nicotinic acetylcholine receptor alpha 8 isoform 2...             Frankliniell... western flow... 133901     526    526   94%   0.0    68.32  511        BAN81843.1       
+hypothetical protein RN001_006293 [Aquatica leii]                 Aquatica leii   NA              1421715    526    526   93%   0.0    69.17  534        KAK4882974.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Nylanderia f... NA              613905     525    525   96%   0.0    69.83  528        XP_029164271.1   
+acetylcholine receptor subunit beta-like 2 [Venturia canescens]   Venturia can... NA              32260      525    525   93%   0.0    71.25  543        XP_043278293.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Pogonomyrmex... red harveste... 144034     525    525   94%   0.0    69.88  526        XP_011636623.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Harpegnathos... Jerdon's jum... 610380     525    525   95%   0.0    69.78  551        XP_025160168.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Microplitis ... NA              375433     525    525   93%   0.0    71.36  545        XP_057338179.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Trichogramma... NA              7493       525    525   94%   0.0    70.07  541        XP_014228957.1   
+acetylcholine receptor subunit beta-like 2 [Ooceraea biroi]       Ooceraea biroi  clonal raide... 2015173    525    525   94%   0.0    70.54  527        XP_026827693.1   
+acetylcholine receptor subunit beta-like 2 [Harmonia axyridis]    Harmonia axy... NA              115357     525    525   95%   0.0    67.07  532        XP_045465311.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Trichogramma... NA              7493       524    524   93%   0.0    70.43  536        XP_014228959.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              69319      524    524   93%   0.0    71.11  545        XP_008544210.2   
+acetylcholine receptor subunit beta-like 2 [Melitaea cinxia]      Melitaea cinxia Glanville fr... 113334     524    524   93%   0.0    68.01  532        XP_045450233.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Vollenhovia ... NA              411798     524    524   93%   0.0    70.32  534        XP_011865803.1   
+hypothetical protein HN011_010550 [Eciton burchellii]             Eciton burch... NA              213866     524    524   93%   0.0    71.18  529        KAH0954096.1     
+Acetylcholine receptor subunit beta-like 2 [Frankliniella fusca]  Frankliniell... NA              407009     523    523   94%   0.0    68.32  417        KAK3924389.1     
+Acetylcholine receptor subunit beta-like protein [Ooceraea biroi] Ooceraea biroi  clonal raide... 2015173    522    522   94%   0.0    70.40  490        EZA60916.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Habropo... Habropoda la... NA              597456     522    522   95%   0.0    69.88  468        XP_017789793.1   
+Acetylcholine receptor subunit beta-like 2 [Harpegnathos...       Harpegnathos... Jerdon's jum... 610380     520    520   96%   0.0    69.19  384        EFN82641.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Trichogramma... NA              7493       524    524   93%   1e-180 70.43  540        XP_014228958.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Frankliniell... western flow... 133901     524    524   94%   2e-180 68.32  561        XP_026287027.1   
+Uncharacterized protein DBV15_06842 [Temnothorax longispinosus]   Temnothorax ... NA              300112     523    523   93%   2e-180 70.07  545        TGZ32403.1       
+nicotinic acetylcholine receptor alpha 8 isoform 1...             Frankliniell... western flow... 133901     524    524   94%   2e-180 68.32  561        BAN81842.1       
+acetylcholine receptor subunit beta-like 2 [Camponotus...         Camponotus f... Florida carp... 104421     523    523   93%   2e-180 70.60  527        XP_011255573.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Drosophila e... NA              30023      523    523   95%   2e-180 67.73  539        XP_041565018.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Harpegnathos... Jerdon's jum... 610380     521    521   96%   7e-180 69.27  527        XP_011142412.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Drosophila e... NA              29029      522    522   95%   8e-180 67.41  538        XP_041675379.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Thrips...  Thrips palmi    NA              161013     523    523   94%   8e-180 68.07  559        XP_034241492.1   
+unnamed protein product [Brassicogethes aeneus]                   Brassicogeth... NA              1431903    521    521   94%   8e-180 68.24  536        CAH0553472.1     
+acetylcholine receptor subunit beta-like 2 [Chelonus insularis]   Chelonus ins... NA              460826     522    522   93%   1e-179 70.75  546        XP_034936626.1   
+hypothetical protein NQ318_019214 [Aromia moschata]               Aromia moschata NA              1265417    521    521   94%   1e-179 68.56  523        KAJ8956496.1     
+acetylcholine receptor subunit beta-like 2 [Temnothorax...        Temnothorax ... NA              300111     521    521   93%   1e-179 69.58  532        XP_024883344.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Frankliniell... western flow... 133901     523    523   94%   2e-179 68.32  587        XP_026287026.1   
+Similar to nAChRbeta2: Acetylcholine receptor subunit beta-lik... Cotesia cong... NA              51543      520    520   87%   2e-179 73.67  507        CAG5099839.1     
+acetylcholine receptor subunit beta-like 2 isoform X1 [Thrips...  Thrips palmi    NA              161013     522    522   94%   2e-179 67.90  587        XP_034241491.1   
+acetylcholine receptor subunit beta-like 2 [Pseudomyrmex...       Pseudomyrmex... NA              219809     520    520   93%   3e-179 69.60  530        XP_020282330.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Dinoponera q... NA              609295     519    519   93%   5e-179 70.10  527        XP_014487448.1   
+acetylcholine receptor subunit beta-like 2 [Phymastichus coffea]  Phymastichus... NA              108790     520    520   93%   5e-179 70.68  538        XP_058802190.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Drosophila g... NA              7266       519    519   95%   1e-178 66.91  536        XP_034131200.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Drosophila s... NA              1486046    519    519   95%   1e-178 66.91  538        XP_037712884.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Microplitis ... NA              69319      520    520   92%   1e-178 71.32  564        XP_053597262.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Leguminivora... NA              1035111    519    519   93%   1e-178 68.34  534        XP_047995862.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cydia...   Cydia fagigl... NA              1458189    518    518   93%   1e-178 68.34  534        XP_063383369.1   
+acetylcholine receptor subunit beta-like 2 [Coccinella...         Coccinella s... seven-spotte... 41139      518    518   93%   2e-178 67.84  532        XP_044756115.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cydia...   Cydia amplana   NA              1869771    518    518   93%   2e-178 68.34  534        XP_063367837.1   
+
+
+Query #30: TPA_03189-RA_607.fa Query ID: lcl|Query_12268563 Length: 382
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+unnamed protein product [Timema podura]                           Timema podura   NA              61482      775    775   100%  0.0    100.00 382        CAG2062167.1     
+unnamed protein product [Timema genevievae]                       Timema genev... NA              629358     595    595   94%   0.0    83.92  329        CAD7613922.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      469    469   92%   9e-160 73.01  503        CAD7408956.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     466    466   92%   1e-158 70.99  508        CAD7434620.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     446    446   92%   5e-151 67.61  484        XP_067005952.1   
+hypothetical protein Cfor_10377 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      442    442   94%   6e-151 65.38  396        GFG34811.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     445    445   92%   1e-149 67.61  546        XP_067005935.1   
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       444    444   92%   2e-149 68.18  543        QRN45449.1       
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      443    443   92%   6e-149 68.18  540        XP_063232582.1   
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       442    442   92%   6e-149 68.18  540        XP_049836798.1   
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       442    442   92%   7e-149 67.61  515        CAA04053.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Schistocerca... NA              7010       444    444   92%   7e-149 68.18  574        XP_049836796.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       442    442   92%   8e-149 68.18  546        XP_049836797.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... NA              7010       444    444   92%   9e-149 68.18  580        XP_049836794.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     442    442   92%   1e-148 67.90  540        XP_049765695.1   
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       442    442   92%   1e-148 67.61  540        AHJ11218.1       
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... American gra... 7009       443    443   92%   2e-148 67.90  574        XP_047003447.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... South Americ... 274614     443    443   92%   2e-148 67.90  580        XP_049765693.1   
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... NA              2023355    443    443   92%   2e-148 67.90  576        XP_049938330.1   
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       442    442   92%   2e-148 67.61  546        AHJ11219.1       
+nicotinic acetylcholine receptor alpha8 variant C [Locusta...     Locusta migr... migratory lo... 7004       442    442   92%   2e-148 67.61  574        AHJ11220.1       
+nicotinic acetylcholine receptor alpha8 variant D [Locusta...     Locusta migr... migratory lo... 7004       442    442   92%   2e-148 67.61  580        AHJ11221.1       
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       440    440   92%   5e-148 67.90  528        QRN45450.1       
+alpha 8 nicotinic acetylcholine receptor subunit [Periplaneta...  Periplaneta ... American coc... 6978       440    440   92%   5e-148 67.05  540        QQH14654.1       
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     440    440   92%   6e-148 67.05  536        XP_023721509.1   
+hypothetical protein R5R35_011097 [Gryllus longicercus]           Gryllus long... NA              2509291    440    440   92%   6e-148 66.76  545        KAK7870122.1     
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       439    439   92%   2e-147 66.48  536        QQH14664.1       
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       439    439   92%   2e-147 67.33  542        AKV94623.1       
+nicotinic acetylcholine receptor beta 2 [Forficula auricularia]   Forficula au... European earwig 13068      439    439   92%   2e-147 66.76  544        QFR37032.1       
+nicotinic acetylcholine receptor alpha8 subunit [Periplaneta...   Periplaneta ... American coc... 6978       437    437   92%   7e-147 66.76  538        AFA28130.1       
+nicotinic acetylcholine receptor alpha8 [Protohermes xanthodes]   Protohermes ... NA              1452977    436    436   92%   3e-146 66.19  531        WXH59957.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Neodiprion v... NA              2961670    430    430   92%   8e-146 66.48  419        XP_046626058.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cimex...   Cimex lectul... bed bug         79782      431    431   92%   1e-144 65.91  526        XP_014244615.1   
+hypothetical protein O3M35_008629 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     426    426   92%   1e-144 64.77  377        KAK9506752.1     
+nicotinic acetylcholine receptor [Nesidiocoris tenuis]            Nesidiocoris... NA              355587     428    428   92%   2e-144 65.62  452        BES94537.1       
+acetylcholine receptor subunit beta-like 2 [Athalia rosae]        Athalia rosae   coleseed sawfly 37344      431    431   92%   2e-144 66.76  535        XP_012251055.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      431    431   92%   3e-144 65.91  534        XP_014244614.1   
+acetylcholine receptor subunit beta-like 2 [Diprion similis]      Diprion similis NA              362088     430    430   92%   4e-144 66.76  536        XP_046748943.1   
+acetylcholine receptor subunit beta-like 2 [Neodiprion lecontei]  Neodiprion l... redheaded pi... 441921     430    430   92%   8e-144 66.48  536        XP_015512110.1   
+nicotinic acetylcholine receptors alpha 8 subunit [Nilaparvata... Nilaparvata ... brown planth... 108931     430    430   92%   8e-144 66.19  539        XFF04602.1       
+acetylcholine receptor subunit beta-like 2 [Nilaparvata lugens]   Nilaparvata ... brown planth... 108931     429    429   92%   1e-143 66.19  541        XP_039291421.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     427    427   92%   1e-143 65.62  472        CAA9994099.1     
+nicotinic acetylcholine receptor a11 subunit splice variant...    Tribolium ca... red flour be... 7070       421    421   91%   2e-143 65.24  334        ACP31315.1       
+acetylcholine receptor subunit beta-like 2 [Halyomorpha halys]    Halyomorpha ... brown marmor... 286706     421    421   92%   2e-143 64.20  331        XP_014291973.1   
+Hypothetical predicted protein [Cloeon dipterum]                  Cloeon dipterum NA              197152     419    419   92%   5e-143 65.34  320        CAB3380859.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Chrysoperla ... NA              189513     423    423   92%   1e-142 64.77  435        XP_044736374.1   
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       419    419   91%   2e-142 64.39  339        XP_031333789.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Chrysoperla ... NA              189513     425    425   92%   2e-142 64.77  513        XP_044736372.1   
+unnamed protein product [Diabrotica balteata]                     Diabrotica b... NA              107213     425    425   91%   4e-142 65.53  518        CAG9830577.1     
+Hypothetical predicted protein [Cloeon dipterum]                  Cloeon dipterum NA              197152     417    417   91%   5e-142 65.24  328        CAB3380860.1     
+nicotinic acetylcholine receptor subunit alpha8 [Tribolium...     Tribolium ca... red flour be... 7070       423    423   91%   7e-142 65.24  499        EEZ99341.2       
+nicotinic acetylcholine receptor subunit alpha11 [Tribolium...    Tribolium ca... red flour be... 7070       421    421   91%   8e-142 64.96  444        EEZ99342.2       
+acetylcholine receptor subunit beta-like 2 isoform X3 [Triboli... Tribolium ma... black flour ... 41895      423    423   91%   2e-141 65.24  515        XP_044258295.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Triboli... Tribolium ma... black flour ... 41895      423    423   91%   2e-141 65.24  515        XP_044258294.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Triboli... Tribolium ma... black flour ... 41895      423    423   91%   2e-141 65.24  516        XP_044258293.1   
+nicotinic acetylcholine receptor subunit alpha11 [Tribolium...    Tribolium ca... red flour be... 7070       422    422   91%   2e-141 64.96  491        KYB29426.1       
+acetylcholine receptor subunit beta-like 2 isoform X4 [Triboli... Tribolium ma... black flour ... 41895      423    423   91%   2e-141 65.24  514        XP_044258296.1   
+nicotinic acetylcholine receptor subunit alpha11 [Tribolium...    Tribolium ca... red flour be... 7070       422    422   91%   2e-141 64.96  498        KYB29425.1       
+acetylcholine receptor subunit beta-like 2 [Zophobas morio]       Zophobas morio  NA              2755281    422    422   91%   3e-141 65.24  513        XP_063908746.1   
+acetylcholine receptor subunit beta-like 2 [Aethina tumida]       Aethina tumida  small hive b... 116153     422    422   91%   8e-141 65.24  541        XP_049821222.1   
+hypothetical protein PPYR_04053 [Photinus pyralis]                Photinus pyr... common easte... 7054       418    418   91%   2e-140 64.39  452        KAB0801867.1     
+acetylcholine receptor subunit beta-like 2 [Hyposmocoma...        Hyposmocoma ... NA              1477025    412    412   92%   4e-140 63.07  333        XP_026325849.1   
+acetylcholine receptor subunit beta-like 2 [Amyelois transitella] Amyelois tra... NA              680683     411    411   92%   1e-139 62.78  333        XP_013200787.2   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Spodoptera f... fall armyworm   7108       410    410   92%   6e-139 62.78  333        XP_050563845.1   
+acetylcholine receptor subunit beta-like 2 isoform X5 [Plodia...  Plodia inter... Indianmeal moth 58824      409    409   92%   1e-138 62.50  333        XP_053611538.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Helicoverpa ... cotton bollworm 29058      409    409   92%   1e-138 62.50  333        XP_049702314.2   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Danaus...  Danaus plexi... monarch butt... 13037      408    408   92%   3e-138 62.22  333        XP_032514254.2   
+acetylcholine receptor subunit beta-like 2 [Nomia melanderi]      Nomia melanderi Alkali bee      2448451    415    415   92%   3e-138 65.91  531        XP_031831693.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Maniola... Maniola jurtina meadow brown    191418     407    407   92%   4e-138 62.22  333        XP_045775318.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Leptide... Leptidea sin... NA              189913     407    407   92%   6e-138 62.22  333        XP_050668025.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Bicyclu... Bicyclus any... squinting bu... 110368     407    407   92%   7e-138 61.93  334        XP_052742414.1   
+acetylcholine receptor subunit beta-like 2 [Frieseomelitta varia] Frieseomelit... NA              561572     413    413   92%   2e-137 65.62  532        XP_043508786.1   
+acetylcholine receptor subunit beta-like 2 isoform X6 [Pieris...  Pieris napi     NA              78633      405    405   92%   3e-137 61.93  333        XP_047506118.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Pieris...  Pieris brass... large cabbag... 7116       405    405   92%   3e-137 61.93  333        XP_045511868.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Microplitis ... NA              375433     405    405   92%   4e-137 64.77  340        XP_057338196.1   
+Acetylcholine receptor subunit beta-like 2 [Melipona bicolor]     Melipona bic... NA              60889      411    411   92%   1e-136 65.62  520        KAK1132820.1     
+Acetylcholine receptor subunit beta-like 2 [Melipona...           Melipona qua... NA              166423     411    411   92%   1e-136 65.62  527        KOX75921.1       
+acetylcholine receptor subunit beta-like 2 protein [Lasius niger] Lasius niger    NA              67767      405    405   95%   3e-136 63.64  403        KMQ95164.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     407    407   92%   5e-136 65.06  457        XP_012148109.1   
+Uncharacterized protein DBV15_06842 [Temnothorax longispinosus]   Temnothorax ... NA              300112     410    410   92%   6e-136 64.59  545        TGZ32403.1       
+acetylcholine receptor subunit beta-like 2 isoform X2 [Poliste... Polistes fus... common paper... 30207      404    404   92%   6e-136 64.77  395        XP_043501153.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              375433     407    407   92%   8e-136 64.77  472        XP_057338187.1   
+unnamed protein product [Timema bartmani]                         Timema bartmani NA              61472      404    482   72%   1e-135 86.42  395        CAD7446648.1     
+acetylcholine receptor subunit beta-like 2 isoform X4 [Bombus...  Bombus huntii   NA              85661      405    405   92%   1e-135 64.49  451        XP_050487839.1   
+ACH4 protein [Acromyrmex insinuator]                              Acromyrmex i... NA              230686     400    400   92%   2e-135 64.20  318        KAG5311287.1     
+unnamed protein product [Lasius platythorax]                      Lasius platy... NA              488582     408    408   92%   2e-135 64.77  527        CAL1684775.1     
+hypothetical protein QLX08_011561 [Tetragonisca angustula]        Tetragonisca... NA              166442     406    406   92%   2e-135 64.49  477        KAK9293537.1     
+acetylcholine receptor subunit beta-like 2 isoform X3 [Bombus...  Bombus huntii   NA              85661      405    405   92%   3e-135 64.49  455        XP_050487838.1   
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex...       Trachymyrmex... NA              471704     405    405   92%   3e-135 64.49  460        KYN21946.1       
+hypothetical protein M0802_008033 [Mischocyttarus mexicanus]      Mischocyttar... NA              91405      407    407   92%   3e-135 65.34  531        KAI4496166.1     
+GSCOCG00005697001-RA-CDS [Cotesia congregata]                     Cotesia cong... NA              51543      407    407   92%   4e-135 64.59  544        CAD6225474.1     
+Similar to nAChRbeta2: Acetylcholine receptor subunit beta-lik... Cotesia cong... NA              51543      406    406   92%   4e-135 64.59  507        CAG5099839.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     407    407   92%   5e-135 65.06  534        XP_003706508.1   
+acetylcholine receptor subunit beta-like 2 [Venturia canescens]   Venturia can... NA              32260      407    407   92%   5e-135 65.34  543        XP_043278293.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Microplitis ... NA              375433     407    407   92%   5e-135 64.59  545        XP_057338179.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Odontomachus... NA              486640     404    404   92%   6e-135 64.49  455        XP_032676546.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Nylanderia f... NA              613905     406    406   92%   7e-135 65.06  528        XP_029164271.1   
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex zeteki]  Trachymyrmex... NA              64791      404    404   92%   7e-135 64.49  461        KYQ59320.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 [Eufries... Eufriesea me... NA              516756     406    406   92%   9e-135 65.06  531        XP_017760627.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              69319      407    407   92%   9e-135 64.77  545        XP_008544210.2   
+
+
+Query #31: TGE_09781-RA_607.fa Query ID: lcl|Query_12268564 Length: 329
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+unnamed protein product [Timema genevievae]                       Timema genev... NA              629358     662    662   100%  0.0    100.00 329        CAD7613922.1     
+unnamed protein product [Timema podura]                           Timema podura   NA              61482      595    595   97%   0.0    83.92  382        CAG2062167.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      503    503   95%   4e-174 82.75  503        CAD7408956.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     483    483   96%   5e-166 79.75  508        CAD7434620.1     
+hypothetical protein Cfor_10377 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      462    462   96%   2e-159 74.61  396        GFG34811.1       
+unnamed protein product [Timema bartmani]                         Timema bartmani NA              61472      461    461   95%   4e-159 77.96  395        CAD7446648.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     464    464   95%   6e-159 76.04  484        XP_067005952.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     462    462   95%   2e-157 76.04  546        XP_067005935.1   
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       461    461   95%   5e-157 76.68  543        QRN45449.1       
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       461    461   95%   7e-157 76.68  540        XP_049836798.1   
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      461    461   95%   8e-157 76.68  540        XP_063232582.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       461    461   95%   1e-156 76.68  546        XP_049836797.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Schistocerca... NA              7010       461    461   95%   1e-156 76.68  574        XP_049836796.1   
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       459    459   95%   1e-156 76.04  515        CAA04053.1       
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     460    460   95%   1e-156 76.36  540        XP_049765695.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... NA              7010       461    461   95%   2e-156 76.68  580        XP_049836794.1   
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       460    460   95%   2e-156 76.04  540        AHJ11218.1       
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       459    459   95%   2e-156 75.40  542        AKV94623.1       
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... American gra... 7009       461    461   95%   2e-156 76.36  574        XP_047003447.1   
+nicotinic acetylcholine receptor alpha8 variant C [Locusta...     Locusta migr... migratory lo... 7004       461    461   95%   3e-156 76.04  574        AHJ11220.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... South Americ... 274614     461    461   95%   3e-156 76.36  580        XP_049765693.1   
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       459    459   95%   3e-156 76.04  546        AHJ11219.1       
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... NA              2023355    460    460   95%   3e-156 76.36  576        XP_049938330.1   
+nicotinic acetylcholine receptor alpha8 variant D [Locusta...     Locusta migr... migratory lo... 7004       459    459   95%   7e-156 76.04  580        AHJ11221.1       
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     458    458   95%   7e-156 75.40  536        XP_023721509.1   
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       457    457   95%   8e-156 76.36  528        QRN45450.1       
+alpha 8 nicotinic acetylcholine receptor subunit [Periplaneta...  Periplaneta ... American coc... 6978       458    458   95%   1e-155 75.40  540        QQH14654.1       
+hypothetical protein R5R35_011097 [Gryllus longicercus]           Gryllus long... NA              2509291    458    458   95%   1e-155 75.08  545        KAK7870122.1     
+nicotinic acetylcholine receptor beta 2 [Forficula auricularia]   Forficula au... European earwig 13068      457    457   95%   2e-155 75.08  544        QFR37032.1       
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       456    456   95%   3e-155 74.76  536        QQH14664.1       
+nicotinic acetylcholine receptor alpha8 subunit [Periplaneta...   Periplaneta ... American coc... 6978       455    455   95%   9e-155 75.08  538        AFA28130.1       
+nicotinic acetylcholine receptor alpha8 [Protohermes xanthodes]   Protohermes ... NA              1452977    453    453   95%   5e-154 74.44  531        WXH59957.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Neodiprion v... NA              2961670    448    448   95%   9e-154 74.76  419        XP_046626058.1   
+hypothetical protein O3M35_008629 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     443    443   95%   3e-152 72.84  377        KAK9506752.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cimex...   Cimex lectul... bed bug         79782      448    448   95%   3e-152 74.12  526        XP_014244615.1   
+acetylcholine receptor subunit beta-like 2 [Athalia rosae]        Athalia rosae   coleseed sawfly 37344      449    449   95%   3e-152 75.08  535        XP_012251055.1   
+nicotinic acetylcholine receptor [Nesidiocoris tenuis]            Nesidiocoris... NA              355587     445    445   95%   4e-152 73.80  452        BES94537.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      448    448   95%   4e-152 74.12  534        XP_014244614.1   
+acetylcholine receptor subunit beta-like 2 [Diprion similis]      Diprion similis NA              362088     448    448   95%   6e-152 75.08  536        XP_046748943.1   
+acetylcholine receptor subunit beta-like 2 [Neodiprion lecontei]  Neodiprion l... redheaded pi... 441921     448    448   95%   8e-152 74.76  536        XP_015512110.1   
+acetylcholine receptor subunit beta-like 2 [Nilaparvata lugens]   Nilaparvata ... brown planth... 108931     448    448   95%   9e-152 74.44  541        XP_039291421.1   
+nicotinic acetylcholine receptors alpha 8 subunit [Nilaparvata... Nilaparvata ... brown planth... 108931     447    447   95%   1e-151 74.44  539        XFF04602.1       
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     444    444   95%   2e-151 73.80  472        CAA9994099.1     
+acetylcholine receptor subunit beta-like 2 [Ischnura elegans]     Ischnura ele... NA              197161     447    447   95%   2e-151 74.44  556        XP_046400493.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Nilaparvata...  Nilaparvata ... brown planth... 108931     447    447   95%   2e-151 74.12  539        ACK75719.1       
+nicotinic acetylcholine receptor a11 subunit splice variant...    Tribolium ca... red flour be... 7070       439    439   94%   2e-151 73.40  334        ACP31315.1       
+hypothetical protein AAG570_003839 [Ranatra chinensis]            Ranatra chin... NA              642074     445    445   95%   4e-151 74.12  516        KAL1117523.1     
+acetylcholine receptor subunit beta-like 2 [Halyomorpha halys]    Halyomorpha ... brown marmor... 286706     438    438   95%   6e-151 72.20  331        XP_014291973.1   
+Hypothetical predicted protein [Cloeon dipterum]                  Cloeon dipterum NA              197152     437    437   95%   1e-150 73.48  320        CAB3380859.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Chrysoperla ... NA              189513     440    440   95%   2e-150 72.84  435        XP_044736374.1   
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       436    436   94%   3e-150 72.44  339        XP_031333789.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Orius...        Orius laevig... NA              82742      444    444   95%   3e-150 73.16  531        WUR05317.1       
+nicotinic acetylcholine receptor alpha 8 subunit [Laodelphax...   Laodelphax s... small brown ... 195883     444    444   95%   4e-150 73.80  544        AWX65627.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Chrysoperla ... NA              189513     442    442   95%   6e-150 72.84  513        XP_044736372.1   
+Hypothetical predicted protein [Cloeon dipterum]                  Cloeon dipterum NA              197152     435    435   94%   7e-150 73.40  328        CAB3380860.1     
+unnamed protein product [Diabrotica balteata]                     Diabrotica b... NA              107213     442    442   94%   9e-150 73.72  518        CAG9830577.1     
+acetylcholine receptor subunit beta-like 2 [Tribolium madens]     Tribolium ma... black flour ... 41895      441    441   94%   1e-149 73.72  511        XP_044259580.1   
+nicotinic acetylcholine receptor subunit alpha11 [Tribolium...    Tribolium ca... red flour be... 7070       439    439   94%   2e-149 73.08  444        EEZ99342.2       
+nicotinic acetylcholine receptor subunit alpha8 [Tribolium...     Tribolium ca... red flour be... 7070       441    441   94%   2e-149 73.40  499        EEZ99341.2       
+nicotinic acetylcholine receptor subunit alpha 8 [Cyrtorhinus...  Cyrtorhinus ... NA              1032904    442    442   95%   2e-149 73.80  546        AIG92772.1       
+acetylcholine receptor subunit beta-like 2 isoform X4 [Cloeon...  Cloeon dipterum NA              197152     439    439   95%   2e-149 73.48  458        XP_065334310.1   
+nicotinic acetylcholine receptor a11 subunit [Tribolium...        Tribolium ca... red flour be... 7070       441    441   94%   2e-149 73.40  510        ACP31314.1       
+nicotinic acetylcholine receptor alpha 11 subunit precursor...    Tribolium ca... red flour be... 7070       440    440   94%   3e-149 73.40  510        NP_001107771.1   
+nicotinic acetylcholine receptor subunit alpha11 [Tribolium...    Tribolium ca... red flour be... 7070       439    439   94%   3e-149 73.08  491        KYB29426.1       
+acetylcholine receptor subunit beta-like 2 isoform X4 [Neocloe... Neocloeon tr... NA              2078957    441    441   95%   3e-149 73.16  530        XP_059490098.1   
+nicotinic acetylcholine receptor subunit alpha11 [Tribolium...    Tribolium ca... red flour be... 7070       440    440   94%   3e-149 73.08  498        KYB29425.1       
+acetylcholine receptor subunit beta-like 2 isoform X3 [Neocloe... Neocloeon tr... NA              2078957    441    441   95%   3e-149 73.16  532        XP_059490097.1   
+acetylcholine receptor subunit beta-like 2 isoform X5 [Neocloe... Neocloeon tr... NA              2078957    440    440   95%   4e-149 73.16  519        XP_059490099.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Triboli... Tribolium ma... black flour ... 41895      440    440   94%   4e-149 73.40  515        XP_044258295.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Triboli... Tribolium ma... black flour ... 41895      440    440   94%   4e-149 73.40  515        XP_044258294.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Triboli... Tribolium ma... black flour ... 41895      440    440   94%   4e-149 73.40  516        XP_044258293.1   
+acetylcholine receptor subunit beta-like 2 isoform X4 [Triboli... Tribolium ma... black flour ... 41895      440    440   94%   4e-149 73.40  514        XP_044258296.1   
+acetylcholine receptor subunit beta-like 2 [Zophobas morio]       Zophobas morio  NA              2755281    440    440   94%   5e-149 73.40  513        XP_063908746.1   
+Neurotransmitter-gated ion-channel ligand binding domain...       Popillia jap... Japanese beetle 7064       438    438   94%   5e-149 73.08  456        KAK9717488.1     
+unnamed protein product [Phaedon cochleariae]                     Phaedon coch... mustard beetle  80249      441    441   94%   5e-149 73.08  532        CAG9822493.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Neocloe... Neocloeon tr... NA              2078957    440    440   95%   6e-149 73.16  535        XP_059490095.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Neocloe... Neocloeon tr... NA              2078957    440    440   95%   7e-149 73.16  538        XP_059490094.1   
+Neurotransmitter-gated ion-channel ligand binding domain...       Popillia jap... Japanese beetle 7064       437    437   94%   7e-149 73.08  456        KAK9717487.1     
+nicotinic acetylcholine receptor alpha 8 subunit isoform X1...    Tribolium ca... red flour be... 7070       440    440   94%   7e-149 73.08  531        XP_064212067.1   
+nicotinic acetylcholine receptor alpha 8 subunit isoform 2...     Tribolium ca... red flour be... 7070       439    439   94%   8e-149 73.08  508        NP_001103419.1   
+acetylcholine receptor subunit beta-like 2 [Diorhabda sublineata] Diorhabda su... NA              1163346    439    439   94%   1e-148 73.08  526        XP_056639380.1   
+Hypothetical predicted protein [Cloeon dipterum]                  Cloeon dipterum NA              197152     439    439   95%   1e-148 73.48  527        CAB3380856.1     
+Hypothetical predicted protein [Cloeon dipterum]                  Cloeon dipterum NA              197152     437    437   94%   1e-148 73.40  466        CAB3380858.1     
+nicotinic acetylcholine receptor alpha 8 subunit isoform 1...     Tribolium ca... red flour be... 7070       439    439   94%   1e-148 73.08  515        NP_001155998.1   
+unnamed protein product [Psylliodes chrysocephala]                Psylliodes c... NA              2598218    439    439   94%   1e-148 73.40  535        CAH1109402.1     
+acetylcholine receptor subunit beta-like 2 [Aethina tumida]       Aethina tumida  small hive b... 116153     439    439   94%   2e-148 73.40  541        XP_049821222.1   
+Hypothetical predicted protein [Cloeon dipterum]                  Cloeon dipterum NA              197152     439    439   95%   2e-148 73.48  533        CAB3380855.1     
+unnamed protein product [Nezara viridula]                         Nezara viridula southern gre... 85310      439    439   95%   2e-148 72.20  527        CAH1407727.1     
+acetylcholine receptor subunit beta-like 2 [Hyposmocoma...        Hyposmocoma ... NA              1477025    431    431   95%   4e-148 70.93  333        XP_026325849.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Cloeon...  Cloeon dipterum NA              197152     440    440   95%   4e-148 73.48  593        XP_065334309.1   
+hypothetical protein PPYR_04053 [Photinus pyralis]                Photinus pyr... common easte... 7054       435    435   94%   4e-148 72.44  452        KAB0801867.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cloeon...  Cloeon dipterum NA              197152     440    440   95%   5e-148 73.48  596        XP_065334308.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cloeon...  Cloeon dipterum NA              197152     440    440   95%   5e-148 73.48  599        XP_065334307.1   
+hypothetical protein O0L34_g15361 [Tuta absoluta]                 Tuta absoluta   NA              702717     436    436   95%   5e-148 70.93  496        KAJ2949444.1     
+acetylcholine receptor subunit beta-like 2 [Amyelois transitella] Amyelois tra... NA              680683     430    430   95%   1e-147 70.61  333        XP_013200787.2   
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       437    437   94%   1e-147 72.44  533        XP_031333425.1   
+hypothetical protein O0L34_g15361 [Tuta absoluta]                 Tuta absoluta   NA              702717     437    437   95%   1e-147 70.93  531        KAJ2949445.1     
+nicotinic acetylcholine receptor subunit alpha 8...               Ctenocephali... cat flea        7515       432    432   95%   2e-147 71.88  414        ABB43002.1       
+acetylcholine receptor subunit beta-like 2 [Hermetia illucens]    Hermetia ill... black soldie... 343691     436    436   95%   3e-147 70.29  518        XP_037926976.1   
+unnamed protein product [Hermetia illucens]                       Hermetia ill... black soldie... 343691     435    435   95%   3e-147 70.29  507        CAD7077447.1     
+
+
+Query #32: TCM_13350-RA_607.fa Query ID: lcl|Query_12268565 Length: 105
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     223    223   100%  7e-73 100.00 119        CAD7421816.1     
+unnamed protein product [Timema californicum]                     Timema calif... California t... 61474      221    221   100%  1e-72 100.00 105        CAD7581873.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     221    221   100%  2e-72 100.00 120        CAD7269901.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      224    224   100%  2e-71 100.00 263        CAD7206958.1     
+unnamed protein product [Timema genevievae]                       Timema genev... NA              629358     224    224   100%  1e-70 100.00 329        CAD7613922.1     
+unnamed protein product [Timema podura]                           Timema podura   NA              61482      223    223   100%  3e-69 100.00 382        CAG2062167.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      226    226   100%  3e-69 100.00 503        CAD7408956.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     222    222   98%   1e-67 100.00 508        CAD7434620.1     
+Acetylcholine receptor subunit beta-like 2 [Blattella germanica]  Blattella ge... German cockr... 6973       203    203   99%   1e-63 90.38  232        PSN34858.1       
+hypothetical protein Cfor_10377 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      205    205   98%   2e-62 90.29  396        GFG34811.1       
+nicotinic acetylcholine receptor alpha 4 subunit [Nilaparvata...  Nilaparvata ... brown planth... 108931     197    197   98%   2e-62 88.35  132        ACL81176.1       
+nicotinic acetylcholine receptor alpha8 [Protohermes xanthodes]   Protohermes ... NA              1452977    208    208   98%   3e-62 90.29  531        WXH59957.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Neodiprion v... NA              2961670    206    206   98%   3e-62 92.23  419        XP_046626058.1   
+hypothetical protein ANN_20554 [Periplaneta americana]            Periplaneta ... American coc... 6978       207    207   99%   3e-62 91.35  468        KAJ4431945.1     
+nicotinic acetylcholine receptor alpha 3 subunit [Periplaneta...  Periplaneta ... American coc... 6978       197    197   98%   1e-61 90.29  192        AFB73847.1       
+unnamed protein product [Leptidea sinapis]                        Leptidea sin... NA              189913     196    196   99%   1e-61 87.50  186        VVD05794.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     201    201   98%   2e-61 89.32  338        XP_018360486.1   
+hypothetical protein J437_LFUL000286 [Ladona fulva]               Ladona fulva    scarce chaser   123851     195    195   98%   3e-61 89.32  174        KAG8226981.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      200    200   98%   3e-61 89.32  338        XP_018316729.1   
+acetylcholine receptor subunit beta-like 2 [Diprion similis]      Diprion similis NA              362088     206    206   98%   3e-61 93.20  536        XP_046748943.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Microplitis ... NA              375433     200    200   98%   3e-61 88.35  340        XP_057338196.1   
+hypothetical protein PPYR_04052 [Photinus pyralis]                Photinus pyr... common easte... 7054       194    194   100%  4e-61 84.76  158        KAB0801866.1     
+acetylcholine receptor subunit beta-like 2 [Neodiprion lecontei]  Neodiprion l... redheaded pi... 441921     205    205   98%   5e-61 92.23  536        XP_015512110.1   
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       194    194   100%  6e-61 84.76  168        XP_031333812.1   
+nicotinic acetylcholine receptor alpha-3 subunit [Spodoptera...   Spodoptera e... beet armyworm   7107       192    192   98%   7e-61 87.38  128        ACI43217.1       
+acetylcholine receptor subunit beta-like 2 [Athalia rosae]        Athalia rosae   coleseed sawfly 37344      204    204   98%   9e-61 92.23  535        XP_012251055.1   
+acetylcholine receptor subunit beta-like 2 isoform X5...          Leptopilina ... NA              63436      199    199   98%   9e-61 89.32  346        XP_043464845.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     203    203   98%   1e-60 89.32  484        XP_067005952.1   
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      204    204   98%   2e-60 92.23  540        XP_063232582.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Bemisia tabaci] Bemisia tabaci  NA              7038       196    196   98%   2e-60 85.44  251        QQL94345.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      201    201   98%   2e-60 89.32  423        XP_018316728.1   
+hypothetical protein NQ315_016910 [Exocentrus adspersus]          Exocentrus a... NA              1586481    196    196   99%   2e-60 85.58  251        KAJ8919006.1     
+ACH4 protein [Acromyrmex insinuator]                              Acromyrmex i... NA              230686     197    197   98%   2e-60 88.35  318        KAG5311287.1     
+acetylcholine receptor subunit beta-like 2 [Solenopsis invicta]   Solenopsis i... red fire ant    13686      203    203   98%   2e-60 89.32  529        XP_025990001.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     201    201   98%   3e-60 89.32  422        XP_018360485.1   
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       203    203   98%   3e-60 91.26  528        QRN45450.1       
+hypothetical protein O3M35_008629 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     199    199   98%   3e-60 87.38  377        KAK9506752.1     
+acetylcholine receptor subunit beta-like 2 isoform X3...          Microplitis ... NA              69319      201    201   98%   3e-60 88.35  445        XP_053597265.1   
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       203    203   98%   3e-60 91.26  542        AKV94623.1       
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       203    203   98%   3e-60 91.26  543        QRN45449.1       
+alpha 8 nicotinic acetylcholine receptor subunit [Periplaneta...  Periplaneta ... American coc... 6978       203    203   98%   4e-60 91.26  540        QQH14654.1       
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       203    203   98%   4e-60 90.29  536        QQH14664.1       
+nicotinic acetylcholine receptor a11 subunit splice variant...    Tribolium ca... red flour be... 7070       197    197   98%   5e-60 86.41  334        ACP31315.1       
+Acetylcholine receptor subunit beta-like 2 [Melipona...           Melipona qua... NA              166423     202    202   98%   5e-60 90.29  527        KOX75921.1       
+hypothetical protein E2986_01211 [Frieseomelitta varia]           Frieseomelit... NA              561572     202    202   98%   6e-60 89.32  526        KAF3427871.1     
+acetylcholine receptor subunit beta-like 2 [Frieseomelitta varia] Frieseomelit... NA              561572     202    202   98%   6e-60 89.32  532        XP_043508786.1   
+acetylcholine receptor subunit beta-like 2 [Hyposmocoma...        Hyposmocoma ... NA              1477025    197    197   98%   6e-60 88.35  333        XP_026325849.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     202    202   98%   7e-60 89.32  546        XP_067005935.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Pogonomyrmex... red harveste... 144034     195    195   98%   7e-60 87.38  279        XP_025073994.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Cyphomyrmex ... NA              456900     202    202   98%   7e-60 90.29  527        XP_018394350.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Cyphomyrmex ... NA              456900     202    202   98%   8e-60 90.29  526        XP_018394351.1   
+acetylcholine receptor subunit beta-like 2 [Halyomorpha halys]    Halyomorpha ... brown marmor... 286706     196    196   98%   9e-60 87.38  331        XP_014291973.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Chrysoperla ... NA              189513     199    199   98%   9e-60 86.41  435        XP_044736374.1   
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     202    202   98%   9e-60 91.26  536        XP_023721509.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              375433     200    200   98%   9e-60 88.35  472        XP_057338187.1   
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex zeteki]  Trachymyrmex... NA              64791      200    200   98%   1e-59 89.32  461        KYQ59320.1       
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex...       Trachymyrmex... NA              471704     200    200   98%   1e-59 89.32  460        KYN21946.1       
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       196    196   98%   1e-59 85.44  339        XP_031333789.1   
+unnamed protein product [Leptidea sinapis]                        Leptidea sin... NA              189913     195    195   98%   1e-59 87.38  302        VVC97730.1       
+acetylcholine receptor subunit beta-like 2 [Nomia melanderi]      Nomia melanderi Alkali bee      2448451    201    201   98%   1e-59 89.32  531        XP_031831693.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cimex...   Cimex lectul... bed bug         79782      201    201   98%   1e-59 89.32  526        XP_014244615.1   
+nicotinic acetylcholine receptor [Nesidiocoris tenuis]            Nesidiocoris... NA              355587     199    199   98%   1e-59 89.32  452        BES94537.1       
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       202    202   98%   1e-59 91.26  540        XP_049836798.1   
+Similar to nAChRbeta2: Acetylcholine receptor subunit beta-lik... Cotesia cong... NA              51543      201    201   98%   1e-59 88.35  507        CAG5099839.1     
+nicotinic acetylcholine receptor alpha subunit [Anoplophora...    Anoplophora ... Asian longho... 217634     190    190   98%   1e-59 87.38  147        AAO26581.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      201    201   98%   2e-59 89.32  534        XP_014244614.1   
+jg18891 [Pararge aegeria aegeria]                                 Pararge aege... NA              348720     194    194   98%   2e-59 87.38  274        CAH2267703.1     
+Neurotransmitter-gated ion-channel ligand binding domain...       Popillia jap... Japanese beetle 7064       194    194   98%   2e-59 86.41  271        KAK9717486.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Danaus...  Danaus plexi... monarch butt... 13037      196    196   98%   2e-59 87.38  333        XP_032514254.2   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      201    201   98%   2e-59 89.32  526        XP_018316727.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     201    201   98%   2e-59 89.32  525        XP_018360484.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       201    201   98%   2e-59 91.26  546        XP_049836797.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Odontomachus... NA              486640     199    199   98%   2e-59 88.35  455        XP_032676546.1   
+nicotinic acetylcholine receptor beta 2 [Forficula auricularia]   Forficula au... European earwig 13068      201    201   98%   2e-59 88.35  544        QFR37032.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     199    199   98%   2e-59 88.35  457        XP_012148109.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     199    199   98%   2e-59 89.32  472        CAA9994099.1     
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       200    200   98%   2e-59 90.29  515        CAA04053.1       
+Acetylcholine receptor subunit beta-like 2 [Melipona bicolor]     Melipona bic... NA              60889      201    201   98%   3e-59 89.32  520        KAK1132820.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Chrysoperla ... NA              189513     200    200   98%   3e-59 86.41  513        XP_044736372.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     201    201   98%   3e-59 90.29  540        XP_049765695.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Schistocerca... NA              7010       201    201   98%   3e-59 91.26  574        XP_049836796.1   
+GSCOCG00005697001-RA-CDS [Cotesia congregata]                     Cotesia cong... NA              51543      201    201   98%   3e-59 88.35  544        CAD6225474.1     
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       201    201   98%   3e-59 90.29  540        AHJ11218.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Nylanderia f... NA              613905     198    198   98%   3e-59 89.32  424        XP_029164273.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Microplitis ... NA              375433     201    201   98%   3e-59 88.35  545        XP_057338179.1   
+ACH4 protein [Acromyrmex heyeri]                                  Acromyrmex h... NA              230685     195    195   98%   3e-59 86.41  317        KAG5336949.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Odontomachus... NA              486640     200    200   98%   3e-59 88.35  528        XP_032676536.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... NA              7010       201    201   98%   4e-59 91.26  580        XP_049836794.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              69319      201    201   98%   4e-59 88.35  545        XP_008544210.2   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Bicyclu... Bicyclus any... squinting bu... 110368     195    195   98%   4e-59 87.38  334        XP_052742414.1   
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       201    201   98%   4e-59 90.29  546        AHJ11219.1       
+acetylcholine receptor subunit beta-like 2 protein [Lasius niger] Lasius niger    NA              67767      197    197   98%   4e-59 87.38  403        KMQ95164.1       
+hypothetical protein QLX08_011561 [Tetragonisca angustula]        Tetragonisca... NA              166442     199    199   98%   4e-59 87.38  477        KAK9293537.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Poliste... Polistes fus... common paper... 30207      197    197   98%   5e-59 87.38  395        XP_043501153.1   
+acetylcholine receptor subunit beta-like 2 isoform X3 [Maniola... Maniola jurtina meadow brown    191418     195    195   98%   5e-59 87.38  333        XP_045775318.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              34720      195    195   98%   5e-59 86.41  337        XP_018350073.1   
+hypothetical protein TSAR_004107 [Trichomalopsis sarcophagae]     Trichomalops... NA              543379     200    200   98%   5e-59 88.35  537        OXU25983.1       
+nicotinic acetylcholine receptor alpha8 variant C [Locusta...     Locusta migr... migratory lo... 7004       201    201   98%   5e-59 90.29  574        AHJ11220.1       
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... American gra... 7009       201    201   98%   5e-59 90.29  574        XP_047003447.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cotesia... Cotesia glom... NA              32391      200    200   98%   5e-59 88.35  547        XP_044575875.1   
+
+
+Query #33: TDI_10912-RA_607.fa Query ID: lcl|Query_12268566 Length: 263
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      522    522   100%  0.0   100.00 263        CAD7206958.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     244    406   72%   6e-79 98.33  120        CAD7269901.1     
+unnamed protein product [Timema genevievae]                       Timema genev... NA              629358     241    241   45%   8e-75 96.69  329        CAD7613922.1     
+unnamed protein product [Timema podura]                           Timema podura   NA              61482      241    241   52%   5e-74 86.86  382        CAG2062167.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     227    227   40%   6e-72 100.00 119        CAD7421816.1     
+unnamed protein product [Timema californicum]                     Timema calif... California t... 61474      224    224   39%   6e-71 100.00 105        CAD7581873.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      231    231   40%   2e-68 100.00 503        CAD7408956.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     225    225   40%   3e-66 98.11  508        CAD7434620.1     
+Acetylcholine receptor subunit beta-like 2 [Blattella germanica]  Blattella ge... German cockr... 6973       206    206   39%   6e-62 90.38  232        PSN34858.1       
+hypothetical protein ANN_20554 [Periplaneta americana]            Periplaneta ... American coc... 6978       210    210   39%   7e-61 91.35  468        KAJ4431945.1     
+hypothetical protein Cfor_10377 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      208    208   40%   8e-61 88.68  396        GFG34811.1       
+nicotinic acetylcholine receptor alpha8 [Protohermes xanthodes]   Protohermes ... NA              1452977    211    211   40%   9e-61 88.68  531        WXH59957.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Neodiprion v... NA              2961670    208    208   40%   1e-60 90.57  419        XP_046626058.1   
+nicotinic acetylcholine receptor alpha 4 subunit [Nilaparvata...  Nilaparvata ... brown planth... 108931     198    198   40%   2e-60 86.79  132        ACL81176.1       
+nicotinic acetylcholine receptor alpha 3 subunit [Periplaneta...  Periplaneta ... American coc... 6978       200    200   40%   2e-60 88.68  192        AFB73847.1       
+hypothetical protein J437_LFUL000286 [Ladona fulva]               Ladona fulva    scarce chaser   123851     197    197   39%   2e-59 89.32  174        KAG8226981.1     
+acetylcholine receptor subunit beta-like 2 [Diprion similis]      Diprion similis NA              362088     208    208   40%   2e-59 91.51  536        XP_046748943.1   
+unnamed protein product [Leptidea sinapis]                        Leptidea sin... NA              189913     197    197   39%   2e-59 87.50  186        VVD05794.1       
+acetylcholine receptor subunit beta-like 2 [Neodiprion lecontei]  Neodiprion l... redheaded pi... 441921     207    207   40%   2e-59 90.57  536        XP_015512110.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     202    202   40%   3e-59 87.74  338        XP_018360486.1   
+hypothetical protein NQ315_016910 [Exocentrus adspersus]          Exocentrus a... NA              1586481    199    199   42%   3e-59 81.98  251        KAJ8919006.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      202    202   40%   3e-59 87.74  338        XP_018316729.1   
+acetylcholine receptor subunit beta-like 2 isoform X5...          Leptopilina ... NA              63436      202    202   40%   3e-59 87.74  346        XP_043464845.1   
+hypothetical protein PPYR_04052 [Photinus pyralis]                Photinus pyr... common easte... 7054       196    196   39%   4e-59 84.76  158        KAB0801866.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     206    206   40%   5e-59 87.74  484        XP_067005952.1   
+acetylcholine receptor subunit beta-like 2 [Athalia rosae]        Athalia rosae   coleseed sawfly 37344      207    207   40%   5e-59 90.57  535        XP_012251055.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Microplitis ... NA              375433     201    201   40%   6e-59 86.79  340        XP_057338196.1   
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       195    195   39%   8e-59 84.76  168        XP_031333812.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Bemisia tabaci] Bemisia tabaci  NA              7038       198    198   40%   8e-59 83.96  251        QQL94345.1       
+nicotinic acetylcholine receptor alpha-3 subunit [Spodoptera...   Spodoptera e... beet armyworm   7107       194    194   40%   9e-59 85.85  128        ACI43217.1       
+ACH4 protein [Acromyrmex insinuator]                              Acromyrmex i... NA              230686     200    200   40%   1e-58 86.79  318        KAG5311287.1     
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       206    206   40%   1e-58 89.62  542        AKV94623.1       
+alpha 8 nicotinic acetylcholine receptor subunit [Periplaneta...  Periplaneta ... American coc... 6978       206    206   40%   1e-58 89.62  540        QQH14654.1       
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       206    206   40%   2e-58 88.68  536        QQH14664.1       
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     206    206   40%   2e-58 89.62  536        XP_023721509.1   
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      206    206   40%   2e-58 90.57  540        XP_063232582.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      202    202   40%   2e-58 87.74  423        XP_018316728.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Chrysoperla ... NA              189513     203    203   40%   2e-58 84.91  435        XP_044736374.1   
+hypothetical protein O3M35_008629 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     201    201   40%   2e-58 85.85  377        KAK9506752.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     202    202   40%   2e-58 87.74  422        XP_018360485.1   
+acetylcholine receptor subunit beta-like 2 [Solenopsis invicta]   Solenopsis i... red fire ant    13686      205    205   40%   2e-58 87.74  529        XP_025990001.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     205    205   40%   3e-58 87.74  546        XP_067005935.1   
+Acetylcholine receptor subunit beta-like 2 [Melipona...           Melipona qua... NA              166423     204    204   40%   3e-58 88.68  527        KOX75921.1       
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       204    204   40%   3e-58 89.62  528        QRN45450.1       
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       205    205   40%   3e-58 89.62  543        QRN45449.1       
+nicotinic acetylcholine receptor a11 subunit splice variant...    Tribolium ca... red flour be... 7070       199    199   40%   4e-58 84.91  334        ACP31315.1       
+acetylcholine receptor subunit beta-like 2 [Frieseomelitta varia] Frieseomelit... NA              561572     204    204   40%   4e-58 87.74  532        XP_043508786.1   
+nicotinic acetylcholine receptor beta 2 [Forficula auricularia]   Forficula au... European earwig 13068      205    205   40%   4e-58 86.79  544        QFR37032.1       
+hypothetical protein E2986_01211 [Frieseomelitta varia]           Frieseomelit... NA              561572     204    204   40%   4e-58 87.74  526        KAF3427871.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Nylanderia f... NA              613905     201    201   40%   5e-58 87.74  424        XP_029164273.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Cyphomyrmex ... NA              456900     204    204   40%   6e-58 88.68  527        XP_018394350.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Cyphomyrmex ... NA              456900     204    204   40%   6e-58 88.68  526        XP_018394351.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Pogonomyrmex... red harveste... 144034     197    197   40%   6e-58 85.85  279        XP_025073994.1   
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex zeteki]  Trachymyrmex... NA              64791      202    202   40%   6e-58 87.74  461        KYQ59320.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Chrysoperla ... NA              189513     203    203   40%   6e-58 84.91  513        XP_044736372.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Microplitis ... NA              69319      202    202   40%   7e-58 86.79  445        XP_053597265.1   
+acetylcholine receptor subunit beta-like 2 [Hyposmocoma...        Hyposmocoma ... NA              1477025    198    198   40%   7e-58 86.79  333        XP_026325849.1   
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       204    204   40%   8e-58 89.62  540        XP_049836798.1   
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex...       Trachymyrmex... NA              471704     202    202   40%   8e-58 87.74  460        KYN21946.1       
+acetylcholine receptor subunit beta-like 2 [Nomia melanderi]      Nomia melanderi Alkali bee      2448451    203    203   40%   9e-58 87.74  531        XP_031831693.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Odontomachus... NA              486640     202    202   40%   9e-58 86.79  455        XP_032676546.1   
+acetylcholine receptor subunit beta-like 2 [Halyomorpha halys]    Halyomorpha ... brown marmor... 286706     198    198   40%   9e-58 85.85  331        XP_014291973.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cimex...   Cimex lectul... bed bug         79782      203    203   40%   9e-58 87.74  526        XP_014244615.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       204    204   40%   1e-57 89.62  546        XP_049836797.1   
+nicotinic acetylcholine receptor [Nesidiocoris tenuis]            Nesidiocoris... NA              355587     201    201   40%   1e-57 87.74  452        BES94537.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      203    203   40%   1e-57 87.74  534        XP_014244614.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     201    201   40%   1e-57 86.79  457        XP_012148109.1   
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       198    198   40%   1e-57 83.96  339        XP_031333789.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              375433     201    201   40%   1e-57 86.79  472        XP_057338187.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Schistocerca... NA              7010       204    204   40%   1e-57 89.62  574        XP_049836796.1   
+jg18891 [Pararge aegeria aegeria]                                 Pararge aege... NA              348720     196    196   40%   1e-57 85.85  274        CAH2267703.1     
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     203    203   40%   2e-57 88.68  540        XP_049765695.1   
+Neurotransmitter-gated ion-channel ligand binding domain...       Popillia jap... Japanese beetle 7064       196    196   40%   2e-57 84.91  271        KAK9717486.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      202    202   40%   2e-57 87.74  526        XP_018316727.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Odontomachus... NA              486640     202    202   40%   2e-57 86.79  528        XP_032676536.1   
+Acetylcholine receptor subunit beta-like 2 [Melipona bicolor]     Melipona bic... NA              60889      202    202   40%   2e-57 87.74  520        KAK1132820.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     202    202   40%   2e-57 87.74  525        XP_018360484.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Danaus...  Danaus plexi... monarch butt... 13037      197    197   40%   2e-57 85.85  333        XP_032514254.2   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... NA              7010       204    204   40%   2e-57 89.62  580        XP_049836794.1   
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       202    202   40%   2e-57 88.68  515        CAA04053.1       
+nicotinic acetylcholine receptor alpha8 subunit [Periplaneta...   Periplaneta ... American coc... 6978       202    202   40%   2e-57 88.68  538        AFA28130.1       
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     201    201   40%   2e-57 87.74  472        CAA9994099.1     
+unnamed protein product [Leptidea sinapis]                        Leptidea sin... NA              189913     196    196   39%   2e-57 87.38  302        VVC97730.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Leptopilina ... NA              63436      202    202   40%   2e-57 87.74  536        XP_043464842.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Poliste... Polistes fus... common paper... 30207      199    199   40%   2e-57 85.85  395        XP_043501153.1   
+acetylcholine receptor subunit beta-like 2 protein [Lasius niger] Lasius niger    NA              67767      199    199   40%   2e-57 85.85  403        KMQ95164.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Leptopilina ... NA              63436      202    202   40%   3e-57 87.74  544        XP_043464841.1   
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       202    202   40%   3e-57 88.68  540        AHJ11218.1       
+nicotinic acetylcholine receptor alpha subunit [Anoplophora...    Anoplophora ... Asian longho... 217634     191    191   40%   3e-57 85.85  147        AAO26581.1       
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... American gra... 7009       203    203   40%   3e-57 88.68  574        XP_047003447.1   
+Similar to nAChRbeta2: Acetylcholine receptor subunit beta-lik... Cotesia cong... NA              51543      201    201   40%   3e-57 86.79  507        CAG5099839.1     
+ACH4 protein [Acromyrmex heyeri]                                  Acromyrmex h... NA              230685     196    196   40%   3e-57 84.91  317        KAG5336949.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Nylanderia f... NA              613905     202    202   40%   4e-57 87.74  528        XP_029164271.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2...          Acromyrmex e... Panamanian l... 103372     202    202   40%   4e-57 86.79  526        XP_011049287.1   
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       202    202   40%   4e-57 88.68  546        AHJ11219.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... South Americ... 274614     203    203   40%   4e-57 88.68  580        XP_049765693.1   
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... NA              2023355    202    202   40%   4e-57 88.68  576        XP_049938330.1   
+hypothetical protein QLX08_011561 [Tetragonisca angustula]        Tetragonisca... NA              166442     200    200   40%   4e-57 85.85  477        KAK9293537.1     
+GSCOCG00005697001-RA-CDS [Cotesia congregata]                     Cotesia cong... NA              51543      202    202   40%   4e-57 86.79  544        CAD6225474.1     
+acetylcholine receptor subunit beta-like 2 isoform X3 [Bicyclu... Bicyclus any... squinting bu... 110368     196    196   40%   4e-57 85.85  334        XP_052742414.1   
+
+
+Query #34: TSI_13306-RA_607.fa Query ID: lcl|Query_12268567 Length: 120
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     251    251   100%  1e-83 100.00 120        CAD7269901.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      244    406   100%  3e-79 98.33  263        CAD7206958.1     
+unnamed protein product [Timema genevievae]                       Timema genev... NA              629358     241    241   100%  7e-77 96.69  329        CAD7613922.1     
+unnamed protein product [Timema podura]                           Timema podura   NA              61482      239    239   100%  1e-75 96.69  382        CAG2062167.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     224    224   88%   3e-73 100.00 119        CAD7421816.1     
+unnamed protein product [Timema californicum]                     Timema calif... California t... 61474      221    221   87%   3e-72 100.00 105        CAD7581873.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      227    227   88%   1e-69 100.00 503        CAD7408956.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     222    222   88%   2e-67 98.11  508        CAD7434620.1     
+Acetylcholine receptor subunit beta-like 2 [Blattella germanica]  Blattella ge... German cockr... 6973       203    203   86%   2e-63 90.38  232        PSN34858.1       
+hypothetical protein Cfor_10377 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      206    206   88%   3e-62 88.68  396        GFG34811.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Neodiprion v... NA              2961670    206    206   88%   4e-62 90.57  419        XP_046626058.1   
+nicotinic acetylcholine receptor alpha 4 subunit [Nilaparvata...  Nilaparvata ... brown planth... 108931     196    196   88%   4e-62 86.79  132        ACL81176.1       
+nicotinic acetylcholine receptor alpha8 [Protohermes xanthodes]   Protohermes ... NA              1452977    208    208   88%   5e-62 88.68  531        WXH59957.1       
+hypothetical protein ANN_20554 [Periplaneta americana]            Periplaneta ... American coc... 6978       207    207   86%   5e-62 91.35  468        KAJ4431945.1     
+nicotinic acetylcholine receptor alpha 3 subunit [Periplaneta...  Periplaneta ... American coc... 6978       197    197   88%   1e-61 88.68  192        AFB73847.1       
+hypothetical protein NQ315_016910 [Exocentrus adspersus]          Exocentrus a... NA              1586481    198    198   92%   4e-61 81.98  251        KAJ8919006.1     
+unnamed protein product [Leptidea sinapis]                        Leptidea sin... NA              189913     196    196   86%   4e-61 87.50  186        VVD05794.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     201    201   88%   5e-61 87.74  338        XP_018360486.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      201    201   88%   6e-61 87.74  338        XP_018316729.1   
+acetylcholine receptor subunit beta-like 2 [Diprion similis]      Diprion similis NA              362088     206    206   88%   6e-61 91.51  536        XP_046748943.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Microplitis ... NA              375433     200    200   88%   7e-61 86.79  340        XP_057338196.1   
+hypothetical protein J437_LFUL000286 [Ladona fulva]               Ladona fulva    scarce chaser   123851     195    195   85%   7e-61 89.32  174        KAG8226981.1     
+acetylcholine receptor subunit beta-like 2 [Neodiprion lecontei]  Neodiprion l... redheaded pi... 441921     205    205   88%   9e-61 90.57  536        XP_015512110.1   
+hypothetical protein PPYR_04052 [Photinus pyralis]                Photinus pyr... common easte... 7054       194    194   87%   1e-60 84.76  158        KAB0801866.1     
+acetylcholine receptor subunit beta-like 2 isoform X5...          Leptopilina ... NA              63436      200    200   88%   1e-60 87.74  346        XP_043464845.1   
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       194    194   87%   1e-60 84.76  168        XP_031333812.1   
+acetylcholine receptor subunit beta-like 2 [Athalia rosae]        Athalia rosae   coleseed sawfly 37344      204    204   88%   2e-60 90.57  535        XP_012251055.1   
+nicotinic acetylcholine receptor alpha-3 subunit [Spodoptera...   Spodoptera e... beet armyworm   7107       192    192   88%   2e-60 85.85  128        ACI43217.1       
+nicotinic acetylcholine receptor alpha 8 subunit [Bemisia tabaci] Bemisia tabaci  NA              7038       196    196   88%   2e-60 83.96  251        QQL94345.1       
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     203    203   88%   2e-60 87.74  484        XP_067005952.1   
+ACH4 protein [Acromyrmex insinuator]                              Acromyrmex i... NA              230686     198    198   88%   3e-60 86.79  318        KAG5311287.1     
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      204    204   88%   3e-60 90.57  540        XP_063232582.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      201    201   88%   3e-60 87.74  423        XP_018316728.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     201    201   88%   4e-60 87.74  422        XP_018360485.1   
+hypothetical protein O3M35_008629 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     199    199   88%   4e-60 85.85  377        KAK9506752.1     
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       203    203   88%   5e-60 89.62  528        QRN45450.1       
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       204    204   88%   5e-60 89.62  542        AKV94623.1       
+alpha 8 nicotinic acetylcholine receptor subunit [Periplaneta...  Periplaneta ... American coc... 6978       203    203   88%   5e-60 89.62  540        QQH14654.1       
+acetylcholine receptor subunit beta-like 2 [Solenopsis invicta]   Solenopsis i... red fire ant    13686      203    203   88%   6e-60 87.74  529        XP_025990001.1   
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       203    203   88%   6e-60 89.62  543        QRN45449.1       
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       203    203   88%   6e-60 88.68  536        QQH14664.1       
+nicotinic acetylcholine receptor a11 subunit splice variant...    Tribolium ca... red flour be... 7070       197    197   88%   7e-60 84.91  334        ACP31315.1       
+Acetylcholine receptor subunit beta-like 2 [Melipona...           Melipona qua... NA              166423     202    202   88%   9e-60 88.68  527        KOX75921.1       
+acetylcholine receptor subunit beta-like 2 isoform X3...          Microplitis ... NA              69319      201    201   88%   9e-60 86.79  445        XP_053597265.1   
+hypothetical protein E2986_01211 [Frieseomelitta varia]           Frieseomelit... NA              561572     202    202   88%   1e-59 87.74  526        KAF3427871.1     
+acetylcholine receptor subunit beta-like 2 [Frieseomelitta varia] Frieseomelit... NA              561572     202    202   88%   1e-59 87.74  532        XP_043508786.1   
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     203    203   88%   1e-59 87.74  546        XP_067005935.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Chrysoperla ... NA              189513     200    200   88%   1e-59 84.91  435        XP_044736374.1   
+acetylcholine receptor subunit beta-like 2 [Hyposmocoma...        Hyposmocoma ... NA              1477025    197    197   88%   1e-59 86.79  333        XP_026325849.1   
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     202    202   88%   1e-59 89.62  536        XP_023721509.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Pogonomyrmex... red harveste... 144034     195    195   88%   1e-59 85.85  279        XP_025073994.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Cyphomyrmex ... NA              456900     202    202   88%   1e-59 88.68  527        XP_018394350.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Cyphomyrmex ... NA              456900     202    202   88%   1e-59 88.68  526        XP_018394351.1   
+acetylcholine receptor subunit beta-like 2 [Halyomorpha halys]    Halyomorpha ... brown marmor... 286706     197    197   88%   2e-59 85.85  331        XP_014291973.1   
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex zeteki]  Trachymyrmex... NA              64791      200    200   88%   2e-59 87.74  461        KYQ59320.1       
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex...       Trachymyrmex... NA              471704     200    200   88%   2e-59 87.74  460        KYN21946.1       
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       202    202   88%   2e-59 89.62  540        XP_049836798.1   
+acetylcholine receptor subunit beta-like 2 [Nomia melanderi]      Nomia melanderi Alkali bee      2448451    202    202   88%   2e-59 87.74  531        XP_031831693.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              375433     200    200   88%   2e-59 86.79  472        XP_057338187.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cimex...   Cimex lectul... bed bug         79782      201    201   88%   2e-59 87.74  526        XP_014244615.1   
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       196    196   88%   2e-59 83.96  339        XP_031333789.1   
+nicotinic acetylcholine receptor [Nesidiocoris tenuis]            Nesidiocoris... NA              355587     199    199   88%   2e-59 87.74  452        BES94537.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      201    201   88%   3e-59 87.74  534        XP_014244614.1   
+Neurotransmitter-gated ion-channel ligand binding domain...       Popillia jap... Japanese beetle 7064       194    194   88%   3e-59 84.91  271        KAK9717486.1     
+nicotinic acetylcholine receptor beta 2 [Forficula auricularia]   Forficula au... European earwig 13068      201    201   88%   3e-59 86.79  544        QFR37032.1       
+jg18891 [Pararge aegeria aegeria]                                 Pararge aege... NA              348720     194    194   88%   3e-59 85.85  274        CAH2267703.1     
+unnamed protein product [Leptidea sinapis]                        Leptidea sin... NA              189913     195    195   85%   3e-59 87.38  302        VVC97730.1       
+Similar to nAChRbeta2: Acetylcholine receptor subunit beta-lik... Cotesia cong... NA              51543      201    201   88%   3e-59 86.79  507        CAG5099839.1     
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       201    201   88%   3e-59 89.62  546        XP_049836797.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     199    199   88%   3e-59 86.79  457        XP_012148109.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      201    201   88%   3e-59 87.74  526        XP_018316727.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     201    201   88%   3e-59 87.74  525        XP_018360484.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Danaus...  Danaus plexi... monarch butt... 13037      196    196   88%   3e-59 85.85  333        XP_032514254.2   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Odontomachus... NA              486640     199    199   88%   3e-59 86.79  455        XP_032676546.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Chrysoperla ... NA              189513     201    201   88%   3e-59 84.91  513        XP_044736372.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     201    201   88%   4e-59 88.68  540        XP_049765695.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     199    199   88%   4e-59 87.74  472        CAA9994099.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Nylanderia f... NA              613905     198    198   88%   4e-59 87.74  424        XP_029164273.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Schistocerca... NA              7010       202    202   88%   4e-59 89.62  574        XP_049836796.1   
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       201    201   88%   4e-59 88.68  515        CAA04053.1       
+Acetylcholine receptor subunit beta-like 2 [Melipona bicolor]     Melipona bic... NA              60889      201    201   88%   4e-59 87.74  520        KAK1132820.1     
+nicotinic acetylcholine receptor alpha subunit [Anoplophora...    Anoplophora ... Asian longho... 217634     189    189   88%   5e-59 85.85  147        AAO26581.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Odontomachus... NA              486640     201    201   88%   6e-59 86.79  528        XP_032676536.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Microplitis ... NA              375433     201    201   88%   6e-59 86.79  545        XP_057338179.1   
+GSCOCG00005697001-RA-CDS [Cotesia congregata]                     Cotesia cong... NA              51543      201    201   88%   6e-59 86.79  544        CAD6225474.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... NA              7010       201    201   88%   6e-59 89.62  580        XP_049836794.1   
+ACH4 protein [Acromyrmex heyeri]                                  Acromyrmex h... NA              230685     195    195   88%   6e-59 84.91  317        KAG5336949.1     
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       201    201   88%   6e-59 88.68  540        AHJ11218.1       
+acetylcholine receptor subunit beta-like 2 isoform X3 [Bicyclu... Bicyclus any... squinting bu... 110368     195    195   88%   7e-59 85.85  334        XP_052742414.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              69319      201    201   88%   7e-59 86.79  545        XP_008544210.2   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Poliste... Polistes fus... common paper... 30207      197    197   88%   7e-59 85.85  395        XP_043501153.1   
+acetylcholine receptor subunit beta-like 2 protein [Lasius niger] Lasius niger    NA              67767      197    197   88%   7e-59 85.85  403        KMQ95164.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Leptopilina ... NA              63436      200    200   88%   7e-59 87.74  536        XP_043464842.1   
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       201    201   88%   7e-59 88.68  546        AHJ11219.1       
+acetylcholine receptor subunit beta-like 2 isoform X3 [Maniola... Maniola jurtina meadow brown    191418     195    195   88%   8e-59 85.85  333        XP_045775318.1   
+hypothetical protein QLX08_011561 [Tetragonisca angustula]        Tetragonisca... NA              166442     199    199   88%   8e-59 85.85  477        KAK9293537.1     
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... American gra... 7009       201    201   88%   9e-59 88.68  574        XP_047003447.1   
+nicotinic acetylcholine receptor alpha8 subunit [Periplaneta...   Periplaneta ... American coc... 6978       200    200   88%   9e-59 88.68  538        AFA28130.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Leptopilina ... NA              63436      200    200   88%   9e-59 87.74  544        XP_043464841.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              34720      195    195   88%   9e-59 84.91  337        XP_018350073.1   
+
+
+Query #35: TPS_14040-RA_607.fa Query ID: lcl|Query_12268568 Length: 119
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     251    251   100%  4e-84 100.00 119        CAD7421816.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     224    224   89%   3e-73 100.00 120        CAD7269901.1     
+unnamed protein product [Timema californicum]                     Timema calif... California t... 61474      223    223   88%   7e-73 100.00 105        CAD7581873.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      235    235   94%   1e-72 96.46  503        CAD7408956.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      227    227   89%   3e-72 100.00 263        CAD7206958.1     
+unnamed protein product [Timema genevievae]                       Timema genev... NA              629358     225    225   88%   1e-70 100.00 329        CAD7613922.1     
+unnamed protein product [Timema podura]                           Timema podura   NA              61482      224    224   88%   1e-69 100.00 382        CAG2062167.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     224    224   93%   2e-68 94.59  508        CAD7434620.1     
+Acetylcholine receptor subunit beta-like 2 [Blattella germanica]  Blattella ge... German cockr... 6973       204    204   87%   9e-64 90.38  232        PSN34858.1       
+hypothetical protein Cfor_10377 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      208    208   93%   2e-63 85.59  396        GFG34811.1       
+nicotinic acetylcholine receptor alpha 4 subunit [Nilaparvata...  Nilaparvata ... brown planth... 108931     199    199   93%   3e-63 83.78  132        ACL81176.1       
+acetylcholine receptor subunit beta-like 2 isoform X2...          Neodiprion v... NA              2961670    208    208   90%   5e-63 89.81  419        XP_046626058.1   
+nicotinic acetylcholine receptor alpha8 [Protohermes xanthodes]   Protohermes ... NA              1452977    210    210   89%   1e-62 88.68  531        WXH59957.1       
+nicotinic acetylcholine receptor alpha 3 subunit [Periplaneta...  Periplaneta ... American coc... 6978       199    199   93%   2e-62 85.59  192        AFB73847.1       
+acetylcholine receptor subunit beta-like 2 isoform X3...          Microplitis ... NA              375433     204    204   90%   3e-62 86.11  340        XP_057338196.1   
+hypothetical protein ANN_20554 [Periplaneta americana]            Periplaneta ... American coc... 6978       207    207   87%   4e-62 91.35  468        KAJ4431945.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     203    203   90%   4e-62 87.04  338        XP_018360486.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      203    203   90%   5e-62 87.04  338        XP_018316729.1   
+acetylcholine receptor subunit beta-like 2 [Diprion similis]      Diprion similis NA              362088     208    208   90%   6e-62 90.74  536        XP_046748943.1   
+unnamed protein product [Leptidea sinapis]                        Leptidea sin... NA              189913     197    197   87%   8e-62 87.50  186        VVD05794.1       
+acetylcholine receptor subunit beta-like 2 [Neodiprion lecontei]  Neodiprion l... redheaded pi... 441921     208    208   90%   9e-62 89.81  536        XP_015512110.1   
+acetylcholine receptor subunit beta-like 2 [Athalia rosae]        Athalia rosae   coleseed sawfly 37344      207    207   90%   1e-61 89.81  535        XP_012251055.1   
+acetylcholine receptor subunit beta-like 2 isoform X5...          Leptopilina ... NA              63436      202    202   90%   2e-61 87.04  346        XP_043464845.1   
+hypothetical protein J437_LFUL000286 [Ladona fulva]               Ladona fulva    scarce chaser   123851     196    196   86%   2e-61 89.32  174        KAG8226981.1     
+acetylcholine receptor subunit beta-like 2 isoform X2 [Anabrus... Anabrus simplex Mormon cricket  316456     206    206   93%   2e-61 84.68  484        XP_067005952.1   
+acetylcholine receptor subunit beta-like 2 [Bacillus rossius...   Bacillus ros... NA              93214      207    207   93%   2e-61 87.39  540        XP_063232582.1   
+hypothetical protein PPYR_04052 [Photinus pyralis]                Photinus pyr... common easte... 7054       195    195   87%   3e-61 85.58  158        KAB0801866.1     
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      204    204   90%   3e-61 87.04  423        XP_018316728.1   
+ACH4 protein [Acromyrmex insinuator]                              Acromyrmex i... NA              230686     201    201   90%   3e-61 86.11  318        KAG5311287.1     
+hypothetical protein NQ315_016910 [Exocentrus adspersus]          Exocentrus a... NA              1586481    198    198   89%   3e-61 84.91  251        KAJ8919006.1     
+nicotinic ACH-alpha8 receptor isoform X2 [Carausius morosus]      Carausius mo... Indian stick... 7022       206    206   93%   3e-61 86.49  528        QRN45450.1       
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       195    195   87%   3e-61 85.58  168        XP_031333812.1   
+nicotinic acetylcholine receptor alpha-3 subunit [Spodoptera...   Spodoptera e... beet armyworm   7107       194    194   89%   4e-61 85.85  128        ACI43217.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     203    203   90%   4e-61 87.04  422        XP_018360485.1   
+nicotinic ACH-alpha8 receptor isoform X1 [Carausius morosus]      Carausius mo... Indian stick... 7022       206    206   93%   4e-61 86.49  543        QRN45449.1       
+acetylcholine receptor subunit beta-like 2 [Solenopsis invicta]   Solenopsis i... red fire ant    13686      206    206   90%   4e-61 87.04  529        XP_025990001.1   
+nicotinic acetylcholine receptor alpha8 variant A [Periplaneta... Periplaneta ... American coc... 6978       206    206   100%  4e-61 81.51  542        AKV94623.1       
+hypothetical protein O3M35_008629 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     202    202   93%   4e-61 82.88  377        KAK9506752.1     
+alpha 8 nicotinic acetylcholine receptor subunit [Periplaneta...  Periplaneta ... American coc... 6978       206    206   90%   7e-61 88.89  540        QQH14654.1       
+acetylcholine receptor subunit beta-like 2 isoform X3...          Microplitis ... NA              69319      203    203   90%   7e-61 86.11  445        XP_053597265.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Bemisia tabaci] Bemisia tabaci  NA              7038       197    197   89%   7e-61 83.96  251        QQL94345.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Anabrus... Anabrus simplex Mormon cricket  316456     206    206   93%   8e-61 84.68  546        XP_067005935.1   
+nicotinic acetylcholine receptor alpha 8 subunit [Blattella...    Blattella ge... German cockr... 6973       205    205   93%   8e-61 85.59  536        QQH14664.1       
+hypothetical protein E2986_01211 [Frieseomelitta varia]           Frieseomelit... NA              561572     205    205   90%   1e-60 87.04  526        KAF3427871.1     
+acetylcholine receptor subunit beta-like 2 [Frieseomelitta varia] Frieseomelit... NA              561572     205    205   90%   1e-60 87.04  532        XP_043508786.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Pogonomyrmex... red harveste... 144034     198    198   90%   1e-60 85.19  279        XP_025073994.1   
+Acetylcholine receptor subunit beta-like 2 [Melipona...           Melipona qua... NA              166423     205    205   90%   1e-60 87.96  527        KOX75921.1       
+acetylcholine receptor subunit beta-like 2 [Cryptotermes...       Cryptotermes... NA              105785     205    205   93%   1e-60 86.49  536        XP_023721509.1   
+acetylcholine receptor subunit beta-like 2 [Halyomorpha halys]    Halyomorpha ... brown marmor... 286706     199    199   90%   1e-60 85.19  331        XP_014291973.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Cyphomyrmex ... NA              456900     204    204   90%   1e-60 87.96  526        XP_018394351.1   
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex...       Trachymyrmex... NA              471704     203    203   90%   1e-60 87.04  460        KYN21946.1       
+Acetylcholine receptor subunit beta-like 2 [Trachymyrmex zeteki]  Trachymyrmex... NA              64791      203    203   90%   1e-60 87.04  461        KYQ59320.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Cyphomyrmex ... NA              456900     204    204   90%   1e-60 87.96  527        XP_018394350.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              375433     203    203   90%   2e-60 86.11  472        XP_057338187.1   
+acetylcholine receptor subunit beta-like 2 [Nomia melanderi]      Nomia melanderi Alkali bee      2448451    204    204   90%   2e-60 87.04  531        XP_031831693.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cimex...   Cimex lectul... bed bug         79782      204    204   93%   2e-60 84.68  526        XP_014244615.1   
+nicotinic acetylcholine receptor a11 subunit splice variant...    Tribolium ca... red flour be... 7070       199    199   89%   2e-60 84.91  334        ACP31315.1       
+Similar to nAChRbeta2: Acetylcholine receptor subunit beta-lik... Cotesia cong... NA              51543      203    203   90%   2e-60 86.11  507        CAG5099839.1     
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cimex...   Cimex lectul... bed bug         79782      204    204   93%   3e-60 84.68  534        XP_014244614.1   
+acetylcholine receptor subunit beta-like 2 [Hyposmocoma...        Hyposmocoma ... NA              1477025    199    199   89%   3e-60 86.79  333        XP_026325849.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Odontomachus... NA              486640     202    202   90%   3e-60 86.11  455        XP_032676546.1   
+nicotinic acetylcholine receptor [Nesidiocoris tenuis]            Nesidiocoris... NA              355587     202    202   93%   3e-60 84.68  452        BES94537.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              64791      204    204   90%   3e-60 87.04  526        XP_018316727.1   
+acetylcholine receptor subunit beta-like 2 isoform X4...          Schistocerca... NA              7010       204    204   90%   3e-60 88.89  540        XP_049836798.1   
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Megachile ro... alfalfa leaf... 143995     202    202   90%   3e-60 86.11  457        XP_012148109.1   
+nicotinic acetylcholine receptor, alpha2 subunit [Locusta...      Locusta migr... migratory lo... 7004       203    203   90%   3e-60 87.96  515        CAA04053.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              471704     203    203   90%   4e-60 87.04  525        XP_018360484.1   
+GSCOCG00005697001-RA-CDS [Cotesia congregata]                     Cotesia cong... NA              51543      204    204   90%   4e-60 86.11  544        CAD6225474.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Chrysoperla ... NA              189513     201    201   89%   4e-60 84.91  435        XP_044736374.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... NA              7010       204    204   90%   4e-60 88.89  546        XP_049836797.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Nylanderia f... NA              613905     201    201   90%   4e-60 87.04  424        XP_029164273.1   
+ACH4 protein [Acromyrmex heyeri]                                  Acromyrmex h... NA              230685     197    197   90%   4e-60 84.26  317        KAG5336949.1     
+Acetylcholine receptor subunit beta-like 2 [Melipona bicolor]     Melipona bic... NA              60889      203    203   90%   4e-60 87.04  520        KAK1132820.1     
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     202    202   90%   4e-60 87.04  472        CAA9994099.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Microplitis ... NA              375433     204    204   90%   5e-60 86.11  545        XP_057338179.1   
+acetylcholine receptor subunit beta-like 2 [Photinus pyralis]     Photinus pyr... common easte... 7054       198    198   89%   5e-60 83.96  339        XP_031333789.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Schistocerca... NA              7010       204    204   90%   5e-60 88.89  574        XP_049836796.1   
+acetylcholine receptor subunit beta-like 2 isoform X2...          Microplitis ... NA              69319      204    204   90%   5e-60 86.11  545        XP_008544210.2   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Odontomachus... NA              486640     203    203   90%   5e-60 86.11  528        XP_032676536.1   
+nicotinic acetylcholine receptor alpha8 variant A [Locusta...     Locusta migr... migratory lo... 7004       203    203   90%   5e-60 87.96  540        AHJ11218.1       
+acetylcholine receptor subunit beta-like 2 protein [Lasius niger] Lasius niger    NA              67767      200    200   90%   6e-60 85.19  403        KMQ95164.1       
+acetylcholine receptor subunit beta-like 2 isoform X2 [Poliste... Polistes fus... common paper... 30207      199    199   90%   6e-60 85.19  395        XP_043501153.1   
+acetylcholine receptor subunit beta-like 2 isoform X3...          Schistocerca... South Americ... 274614     203    203   90%   7e-60 87.96  540        XP_049765695.1   
+hypothetical protein TSAR_004107 [Trichomalopsis sarcophagae]     Trichomalops... NA              543379     203    203   90%   7e-60 86.11  537        OXU25983.1       
+acetylcholine receptor subunit beta-like 2 isoform X1...          Schistocerca... NA              7010       204    204   90%   7e-60 88.89  580        XP_049836794.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Danaus...  Danaus plexi... monarch butt... 13037      197    197   89%   7e-60 85.85  333        XP_032514254.2   
+nicotinic acetylcholine receptor alpha8 variant B [Locusta...     Locusta migr... migratory lo... 7004       203    203   90%   7e-60 87.96  546        AHJ11219.1       
+PREDICTED: acetylcholine receptor subunit beta-like 2 isoform ... Trachymyrmex... NA              34720      197    197   90%   7e-60 84.26  337        XP_018350073.1   
+Neurotransmitter-gated ion-channel ligand binding domain...       Popillia jap... Japanese beetle 7064       196    196   89%   7e-60 84.91  271        KAK9717486.1     
+acetylcholine receptor subunit beta-like 2 isoform X2...          Leptopilina ... NA              63436      203    203   90%   8e-60 87.04  536        XP_043464842.1   
+unnamed protein product [Leptidea sinapis]                        Leptidea sin... NA              189913     196    196   86%   8e-60 87.38  302        VVC97730.1       
+jg18891 [Pararge aegeria aegeria]                                 Pararge aege... NA              348720     196    196   89%   8e-60 85.85  274        CAH2267703.1     
+nicotinic acetylcholine receptor alpha 8 subunit precursor...     Nasonia vitr... jewel wasp      7425       202    202   90%   9e-60 86.11  537        NP_001166022.1   
+acetylcholine receptor subunit beta-like 2 isoform X1...          Microplitis ... NA              69319      203    203   90%   9e-60 86.11  564        XP_053597262.1   
+hypothetical protein QLX08_011561 [Tetragonisca angustula]        Tetragonisca... NA              166442     201    201   90%   9e-60 85.19  477        KAK9293537.1     
+acetylcholine receptor subunit beta-like 2 isoform X1...          Leptopilina ... NA              63436      203    203   90%   1e-59 87.04  544        XP_043464841.1   
+acetylcholine receptor subunit beta-like 2 isoform X2 [Cotesia... Cotesia glom... NA              32391      202    202   90%   1e-59 86.11  544        XP_044575876.1   
+acetylcholine receptor subunit beta-like 2 [Schistocerca...       Schistocerca... American gra... 7009       203    203   90%   1e-59 87.96  574        XP_047003447.1   
+nicotinic acetylcholine receptor alpha subunit [Anoplophora...    Anoplophora ... Asian longho... 217634     191    191   89%   1e-59 85.85  147        AAO26581.1       
+acetylcholine receptor subunit beta-like 2 isoform X1 [Cotesia... Cotesia glom... NA              32391      202    202   90%   1e-59 86.11  547        XP_044575875.1   
+
+
