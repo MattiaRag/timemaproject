@@ -1,0 +1,963 @@
+Query #27: TBI_04836-RA_8627.fa Query ID: lcl|Query_4631418 Length: 59
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+hypothetical protein PR048_016036 [Dryococelus australis]         Dryococelus ... NA              614101     123    123   100%  7e-34 98.31  162        KAJ8884179.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     121    121   100%  9e-34 100.00 116        CAD7421101.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      121    121   100%  1e-33 100.00 116        CAD7202916.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     121    121   100%  1e-33 100.00 109        CAD7263747.1     
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      119    119   100%  2e-33 100.00 77         CAD7458017.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      119    119   100%  3e-33 100.00 59         CAD7417722.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     120    120   100%  4e-33 100.00 134        CAD7434346.1     
+hypothetical protein J437_LFUL008894 [Ladona fulva]               Ladona fulva    scarce chaser   123851     118    118   100%  7e-33 98.31  81         KAG8231973.1     
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     118    118   100%  1e-32 98.31  88         KAK6641194.1     
+ubiquitin-like protein 5 [Anabrus simplex]                        Anabrus simplex Mormon cricket  316456     117    117   100%  1e-32 98.31  73         XP_066993644.1   
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     117    117   100%  2e-32 98.31  88         KAK6637079.1     
+ubiquitin-like protein 5 [Zootermopsis nevadensis]                Zootermopsis... NA              136037     117    117   100%  3e-32 94.92  93         XP_021934305.1   
+ubiquitin-like protein 5 [Leptopilina heterotoma]                 Leptopilina ... NA              63436      116    116   100%  3e-32 96.61  73         XP_043463603.1   
+hypothetical protein AAG570_008816 [Ranatra chinensis]            Ranatra chin... NA              642074     116    116   100%  4e-32 96.61  65         KAL1138754.1     
+ubiquitin-like protein 5 [Homalodisca vitripennis]                Homalodisca ... glassy-winge... 197043     116    116   100%  4e-32 96.61  73         XP_046669453.1   
+hypothetical protein Cfor_11874 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      116    116   100%  4e-32 96.61  82         GFG40056.1       
+Ubiquitin-like protein 5 [Blattella germanica]                    Blattella ge... German cockr... 6973       116    116   100%  4e-32 96.61  79         PSN34762.1       
+Ubiquitin-like protein 5 [Cryptotermes secundus]                  Cryptotermes... NA              105785     115    115   100%  7e-32 96.61  68         PNF41911.1       
+hypothetical protein L798_08732 [Zootermopsis nevadensis]         Zootermopsis... NA              136037     115    115   100%  7e-32 94.92  64         KDR23525.1       
+ubiquitin-like protein 5 [Penaeus indicus]                        Penaeus indicus NA              29960      116    116   100%  1e-31 93.22  113        XP_063613409.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     115    115   100%  1e-31 94.92  73         CAB0003664.1     
+ubiquitin-like protein 5 [Macrosteles quadrilineatus]             Macrosteles ... aster leafho... 74068      115    115   100%  1e-31 96.61  73         XP_054272978.1   
+EOG090X0OUK [Leptodora kindtii]                                   Leptodora ki... NA              77707      115    115   100%  1e-31 91.53  73         CAG4645326.1     
+putative ubiquitin-like protein 5 isoform X2 [Penaeus vannamei]   Penaeus vann... Pacific whit... 6689       116    116   100%  1e-31 93.22  113        ROT81264.1       
+uncharacterized protein Phum_PHUM195490 [Pediculus humanus...     Pediculus hu... human body l... 121224     114    114   100%  2e-31 96.61  73         XP_002425390.1   
+unnamed protein product [Chilo suppressalis]                      Chilo suppre... striped rice... 168631     117    117   100%  2e-31 91.53  150        CAH0405715.1     
+hypothetical protein O3M35_003686 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     114    114   100%  2e-31 93.22  73         KAK9499192.1     
+ubiquitin-like protein 5 [Cylas formicarius]                      Cylas formic... sweet potato... 197179     114    114   100%  2e-31 91.53  73         XP_060526758.1   
+ubiquitin-like protein 5 [Coccinella septempunctata]              Coccinella s... seven-spotte... 41139      114    114   100%  3e-31 93.22  73         XP_044757032.1   
+PREDICTED: ubiquitin-like protein 5 [Dufourea novaeangliae]       Dufourea nov... NA              178035     114    114   100%  3e-31 93.22  73         XP_015433638.1   
+ubiquitin-like protein 5 isoform X1 [Ceratina calcarata]          Ceratina cal... NA              156304     114    114   100%  3e-31 93.22  75         XP_026669680.1   
+ubiquitin-like protein 5 isoform X2 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     115    115   100%  3e-31 91.53  103        XP_043795434.1   
+ubiquitin-like protein 5 [Halyomorpha halys]                      Halyomorpha ... brown marmor... 286706     114    114   100%  3e-31 93.22  73         XP_014281393.1   
+PREDICTED: ubiquitin-like protein 5 [Dinoponera quadriceps]       Dinoponera q... NA              609295     114    114   100%  3e-31 93.22  73         XP_014485278.1   
+ubiquitin-like protein 5 isoform X1 [Cataglyphis hispanica]       Cataglyphis ... NA              1086592    114    114   100%  3e-31 93.22  77         XP_050465115.1   
+ubiquitin-like protein 5 [Bombus terrestris]                      Bombus terre... buff-tailed ... 30195      114    114   100%  3e-31 93.22  73         XP_003394299.1   
+hypothetical protein B566_EDAN017906 [Ephemera danica]            Ephemera danica NA              1049336    114    114   100%  4e-31 93.22  98         KAF4529757.1     
+Ubiquitin-like protein 5 [Dufourea novaeangliae]                  Dufourea nov... NA              178035     114    114   100%  4e-31 93.22  75         KZC11505.1       
+unnamed protein product [Acanthoscelides obtectus]                Acanthosceli... NA              200917     114    114   100%  4e-31 91.53  73         CAH1974904.1     
+ubiquitin-like protein 5 [Plutella xylostella]                    Plutella xyl... diamondback ... 51655      114    114   100%  4e-31 93.22  73         XP_037964188.1   
+ubiquitin-like protein 5 [Cimex lectularius]                      Cimex lectul... bed bug         79782      113    113   100%  4e-31 93.22  73         XP_014254624.1   
+hypothetical protein R5R35_008383 [Gryllus longicercus]           Gryllus long... NA              2509291    113    113   100%  4e-31 96.61  73         KAK7867189.1     
+unnamed protein product [Leptosia nina]                           Leptosia nina   NA              320188     114    114   100%  5e-31 89.83  83         CAK1548058.1     
+ubiquitin-like protein 5 isoform X1 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     114    114   100%  5e-31 91.53  108        XP_043795433.1   
+ubiquitin-like protein 5 [Harpegnathos saltator]                  Harpegnathos... Jerdon's jum... 610380     113    113   100%  5e-31 91.53  73         XP_011135838.1   
+ubiquitin-like protein 5 isoform X2 [Apis dorsata]                Apis dorsata    giant honeybee  7462       113    113   100%  5e-31 91.53  68         XP_006611658.1   
+Ubiquitin-like protein 5 [Gryllus bimaculatus]                    Gryllus bima... two-spotted ... 6999       113    113   100%  5e-31 96.61  59         GLG99502.1       
+hypothetical protein MSG28_010191 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       115    115   100%  5e-31 91.53  145        KAI8436704.1     
+ubiquitin-like protein 5 [Silurus meridionalis]                   Silurus meri... NA              175797     113    113   100%  6e-31 91.53  73         XP_046693327.1   
+hypothetical protein evm_000102 [Chilo suppressalis]              Chilo suppre... striped rice... 168631     113    113   100%  6e-31 91.53  80         RVE55204.1       
+ubiquitin-like protein 5 [Helicoverpa armigera]                   Helicoverpa ... cotton bollworm 29058      113    113   100%  6e-31 91.53  73         XP_021188085.1   
+unnamed protein product [Brenthis ino]                            Brenthis ino    lesser marbl... 405034     114    114   100%  6e-31 91.53  91         CAH0722179.1     
+hypothetical protein BDFB_002344 [Asbolus verrucosus]             Asbolus verr... NA              1661398    113    113   100%  6e-31 89.83  79         RZC37314.1       
+ubiquitin-like protein 5 [Nilaparvata lugens]                     Nilaparvata ... brown planth... 108931     113    113   100%  7e-31 93.22  73         XP_022202389.1   
+ubiquitin-like protein 5 isoform X1 [Apis mellifera]              Apis mellifera  honey bee       7460       113    113   100%  7e-31 91.53  73         XP_001120009.1   
+ubiquitin-like protein 5 [Bombyx mori]                            Bombyx mori     domestic sil... 7091       112    112   100%  8e-31 91.53  73         XP_004928810.3   
+unnamed protein product [Spodoptera exigua]                       Spodoptera e... beet armyworm   7107       112    112   100%  9e-31 91.53  67         CAH0699348.1     
+ubiquitin-like protein 5 [Ischnura elegans]                       Ischnura ele... NA              197161     112    112   100%  1e-30 93.22  73         XP_046409222.1   
+ubiquitin-like protein 5 [Leptinotarsa decemlineata]              Leptinotarsa... Colorado pot... 7539       112    112   100%  1e-30 89.83  73         XP_023015270.1   
+hypothetical protein MTP99_015209 [Tenebrio molitor]              Tenebrio mol... yellow mealworm 7067       114    114   100%  1e-30 89.83  113        KAJ3627861.1     
+Ubiquitin-like protein 5 [Amphibalanus amphitrite]                Amphibalanus... NA              1232801    112    112   100%  1e-30 89.83  73         KAF0298113.1     
+unnamed protein product [Allacma fusca]                           Allacma fusca   NA              39272      112    112   100%  1e-30 93.22  73         CAG7731464.1     
+ubiquitin-like protein 5 [Achroia grisella]                       Achroia gris... NA              688607     112    112   100%  1e-30 89.83  73         XP_059056560.1   
+ubiquitin-like protein 5 [Leptidea sinapis]                       Leptidea sin... NA              189913     112    112   100%  1e-30 89.83  73         XP_050663565.1   
+EOG090X0OUK [Scapholeberis mucronata]                             Scapholeberi... NA              202097     112    112   100%  1e-30 89.83  69         CAG4649904.1     
+hypothetical protein DAPPUDRAFT_95804 [Daphnia pulex]             Daphnia pulex   common water... 6669       112    112   100%  1e-30 89.83  73         EFX88865.1       
+hypothetical protein PHYPO_G00156090 [Pangasianodon...            Pangasianodo... striped catfish 310915     113    113   100%  1e-30 89.83  103        KAB5523755.1     
+hypothetical protein ILUMI_10188 [Ignelater luminosus]            Ignelater lu... NA              2038154    113    113   100%  1e-30 89.83  97         KAF2895988.1     
+hypothetical protein MSG28_010188 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       114    114   100%  1e-30 91.53  132        KAI8436701.1     
+ubiquitin-like protein 5 [Pieris rapae]                           Pieris rapae    cabbage white   64459      112    112   100%  1e-30 89.83  73         XP_022113109.1   
+ubiquitin-like protein 5 [Neocloeon triangulifer]                 Neocloeon tr... NA              2078957    112    112   100%  1e-30 91.53  73         XP_059484602.1   
+ubiquitin-like protein 5 [Planococcus citri]                      Planococcus ... citrus mealybug 170843     112    112   100%  1e-30 91.53  73         XP_065209575.1   
+hypothetical protein O3P69_004301 [Scylla paramamosain]           Scylla param... green mud crab  85552      114    114   100%  1e-30 93.22  140        KAK8399134.1     
+Ubiquitin-like protein 5 [Operophtera brumata]                    Operophtera ... winter moth     104452     112    112   100%  1e-30 91.53  79         KOB75708.1       
+hypothetical protein NQ315_003070 [Exocentrus adspersus]          Exocentrus a... NA              1586481    112    112   100%  1e-30 89.83  90         KAJ8921452.1     
+EOG090X0OUK [Ceriodaphnia reticulata]                             Ceriodaphnia... NA              302197     112    112   100%  1e-30 89.83  71         CAG4637571.1     
+PREDICTED: ubiquitin-like protein 5 [Habropoda laboriosa]         Habropoda la... NA              597456     112    112   100%  1e-30 91.53  73         XP_017789464.1   
+ubiquitin-like protein 5 [Trichomycterus rosablanca]              Trichomycter... NA              2290929    112    112   100%  1e-30 89.83  73         XP_062866768.1   
+PREDICTED: ubiquitin-like protein 5 [Nicrophorus vespilloides]    Nicrophorus ... NA              110193     112    112   100%  1e-30 89.83  73         XP_017777315.1   
+Ubiquitin-like protein 5 [Araneus ventricosus]                    Araneus vent... NA              182803     112    112   100%  2e-30 91.53  73         GBN15320.1       
+unnamed protein product [Callosobruchus maculatus]                Callosobruch... cowpea weevil   64391      112    112   100%  2e-30 89.83  65         VEN60361.1       
+ubiquitin-like protein 5 [Diorhabda sublineata]                   Diorhabda su... NA              1163346    112    112   100%  2e-30 88.14  73         XP_056644854.1   
+ubiquitin-like protein 5 [Chrysoperla carnea]                     Chrysoperla ... NA              189513     112    112   100%  2e-30 89.83  73         XP_044728346.1   
+EOG090X0OUK [Daphnia similis]                                     Daphnia similis NA              35528      115    115   100%  2e-30 89.83  174        SVE70860.1       
+EOG090X0OUK [Alona affinis]                                       Alona affinis   NA              381656     112    112   100%  2e-30 88.14  73         CAG4635250.1     
+EOG090X0OUK [Triops cancriformis]                                 Triops cancr... NA              194544     112    112   100%  2e-30 89.83  73         CAG4652392.1     
+EOG090X0OUK [Daphnia dolichocephala]                              Daphnia doli... NA              2282166    114    114   100%  2e-30 89.83  151        SVE75568.1       
+EOG090X0OUK [Polyphemus pediculus]                                Polyphemus p... NA              77662      112    112   100%  2e-30 89.83  73         CAG4649056.1     
+hypothetical protein KM043_017068 [Ampulex compressa]             Ampulex comp... NA              860918     112    112   100%  2e-30 91.53  73         KAG7202502.1     
+EOG090X0OUK [Lepidurus arcticus]                                  Lepidurus ar... NA              77708      112    112   100%  2e-30 89.83  90         CAG4644528.1     
+ubiquitin-like protein 5 [Aphidius gifuensis]                     Aphidius gif... NA              684658     112    112   100%  2e-30 89.83  73         XP_044016874.1   
+ubiquitin-like protein 5 isoform X1 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     112    112   100%  2e-30 89.83  104        XP_058237094.1   
+hypothetical protein WA026_005382 [Henosepilachna...              Henosepilach... NA              420089     112    112   100%  2e-30 91.53  73         KAK9874541.1     
+unnamed protein product [Brassicogethes aeneus]                   Brassicogeth... NA              1431903    112    112   100%  2e-30 88.14  73         CAH0559348.1     
+ubiquitin-like protein 5 [Cotesia glomerata]                      Cotesia glom... NA              32391      111    111   100%  2e-30 89.83  73         XP_044593604.1   
+ubiquitin-like protein 5 [Aethina tumida]                         Aethina tumida  small hive b... 116153     111    111   100%  3e-30 88.14  73         XP_019865166.1   
+jg954 [Pararge aegeria aegeria]                                   Pararge aege... NA              348720     112    112   100%  3e-30 91.53  97         CAH2242050.1     
+hypothetical protein [Idotea baltica]                             Idotea baltica  NA              82763      111    111   100%  3e-30 89.83  73         MCL4140761.1     
+ubiquitin 5 [Paramuricea clavata]                                 Paramuricea ... NA              317549     111    111   100%  3e-30 89.83  73         CAB4020984.1     
+ubiquitin-like protein 5 isoform X2 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     111    111   100%  3e-30 89.83  73         XP_058237096.1   
+
+
+Query #28: TGE_04339-RA_8627.fa Query ID: lcl|Query_4631419 Length: 59
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+hypothetical protein PR048_016036 [Dryococelus australis]         Dryococelus ... NA              614101     123    123   100%  7e-34 98.31  162        KAJ8884179.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     121    121   100%  9e-34 100.00 116        CAD7421101.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      121    121   100%  1e-33 100.00 116        CAD7202916.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     121    121   100%  1e-33 100.00 109        CAD7263747.1     
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      119    119   100%  2e-33 100.00 77         CAD7458017.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      119    119   100%  3e-33 100.00 59         CAD7417722.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     120    120   100%  4e-33 100.00 134        CAD7434346.1     
+hypothetical protein J437_LFUL008894 [Ladona fulva]               Ladona fulva    scarce chaser   123851     118    118   100%  7e-33 98.31  81         KAG8231973.1     
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     118    118   100%  1e-32 98.31  88         KAK6641194.1     
+ubiquitin-like protein 5 [Anabrus simplex]                        Anabrus simplex Mormon cricket  316456     117    117   100%  1e-32 98.31  73         XP_066993644.1   
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     117    117   100%  2e-32 98.31  88         KAK6637079.1     
+ubiquitin-like protein 5 [Zootermopsis nevadensis]                Zootermopsis... NA              136037     117    117   100%  3e-32 94.92  93         XP_021934305.1   
+ubiquitin-like protein 5 [Leptopilina heterotoma]                 Leptopilina ... NA              63436      116    116   100%  3e-32 96.61  73         XP_043463603.1   
+hypothetical protein AAG570_008816 [Ranatra chinensis]            Ranatra chin... NA              642074     116    116   100%  4e-32 96.61  65         KAL1138754.1     
+ubiquitin-like protein 5 [Homalodisca vitripennis]                Homalodisca ... glassy-winge... 197043     116    116   100%  4e-32 96.61  73         XP_046669453.1   
+hypothetical protein Cfor_11874 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      116    116   100%  4e-32 96.61  82         GFG40056.1       
+Ubiquitin-like protein 5 [Blattella germanica]                    Blattella ge... German cockr... 6973       116    116   100%  4e-32 96.61  79         PSN34762.1       
+Ubiquitin-like protein 5 [Cryptotermes secundus]                  Cryptotermes... NA              105785     115    115   100%  7e-32 96.61  68         PNF41911.1       
+hypothetical protein L798_08732 [Zootermopsis nevadensis]         Zootermopsis... NA              136037     115    115   100%  7e-32 94.92  64         KDR23525.1       
+ubiquitin-like protein 5 [Penaeus indicus]                        Penaeus indicus NA              29960      116    116   100%  1e-31 93.22  113        XP_063613409.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     115    115   100%  1e-31 94.92  73         CAB0003664.1     
+ubiquitin-like protein 5 [Macrosteles quadrilineatus]             Macrosteles ... aster leafho... 74068      115    115   100%  1e-31 96.61  73         XP_054272978.1   
+EOG090X0OUK [Leptodora kindtii]                                   Leptodora ki... NA              77707      115    115   100%  1e-31 91.53  73         CAG4645326.1     
+putative ubiquitin-like protein 5 isoform X2 [Penaeus vannamei]   Penaeus vann... Pacific whit... 6689       116    116   100%  1e-31 93.22  113        ROT81264.1       
+uncharacterized protein Phum_PHUM195490 [Pediculus humanus...     Pediculus hu... human body l... 121224     114    114   100%  2e-31 96.61  73         XP_002425390.1   
+unnamed protein product [Chilo suppressalis]                      Chilo suppre... striped rice... 168631     117    117   100%  2e-31 91.53  150        CAH0405715.1     
+hypothetical protein O3M35_003686 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     114    114   100%  2e-31 93.22  73         KAK9499192.1     
+ubiquitin-like protein 5 [Cylas formicarius]                      Cylas formic... sweet potato... 197179     114    114   100%  2e-31 91.53  73         XP_060526758.1   
+ubiquitin-like protein 5 [Coccinella septempunctata]              Coccinella s... seven-spotte... 41139      114    114   100%  3e-31 93.22  73         XP_044757032.1   
+PREDICTED: ubiquitin-like protein 5 [Dufourea novaeangliae]       Dufourea nov... NA              178035     114    114   100%  3e-31 93.22  73         XP_015433638.1   
+ubiquitin-like protein 5 isoform X1 [Ceratina calcarata]          Ceratina cal... NA              156304     114    114   100%  3e-31 93.22  75         XP_026669680.1   
+ubiquitin-like protein 5 isoform X2 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     115    115   100%  3e-31 91.53  103        XP_043795434.1   
+ubiquitin-like protein 5 [Halyomorpha halys]                      Halyomorpha ... brown marmor... 286706     114    114   100%  3e-31 93.22  73         XP_014281393.1   
+PREDICTED: ubiquitin-like protein 5 [Dinoponera quadriceps]       Dinoponera q... NA              609295     114    114   100%  3e-31 93.22  73         XP_014485278.1   
+ubiquitin-like protein 5 isoform X1 [Cataglyphis hispanica]       Cataglyphis ... NA              1086592    114    114   100%  3e-31 93.22  77         XP_050465115.1   
+ubiquitin-like protein 5 [Bombus terrestris]                      Bombus terre... buff-tailed ... 30195      114    114   100%  3e-31 93.22  73         XP_003394299.1   
+hypothetical protein B566_EDAN017906 [Ephemera danica]            Ephemera danica NA              1049336    114    114   100%  4e-31 93.22  98         KAF4529757.1     
+Ubiquitin-like protein 5 [Dufourea novaeangliae]                  Dufourea nov... NA              178035     114    114   100%  4e-31 93.22  75         KZC11505.1       
+unnamed protein product [Acanthoscelides obtectus]                Acanthosceli... NA              200917     114    114   100%  4e-31 91.53  73         CAH1974904.1     
+ubiquitin-like protein 5 [Plutella xylostella]                    Plutella xyl... diamondback ... 51655      114    114   100%  4e-31 93.22  73         XP_037964188.1   
+ubiquitin-like protein 5 [Cimex lectularius]                      Cimex lectul... bed bug         79782      113    113   100%  4e-31 93.22  73         XP_014254624.1   
+hypothetical protein R5R35_008383 [Gryllus longicercus]           Gryllus long... NA              2509291    113    113   100%  4e-31 96.61  73         KAK7867189.1     
+unnamed protein product [Leptosia nina]                           Leptosia nina   NA              320188     114    114   100%  5e-31 89.83  83         CAK1548058.1     
+ubiquitin-like protein 5 isoform X1 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     114    114   100%  5e-31 91.53  108        XP_043795433.1   
+ubiquitin-like protein 5 [Harpegnathos saltator]                  Harpegnathos... Jerdon's jum... 610380     113    113   100%  5e-31 91.53  73         XP_011135838.1   
+ubiquitin-like protein 5 isoform X2 [Apis dorsata]                Apis dorsata    giant honeybee  7462       113    113   100%  5e-31 91.53  68         XP_006611658.1   
+Ubiquitin-like protein 5 [Gryllus bimaculatus]                    Gryllus bima... two-spotted ... 6999       113    113   100%  5e-31 96.61  59         GLG99502.1       
+hypothetical protein MSG28_010191 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       115    115   100%  5e-31 91.53  145        KAI8436704.1     
+ubiquitin-like protein 5 [Silurus meridionalis]                   Silurus meri... NA              175797     113    113   100%  6e-31 91.53  73         XP_046693327.1   
+hypothetical protein evm_000102 [Chilo suppressalis]              Chilo suppre... striped rice... 168631     113    113   100%  6e-31 91.53  80         RVE55204.1       
+ubiquitin-like protein 5 [Helicoverpa armigera]                   Helicoverpa ... cotton bollworm 29058      113    113   100%  6e-31 91.53  73         XP_021188085.1   
+unnamed protein product [Brenthis ino]                            Brenthis ino    lesser marbl... 405034     114    114   100%  6e-31 91.53  91         CAH0722179.1     
+hypothetical protein BDFB_002344 [Asbolus verrucosus]             Asbolus verr... NA              1661398    113    113   100%  6e-31 89.83  79         RZC37314.1       
+ubiquitin-like protein 5 [Nilaparvata lugens]                     Nilaparvata ... brown planth... 108931     113    113   100%  7e-31 93.22  73         XP_022202389.1   
+ubiquitin-like protein 5 isoform X1 [Apis mellifera]              Apis mellifera  honey bee       7460       113    113   100%  7e-31 91.53  73         XP_001120009.1   
+ubiquitin-like protein 5 [Bombyx mori]                            Bombyx mori     domestic sil... 7091       112    112   100%  8e-31 91.53  73         XP_004928810.3   
+unnamed protein product [Spodoptera exigua]                       Spodoptera e... beet armyworm   7107       112    112   100%  9e-31 91.53  67         CAH0699348.1     
+ubiquitin-like protein 5 [Ischnura elegans]                       Ischnura ele... NA              197161     112    112   100%  1e-30 93.22  73         XP_046409222.1   
+ubiquitin-like protein 5 [Leptinotarsa decemlineata]              Leptinotarsa... Colorado pot... 7539       112    112   100%  1e-30 89.83  73         XP_023015270.1   
+hypothetical protein MTP99_015209 [Tenebrio molitor]              Tenebrio mol... yellow mealworm 7067       114    114   100%  1e-30 89.83  113        KAJ3627861.1     
+Ubiquitin-like protein 5 [Amphibalanus amphitrite]                Amphibalanus... NA              1232801    112    112   100%  1e-30 89.83  73         KAF0298113.1     
+unnamed protein product [Allacma fusca]                           Allacma fusca   NA              39272      112    112   100%  1e-30 93.22  73         CAG7731464.1     
+ubiquitin-like protein 5 [Achroia grisella]                       Achroia gris... NA              688607     112    112   100%  1e-30 89.83  73         XP_059056560.1   
+ubiquitin-like protein 5 [Leptidea sinapis]                       Leptidea sin... NA              189913     112    112   100%  1e-30 89.83  73         XP_050663565.1   
+EOG090X0OUK [Scapholeberis mucronata]                             Scapholeberi... NA              202097     112    112   100%  1e-30 89.83  69         CAG4649904.1     
+hypothetical protein DAPPUDRAFT_95804 [Daphnia pulex]             Daphnia pulex   common water... 6669       112    112   100%  1e-30 89.83  73         EFX88865.1       
+hypothetical protein PHYPO_G00156090 [Pangasianodon...            Pangasianodo... striped catfish 310915     113    113   100%  1e-30 89.83  103        KAB5523755.1     
+hypothetical protein ILUMI_10188 [Ignelater luminosus]            Ignelater lu... NA              2038154    113    113   100%  1e-30 89.83  97         KAF2895988.1     
+hypothetical protein MSG28_010188 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       114    114   100%  1e-30 91.53  132        KAI8436701.1     
+ubiquitin-like protein 5 [Pieris rapae]                           Pieris rapae    cabbage white   64459      112    112   100%  1e-30 89.83  73         XP_022113109.1   
+ubiquitin-like protein 5 [Neocloeon triangulifer]                 Neocloeon tr... NA              2078957    112    112   100%  1e-30 91.53  73         XP_059484602.1   
+ubiquitin-like protein 5 [Planococcus citri]                      Planococcus ... citrus mealybug 170843     112    112   100%  1e-30 91.53  73         XP_065209575.1   
+hypothetical protein O3P69_004301 [Scylla paramamosain]           Scylla param... green mud crab  85552      114    114   100%  1e-30 93.22  140        KAK8399134.1     
+Ubiquitin-like protein 5 [Operophtera brumata]                    Operophtera ... winter moth     104452     112    112   100%  1e-30 91.53  79         KOB75708.1       
+hypothetical protein NQ315_003070 [Exocentrus adspersus]          Exocentrus a... NA              1586481    112    112   100%  1e-30 89.83  90         KAJ8921452.1     
+EOG090X0OUK [Ceriodaphnia reticulata]                             Ceriodaphnia... NA              302197     112    112   100%  1e-30 89.83  71         CAG4637571.1     
+PREDICTED: ubiquitin-like protein 5 [Habropoda laboriosa]         Habropoda la... NA              597456     112    112   100%  1e-30 91.53  73         XP_017789464.1   
+ubiquitin-like protein 5 [Trichomycterus rosablanca]              Trichomycter... NA              2290929    112    112   100%  1e-30 89.83  73         XP_062866768.1   
+PREDICTED: ubiquitin-like protein 5 [Nicrophorus vespilloides]    Nicrophorus ... NA              110193     112    112   100%  1e-30 89.83  73         XP_017777315.1   
+Ubiquitin-like protein 5 [Araneus ventricosus]                    Araneus vent... NA              182803     112    112   100%  2e-30 91.53  73         GBN15320.1       
+unnamed protein product [Callosobruchus maculatus]                Callosobruch... cowpea weevil   64391      112    112   100%  2e-30 89.83  65         VEN60361.1       
+ubiquitin-like protein 5 [Diorhabda sublineata]                   Diorhabda su... NA              1163346    112    112   100%  2e-30 88.14  73         XP_056644854.1   
+ubiquitin-like protein 5 [Chrysoperla carnea]                     Chrysoperla ... NA              189513     112    112   100%  2e-30 89.83  73         XP_044728346.1   
+EOG090X0OUK [Daphnia similis]                                     Daphnia similis NA              35528      115    115   100%  2e-30 89.83  174        SVE70860.1       
+EOG090X0OUK [Alona affinis]                                       Alona affinis   NA              381656     112    112   100%  2e-30 88.14  73         CAG4635250.1     
+EOG090X0OUK [Triops cancriformis]                                 Triops cancr... NA              194544     112    112   100%  2e-30 89.83  73         CAG4652392.1     
+EOG090X0OUK [Daphnia dolichocephala]                              Daphnia doli... NA              2282166    114    114   100%  2e-30 89.83  151        SVE75568.1       
+EOG090X0OUK [Polyphemus pediculus]                                Polyphemus p... NA              77662      112    112   100%  2e-30 89.83  73         CAG4649056.1     
+hypothetical protein KM043_017068 [Ampulex compressa]             Ampulex comp... NA              860918     112    112   100%  2e-30 91.53  73         KAG7202502.1     
+EOG090X0OUK [Lepidurus arcticus]                                  Lepidurus ar... NA              77708      112    112   100%  2e-30 89.83  90         CAG4644528.1     
+ubiquitin-like protein 5 [Aphidius gifuensis]                     Aphidius gif... NA              684658     112    112   100%  2e-30 89.83  73         XP_044016874.1   
+ubiquitin-like protein 5 isoform X1 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     112    112   100%  2e-30 89.83  104        XP_058237094.1   
+hypothetical protein WA026_005382 [Henosepilachna...              Henosepilach... NA              420089     112    112   100%  2e-30 91.53  73         KAK9874541.1     
+unnamed protein product [Brassicogethes aeneus]                   Brassicogeth... NA              1431903    112    112   100%  2e-30 88.14  73         CAH0559348.1     
+ubiquitin-like protein 5 [Cotesia glomerata]                      Cotesia glom... NA              32391      111    111   100%  2e-30 89.83  73         XP_044593604.1   
+ubiquitin-like protein 5 [Aethina tumida]                         Aethina tumida  small hive b... 116153     111    111   100%  3e-30 88.14  73         XP_019865166.1   
+jg954 [Pararge aegeria aegeria]                                   Pararge aege... NA              348720     112    112   100%  3e-30 91.53  97         CAH2242050.1     
+hypothetical protein [Idotea baltica]                             Idotea baltica  NA              82763      111    111   100%  3e-30 89.83  73         MCL4140761.1     
+ubiquitin 5 [Paramuricea clavata]                                 Paramuricea ... NA              317549     111    111   100%  3e-30 89.83  73         CAB4020984.1     
+ubiquitin-like protein 5 isoform X2 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     111    111   100%  3e-30 89.83  73         XP_058237096.1   
+
+
+Query #29: TMS_07771-RA_8627.fa Query ID: lcl|Query_4631420 Length: 134
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     278    278   100%  6e-94 100.00 134        CAD7434346.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     125    125   58%   6e-34 82.05  116        CAD7421101.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     125    125   56%   7e-34 84.21  109        CAD7263747.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      125    125   56%   7e-34 84.21  116        CAD7202916.1     
+hypothetical protein PR048_016036 [Dryococelus australis]         Dryococelus ... NA              614101     126    126   50%   1e-33 85.14  162        KAJ8884179.1     
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      121    121   46%   7e-33 96.77  77         CAD7458017.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      120    120   44%   9e-33 100.00 59         CAD7417722.1     
+hypothetical protein J437_LFUL008894 [Ladona fulva]               Ladona fulva    scarce chaser   123851     121    121   48%   1e-32 89.23  81         KAG8231973.1     
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     120    120   46%   2e-32 93.55  88         KAK6641194.1     
+ubiquitin-like protein 5 [Anabrus simplex]                        Anabrus simplex Mormon cricket  316456     120    120   46%   3e-32 93.55  73         XP_066993644.1   
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     120    120   46%   4e-32 93.55  88         KAK6637079.1     
+ubiquitin-like protein 5 [Leptopilina heterotoma]                 Leptopilina ... NA              63436      119    119   46%   4e-32 91.94  73         XP_043463603.1   
+ubiquitin-like protein 5 [Zootermopsis nevadensis]                Zootermopsis... NA              136037     119    119   47%   6e-32 87.50  93         XP_021934305.1   
+hypothetical protein Cfor_11874 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      119    119   58%   8e-32 79.49  82         GFG40056.1       
+ubiquitin 5 [Sigmodon hispidus]                                   Sigmodon his... hispid cotto... 42415      120    120   66%   9e-32 61.70  129        KAL1781520.1     
+ubiquitin-like protein 5 [Penaeus indicus]                        Penaeus indicus NA              29960      119    119   58%   1e-31 75.64  113        XP_063613409.1   
+ubiquitin-like protein 5 [Homalodisca vitripennis]                Homalodisca ... glassy-winge... 197043     118    118   46%   1e-31 91.94  73         XP_046669453.1   
+putative ubiquitin-like protein 5 isoform X2 [Penaeus vannamei]   Penaeus vann... Pacific whit... 6689       119    119   57%   1e-31 76.62  113        ROT81264.1       
+EOG090X0OUK [Leptodora kindtii]                                   Leptodora ki... NA              77707      117    117   46%   2e-31 87.10  73         CAG4645326.1     
+Ubiquitin-like protein 5 [Dufourea novaeangliae]                  Dufourea nov... NA              178035     117    117   50%   3e-31 85.29  75         KZC11505.1       
+ubiquitin-like protein 5 [Macrosteles quadrilineatus]             Macrosteles ... aster leafho... 74068      117    117   46%   3e-31 91.94  73         XP_054272978.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     117    117   46%   3e-31 90.32  73         CAB0003664.1     
+hypothetical protein AAG570_008816 [Ranatra chinensis]            Ranatra chin... NA              642074     117    117   46%   3e-31 93.55  65         KAL1138754.1     
+Ubiquitin-like protein 5 [Blattella germanica]                    Blattella ge... German cockr... 6973       117    117   46%   4e-31 93.55  79         PSN34762.1       
+ubiquitin-like protein 5 [Cylas formicarius]                      Cylas formic... sweet potato... 197179     117    117   46%   4e-31 87.10  73         XP_060526758.1   
+uncharacterized protein Phum_PHUM195490 [Pediculus humanus...     Pediculus hu... human body l... 121224     117    117   46%   4e-31 91.94  73         XP_002425390.1   
+EOG090X0OUK [Daphnia similis]                                     Daphnia similis NA              35528      120    120   47%   5e-31 87.30  174        SVE70860.1       
+hypothetical protein L798_08732 [Zootermopsis nevadensis]         Zootermopsis... NA              136037     116    116   46%   6e-31 91.94  64         KDR23525.1       
+hypothetical protein O3M35_003686 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     116    116   46%   6e-31 88.71  73         KAK9499192.1     
+ubiquitin-like protein 5 isoform X1 [Cataglyphis hispanica]       Cataglyphis ... NA              1086592    116    116   47%   6e-31 85.94  77         XP_050465115.1   
+ubiquitin-like protein 5 [Coccinella septempunctata]              Coccinella s... seven-spotte... 41139      116    116   46%   7e-31 88.71  73         XP_044757032.1   
+ubiquitin-like protein 5 [Plutella xylostella]                    Plutella xyl... diamondback ... 51655      116    116   46%   7e-31 88.71  73         XP_037964188.1   
+hypothetical protein R5R35_008383 [Gryllus longicercus]           Gryllus long... NA              2509291    116    116   46%   7e-31 91.94  73         KAK7867189.1     
+PREDICTED: ubiquitin-like protein 5 [Dufourea novaeangliae]       Dufourea nov... NA              178035     116    116   46%   7e-31 88.71  73         XP_015433638.1   
+ubiquitin-like protein 5 isoform X1 [Ceratina calcarata]          Ceratina cal... NA              156304     116    116   46%   7e-31 88.71  75         XP_026669680.1   
+hypothetical protein evm_000102 [Chilo suppressalis]              Chilo suppre... striped rice... 168631     116    116   47%   8e-31 84.38  80         RVE55204.1       
+hypothetical protein MSG28_010191 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       118    118   46%   8e-31 87.10  145        KAI8436704.1     
+ubiquitin-like protein 5 [Halyomorpha halys]                      Halyomorpha ... brown marmor... 286706     116    116   46%   8e-31 88.71  73         XP_014281393.1   
+unnamed protein product [Chilo suppressalis]                      Chilo suppre... striped rice... 168631     118    118   59%   8e-31 72.50  150        CAH0405715.1     
+ubiquitin-like protein 5 [Bombus terrestris]                      Bombus terre... buff-tailed ... 30195      116    116   46%   9e-31 88.71  73         XP_003394299.1   
+ubiquitin-like protein 5 [Silurus meridionalis]                   Silurus meri... NA              175797     116    116   46%   9e-31 87.10  73         XP_046693327.1   
+unnamed protein product [Leptosia nina]                           Leptosia nina   NA              320188     116    116   47%   9e-31 84.13  83         CAK1548058.1     
+jg954 [Pararge aegeria aegeria]                                   Pararge aege... NA              348720     117    117   49%   9e-31 81.82  97         CAH2242050.1     
+Ubiquitin-like protein 5 [Cryptotermes secundus]                  Cryptotermes... NA              105785     115    115   44%   9e-31 96.61  68         PNF41911.1       
+PREDICTED: ubiquitin-like protein 5 [Dinoponera quadriceps]       Dinoponera q... NA              609295     116    116   46%   1e-30 88.71  73         XP_014485278.1   
+unnamed protein product [Acanthoscelides obtectus]                Acanthosceli... NA              200917     116    116   46%   1e-30 87.10  73         CAH1974904.1     
+hypothetical protein B566_EDAN017906 [Ephemera danica]            Ephemera danica NA              1049336    116    116   46%   1e-30 90.32  98         KAF4529757.1     
+ubiquitin-like protein 5 [Helicoverpa armigera]                   Helicoverpa ... cotton bollworm 29058      115    115   46%   1e-30 87.10  73         XP_021188085.1   
+ubiquitin-like protein 5 [Neocloeon triangulifer]                 Neocloeon tr... NA              2078957    115    115   46%   1e-30 87.10  73         XP_059484602.1   
+ubiquitin-like protein 5 isoform X1 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     117    117   46%   1e-30 87.10  108        XP_043795433.1   
+unnamed protein product [Brenthis ino]                            Brenthis ino    lesser marbl... 405034     116    116   46%   1e-30 87.10  91         CAH0722179.1     
+ubiquitin-like protein 5 [Cimex lectularius]                      Cimex lectul... bed bug         79782      115    115   46%   1e-30 88.71  73         XP_014254624.1   
+ubiquitin-like protein 5 isoform X1 [Orussus abietinus]           Orussus abie... NA              222816     116    116   50%   1e-30 80.88  88         XP_012287036.1   
+ubiquitin-like protein 5 isoform X1 [Petromyzon marinus]          Petromyzon m... sea lamprey     7757       116    116   53%   1e-30 75.00  106        XP_032814623.1   
+ubiquitin-like protein 5 [Harpegnathos saltator]                  Harpegnathos... Jerdon's jum... 610380     115    115   46%   1e-30 87.10  73         XP_011135838.1   
+ubiquitin-like protein 5 [Bombyx mori]                            Bombyx mori     domestic sil... 7091       115    115   46%   1e-30 87.10  73         XP_004928810.3   
+ubiquitin-like protein 5 [Octopus sinensis]                       Octopus sine... East Asian c... 2607531    116    116   71%   1e-30 64.29  107        XP_036368522.1   
+hypothetical protein PHYPO_G00156090 [Pangasianodon...            Pangasianodo... striped catfish 310915     116    116   47%   2e-30 82.81  103        KAB5523755.1     
+unnamed protein product [Spodoptera exigua]                       Spodoptera e... beet armyworm   7107       115    115   48%   2e-30 86.15  67         CAH0699348.1     
+ubiquitin-like protein 5 [Achroia grisella]                       Achroia gris... NA              688607     115    115   46%   2e-30 85.48  73         XP_059056560.1   
+ubiquitin-like protein 5 [Leptidea sinapis]                       Leptidea sin... NA              189913     115    115   46%   2e-30 85.48  73         XP_050663565.1   
+ubiquitin-like protein 5 [Leptinotarsa decemlineata]              Leptinotarsa... Colorado pot... 7539       115    115   46%   2e-30 85.48  73         XP_023015270.1   
+ubiquitin-like protein 5 isoform X1 [Apis mellifera]              Apis mellifera  honey bee       7460       115    115   46%   2e-30 87.10  73         XP_001120009.1   
+ubiquitin-like protein 5 [Ischnura elegans]                       Ischnura ele... NA              197161     115    115   46%   2e-30 88.71  73         XP_046409222.1   
+unnamed protein product [Allacma fusca]                           Allacma fusca   NA              39272      115    115   46%   2e-30 88.71  73         CAG7731464.1     
+ubiquitin-like protein 5 [Trichomycterus rosablanca]              Trichomycter... NA              2290929    115    115   46%   2e-30 85.48  73         XP_062866768.1   
+ubiquitin-like protein 5 [Pieris rapae]                           Pieris rapae    cabbage white   64459      115    115   46%   2e-30 85.48  73         XP_022113109.1   
+hypothetical protein MTP99_015209 [Tenebrio molitor]              Tenebrio mol... yellow mealworm 7067       116    116   46%   3e-30 85.48  113        KAJ3627861.1     
+hypothetical protein MSG28_010188 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       117    117   46%   3e-30 87.10  132        KAI8436701.1     
+Ubiquitin-like protein 5 [Amphibalanus amphitrite]                Amphibalanus... NA              1232801    115    115   46%   3e-30 85.48  73         KAF0298113.1     
+hypothetical protein O3P69_004301 [Scylla paramamosain]           Scylla param... green mud crab  85552      117    117   46%   3e-30 88.71  140        KAK8399134.1     
+ubiquitin-like protein 5 [Nilaparvata lugens]                     Nilaparvata ... brown planth... 108931     114    114   46%   3e-30 88.71  73         XP_022202389.1   
+ubiquitin-like protein 5 [Folsomia candida]                       Folsomia can... NA              158441     115    115   47%   3e-30 82.54  75         XP_021968173.1   
+Ubiquitin-like protein 5 [Araneus ventricosus]                    Araneus vent... NA              182803     114    114   46%   3e-30 87.10  73         GBN15320.1       
+ubiquitin-like protein 5 isoform X1 [Anopheles gambiae]           Anopheles ga... African mala... 7165       115    115   47%   3e-30 84.38  100        XP_061516984.1   
+ubiquitin-like protein 5 isoform X1 [Anopheles coluzzii]          Anopheles co... NA              1518534    115    115   47%   3e-30 84.38  100        XP_040231858.1   
+hypothetical protein AGOR_G00224930 [Albula goreensis]            Albula goree... NA              1534307    115    115   47%   3e-30 82.81  105        KAI1884292.1     
+ubiquitin-like protein 5 isoform X2 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     115    115   44%   3e-30 91.53  103        XP_043795434.1   
+Ubiquitin-like protein 5 [Gryllus bimaculatus]                    Gryllus bima... two-spotted ... 6999       114    114   44%   3e-30 96.61  59         GLG99502.1       
+PREDICTED: ubiquitin-like protein 5 [Nicrophorus vespilloides]    Nicrophorus ... NA              110193     114    114   46%   3e-30 85.48  73         XP_017777315.1   
+hypothetical protein DAPPUDRAFT_95804 [Daphnia pulex]             Daphnia pulex   common water... 6669       114    114   46%   3e-30 85.48  73         EFX88865.1       
+ubiquitin-like protein 5 [Planococcus citri]                      Planococcus ... citrus mealybug 170843     114    114   46%   4e-30 87.10  73         XP_065209575.1   
+ubiquitin-like protein 5 [Diorhabda sublineata]                   Diorhabda su... NA              1163346    114    114   46%   4e-30 83.87  73         XP_056644854.1   
+hypothetical protein MTO96_006220 [Rhipicephalus appendiculatus]  Rhipicephalu... NA              34631      114    114   46%   4e-30 85.48  73         KAL1417345.1     
+ubiquitin-like protein 5 [Chrysoperla carnea]                     Chrysoperla ... NA              189513     114    114   46%   4e-30 85.48  73         XP_044728346.1   
+ubiquitin-like protein 5 isoform X1 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     115    115   48%   4e-30 83.08  104        XP_058237094.1   
+ubiquitin-like protein 5 isoform X1 [Monodelphis domestica]       Monodelphis ... gray short-t... 13616      115    115   48%   4e-30 81.54  110        XP_001363867.2   
+ubiquitin-like protein 5 [Amyelois transitella]                   Amyelois tra... NA              680683     114    114   46%   5e-30 87.10  73         XP_013185352.1   
+EOG090X0OUK [Triops cancriformis]                                 Triops cancr... NA              194544     114    114   46%   5e-30 85.48  73         CAG4652392.1     
+unnamed protein product [Brassicogethes aeneus]                   Brassicogeth... NA              1431903    114    114   46%   5e-30 83.87  73         CAH0559348.1     
+PREDICTED: ubiquitin-like protein 5 [Habropoda laboriosa]         Habropoda la... NA              597456     114    114   46%   5e-30 87.10  73         XP_017789464.1   
+ubiquitin 5 [Paramuricea clavata]                                 Paramuricea ... NA              317549     114    114   46%   5e-30 85.48  73         CAB4020984.1     
+ubiquitin-like protein 5 isoform X2 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     114    114   46%   5e-30 85.48  73         XP_058237096.1   
+Ubiquitin-like protein 5 [Orchesella cincta]                      Orchesella c... NA              48709      114    114   46%   5e-30 87.10  73         ODN02091.1       
+hypothetical protein KM043_017068 [Ampulex compressa]             Ampulex comp... NA              860918     114    114   46%   5e-30 87.10  73         KAG7202502.1     
+EOG090X0OUK [Alona affinis]                                       Alona affinis   NA              381656     114    114   46%   5e-30 83.87  73         CAG4635250.1     
+ubiquitin-like protein 5 isoform X2 [Apis dorsata]                Apis dorsata    giant honeybee  7462       114    114   44%   6e-30 91.53  68         XP_006611658.1   
+ubiquitin-like protein 5 [Aphidius gifuensis]                     Aphidius gif... NA              684658     114    114   46%   6e-30 85.48  73         XP_044016874.1   
+ubiquitin-like protein 5 [Synchiropus splendidus]                 Synchiropus ... mandarinfish    270530     114    114   46%   6e-30 85.48  73         XP_053708993.1   
+hypothetical protein BDFB_002344 [Asbolus verrucosus]             Asbolus verr... NA              1661398    114    114   46%   6e-30 87.10  79         RZC37314.1       
+
+
+Query #30: TCE_13812-RA_8627.fa Query ID: lcl|Query_4631421 Length: 59
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+hypothetical protein PR048_016036 [Dryococelus australis]         Dryococelus ... NA              614101     123    123   100%  7e-34 98.31  162        KAJ8884179.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     121    121   100%  9e-34 100.00 116        CAD7421101.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      121    121   100%  1e-33 100.00 116        CAD7202916.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     121    121   100%  1e-33 100.00 109        CAD7263747.1     
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      119    119   100%  2e-33 100.00 77         CAD7458017.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      119    119   100%  3e-33 100.00 59         CAD7417722.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     120    120   100%  4e-33 100.00 134        CAD7434346.1     
+hypothetical protein J437_LFUL008894 [Ladona fulva]               Ladona fulva    scarce chaser   123851     118    118   100%  7e-33 98.31  81         KAG8231973.1     
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     118    118   100%  1e-32 98.31  88         KAK6641194.1     
+ubiquitin-like protein 5 [Anabrus simplex]                        Anabrus simplex Mormon cricket  316456     117    117   100%  1e-32 98.31  73         XP_066993644.1   
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     117    117   100%  2e-32 98.31  88         KAK6637079.1     
+ubiquitin-like protein 5 [Zootermopsis nevadensis]                Zootermopsis... NA              136037     117    117   100%  3e-32 94.92  93         XP_021934305.1   
+ubiquitin-like protein 5 [Leptopilina heterotoma]                 Leptopilina ... NA              63436      116    116   100%  3e-32 96.61  73         XP_043463603.1   
+hypothetical protein AAG570_008816 [Ranatra chinensis]            Ranatra chin... NA              642074     116    116   100%  4e-32 96.61  65         KAL1138754.1     
+ubiquitin-like protein 5 [Homalodisca vitripennis]                Homalodisca ... glassy-winge... 197043     116    116   100%  4e-32 96.61  73         XP_046669453.1   
+hypothetical protein Cfor_11874 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      116    116   100%  4e-32 96.61  82         GFG40056.1       
+Ubiquitin-like protein 5 [Blattella germanica]                    Blattella ge... German cockr... 6973       116    116   100%  4e-32 96.61  79         PSN34762.1       
+Ubiquitin-like protein 5 [Cryptotermes secundus]                  Cryptotermes... NA              105785     115    115   100%  7e-32 96.61  68         PNF41911.1       
+hypothetical protein L798_08732 [Zootermopsis nevadensis]         Zootermopsis... NA              136037     115    115   100%  7e-32 94.92  64         KDR23525.1       
+ubiquitin-like protein 5 [Penaeus indicus]                        Penaeus indicus NA              29960      116    116   100%  1e-31 93.22  113        XP_063613409.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     115    115   100%  1e-31 94.92  73         CAB0003664.1     
+ubiquitin-like protein 5 [Macrosteles quadrilineatus]             Macrosteles ... aster leafho... 74068      115    115   100%  1e-31 96.61  73         XP_054272978.1   
+EOG090X0OUK [Leptodora kindtii]                                   Leptodora ki... NA              77707      115    115   100%  1e-31 91.53  73         CAG4645326.1     
+putative ubiquitin-like protein 5 isoform X2 [Penaeus vannamei]   Penaeus vann... Pacific whit... 6689       116    116   100%  1e-31 93.22  113        ROT81264.1       
+uncharacterized protein Phum_PHUM195490 [Pediculus humanus...     Pediculus hu... human body l... 121224     114    114   100%  2e-31 96.61  73         XP_002425390.1   
+unnamed protein product [Chilo suppressalis]                      Chilo suppre... striped rice... 168631     117    117   100%  2e-31 91.53  150        CAH0405715.1     
+hypothetical protein O3M35_003686 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     114    114   100%  2e-31 93.22  73         KAK9499192.1     
+ubiquitin-like protein 5 [Cylas formicarius]                      Cylas formic... sweet potato... 197179     114    114   100%  2e-31 91.53  73         XP_060526758.1   
+ubiquitin-like protein 5 [Coccinella septempunctata]              Coccinella s... seven-spotte... 41139      114    114   100%  3e-31 93.22  73         XP_044757032.1   
+PREDICTED: ubiquitin-like protein 5 [Dufourea novaeangliae]       Dufourea nov... NA              178035     114    114   100%  3e-31 93.22  73         XP_015433638.1   
+ubiquitin-like protein 5 isoform X1 [Ceratina calcarata]          Ceratina cal... NA              156304     114    114   100%  3e-31 93.22  75         XP_026669680.1   
+ubiquitin-like protein 5 isoform X2 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     115    115   100%  3e-31 91.53  103        XP_043795434.1   
+ubiquitin-like protein 5 [Halyomorpha halys]                      Halyomorpha ... brown marmor... 286706     114    114   100%  3e-31 93.22  73         XP_014281393.1   
+PREDICTED: ubiquitin-like protein 5 [Dinoponera quadriceps]       Dinoponera q... NA              609295     114    114   100%  3e-31 93.22  73         XP_014485278.1   
+ubiquitin-like protein 5 isoform X1 [Cataglyphis hispanica]       Cataglyphis ... NA              1086592    114    114   100%  3e-31 93.22  77         XP_050465115.1   
+ubiquitin-like protein 5 [Bombus terrestris]                      Bombus terre... buff-tailed ... 30195      114    114   100%  3e-31 93.22  73         XP_003394299.1   
+hypothetical protein B566_EDAN017906 [Ephemera danica]            Ephemera danica NA              1049336    114    114   100%  4e-31 93.22  98         KAF4529757.1     
+Ubiquitin-like protein 5 [Dufourea novaeangliae]                  Dufourea nov... NA              178035     114    114   100%  4e-31 93.22  75         KZC11505.1       
+unnamed protein product [Acanthoscelides obtectus]                Acanthosceli... NA              200917     114    114   100%  4e-31 91.53  73         CAH1974904.1     
+ubiquitin-like protein 5 [Plutella xylostella]                    Plutella xyl... diamondback ... 51655      114    114   100%  4e-31 93.22  73         XP_037964188.1   
+ubiquitin-like protein 5 [Cimex lectularius]                      Cimex lectul... bed bug         79782      113    113   100%  4e-31 93.22  73         XP_014254624.1   
+hypothetical protein R5R35_008383 [Gryllus longicercus]           Gryllus long... NA              2509291    113    113   100%  4e-31 96.61  73         KAK7867189.1     
+unnamed protein product [Leptosia nina]                           Leptosia nina   NA              320188     114    114   100%  5e-31 89.83  83         CAK1548058.1     
+ubiquitin-like protein 5 isoform X1 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     114    114   100%  5e-31 91.53  108        XP_043795433.1   
+ubiquitin-like protein 5 [Harpegnathos saltator]                  Harpegnathos... Jerdon's jum... 610380     113    113   100%  5e-31 91.53  73         XP_011135838.1   
+ubiquitin-like protein 5 isoform X2 [Apis dorsata]                Apis dorsata    giant honeybee  7462       113    113   100%  5e-31 91.53  68         XP_006611658.1   
+Ubiquitin-like protein 5 [Gryllus bimaculatus]                    Gryllus bima... two-spotted ... 6999       113    113   100%  5e-31 96.61  59         GLG99502.1       
+hypothetical protein MSG28_010191 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       115    115   100%  5e-31 91.53  145        KAI8436704.1     
+ubiquitin-like protein 5 [Silurus meridionalis]                   Silurus meri... NA              175797     113    113   100%  6e-31 91.53  73         XP_046693327.1   
+hypothetical protein evm_000102 [Chilo suppressalis]              Chilo suppre... striped rice... 168631     113    113   100%  6e-31 91.53  80         RVE55204.1       
+ubiquitin-like protein 5 [Helicoverpa armigera]                   Helicoverpa ... cotton bollworm 29058      113    113   100%  6e-31 91.53  73         XP_021188085.1   
+unnamed protein product [Brenthis ino]                            Brenthis ino    lesser marbl... 405034     114    114   100%  6e-31 91.53  91         CAH0722179.1     
+hypothetical protein BDFB_002344 [Asbolus verrucosus]             Asbolus verr... NA              1661398    113    113   100%  6e-31 89.83  79         RZC37314.1       
+ubiquitin-like protein 5 [Nilaparvata lugens]                     Nilaparvata ... brown planth... 108931     113    113   100%  7e-31 93.22  73         XP_022202389.1   
+ubiquitin-like protein 5 isoform X1 [Apis mellifera]              Apis mellifera  honey bee       7460       113    113   100%  7e-31 91.53  73         XP_001120009.1   
+ubiquitin-like protein 5 [Bombyx mori]                            Bombyx mori     domestic sil... 7091       112    112   100%  8e-31 91.53  73         XP_004928810.3   
+unnamed protein product [Spodoptera exigua]                       Spodoptera e... beet armyworm   7107       112    112   100%  9e-31 91.53  67         CAH0699348.1     
+ubiquitin-like protein 5 [Ischnura elegans]                       Ischnura ele... NA              197161     112    112   100%  1e-30 93.22  73         XP_046409222.1   
+ubiquitin-like protein 5 [Leptinotarsa decemlineata]              Leptinotarsa... Colorado pot... 7539       112    112   100%  1e-30 89.83  73         XP_023015270.1   
+hypothetical protein MTP99_015209 [Tenebrio molitor]              Tenebrio mol... yellow mealworm 7067       114    114   100%  1e-30 89.83  113        KAJ3627861.1     
+Ubiquitin-like protein 5 [Amphibalanus amphitrite]                Amphibalanus... NA              1232801    112    112   100%  1e-30 89.83  73         KAF0298113.1     
+unnamed protein product [Allacma fusca]                           Allacma fusca   NA              39272      112    112   100%  1e-30 93.22  73         CAG7731464.1     
+ubiquitin-like protein 5 [Achroia grisella]                       Achroia gris... NA              688607     112    112   100%  1e-30 89.83  73         XP_059056560.1   
+ubiquitin-like protein 5 [Leptidea sinapis]                       Leptidea sin... NA              189913     112    112   100%  1e-30 89.83  73         XP_050663565.1   
+EOG090X0OUK [Scapholeberis mucronata]                             Scapholeberi... NA              202097     112    112   100%  1e-30 89.83  69         CAG4649904.1     
+hypothetical protein DAPPUDRAFT_95804 [Daphnia pulex]             Daphnia pulex   common water... 6669       112    112   100%  1e-30 89.83  73         EFX88865.1       
+hypothetical protein PHYPO_G00156090 [Pangasianodon...            Pangasianodo... striped catfish 310915     113    113   100%  1e-30 89.83  103        KAB5523755.1     
+hypothetical protein ILUMI_10188 [Ignelater luminosus]            Ignelater lu... NA              2038154    113    113   100%  1e-30 89.83  97         KAF2895988.1     
+hypothetical protein MSG28_010188 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       114    114   100%  1e-30 91.53  132        KAI8436701.1     
+ubiquitin-like protein 5 [Pieris rapae]                           Pieris rapae    cabbage white   64459      112    112   100%  1e-30 89.83  73         XP_022113109.1   
+ubiquitin-like protein 5 [Neocloeon triangulifer]                 Neocloeon tr... NA              2078957    112    112   100%  1e-30 91.53  73         XP_059484602.1   
+ubiquitin-like protein 5 [Planococcus citri]                      Planococcus ... citrus mealybug 170843     112    112   100%  1e-30 91.53  73         XP_065209575.1   
+hypothetical protein O3P69_004301 [Scylla paramamosain]           Scylla param... green mud crab  85552      114    114   100%  1e-30 93.22  140        KAK8399134.1     
+Ubiquitin-like protein 5 [Operophtera brumata]                    Operophtera ... winter moth     104452     112    112   100%  1e-30 91.53  79         KOB75708.1       
+hypothetical protein NQ315_003070 [Exocentrus adspersus]          Exocentrus a... NA              1586481    112    112   100%  1e-30 89.83  90         KAJ8921452.1     
+EOG090X0OUK [Ceriodaphnia reticulata]                             Ceriodaphnia... NA              302197     112    112   100%  1e-30 89.83  71         CAG4637571.1     
+PREDICTED: ubiquitin-like protein 5 [Habropoda laboriosa]         Habropoda la... NA              597456     112    112   100%  1e-30 91.53  73         XP_017789464.1   
+ubiquitin-like protein 5 [Trichomycterus rosablanca]              Trichomycter... NA              2290929    112    112   100%  1e-30 89.83  73         XP_062866768.1   
+PREDICTED: ubiquitin-like protein 5 [Nicrophorus vespilloides]    Nicrophorus ... NA              110193     112    112   100%  1e-30 89.83  73         XP_017777315.1   
+Ubiquitin-like protein 5 [Araneus ventricosus]                    Araneus vent... NA              182803     112    112   100%  2e-30 91.53  73         GBN15320.1       
+unnamed protein product [Callosobruchus maculatus]                Callosobruch... cowpea weevil   64391      112    112   100%  2e-30 89.83  65         VEN60361.1       
+ubiquitin-like protein 5 [Diorhabda sublineata]                   Diorhabda su... NA              1163346    112    112   100%  2e-30 88.14  73         XP_056644854.1   
+ubiquitin-like protein 5 [Chrysoperla carnea]                     Chrysoperla ... NA              189513     112    112   100%  2e-30 89.83  73         XP_044728346.1   
+EOG090X0OUK [Daphnia similis]                                     Daphnia similis NA              35528      115    115   100%  2e-30 89.83  174        SVE70860.1       
+EOG090X0OUK [Alona affinis]                                       Alona affinis   NA              381656     112    112   100%  2e-30 88.14  73         CAG4635250.1     
+EOG090X0OUK [Triops cancriformis]                                 Triops cancr... NA              194544     112    112   100%  2e-30 89.83  73         CAG4652392.1     
+EOG090X0OUK [Daphnia dolichocephala]                              Daphnia doli... NA              2282166    114    114   100%  2e-30 89.83  151        SVE75568.1       
+EOG090X0OUK [Polyphemus pediculus]                                Polyphemus p... NA              77662      112    112   100%  2e-30 89.83  73         CAG4649056.1     
+hypothetical protein KM043_017068 [Ampulex compressa]             Ampulex comp... NA              860918     112    112   100%  2e-30 91.53  73         KAG7202502.1     
+EOG090X0OUK [Lepidurus arcticus]                                  Lepidurus ar... NA              77708      112    112   100%  2e-30 89.83  90         CAG4644528.1     
+ubiquitin-like protein 5 [Aphidius gifuensis]                     Aphidius gif... NA              684658     112    112   100%  2e-30 89.83  73         XP_044016874.1   
+ubiquitin-like protein 5 isoform X1 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     112    112   100%  2e-30 89.83  104        XP_058237094.1   
+hypothetical protein WA026_005382 [Henosepilachna...              Henosepilach... NA              420089     112    112   100%  2e-30 91.53  73         KAK9874541.1     
+unnamed protein product [Brassicogethes aeneus]                   Brassicogeth... NA              1431903    112    112   100%  2e-30 88.14  73         CAH0559348.1     
+ubiquitin-like protein 5 [Cotesia glomerata]                      Cotesia glom... NA              32391      111    111   100%  2e-30 89.83  73         XP_044593604.1   
+ubiquitin-like protein 5 [Aethina tumida]                         Aethina tumida  small hive b... 116153     111    111   100%  3e-30 88.14  73         XP_019865166.1   
+jg954 [Pararge aegeria aegeria]                                   Pararge aege... NA              348720     112    112   100%  3e-30 91.53  97         CAH2242050.1     
+hypothetical protein [Idotea baltica]                             Idotea baltica  NA              82763      111    111   100%  3e-30 89.83  73         MCL4140761.1     
+ubiquitin 5 [Paramuricea clavata]                                 Paramuricea ... NA              317549     111    111   100%  3e-30 89.83  73         CAB4020984.1     
+ubiquitin-like protein 5 isoform X2 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     111    111   100%  3e-30 89.83  73         XP_058237096.1   
+
+
+Query #31: TPA_01588-RA_8627.fa Query ID: lcl|Query_4631422 Length: 59
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+hypothetical protein PR048_016036 [Dryococelus australis]         Dryococelus ... NA              614101     123    123   100%  7e-34 98.31  162        KAJ8884179.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     121    121   100%  9e-34 100.00 116        CAD7421101.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      121    121   100%  1e-33 100.00 116        CAD7202916.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     121    121   100%  1e-33 100.00 109        CAD7263747.1     
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      119    119   100%  2e-33 100.00 77         CAD7458017.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      119    119   100%  3e-33 100.00 59         CAD7417722.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     120    120   100%  4e-33 100.00 134        CAD7434346.1     
+hypothetical protein J437_LFUL008894 [Ladona fulva]               Ladona fulva    scarce chaser   123851     118    118   100%  7e-33 98.31  81         KAG8231973.1     
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     118    118   100%  1e-32 98.31  88         KAK6641194.1     
+ubiquitin-like protein 5 [Anabrus simplex]                        Anabrus simplex Mormon cricket  316456     117    117   100%  1e-32 98.31  73         XP_066993644.1   
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     117    117   100%  2e-32 98.31  88         KAK6637079.1     
+ubiquitin-like protein 5 [Zootermopsis nevadensis]                Zootermopsis... NA              136037     117    117   100%  3e-32 94.92  93         XP_021934305.1   
+ubiquitin-like protein 5 [Leptopilina heterotoma]                 Leptopilina ... NA              63436      116    116   100%  3e-32 96.61  73         XP_043463603.1   
+hypothetical protein AAG570_008816 [Ranatra chinensis]            Ranatra chin... NA              642074     116    116   100%  4e-32 96.61  65         KAL1138754.1     
+ubiquitin-like protein 5 [Homalodisca vitripennis]                Homalodisca ... glassy-winge... 197043     116    116   100%  4e-32 96.61  73         XP_046669453.1   
+hypothetical protein Cfor_11874 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      116    116   100%  4e-32 96.61  82         GFG40056.1       
+Ubiquitin-like protein 5 [Blattella germanica]                    Blattella ge... German cockr... 6973       116    116   100%  4e-32 96.61  79         PSN34762.1       
+Ubiquitin-like protein 5 [Cryptotermes secundus]                  Cryptotermes... NA              105785     115    115   100%  7e-32 96.61  68         PNF41911.1       
+hypothetical protein L798_08732 [Zootermopsis nevadensis]         Zootermopsis... NA              136037     115    115   100%  7e-32 94.92  64         KDR23525.1       
+ubiquitin-like protein 5 [Penaeus indicus]                        Penaeus indicus NA              29960      116    116   100%  1e-31 93.22  113        XP_063613409.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     115    115   100%  1e-31 94.92  73         CAB0003664.1     
+ubiquitin-like protein 5 [Macrosteles quadrilineatus]             Macrosteles ... aster leafho... 74068      115    115   100%  1e-31 96.61  73         XP_054272978.1   
+EOG090X0OUK [Leptodora kindtii]                                   Leptodora ki... NA              77707      115    115   100%  1e-31 91.53  73         CAG4645326.1     
+putative ubiquitin-like protein 5 isoform X2 [Penaeus vannamei]   Penaeus vann... Pacific whit... 6689       116    116   100%  1e-31 93.22  113        ROT81264.1       
+uncharacterized protein Phum_PHUM195490 [Pediculus humanus...     Pediculus hu... human body l... 121224     114    114   100%  2e-31 96.61  73         XP_002425390.1   
+unnamed protein product [Chilo suppressalis]                      Chilo suppre... striped rice... 168631     117    117   100%  2e-31 91.53  150        CAH0405715.1     
+hypothetical protein O3M35_003686 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     114    114   100%  2e-31 93.22  73         KAK9499192.1     
+ubiquitin-like protein 5 [Cylas formicarius]                      Cylas formic... sweet potato... 197179     114    114   100%  2e-31 91.53  73         XP_060526758.1   
+ubiquitin-like protein 5 [Coccinella septempunctata]              Coccinella s... seven-spotte... 41139      114    114   100%  3e-31 93.22  73         XP_044757032.1   
+PREDICTED: ubiquitin-like protein 5 [Dufourea novaeangliae]       Dufourea nov... NA              178035     114    114   100%  3e-31 93.22  73         XP_015433638.1   
+ubiquitin-like protein 5 isoform X1 [Ceratina calcarata]          Ceratina cal... NA              156304     114    114   100%  3e-31 93.22  75         XP_026669680.1   
+ubiquitin-like protein 5 isoform X2 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     115    115   100%  3e-31 91.53  103        XP_043795434.1   
+ubiquitin-like protein 5 [Halyomorpha halys]                      Halyomorpha ... brown marmor... 286706     114    114   100%  3e-31 93.22  73         XP_014281393.1   
+PREDICTED: ubiquitin-like protein 5 [Dinoponera quadriceps]       Dinoponera q... NA              609295     114    114   100%  3e-31 93.22  73         XP_014485278.1   
+ubiquitin-like protein 5 isoform X1 [Cataglyphis hispanica]       Cataglyphis ... NA              1086592    114    114   100%  3e-31 93.22  77         XP_050465115.1   
+ubiquitin-like protein 5 [Bombus terrestris]                      Bombus terre... buff-tailed ... 30195      114    114   100%  3e-31 93.22  73         XP_003394299.1   
+hypothetical protein B566_EDAN017906 [Ephemera danica]            Ephemera danica NA              1049336    114    114   100%  4e-31 93.22  98         KAF4529757.1     
+Ubiquitin-like protein 5 [Dufourea novaeangliae]                  Dufourea nov... NA              178035     114    114   100%  4e-31 93.22  75         KZC11505.1       
+unnamed protein product [Acanthoscelides obtectus]                Acanthosceli... NA              200917     114    114   100%  4e-31 91.53  73         CAH1974904.1     
+ubiquitin-like protein 5 [Plutella xylostella]                    Plutella xyl... diamondback ... 51655      114    114   100%  4e-31 93.22  73         XP_037964188.1   
+ubiquitin-like protein 5 [Cimex lectularius]                      Cimex lectul... bed bug         79782      113    113   100%  4e-31 93.22  73         XP_014254624.1   
+hypothetical protein R5R35_008383 [Gryllus longicercus]           Gryllus long... NA              2509291    113    113   100%  4e-31 96.61  73         KAK7867189.1     
+unnamed protein product [Leptosia nina]                           Leptosia nina   NA              320188     114    114   100%  5e-31 89.83  83         CAK1548058.1     
+ubiquitin-like protein 5 isoform X1 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     114    114   100%  5e-31 91.53  108        XP_043795433.1   
+ubiquitin-like protein 5 [Harpegnathos saltator]                  Harpegnathos... Jerdon's jum... 610380     113    113   100%  5e-31 91.53  73         XP_011135838.1   
+ubiquitin-like protein 5 isoform X2 [Apis dorsata]                Apis dorsata    giant honeybee  7462       113    113   100%  5e-31 91.53  68         XP_006611658.1   
+Ubiquitin-like protein 5 [Gryllus bimaculatus]                    Gryllus bima... two-spotted ... 6999       113    113   100%  5e-31 96.61  59         GLG99502.1       
+hypothetical protein MSG28_010191 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       115    115   100%  5e-31 91.53  145        KAI8436704.1     
+ubiquitin-like protein 5 [Silurus meridionalis]                   Silurus meri... NA              175797     113    113   100%  6e-31 91.53  73         XP_046693327.1   
+hypothetical protein evm_000102 [Chilo suppressalis]              Chilo suppre... striped rice... 168631     113    113   100%  6e-31 91.53  80         RVE55204.1       
+ubiquitin-like protein 5 [Helicoverpa armigera]                   Helicoverpa ... cotton bollworm 29058      113    113   100%  6e-31 91.53  73         XP_021188085.1   
+unnamed protein product [Brenthis ino]                            Brenthis ino    lesser marbl... 405034     114    114   100%  6e-31 91.53  91         CAH0722179.1     
+hypothetical protein BDFB_002344 [Asbolus verrucosus]             Asbolus verr... NA              1661398    113    113   100%  6e-31 89.83  79         RZC37314.1       
+ubiquitin-like protein 5 [Nilaparvata lugens]                     Nilaparvata ... brown planth... 108931     113    113   100%  7e-31 93.22  73         XP_022202389.1   
+ubiquitin-like protein 5 isoform X1 [Apis mellifera]              Apis mellifera  honey bee       7460       113    113   100%  7e-31 91.53  73         XP_001120009.1   
+ubiquitin-like protein 5 [Bombyx mori]                            Bombyx mori     domestic sil... 7091       112    112   100%  8e-31 91.53  73         XP_004928810.3   
+unnamed protein product [Spodoptera exigua]                       Spodoptera e... beet armyworm   7107       112    112   100%  9e-31 91.53  67         CAH0699348.1     
+ubiquitin-like protein 5 [Ischnura elegans]                       Ischnura ele... NA              197161     112    112   100%  1e-30 93.22  73         XP_046409222.1   
+ubiquitin-like protein 5 [Leptinotarsa decemlineata]              Leptinotarsa... Colorado pot... 7539       112    112   100%  1e-30 89.83  73         XP_023015270.1   
+hypothetical protein MTP99_015209 [Tenebrio molitor]              Tenebrio mol... yellow mealworm 7067       114    114   100%  1e-30 89.83  113        KAJ3627861.1     
+Ubiquitin-like protein 5 [Amphibalanus amphitrite]                Amphibalanus... NA              1232801    112    112   100%  1e-30 89.83  73         KAF0298113.1     
+unnamed protein product [Allacma fusca]                           Allacma fusca   NA              39272      112    112   100%  1e-30 93.22  73         CAG7731464.1     
+ubiquitin-like protein 5 [Achroia grisella]                       Achroia gris... NA              688607     112    112   100%  1e-30 89.83  73         XP_059056560.1   
+ubiquitin-like protein 5 [Leptidea sinapis]                       Leptidea sin... NA              189913     112    112   100%  1e-30 89.83  73         XP_050663565.1   
+EOG090X0OUK [Scapholeberis mucronata]                             Scapholeberi... NA              202097     112    112   100%  1e-30 89.83  69         CAG4649904.1     
+hypothetical protein DAPPUDRAFT_95804 [Daphnia pulex]             Daphnia pulex   common water... 6669       112    112   100%  1e-30 89.83  73         EFX88865.1       
+hypothetical protein PHYPO_G00156090 [Pangasianodon...            Pangasianodo... striped catfish 310915     113    113   100%  1e-30 89.83  103        KAB5523755.1     
+hypothetical protein ILUMI_10188 [Ignelater luminosus]            Ignelater lu... NA              2038154    113    113   100%  1e-30 89.83  97         KAF2895988.1     
+hypothetical protein MSG28_010188 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       114    114   100%  1e-30 91.53  132        KAI8436701.1     
+ubiquitin-like protein 5 [Pieris rapae]                           Pieris rapae    cabbage white   64459      112    112   100%  1e-30 89.83  73         XP_022113109.1   
+ubiquitin-like protein 5 [Neocloeon triangulifer]                 Neocloeon tr... NA              2078957    112    112   100%  1e-30 91.53  73         XP_059484602.1   
+ubiquitin-like protein 5 [Planococcus citri]                      Planococcus ... citrus mealybug 170843     112    112   100%  1e-30 91.53  73         XP_065209575.1   
+hypothetical protein O3P69_004301 [Scylla paramamosain]           Scylla param... green mud crab  85552      114    114   100%  1e-30 93.22  140        KAK8399134.1     
+Ubiquitin-like protein 5 [Operophtera brumata]                    Operophtera ... winter moth     104452     112    112   100%  1e-30 91.53  79         KOB75708.1       
+hypothetical protein NQ315_003070 [Exocentrus adspersus]          Exocentrus a... NA              1586481    112    112   100%  1e-30 89.83  90         KAJ8921452.1     
+EOG090X0OUK [Ceriodaphnia reticulata]                             Ceriodaphnia... NA              302197     112    112   100%  1e-30 89.83  71         CAG4637571.1     
+PREDICTED: ubiquitin-like protein 5 [Habropoda laboriosa]         Habropoda la... NA              597456     112    112   100%  1e-30 91.53  73         XP_017789464.1   
+ubiquitin-like protein 5 [Trichomycterus rosablanca]              Trichomycter... NA              2290929    112    112   100%  1e-30 89.83  73         XP_062866768.1   
+PREDICTED: ubiquitin-like protein 5 [Nicrophorus vespilloides]    Nicrophorus ... NA              110193     112    112   100%  1e-30 89.83  73         XP_017777315.1   
+Ubiquitin-like protein 5 [Araneus ventricosus]                    Araneus vent... NA              182803     112    112   100%  2e-30 91.53  73         GBN15320.1       
+unnamed protein product [Callosobruchus maculatus]                Callosobruch... cowpea weevil   64391      112    112   100%  2e-30 89.83  65         VEN60361.1       
+ubiquitin-like protein 5 [Diorhabda sublineata]                   Diorhabda su... NA              1163346    112    112   100%  2e-30 88.14  73         XP_056644854.1   
+ubiquitin-like protein 5 [Chrysoperla carnea]                     Chrysoperla ... NA              189513     112    112   100%  2e-30 89.83  73         XP_044728346.1   
+EOG090X0OUK [Daphnia similis]                                     Daphnia similis NA              35528      115    115   100%  2e-30 89.83  174        SVE70860.1       
+EOG090X0OUK [Alona affinis]                                       Alona affinis   NA              381656     112    112   100%  2e-30 88.14  73         CAG4635250.1     
+EOG090X0OUK [Triops cancriformis]                                 Triops cancr... NA              194544     112    112   100%  2e-30 89.83  73         CAG4652392.1     
+EOG090X0OUK [Daphnia dolichocephala]                              Daphnia doli... NA              2282166    114    114   100%  2e-30 89.83  151        SVE75568.1       
+EOG090X0OUK [Polyphemus pediculus]                                Polyphemus p... NA              77662      112    112   100%  2e-30 89.83  73         CAG4649056.1     
+hypothetical protein KM043_017068 [Ampulex compressa]             Ampulex comp... NA              860918     112    112   100%  2e-30 91.53  73         KAG7202502.1     
+EOG090X0OUK [Lepidurus arcticus]                                  Lepidurus ar... NA              77708      112    112   100%  2e-30 89.83  90         CAG4644528.1     
+ubiquitin-like protein 5 [Aphidius gifuensis]                     Aphidius gif... NA              684658     112    112   100%  2e-30 89.83  73         XP_044016874.1   
+ubiquitin-like protein 5 isoform X1 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     112    112   100%  2e-30 89.83  104        XP_058237094.1   
+hypothetical protein WA026_005382 [Henosepilachna...              Henosepilach... NA              420089     112    112   100%  2e-30 91.53  73         KAK9874541.1     
+unnamed protein product [Brassicogethes aeneus]                   Brassicogeth... NA              1431903    112    112   100%  2e-30 88.14  73         CAH0559348.1     
+ubiquitin-like protein 5 [Cotesia glomerata]                      Cotesia glom... NA              32391      111    111   100%  2e-30 89.83  73         XP_044593604.1   
+ubiquitin-like protein 5 [Aethina tumida]                         Aethina tumida  small hive b... 116153     111    111   100%  3e-30 88.14  73         XP_019865166.1   
+jg954 [Pararge aegeria aegeria]                                   Pararge aege... NA              348720     112    112   100%  3e-30 91.53  97         CAH2242050.1     
+hypothetical protein [Idotea baltica]                             Idotea baltica  NA              82763      111    111   100%  3e-30 89.83  73         MCL4140761.1     
+ubiquitin 5 [Paramuricea clavata]                                 Paramuricea ... NA              317549     111    111   100%  3e-30 89.83  73         CAB4020984.1     
+ubiquitin-like protein 5 isoform X2 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     111    111   100%  3e-30 89.83  73         XP_058237096.1   
+
+
+Query #32: TTE_02828-RA_8627.fa Query ID: lcl|Query_4631423 Length: 77
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      154    154   100%  5e-47 100.00 77         CAD7458017.1     
+hypothetical protein PR048_016036 [Dryococelus australis]         Dryococelus ... NA              614101     130    130   80%   3e-36 98.39  162        KAJ8884179.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      126    126   80%   3e-35 96.77  116        CAD7202916.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     126    126   80%   3e-35 96.77  116        CAD7421101.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     126    126   80%   3e-35 96.77  109        CAD7263747.1     
+hypothetical protein B566_EDAN017906 [Ephemera danica]            Ephemera danica NA              1049336    125    125   96%   4e-35 81.08  98         KAF4529757.1     
+Ubiquitin-like protein 5 [Blattella germanica]                    Blattella ge... German cockr... 6973       124    124   93%   8e-35 84.62  79         PSN34762.1       
+hypothetical protein L798_08732 [Zootermopsis nevadensis]         Zootermopsis... NA              136037     123    123   83%   1e-34 93.75  64         KDR23525.1       
+Ubiquitin-like protein 5 [Cryptotermes secundus]                  Cryptotermes... NA              105785     123    123   81%   2e-34 95.24  68         PNF41911.1       
+hypothetical protein AAG570_008816 [Ranatra chinensis]            Ranatra chin... NA              642074     122    122   83%   2e-34 93.75  65         KAL1138754.1     
+unnamed protein product [Callosobruchus maculatus]                Callosobruch... cowpea weevil   64391      122    122   84%   2e-34 89.23  65         VEN60361.1       
+hypothetical protein Cfor_11874 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      123    123   80%   2e-34 96.77  82         GFG40056.1       
+unnamed protein product [Chilo suppressalis]                      Chilo suppre... striped rice... 168631     125    125   81%   3e-34 90.48  150        CAH0405715.1     
+unnamed protein product [Spodoptera exigua]                       Spodoptera e... beet armyworm   7107       121    121   81%   6e-34 92.06  67         CAH0699348.1     
+hypothetical protein BDFB_002344 [Asbolus verrucosus]             Asbolus verr... NA              1661398    122    122   97%   7e-34 75.95  79         RZC37314.1       
+RING finger protein 10 [Atta colombica]                           Atta colombica  NA              520822     134    134   81%   7e-34 93.65  816        KYM76297.1       
+RING finger protein 10 [Trachymyrmex septentrionalis]             Trachymyrmex... NA              34720      134    134   81%   7e-34 93.65  816        KYN40452.1       
+ubiquitin-like protein 5 isoform X1 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     121    121   97%   2e-33 77.92  104        XP_058237094.1   
+hypothetical protein NQ315_003070 [Exocentrus adspersus]          Exocentrus a... NA              1586481    120    120   81%   2e-33 88.89  90         KAJ8921452.1     
+Ubiquitin-like protein 5 [Dufourea novaeangliae]                  Dufourea nov... NA              178035     120    120   87%   3e-33 82.43  75         KZC11505.1       
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      119    119   76%   3e-33 100.00 59         CAD7417722.1     
+hypothetical protein MSG28_000006 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       131    131   83%   4e-33 90.62  651        KAI8429359.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     121    121   80%   4e-33 96.77  134        CAD7434346.1     
+hypothetical protein MSG28_000006 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       131    131   83%   4e-33 90.62  692        KAI8429357.1     
+Ubiquitin-like protein 5 [Operophtera brumata]                    Operophtera ... winter moth     104452     119    119   80%   8e-33 91.94  79         KOB75708.1       
+hypothetical protein J437_LFUL008894 [Ladona fulva]               Ladona fulva    scarce chaser   123851     119    119   76%   9e-33 98.31  81         KAG8231973.1     
+Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1...         Cricetulus g... Chinese hamster 10029      124    124   88%   1e-32 80.88  242        EGV96223.1       
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     118    118   76%   2e-32 98.31  88         KAK6641194.1     
+ubiquitin-like protein 5 [Octopus sinensis]                       Octopus sine... East Asian c... 2607531    119    119   87%   2e-32 85.07  107        XP_036368522.1   
+ubiquitin-like protein 5 [Anabrus simplex]                        Anabrus simplex Mormon cricket  316456     118    118   76%   2e-32 98.31  73         XP_066993644.1   
+Ubl5 [Phodopus roborovskii]                                       Phodopus rob... desert hamster  109678     118    118   96%   2e-32 77.63  87         CAH6855531.1     
+ubiquitin-like protein 5 [Cricetulus griseus]                     Cricetulus g... Chinese hamster 10029      118    118   97%   2e-32 76.62  91         ERE76771.1       
+PREDICTED: ubiquitin-like protein 5 [Sinocyclocheilus grahami]    Sinocycloche... NA              75366      118    118   98%   2e-32 76.32  78         XP_016100315.1   
+Hypothetical protein CINCED_3A019804 [Cinara cedri]               Cinara cedri    NA              506608     117    117   83%   2e-32 84.38  64         VVC34114.1       
+UBL5 protein [Amia calva]                                         Amia calva      bowfin          7924       118    118   90%   2e-32 81.43  95         MBN3310195.1     
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     118    118   76%   3e-32 98.31  88         KAK6637079.1     
+hypothetical protein A6R68_18200 [Neotoma lepida]                 Neotoma lepida  desert woodrat  56216      117    117   88%   3e-32 83.82  74         OBS79449.1       
+ubiquitin-like protein 5 [Zootermopsis nevadensis]                Zootermopsis... NA              136037     117    117   76%   4e-32 94.92  93         XP_021934305.1   
+ubiquitin-like protein 5 [Homalodisca vitripennis]                Homalodisca ... glassy-winge... 197043     117    117   76%   5e-32 96.61  73         XP_046669453.1   
+hypothetical protein HUJ05_009692 [Dendroctonus ponderosae]       Dendroctonus... mountain pin... 77166      116    116   81%   5e-32 84.13  69         KAH0999216.1     
+ubiquitin-like protein 5 [Leptopilina heterotoma]                 Leptopilina ... NA              63436      116    116   76%   5e-32 96.61  73         XP_043463603.1   
+EOG090X0OUK [Ceriodaphnia reticulata]                             Ceriodaphnia... NA              302197     116    116   94%   7e-32 78.08  71         CAG4637571.1     
+ubiquitin-like protein 5 isoform 1 [Mus musculus]                 Mus musculus    house mouse     10090      117    117   100%  7e-32 74.03  113        NP_001297675.1   
+EOG090X0OUK [Scapholeberis mucronata]                             Scapholeberi... NA              202097     116    116   77%   9e-32 90.00  69         CAG4649904.1     
+EOG090X0OUK [Daphnia dolichocephala]                              Daphnia doli... NA              2282166    118    118   85%   1e-31 81.82  151        SVE75568.1       
+ubiquitin-like protein [Pimephales promelas]                      Pimephales p... fathead minnow  90988      118    118   92%   1e-31 78.87  146        KAG1960108.1     
+hypothetical protein NL108_006146 [Boleophthalmus pectinirostris] Boleophthalm... great blue-s... 150288     115    115   85%   1e-31 83.33  66         KAJ0050797.1     
+EOG090X0OUK [Lepidurus arcticus]                                  Lepidurus ar... NA              77708      116    116   81%   1e-31 85.71  90         CAG4644528.1     
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     115    115   76%   2e-31 94.92  73         CAB0003664.1     
+ubiquitin-like protein 5 [Penaeus indicus]                        Penaeus indicus NA              29960      117    117   76%   2e-31 93.22  113        XP_063613409.1   
+ubiquitin-like protein 5 [Macrosteles quadrilineatus]             Macrosteles ... aster leafho... 74068      115    115   76%   2e-31 96.61  73         XP_054272978.1   
+hypothetical protein JZ751_027468 [Albula glossodonta]            Albula gloss... roundjaw bon... 121402     115    115   80%   2e-31 88.71  68         KAG9337817.1     
+Ubiquitin-like protein 5 [Anabarilius grahami]                    Anabarilius ... NA              495550     115    115   81%   2e-31 87.30  91         ROL54840.1       
+EOG090X0OUK [Leptodora kindtii]                                   Leptodora ki... NA              77707      115    115   76%   2e-31 91.53  73         CAG4645326.1     
+putative ubiquitin-like protein 5 isoform X2 [Penaeus vannamei]   Penaeus vann... Pacific whit... 6689       116    116   76%   3e-31 93.22  113        ROT81264.1       
+hypothetical protein O3M35_003686 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     115    115   76%   3e-31 93.22  73         KAK9499192.1     
+uncharacterized protein Phum_PHUM195490 [Pediculus humanus...     Pediculus hu... human body l... 121224     115    115   76%   3e-31 96.61  73         XP_002425390.1   
+ubiquitin-like protein 5 [Cylas formicarius]                      Cylas formic... sweet potato... 197179     115    115   76%   3e-31 91.53  73         XP_060526758.1   
+ubiquitin-like protein 5 [Vulpes vulpes]                          Vulpes vulpes   red fox         9627       114    114   85%   3e-31 83.33  66         XP_025841529.1   
+ubiquitin-like protein 5 [Coccinella septempunctata]              Coccinella s... seven-spotte... 41139      114    114   76%   4e-31 93.22  73         XP_044757032.1   
+ubiquitin-like protein 5 [Halyomorpha halys]                      Halyomorpha ... brown marmor... 286706     114    114   76%   4e-31 93.22  73         XP_014281393.1   
+PREDICTED: ubiquitin-like protein 5 [Hipposideros armiger]        Hipposideros... great roundl... 186990     114    114   83%   4e-31 85.94  66         XP_019514780.1   
+Ubiquitin-like protein 5 [Sciurus carolinensis]                   Sciurus caro... gray squirrel   30640      114    114   85%   5e-31 83.33  66         MBZ3869064.1     
+ubiquitin-like protein 5 isoform X2 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     115    115   77%   5e-31 90.00  103        XP_043795434.1   
+unnamed protein product [Acanthoscelides obtectus]                Acanthosceli... NA              200917     114    114   76%   5e-31 91.53  73         CAH1974904.1     
+PREDICTED: ubiquitin-like protein 5 [Dufourea novaeangliae]       Dufourea nov... NA              178035     114    114   76%   5e-31 93.22  73         XP_015433638.1   
+hypothetical protein E2I00_009483 [Balaenoptera physalus]         Balaenoptera... Fin whale       9770       114    114   80%   6e-31 88.71  62         KAB0400196.1     
+ubiquitin-like protein 5 isoform X1 [Cataglyphis hispanica]       Cataglyphis ... NA              1086592    114    114   76%   6e-31 93.22  77         XP_050465115.1   
+ubiquitin-like protein 5 [Bombus terrestris]                      Bombus terre... buff-tailed ... 30195      114    114   76%   6e-31 93.22  73         XP_003394299.1   
+PREDICTED: ubiquitin-like protein 5 [Dinoponera quadriceps]       Dinoponera q... NA              609295     114    114   76%   6e-31 93.22  73         XP_014485278.1   
+ubiquitin-like protein 5 [Cimex lectularius]                      Cimex lectul... bed bug         79782      114    114   76%   6e-31 93.22  73         XP_014254624.1   
+ubiquitin-like protein 5 isoform X1 [Ceratina calcarata]          Ceratina cal... NA              156304     114    114   76%   6e-31 93.22  75         XP_026669680.1   
+ubiquitin-like protein 5 [Plutella xylostella]                    Plutella xyl... diamondback ... 51655      114    114   76%   8e-31 93.22  73         XP_037964188.1   
+ubiquitin like 5 [Pipistrellus kuhlii]                            Pipistrellus... Kuhl's pipis... 59472      114    114   80%   8e-31 88.71  103        KAF6297814.1     
+ubiquitin-like protein 5 isoform X1 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     115    115   76%   8e-31 91.53  108        XP_043795433.1   
+unnamed protein product [Leptosia nina]                           Leptosia nina   NA              320188     114    114   76%   9e-31 89.83  83         CAK1548058.1     
+Ubiquitin-like protein 5 [Frankliniella fusca]                    Frankliniell... NA              407009     114    114   90%   9e-31 78.57  103        KAK3920329.1     
+ubiquitin-like protein 5 [Harpegnathos saltator]                  Harpegnathos... Jerdon's jum... 610380     113    113   76%   9e-31 91.53  73         XP_011135838.1   
+unnamed protein product [Brenthis ino]                            Brenthis ino    lesser marbl... 405034     114    114   76%   9e-31 91.53  91         CAH0722179.1     
+Ubiquitin-like protein 5 [Gryllus bimaculatus]                    Gryllus bima... two-spotted ... 6999       113    113   76%   1e-30 96.61  59         GLG99502.1       
+hypothetical protein R5R35_008383 [Gryllus longicercus]           Gryllus long... NA              2509291    113    113   76%   1e-30 96.61  73         KAK7867189.1     
+hypothetical protein MSG28_010191 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       115    115   76%   1e-30 91.53  145        KAI8436704.1     
+ubiquitin-like protein 5 isoform X2 [Apis dorsata]                Apis dorsata    giant honeybee  7462       113    113   76%   1e-30 91.53  68         XP_006611658.1   
+hypothetical protein evm_000102 [Chilo suppressalis]              Chilo suppre... striped rice... 168631     114    114   76%   1e-30 91.53  80         RVE55204.1       
+ubiquitin-like protein 5 [Nilaparvata lugens]                     Nilaparvata ... brown planth... 108931     113    113   76%   1e-30 93.22  73         XP_022202389.1   
+ubiquitin-like protein 5 [Silurus meridionalis]                   Silurus meri... NA              175797     113    113   76%   1e-30 91.53  73         XP_046693327.1   
+ubiquitin-like protein 5 [Helicoverpa armigera]                   Helicoverpa ... cotton bollworm 29058      113    113   76%   1e-30 91.53  73         XP_021188085.1   
+hypothetical protein MTP99_015209 [Tenebrio molitor]              Tenebrio mol... yellow mealworm 7067       114    114   76%   1e-30 89.83  113        KAJ3627861.1     
+ubiquitin-like protein 5 [Leptinotarsa decemlineata]              Leptinotarsa... Colorado pot... 7539       113    113   76%   1e-30 89.83  73         XP_023015270.1   
+ubiquitin-like protein 5 [Bombyx mori]                            Bombyx mori     domestic sil... 7091       113    113   76%   1e-30 91.53  73         XP_004928810.3   
+Ubiquitin-like protein 5 [Amphibalanus amphitrite]                Amphibalanus... NA              1232801    113    113   76%   2e-30 89.83  73         KAF0298113.1     
+ubiquitin-like protein 5 [Ischnura elegans]                       Ischnura ele... NA              197161     113    113   76%   2e-30 93.22  73         XP_046409222.1   
+hypothetical protein DNTS_030233 [Danionella cerebrum]            Danionella c... NA              2873325    113    113   80%   2e-30 87.10  73         TRY86193.1       
+ubiquitin-like protein 5 isoform X1 [Apis mellifera]              Apis mellifera  honey bee       7460       113    113   76%   2e-30 91.53  73         XP_001120009.1   
+hypothetical protein [Characodon lateralis]                       Characodon l... NA              208331     114    114   80%   2e-30 87.10  113        MED6293552.1     
+hypothetical protein DAPPUDRAFT_95804 [Daphnia pulex]             Daphnia pulex   common water... 6669       113    113   76%   2e-30 89.83  73         EFX88865.1       
+unnamed protein product [Allacma fusca]                           Allacma fusca   NA              39272      113    113   76%   2e-30 93.22  73         CAG7731464.1     
+PREDICTED: ubiquitin-like protein 5 [Nicrophorus vespilloides]    Nicrophorus ... NA              110193     112    112   76%   2e-30 89.83  73         XP_017777315.1   
+hypothetical protein ILUMI_10188 [Ignelater luminosus]            Ignelater lu... NA              2038154    113    113   76%   2e-30 89.83  97         KAF2895988.1     
+EOG090X0OUK [Daphnia similis]                                     Daphnia similis NA              35528      115    115   80%   2e-30 87.10  174        SVE70860.1       
+
+
+Query #33: TSI_03871-RA_8627.fa Query ID: lcl|Query_4631424 Length: 109
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     223    223   100%  6e-73 100.00 109        CAD7263747.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      215    215   100%  9e-70 96.33  116        CAD7202916.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     211    211   100%  2e-68 93.58  116        CAD7421101.1     
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      126    126   56%   4e-35 96.77  77         CAD7458017.1     
+hypothetical protein PR048_016036 [Dryococelus australis]         Dryococelus ... NA              614101     127    127   56%   1e-34 95.16  162        KAJ8884179.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     125    125   67%   5e-34 84.21  134        CAD7434346.1     
+hypothetical protein AAG570_008816 [Ranatra chinensis]            Ranatra chin... NA              642074     121    121   56%   2e-33 93.55  65         KAL1138754.1     
+hypothetical protein Cfor_11874 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      122    122   56%   2e-33 93.55  82         GFG40056.1       
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      121    121   54%   3e-33 100.00 59         CAD7417722.1     
+Ubiquitin-like protein 5 [Blattella germanica]                    Blattella ge... German cockr... 6973       121    121   56%   3e-33 93.55  79         PSN34762.1       
+hypothetical protein L798_08732 [Zootermopsis nevadensis]         Zootermopsis... NA              136037     121    121   56%   3e-33 91.94  64         KDR23525.1       
+Ubiquitin-like protein 5 [Cryptotermes secundus]                  Cryptotermes... NA              105785     120    120   56%   4e-33 93.55  68         PNF41911.1       
+Ubiquitin-like protein 5 [Operophtera brumata]                    Operophtera ... winter moth     104452     120    120   60%   8e-33 86.36  79         KOB75708.1       
+hypothetical protein B566_EDAN017906 [Ephemera danica]            Ephemera danica NA              1049336    120    120   64%   1e-32 82.86  98         KAF4529757.1     
+unnamed protein product [Chilo suppressalis]                      Chilo suppre... striped rice... 168631     122    122   58%   1e-32 87.50  150        CAH0405715.1     
+Ubiquitin-like protein 5 [Dufourea novaeangliae]                  Dufourea nov... NA              178035     119    119   56%   1e-32 90.32  75         KZC11505.1       
+EOG090X0OUK [Daphnia dolichocephala]                              Daphnia doli... NA              2282166    122    122   64%   2e-32 81.43  151        SVE75568.1       
+hypothetical protein J437_LFUL008894 [Ladona fulva]               Ladona fulva    scarce chaser   123851     119    119   54%   2e-32 98.31  81         KAG8231973.1     
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     119    119   54%   3e-32 98.31  88         KAK6641194.1     
+ubiquitin-like protein 5 [Leptopilina heterotoma]                 Leptopilina ... NA              63436      119    119   54%   3e-32 96.61  73         XP_043463603.1   
+ubiquitin-like protein 5 [Anabrus simplex]                        Anabrus simplex Mormon cricket  316456     118    118   54%   3e-32 98.31  73         XP_066993644.1   
+hypothetical protein NQ315_003070 [Exocentrus adspersus]          Exocentrus a... NA              1586481    119    119   56%   5e-32 87.10  90         KAJ8921452.1     
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     118    118   54%   5e-32 98.31  88         KAK6637079.1     
+hypothetical protein BDFB_002344 [Asbolus verrucosus]             Asbolus verr... NA              1661398    118    118   56%   6e-32 87.10  79         RZC37314.1       
+unnamed protein product [Callosobruchus maculatus]                Callosobruch... cowpea weevil   64391      117    117   56%   6e-32 87.10  65         VEN60361.1       
+ubiquitin-like protein 5 [Zootermopsis nevadensis]                Zootermopsis... NA              136037     118    118   54%   7e-32 94.92  93         XP_021934305.1   
+ubiquitin-like protein 5 [Homalodisca vitripennis]                Homalodisca ... glassy-winge... 197043     117    117   54%   9e-32 96.61  73         XP_046669453.1   
+EOG090X0OUK [Leptodora kindtii]                                   Leptodora ki... NA              77707      117    117   54%   1e-31 91.53  73         CAG4645326.1     
+unnamed protein product [Spodoptera exigua]                       Spodoptera e... beet armyworm   7107       117    117   56%   1e-31 88.71  67         CAH0699348.1     
+ubiquitin-like protein 5 isoform X1 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     118    118   56%   1e-31 87.10  104        XP_058237094.1   
+EOG090X0OUK [Scapholeberis mucronata]                             Scapholeberi... NA              202097     117    117   55%   1e-31 90.00  69         CAG4649904.1     
+EOG090X0OUK [Ceriodaphnia reticulata]                             Ceriodaphnia... NA              302197     116    116   55%   2e-31 90.00  71         CAG4637571.1     
+EOG090X0OUK [Lepidurus arcticus]                                  Lepidurus ar... NA              77708      117    117   55%   3e-31 90.00  90         CAG4644528.1     
+Hypothetical protein CINCED_3A019804 [Cinara cedri]               Cinara cedri    NA              506608     116    116   56%   3e-31 83.87  64         VVC34114.1       
+ubiquitin-like protein 5 [Macrosteles quadrilineatus]             Macrosteles ... aster leafho... 74068      116    116   54%   3e-31 96.61  73         XP_054272978.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     116    116   54%   3e-31 94.92  73         CAB0003664.1     
+PREDICTED: ubiquitin-like protein 5 [Sinocyclocheilus grahami]    Sinocycloche... NA              75366      116    116   65%   3e-31 76.06  78         XP_016100315.1   
+UBL5 protein [Amia calva]                                         Amia calva      bowfin          7924       117    117   56%   4e-31 87.10  95         MBN3310195.1     
+ubiquitin-like protein 5 [Cylas formicarius]                      Cylas formic... sweet potato... 197179     115    115   54%   4e-31 91.53  73         XP_060526758.1   
+ubiquitin 5 [Labeo rohita]                                        Labeo rohita    rohu            84645      115    115   58%   5e-31 82.81  66         RXN32682.1       
+hypothetical protein O3M35_003686 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     115    115   54%   5e-31 93.22  73         KAK9499192.1     
+ubiquitin-like protein 5 [Penaeus indicus]                        Penaeus indicus NA              29960      117    117   54%   5e-31 93.22  113        XP_063613409.1   
+uncharacterized protein Phum_PHUM195490 [Pediculus humanus...     Pediculus hu... human body l... 121224     115    115   54%   6e-31 96.61  73         XP_002425390.1   
+ubiquitin-like protein 5 isoform X2 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     116    116   54%   6e-31 91.53  103        XP_043795434.1   
+putative ubiquitin-like protein 5 isoform X2 [Penaeus vannamei]   Penaeus vann... Pacific whit... 6689       116    116   54%   6e-31 93.22  113        ROT81264.1       
+ubiquitin-like protein 5 [Coccinella septempunctata]              Coccinella s... seven-spotte... 41139      115    115   54%   7e-31 93.22  73         XP_044757032.1   
+ubiquitin-like protein 5 isoform X1 [Ceratina calcarata]          Ceratina cal... NA              156304     115    115   54%   7e-31 93.22  75         XP_026669680.1   
+PREDICTED: ubiquitin-like protein 5 [Dinoponera quadriceps]       Dinoponera q... NA              609295     115    115   54%   8e-31 93.22  73         XP_014485278.1   
+ubiquitin-like protein 5 [Silurus meridionalis]                   Silurus meri... NA              175797     115    115   54%   8e-31 91.53  73         XP_046693327.1   
+ubiquitin-like protein 5 isoform X1 [Cataglyphis hispanica]       Cataglyphis ... NA              1086592    115    115   54%   8e-31 93.22  77         XP_050465115.1   
+PREDICTED: ubiquitin-like protein 5 [Dufourea novaeangliae]       Dufourea nov... NA              178035     115    115   54%   8e-31 93.22  73         XP_015433638.1   
+ubiquitin-like protein 5 [Bombus terrestris]                      Bombus terre... buff-tailed ... 30195      115    115   54%   8e-31 93.22  73         XP_003394299.1   
+ubiquitin-like protein 5 [Halyomorpha halys]                      Halyomorpha ... brown marmor... 286706     115    115   54%   9e-31 93.22  73         XP_014281393.1   
+Ubiquitin-like protein 5 [Tupaia chinensis]                       Tupaia chine... Chinese tree... 246437     115    115   73%   9e-31 71.25  95         ELV14069.1       
+hypothetical protein JZ751_027468 [Albula glossodonta]            Albula gloss... roundjaw bon... 121402     115    115   56%   9e-31 85.48  68         KAG9337817.1     
+ubiquitin-like protein 5 isoform X1 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     116    116   54%   1e-30 91.53  108        XP_043795433.1   
+ubiquitin like 5 [Pipistrellus kuhlii]                            Pipistrellus... Kuhl's pipis... 59472      115    115   70%   1e-30 70.37  103        KAF6297814.1     
+ubiquitin-like protein 5 isoform X2 [Apis dorsata]                Apis dorsata    giant honeybee  7462       114    114   54%   1e-30 91.53  68         XP_006611658.1   
+ubiquitin-like protein 5 [Cimex lectularius]                      Cimex lectul... bed bug         79782      114    114   54%   1e-30 93.22  73         XP_014254624.1   
+unnamed protein product [Acanthoscelides obtectus]                Acanthosceli... NA              200917     114    114   54%   1e-30 91.53  73         CAH1974904.1     
+Ubiquitin-like protein 5 [Anabarilius grahami]                    Anabarilius ... NA              495550     115    115   72%   1e-30 72.15  91         ROL54840.1       
+hypothetical protein A6R68_18200 [Neotoma lepida]                 Neotoma lepida  desert woodrat  56216      114    114   56%   1e-30 85.48  74         OBS79449.1       
+ubiquitin-like protein 5 [Harpegnathos saltator]                  Harpegnathos... Jerdon's jum... 610380     114    114   54%   1e-30 91.53  73         XP_011135838.1   
+hypothetical protein ILUMI_10188 [Ignelater luminosus]            Ignelater lu... NA              2038154    115    115   75%   1e-30 69.51  97         KAF2895988.1     
+ubiquitin-like protein 5 isoform X1 [Apis mellifera]              Apis mellifera  honey bee       7460       114    114   54%   2e-30 91.53  73         XP_001120009.1   
+hypothetical protein HUJ05_009692 [Dendroctonus ponderosae]       Dendroctonus... mountain pin... 77166      114    114   56%   2e-30 82.26  69         KAH0999216.1     
+ubiquitin-like protein [Pimephales promelas]                      Pimephales p... fathead minnow  90988      116    116   56%   2e-30 85.48  146        KAG1960108.1     
+ubiquitin-like protein 5 [Nilaparvata lugens]                     Nilaparvata ... brown planth... 108931     114    114   54%   2e-30 93.22  73         XP_022202389.1   
+ubiquitin-like protein 5 [Vulpes vulpes]                          Vulpes vulpes   red fox         9627       114    114   56%   2e-30 85.48  66         XP_025841529.1   
+hypothetical protein PHYPO_G00156090 [Pangasianodon...            Pangasianodo... striped catfish 310915     115    115   54%   2e-30 89.83  103        KAB5523755.1     
+ubiquitin-like protein 5 [Cricetulus griseus]                     Cricetulus g... Chinese hamster 10029      114    114   56%   2e-30 85.48  91         ERE76771.1       
+Ubiquitin-like protein 5 [Sciurus carolinensis]                   Sciurus caro... gray squirrel   30640      114    114   56%   2e-30 85.48  66         MBZ3869064.1     
+PREDICTED: ubiquitin-like protein 5 [Hipposideros armiger]        Hipposideros... great roundl... 186990     114    114   56%   2e-30 85.48  66         XP_019514780.1   
+hypothetical protein DAPPUDRAFT_95804 [Daphnia pulex]             Daphnia pulex   common water... 6669       114    114   54%   2e-30 89.83  73         EFX88865.1       
+Ubl5 [Phodopus roborovskii]                                       Phodopus rob... desert hamster  109678     114    114   56%   2e-30 85.48  87         CAH6855531.1     
+hypothetical protein E2I00_009483 [Balaenoptera physalus]         Balaenoptera... Fin whale       9770       114    114   56%   2e-30 85.48  62         KAB0400196.1     
+ubiquitin-like protein 5 [Neocloeon triangulifer]                 Neocloeon tr... NA              2078957    114    114   54%   2e-30 91.53  73         XP_059484602.1   
+ubiquitin-like protein 5 [Plutella xylostella]                    Plutella xyl... diamondback ... 51655      114    114   54%   2e-30 93.22  73         XP_037964188.1   
+hypothetical protein MTP99_015209 [Tenebrio molitor]              Tenebrio mol... yellow mealworm 7067       115    115   54%   2e-30 89.83  113        KAJ3627861.1     
+ubiquitin-like protein 5 [Ischnura elegans]                       Ischnura ele... NA              197161     114    114   54%   2e-30 93.22  73         XP_046409222.1   
+ubiquitin-like protein 5 [Octopus sinensis]                       Octopus sine... East Asian c... 2607531    115    115   55%   2e-30 86.89  107        XP_036368522.1   
+ubiquitin-like protein 5 [Trichomycterus rosablanca]              Trichomycter... NA              2290929    114    114   54%   2e-30 89.83  73         XP_062866768.1   
+EOG090X0OUK [Daphnia similis]                                     Daphnia similis NA              35528      117    117   67%   2e-30 75.68  174        SVE70860.1       
+Ubiquitin-like protein 5 [Araneus ventricosus]                    Araneus vent... NA              182803     114    114   54%   3e-30 91.53  73         GBN15320.1       
+hypothetical protein R5R35_008383 [Gryllus longicercus]           Gryllus long... NA              2509291    114    114   54%   3e-30 96.61  73         KAK7867189.1     
+ubiquitin-like protein 5 [Leptinotarsa decemlineata]              Leptinotarsa... Colorado pot... 7539       114    114   54%   3e-30 89.83  73         XP_023015270.1   
+hypothetical protein MSG28_010191 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       116    116   54%   3e-30 91.53  145        KAI8436704.1     
+Ubiquitin-like protein 5 [Gryllus bimaculatus]                    Gryllus bima... two-spotted ... 6999       113    113   54%   3e-30 96.61  59         GLG99502.1       
+hypothetical protein NL108_006146 [Boleophthalmus pectinirostris] Boleophthalm... great blue-s... 150288     113    113   56%   3e-30 85.48  66         KAJ0050797.1     
+hypothetical protein evm_000102 [Chilo suppressalis]              Chilo suppre... striped rice... 168631     114    114   54%   3e-30 91.53  80         RVE55204.1       
+Ubiquitin-like protein 5 [Amphibalanus amphitrite]                Amphibalanus... NA              1232801    113    113   54%   3e-30 89.83  73         KAF0298113.1     
+hypothetical protein DNTS_030233 [Danionella cerebrum]            Danionella c... NA              2873325    113    113   60%   3e-30 78.79  73         TRY86193.1       
+hypothetical protein O3P69_004301 [Scylla paramamosain]           Scylla param... green mud crab  85552      115    115   54%   3e-30 93.22  140        KAK8399134.1     
+EOG090X0OUK [Alona affinis]                                       Alona affinis   NA              381656     113    113   54%   3e-30 88.14  73         CAG4635250.1     
+hypothetical protein [Characodon lateralis]                       Characodon l... NA              208331     115    115   57%   3e-30 84.13  113        MED6293552.1     
+ubiquitin-like protein 5 [Planococcus citri]                      Planococcus ... citrus mealybug 170843     113    113   54%   4e-30 91.53  73         XP_065209575.1   
+hypothetical protein MTO96_006220 [Rhipicephalus appendiculatus]  Rhipicephalu... NA              34631      113    113   54%   4e-30 89.83  73         KAL1417345.1     
+ubiquitin-like protein 5 [Helicoverpa armigera]                   Helicoverpa ... cotton bollworm 29058      113    113   54%   4e-30 91.53  73         XP_021188085.1   
+EOG090X0OUK [Triops cancriformis]                                 Triops cancr... NA              194544     113    113   54%   4e-30 89.83  73         CAG4652392.1     
+PREDICTED: ubiquitin-like protein 5 [Habropoda laboriosa]         Habropoda la... NA              597456     113    113   54%   4e-30 91.53  73         XP_017789464.1   
+
+
+Query #34: TPS_14875-RA_8627.fa Query ID: lcl|Query_4631425 Length: 116
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     239    239   100%  4e-79 100.00 116        CAD7421101.1     
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      233    233   100%  6e-77 97.41  116        CAD7202916.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     211    211   93%   3e-68 93.58  109        CAD7263747.1     
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      126    126   53%   5e-35 96.77  77         CAD7458017.1     
+hypothetical protein PR048_016036 [Dryococelus australis]         Dryococelus ... NA              614101     128    128   53%   1e-34 95.16  162        KAJ8884179.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     125    125   65%   6e-34 82.05  134        CAD7434346.1     
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      121    121   50%   2e-33 100.00 59         CAD7417722.1     
+hypothetical protein AAG570_008816 [Ranatra chinensis]            Ranatra chin... NA              642074     121    121   53%   2e-33 93.55  65         KAL1138754.1     
+hypothetical protein Cfor_11874 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      122    122   53%   3e-33 93.55  82         GFG40056.1       
+Ubiquitin-like protein 5 [Blattella germanica]                    Blattella ge... German cockr... 6973       122    122   53%   3e-33 93.55  79         PSN34762.1       
+hypothetical protein L798_08732 [Zootermopsis nevadensis]         Zootermopsis... NA              136037     121    121   53%   4e-33 91.94  64         KDR23525.1       
+Ubiquitin-like protein 5 [Cryptotermes secundus]                  Cryptotermes... NA              105785     121    121   53%   4e-33 93.55  68         PNF41911.1       
+Ubiquitin-like protein 5 [Operophtera brumata]                    Operophtera ... winter moth     104452     120    120   56%   1e-32 86.36  79         KOB75708.1       
+EOG090X0OUK [Daphnia dolichocephala]                              Daphnia doli... NA              2282166    122    122   60%   1e-32 81.43  151        SVE75568.1       
+hypothetical protein J437_LFUL008894 [Ladona fulva]               Ladona fulva    scarce chaser   123851     120    120   50%   1e-32 98.31  81         KAG8231973.1     
+hypothetical protein B566_EDAN017906 [Ephemera danica]            Ephemera danica NA              1049336    120    120   60%   2e-32 82.86  98         KAF4529757.1     
+unnamed protein product [Chilo suppressalis]                      Chilo suppre... striped rice... 168631     122    122   55%   2e-32 87.50  150        CAH0405715.1     
+Ubiquitin-like protein 5 [Dufourea novaeangliae]                  Dufourea nov... NA              178035     119    119   53%   2e-32 90.32  75         KZC11505.1       
+ubiquitin-like protein 5 [Anabrus simplex]                        Anabrus simplex Mormon cricket  316456     119    119   50%   2e-32 98.31  73         XP_066993644.1   
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     120    120   50%   2e-32 98.31  88         KAK6641194.1     
+ubiquitin-like protein 5 [Leptopilina heterotoma]                 Leptopilina ... NA              63436      119    119   50%   3e-32 96.61  73         XP_043463603.1   
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     119    119   50%   3e-32 98.31  88         KAK6637079.1     
+ubiquitin-like protein 5 [Zootermopsis nevadensis]                Zootermopsis... NA              136037     119    119   50%   6e-32 94.92  93         XP_021934305.1   
+hypothetical protein NQ315_003070 [Exocentrus adspersus]          Exocentrus a... NA              1586481    119    119   53%   6e-32 87.10  90         KAJ8921452.1     
+ubiquitin 5 [Labeo rohita]                                        Labeo rohita    rohu            84645      118    118   55%   6e-32 84.38  66         RXN32682.1       
+ubiquitin-like protein 5 [Homalodisca vitripennis]                Homalodisca ... glassy-winge... 197043     118    118   50%   7e-32 96.61  73         XP_046669453.1   
+hypothetical protein BDFB_002344 [Asbolus verrucosus]             Asbolus verr... NA              1661398    118    118   53%   7e-32 87.10  79         RZC37314.1       
+unnamed protein product [Callosobruchus maculatus]                Callosobruch... cowpea weevil   64391      117    117   53%   8e-32 87.10  65         VEN60361.1       
+hypothetical protein ILUMI_10188 [Ignelater luminosus]            Ignelater lu... NA              2038154    119    119   70%   8e-32 71.95  97         KAF2895988.1     
+EOG090X0OUK [Leptodora kindtii]                                   Leptodora ki... NA              77707      117    117   50%   9e-32 91.53  73         CAG4645326.1     
+EOG090X0OUK [Scapholeberis mucronata]                             Scapholeberi... NA              202097     117    117   51%   1e-31 90.00  69         CAG4649904.1     
+Ubiquitin-like protein 5 [Tupaia chinensis]                       Tupaia chine... Chinese tree... 246437     118    118   68%   1e-31 71.25  95         ELV14069.1       
+unnamed protein product [Spodoptera exigua]                       Spodoptera e... beet armyworm   7107       117    117   53%   1e-31 88.71  67         CAH0699348.1     
+ubiquitin-like protein 5 isoform X1 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     118    118   53%   1e-31 87.10  104        XP_058237094.1   
+EOG090X0OUK [Lepidurus arcticus]                                  Lepidurus ar... NA              77708      117    117   51%   2e-31 90.00  90         CAG4644528.1     
+EOG090X0OUK [Ceriodaphnia reticulata]                             Ceriodaphnia... NA              302197     117    117   51%   2e-31 90.00  71         CAG4637571.1     
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     117    117   50%   2e-31 94.92  73         CAB0003664.1     
+ubiquitin-like protein 5 [Macrosteles quadrilineatus]             Macrosteles ... aster leafho... 74068      117    117   50%   2e-31 96.61  73         XP_054272978.1   
+ubiquitin-like protein 5 [Cylas formicarius]                      Cylas formic... sweet potato... 197179     116    116   50%   3e-31 91.53  73         XP_060526758.1   
+Hypothetical protein CINCED_3A019804 [Cinara cedri]               Cinara cedri    NA              506608     116    116   53%   4e-31 83.87  64         VVC34114.1       
+hypothetical protein O3M35_003686 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     116    116   50%   4e-31 93.22  73         KAK9499192.1     
+uncharacterized protein Phum_PHUM195490 [Pediculus humanus...     Pediculus hu... human body l... 121224     116    116   50%   4e-31 96.61  73         XP_002425390.1   
+ubiquitin-like protein 5 [Penaeus indicus]                        Penaeus indicus NA              29960      117    117   50%   4e-31 93.22  113        XP_063613409.1   
+UBL5 protein [Amia calva]                                         Amia calva      bowfin          7924       117    117   53%   4e-31 87.10  95         MBN3310195.1     
+putative ubiquitin-like protein 5 isoform X2 [Penaeus vannamei]   Penaeus vann... Pacific whit... 6689       117    117   50%   5e-31 93.22  113        ROT81264.1       
+ubiquitin-like protein 5 [Coccinella septempunctata]              Coccinella s... seven-spotte... 41139      116    116   50%   5e-31 93.22  73         XP_044757032.1   
+ubiquitin-like protein 5 isoform X2 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     117    117   50%   5e-31 91.53  103        XP_043795434.1   
+ubiquitin-like protein 5 isoform X1 [Ceratina calcarata]          Ceratina cal... NA              156304     115    115   50%   5e-31 93.22  75         XP_026669680.1   
+PREDICTED: ubiquitin-like protein 5 [Dufourea novaeangliae]       Dufourea nov... NA              178035     115    115   50%   5e-31 93.22  73         XP_015433638.1   
+ubiquitin-like protein 5 [Bombus terrestris]                      Bombus terre... buff-tailed ... 30195      115    115   50%   6e-31 93.22  73         XP_003394299.1   
+PREDICTED: ubiquitin-like protein 5 [Dinoponera quadriceps]       Dinoponera q... NA              609295     115    115   50%   6e-31 93.22  73         XP_014485278.1   
+ubiquitin-like protein 5 [Silurus meridionalis]                   Silurus meri... NA              175797     115    115   50%   6e-31 91.53  73         XP_046693327.1   
+PREDICTED: ubiquitin-like protein 5 [Sinocyclocheilus grahami]    Sinocycloche... NA              75366      115    115   61%   6e-31 76.06  78         XP_016100315.1   
+ubiquitin-like protein 5 isoform X1 [Cataglyphis hispanica]       Cataglyphis ... NA              1086592    115    115   50%   6e-31 93.22  77         XP_050465115.1   
+ubiquitin-like protein 5 [Halyomorpha halys]                      Halyomorpha ... brown marmor... 286706     115    115   50%   8e-31 93.22  73         XP_014281393.1   
+ubiquitin-like protein 5 isoform X1 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     116    116   50%   8e-31 91.53  108        XP_043795433.1   
+ubiquitin like 5 [Pipistrellus kuhlii]                            Pipistrellus... Kuhl's pipis... 59472      116    116   66%   8e-31 70.37  103        KAF6297814.1     
+unnamed protein product [Acanthoscelides obtectus]                Acanthosceli... NA              200917     115    115   50%   8e-31 91.53  73         CAH1974904.1     
+ubiquitin-like protein 5 [Harpegnathos saltator]                  Harpegnathos... Jerdon's jum... 610380     115    115   50%   9e-31 91.53  73         XP_011135838.1   
+ubiquitin-like protein 5 [Cimex lectularius]                      Cimex lectul... bed bug         79782      115    115   50%   9e-31 93.22  73         XP_014254624.1   
+ubiquitin-like protein 5 isoform X2 [Apis dorsata]                Apis dorsata    giant honeybee  7462       115    115   50%   9e-31 91.53  68         XP_006611658.1   
+hypothetical protein JZ751_027468 [Albula glossodonta]            Albula gloss... roundjaw bon... 121402     115    115   53%   1e-30 85.48  68         KAG9337817.1     
+ubiquitin-like protein 5 isoform X1 [Apis mellifera]              Apis mellifera  honey bee       7460       115    115   50%   1e-30 91.53  73         XP_001120009.1   
+hypothetical protein A6R68_18200 [Neotoma lepida]                 Neotoma lepida  desert woodrat  56216      114    114   53%   2e-30 85.48  74         OBS79449.1       
+ubiquitin-like protein 5 [Nilaparvata lugens]                     Nilaparvata ... brown planth... 108931     114    114   50%   2e-30 93.22  73         XP_022202389.1   
+hypothetical protein PHYPO_G00156090 [Pangasianodon...            Pangasianodo... striped catfish 310915     115    115   50%   2e-30 89.83  103        KAB5523755.1     
+hypothetical protein R5R35_008383 [Gryllus longicercus]           Gryllus long... NA              2509291    114    114   50%   2e-30 96.61  73         KAK7867189.1     
+hypothetical protein MTP99_015209 [Tenebrio molitor]              Tenebrio mol... yellow mealworm 7067       115    115   50%   2e-30 89.83  113        KAJ3627861.1     
+ubiquitin-like protein 5 [Plutella xylostella]                    Plutella xyl... diamondback ... 51655      114    114   50%   2e-30 93.22  73         XP_037964188.1   
+hypothetical protein DAPPUDRAFT_95804 [Daphnia pulex]             Daphnia pulex   common water... 6669       114    114   50%   2e-30 89.83  73         EFX88865.1       
+ubiquitin-like protein 5 [Leptinotarsa decemlineata]              Leptinotarsa... Colorado pot... 7539       114    114   50%   2e-30 89.83  73         XP_023015270.1   
+Ubiquitin-like protein 5 [Anabarilius grahami]                    Anabarilius ... NA              495550     115    115   55%   2e-30 82.81  91         ROL54840.1       
+ubiquitin-like protein 5 [Neocloeon triangulifer]                 Neocloeon tr... NA              2078957    114    114   50%   2e-30 91.53  73         XP_059484602.1   
+ubiquitin-like protein 5 [Trichomycterus rosablanca]              Trichomycter... NA              2290929    114    114   50%   2e-30 89.83  73         XP_062866768.1   
+hypothetical protein MSG28_010191 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       117    117   50%   2e-30 91.53  145        KAI8436704.1     
+ubiquitin-like protein 5 [Ischnura elegans]                       Ischnura ele... NA              197161     114    114   50%   2e-30 93.22  73         XP_046409222.1   
+Ubiquitin-like protein 5 [Araneus ventricosus]                    Araneus vent... NA              182803     114    114   50%   2e-30 91.53  73         GBN15320.1       
+ubiquitin-like protein [Pimephales promelas]                      Pimephales p... fathead minnow  90988      116    116   53%   2e-30 85.48  146        KAG1960108.1     
+ubiquitin-like protein 5 [Vulpes vulpes]                          Vulpes vulpes   red fox         9627       114    114   53%   2e-30 85.48  66         XP_025841529.1   
+Ubiquitin-like protein 5 [Gryllus bimaculatus]                    Gryllus bima... two-spotted ... 6999       114    114   50%   2e-30 96.61  59         GLG99502.1       
+hypothetical protein O3P69_004301 [Scylla paramamosain]           Scylla param... green mud crab  85552      116    116   50%   2e-30 93.22  140        KAK8399134.1     
+ubiquitin-like protein 5 [Cricetulus griseus]                     Cricetulus g... Chinese hamster 10029      114    114   53%   2e-30 85.48  91         ERE76771.1       
+PREDICTED: ubiquitin-like protein 5 [Hipposideros armiger]        Hipposideros... great roundl... 186990     114    114   53%   2e-30 85.48  66         XP_019514780.1   
+Ubiquitin-like protein 5 [Sciurus carolinensis]                   Sciurus caro... gray squirrel   30640      114    114   53%   3e-30 85.48  66         MBZ3869064.1     
+hypothetical protein HUJ05_009692 [Dendroctonus ponderosae]       Dendroctonus... mountain pin... 77166      114    114   53%   3e-30 82.26  69         KAH0999216.1     
+hypothetical protein evm_000102 [Chilo suppressalis]              Chilo suppre... striped rice... 168631     114    114   50%   3e-30 91.53  80         RVE55204.1       
+EOG090X0OUK [Daphnia similis]                                     Daphnia similis NA              35528      117    117   63%   3e-30 75.68  174        SVE70860.1       
+ubiquitin-like protein 5 [Planococcus citri]                      Planococcus ... citrus mealybug 170843     114    114   50%   3e-30 91.53  73         XP_065209575.1   
+PREDICTED: ubiquitin-like protein 5 [Nicrophorus vespilloides]    Nicrophorus ... NA              110193     114    114   50%   3e-30 89.83  73         XP_017777315.1   
+Ubiquitin-like protein 5 [Amphibalanus amphitrite]                Amphibalanus... NA              1232801    114    114   50%   3e-30 89.83  73         KAF0298113.1     
+EOG090X0OUK [Triops cancriformis]                                 Triops cancr... NA              194544     114    114   50%   3e-30 89.83  73         CAG4652392.1     
+hypothetical protein E2I00_009483 [Balaenoptera physalus]         Balaenoptera... Fin whale       9770       114    114   53%   3e-30 85.48  62         KAB0400196.1     
+ubiquitin-like protein 5 [Helicoverpa armigera]                   Helicoverpa ... cotton bollworm 29058      114    114   50%   3e-30 91.53  73         XP_021188085.1   
+ubiquitin-like protein 5 [Diorhabda sublineata]                   Diorhabda su... NA              1163346    114    114   50%   3e-30 88.14  73         XP_056644854.1   
+Ubl5 [Phodopus roborovskii]                                       Phodopus rob... desert hamster  109678     114    114   53%   3e-30 85.48  87         CAH6855531.1     
+PREDICTED: ubiquitin-like protein 5 [Habropoda laboriosa]         Habropoda la... NA              597456     114    114   50%   3e-30 91.53  73         XP_017789464.1   
+EOG090X0OUK [Alona affinis]                                       Alona affinis   NA              381656     114    114   50%   3e-30 88.14  73         CAG4635250.1     
+hypothetical protein MTO96_006220 [Rhipicephalus appendiculatus]  Rhipicephalu... NA              34631      114    114   50%   3e-30 89.83  73         KAL1417345.1     
+ubiquitin-like protein 5 [Chrysoperla carnea]                     Chrysoperla ... NA              189513     114    114   50%   3e-30 89.83  73         XP_044728346.1   
+ubiquitin-like protein 5 [Bombyx mori]                            Bombyx mori     domestic sil... 7091       114    114   50%   3e-30 91.53  73         XP_004928810.3   
+
+
+Query #35: TDI_07961-RA_8627.fa Query ID: lcl|Query_4631426 Length: 116
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product [Timema douglasi]                         Timema douglasi NA              61478      237    237   100%  2e-78 100.00 116        CAD7202916.1     
+unnamed protein product [Timema poppense]                         Timema poppense NA              170557     233    233   100%  6e-77 97.41  116        CAD7421101.1     
+unnamed protein product [Timema shepardi]                         Timema shepardi NA              629360     215    215   93%   9e-70 96.33  109        CAD7263747.1     
+unnamed protein product [Timema tahoe]                            Timema tahoe    NA              61484      126    126   53%   5e-35 96.77  77         CAD7458017.1     
+hypothetical protein PR048_016036 [Dryococelus australis]         Dryococelus ... NA              614101     128    128   53%   9e-35 95.16  162        KAJ8884179.1     
+unnamed protein product [Timema monikensis]                       Timema monik... NA              170555     125    125   63%   6e-34 84.21  134        CAD7434346.1     
+hypothetical protein AAG570_008816 [Ranatra chinensis]            Ranatra chin... NA              642074     122    122   53%   2e-33 93.55  65         KAL1138754.1     
+hypothetical protein Cfor_11874 [Coptotermes formosanus]          Coptotermes ... Formosan sub... 36987      122    122   53%   2e-33 93.55  82         GFG40056.1       
+unnamed protein product [Timema cristinae]                        Timema crist... NA              61476      121    121   50%   2e-33 100.00 59         CAD7417722.1     
+Ubiquitin-like protein 5 [Blattella germanica]                    Blattella ge... German cockr... 6973       122    122   53%   2e-33 93.55  79         PSN34762.1       
+hypothetical protein L798_08732 [Zootermopsis nevadensis]         Zootermopsis... NA              136037     121    121   53%   3e-33 91.94  64         KDR23525.1       
+Ubiquitin-like protein 5 [Cryptotermes secundus]                  Cryptotermes... NA              105785     121    121   53%   3e-33 93.55  68         PNF41911.1       
+Ubiquitin-like protein 5 [Operophtera brumata]                    Operophtera ... winter moth     104452     120    120   56%   9e-33 86.36  79         KOB75708.1       
+hypothetical protein B566_EDAN017906 [Ephemera danica]            Ephemera danica NA              1049336    120    120   60%   1e-32 82.86  98         KAF4529757.1     
+unnamed protein product [Chilo suppressalis]                      Chilo suppre... striped rice... 168631     122    122   55%   1e-32 87.50  150        CAH0405715.1     
+Ubiquitin-like protein 5 [Dufourea novaeangliae]                  Dufourea nov... NA              178035     120    120   53%   1e-32 90.32  75         KZC11505.1       
+hypothetical protein J437_LFUL008894 [Ladona fulva]               Ladona fulva    scarce chaser   123851     120    120   50%   2e-32 98.31  81         KAG8231973.1     
+EOG090X0OUK [Daphnia dolichocephala]                              Daphnia doli... NA              2282166    122    122   60%   2e-32 81.43  151        SVE75568.1       
+ubiquitin-like protein 5 [Leptopilina heterotoma]                 Leptopilina ... NA              63436      119    119   50%   3e-32 96.61  73         XP_043463603.1   
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     119    119   50%   3e-32 98.31  88         KAK6641194.1     
+ubiquitin-like protein 5 [Anabrus simplex]                        Anabrus simplex Mormon cricket  316456     119    119   50%   3e-32 98.31  73         XP_066993644.1   
+Ubiquitin-like 5 [Polyplax serrata]                               Polyplax ser... house mouse ... 468196     119    119   50%   5e-32 98.31  88         KAK6637079.1     
+hypothetical protein NQ315_003070 [Exocentrus adspersus]          Exocentrus a... NA              1586481    119    119   53%   5e-32 87.10  90         KAJ8921452.1     
+hypothetical protein BDFB_002344 [Asbolus verrucosus]             Asbolus verr... NA              1661398    118    118   53%   6e-32 87.10  79         RZC37314.1       
+ubiquitin-like protein 5 [Zootermopsis nevadensis]                Zootermopsis... NA              136037     119    119   50%   7e-32 94.92  93         XP_021934305.1   
+unnamed protein product [Callosobruchus maculatus]                Callosobruch... cowpea weevil   64391      117    117   53%   7e-32 87.10  65         VEN60361.1       
+ubiquitin-like protein 5 [Homalodisca vitripennis]                Homalodisca ... glassy-winge... 197043     117    117   50%   1e-31 96.61  73         XP_046669453.1   
+EOG090X0OUK [Leptodora kindtii]                                   Leptodora ki... NA              77707      117    117   50%   1e-31 91.53  73         CAG4645326.1     
+unnamed protein product [Spodoptera exigua]                       Spodoptera e... beet armyworm   7107       117    117   53%   1e-31 88.71  67         CAH0699348.1     
+EOG090X0OUK [Scapholeberis mucronata]                             Scapholeberi... NA              202097     117    117   51%   1e-31 90.00  69         CAG4649904.1     
+ubiquitin-like protein 5 isoform X1 [Hemibagrus wyckioides]       Hemibagrus w... NA              337641     118    118   53%   1e-31 87.10  104        XP_058237094.1   
+EOG090X0OUK [Ceriodaphnia reticulata]                             Ceriodaphnia... NA              302197     117    117   51%   2e-31 90.00  71         CAG4637571.1     
+EOG090X0OUK [Lepidurus arcticus]                                  Lepidurus ar... NA              77708      117    117   51%   2e-31 90.00  90         CAG4644528.1     
+Hypothetical protein CINCED_3A019804 [Cinara cedri]               Cinara cedri    NA              506608     116    116   53%   3e-31 83.87  64         VVC34114.1       
+ubiquitin-like protein 5 [Macrosteles quadrilineatus]             Macrosteles ... aster leafho... 74068      116    116   50%   3e-31 96.61  73         XP_054272978.1   
+unnamed protein product [Nesidiocoris tenuis]                     Nesidiocoris... NA              355587     116    116   50%   3e-31 94.92  73         CAB0003664.1     
+UBL5 protein [Amia calva]                                         Amia calva      bowfin          7924       117    117   53%   3e-31 87.10  95         MBN3310195.1     
+PREDICTED: ubiquitin-like protein 5 [Sinocyclocheilus grahami]    Sinocycloche... NA              75366      116    116   61%   4e-31 76.06  78         XP_016100315.1   
+Ubiquitin-like protein 5 [Tupaia chinensis]                       Tupaia chine... Chinese tree... 246437     117    117   68%   4e-31 71.25  95         ELV14069.1       
+ubiquitin-like protein 5 [Cylas formicarius]                      Cylas formic... sweet potato... 197179     116    116   50%   4e-31 91.53  73         XP_060526758.1   
+ubiquitin 5 [Labeo rohita]                                        Labeo rohita    rohu            84645      115    115   55%   5e-31 82.81  66         RXN32682.1       
+hypothetical protein O3M35_003686 [Rhynocoris fuscipes]           Rhynocoris f... NA              488301     115    115   50%   5e-31 93.22  73         KAK9499192.1     
+ubiquitin-like protein 5 [Penaeus indicus]                        Penaeus indicus NA              29960      117    117   50%   5e-31 93.22  113        XP_063613409.1   
+uncharacterized protein Phum_PHUM195490 [Pediculus humanus...     Pediculus hu... human body l... 121224     115    115   50%   5e-31 96.61  73         XP_002425390.1   
+hypothetical protein ILUMI_10188 [Ignelater luminosus]            Ignelater lu... NA              2038154    116    116   70%   6e-31 70.73  97         KAF2895988.1     
+ubiquitin-like protein 5 isoform X2 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     116    116   50%   6e-31 91.53  103        XP_043795434.1   
+PREDICTED: ubiquitin-like protein 5 [Dinoponera quadriceps]       Dinoponera q... NA              609295     115    115   50%   6e-31 93.22  73         XP_014485278.1   
+putative ubiquitin-like protein 5 isoform X2 [Penaeus vannamei]   Penaeus vann... Pacific whit... 6689       117    117   50%   7e-31 93.22  113        ROT81264.1       
+PREDICTED: ubiquitin-like protein 5 [Dufourea novaeangliae]       Dufourea nov... NA              178035     115    115   50%   7e-31 93.22  73         XP_015433638.1   
+ubiquitin-like protein 5 [Coccinella septempunctata]              Coccinella s... seven-spotte... 41139      115    115   50%   7e-31 93.22  73         XP_044757032.1   
+ubiquitin-like protein 5 [Bombus terrestris]                      Bombus terre... buff-tailed ... 30195      115    115   50%   7e-31 93.22  73         XP_003394299.1   
+ubiquitin-like protein 5 isoform X1 [Cataglyphis hispanica]       Cataglyphis ... NA              1086592    115    115   50%   7e-31 93.22  77         XP_050465115.1   
+ubiquitin-like protein 5 [Silurus meridionalis]                   Silurus meri... NA              175797     115    115   50%   7e-31 91.53  73         XP_046693327.1   
+ubiquitin-like protein 5 isoform X1 [Ceratina calcarata]          Ceratina cal... NA              156304     115    115   50%   8e-31 93.22  75         XP_026669680.1   
+ubiquitin like 5 [Pipistrellus kuhlii]                            Pipistrellus... Kuhl's pipis... 59472      116    116   66%   9e-31 70.37  103        KAF6297814.1     
+ubiquitin-like protein 5 isoform X1 [Apis laboriosa]              Apis laboriosa  Himalayan ho... 183418     116    116   50%   9e-31 91.53  108        XP_043795433.1   
+hypothetical protein JZ751_027468 [Albula glossodonta]            Albula gloss... roundjaw bon... 121402     115    115   53%   9e-31 85.48  68         KAG9337817.1     
+ubiquitin-like protein 5 [Halyomorpha halys]                      Halyomorpha ... brown marmor... 286706     115    115   50%   1e-30 93.22  73         XP_014281393.1   
+unnamed protein product [Acanthoscelides obtectus]                Acanthosceli... NA              200917     115    115   50%   1e-30 91.53  73         CAH1974904.1     
+ubiquitin-like protein 5 isoform X2 [Apis dorsata]                Apis dorsata    giant honeybee  7462       115    115   50%   1e-30 91.53  68         XP_006611658.1   
+ubiquitin-like protein 5 [Harpegnathos saltator]                  Harpegnathos... Jerdon's jum... 610380     115    115   50%   1e-30 91.53  73         XP_011135838.1   
+hypothetical protein A6R68_18200 [Neotoma lepida]                 Neotoma lepida  desert woodrat  56216      115    115   53%   1e-30 85.48  74         OBS79449.1       
+ubiquitin-like protein 5 [Cimex lectularius]                      Cimex lectul... bed bug         79782      115    115   50%   1e-30 93.22  73         XP_014254624.1   
+ubiquitin-like protein 5 isoform X1 [Apis mellifera]              Apis mellifera  honey bee       7460       115    115   50%   1e-30 91.53  73         XP_001120009.1   
+Ubiquitin-like protein 5 [Anabarilius grahami]                    Anabarilius ... NA              495550     115    115   55%   1e-30 82.81  91         ROL54840.1       
+ubiquitin-like protein [Pimephales promelas]                      Pimephales p... fathead minnow  90988      117    117   53%   2e-30 85.48  146        KAG1960108.1     
+hypothetical protein HUJ05_009692 [Dendroctonus ponderosae]       Dendroctonus... mountain pin... 77166      114    114   53%   2e-30 82.26  69         KAH0999216.1     
+ubiquitin-like protein 5 [Nilaparvata lugens]                     Nilaparvata ... brown planth... 108931     114    114   50%   2e-30 93.22  73         XP_022202389.1   
+Ubiquitin-like protein 5 [Sciurus carolinensis]                   Sciurus caro... gray squirrel   30640      114    114   53%   2e-30 85.48  66         MBZ3869064.1     
+PREDICTED: ubiquitin-like protein 5 [Hipposideros armiger]        Hipposideros... great roundl... 186990     114    114   53%   2e-30 85.48  66         XP_019514780.1   
+ubiquitin-like protein 5 [Vulpes vulpes]                          Vulpes vulpes   red fox         9627       114    114   53%   2e-30 85.48  66         XP_025841529.1   
+Ubl5 [Phodopus roborovskii]                                       Phodopus rob... desert hamster  109678     114    114   53%   2e-30 85.48  87         CAH6855531.1     
+hypothetical protein PHYPO_G00156090 [Pangasianodon...            Pangasianodo... striped catfish 310915     115    115   50%   2e-30 89.83  103        KAB5523755.1     
+ubiquitin-like protein 5 [Cricetulus griseus]                     Cricetulus g... Chinese hamster 10029      115    115   53%   2e-30 85.48  91         ERE76771.1       
+hypothetical protein MTP99_015209 [Tenebrio molitor]              Tenebrio mol... yellow mealworm 7067       115    115   50%   2e-30 89.83  113        KAJ3627861.1     
+ubiquitin-like protein 5 [Trichomycterus rosablanca]              Trichomycter... NA              2290929    114    114   50%   2e-30 89.83  73         XP_062866768.1   
+hypothetical protein E2I00_009483 [Balaenoptera physalus]         Balaenoptera... Fin whale       9770       114    114   53%   2e-30 85.48  62         KAB0400196.1     
+hypothetical protein DAPPUDRAFT_95804 [Daphnia pulex]             Daphnia pulex   common water... 6669       114    114   50%   2e-30 89.83  73         EFX88865.1       
+ubiquitin-like protein 5 [Ischnura elegans]                       Ischnura ele... NA              197161     114    114   50%   3e-30 93.22  73         XP_046409222.1   
+ubiquitin-like protein 5 [Leptinotarsa decemlineata]              Leptinotarsa... Colorado pot... 7539       114    114   50%   3e-30 89.83  73         XP_023015270.1   
+ubiquitin-like protein 5 [Plutella xylostella]                    Plutella xyl... diamondback ... 51655      114    114   50%   3e-30 93.22  73         XP_037964188.1   
+hypothetical protein R5R35_008383 [Gryllus longicercus]           Gryllus long... NA              2509291    114    114   50%   3e-30 96.61  73         KAK7867189.1     
+ubiquitin-like protein 5 [Neocloeon triangulifer]                 Neocloeon tr... NA              2078957    114    114   50%   3e-30 91.53  73         XP_059484602.1   
+Ubiquitin-like protein 5 [Araneus ventricosus]                    Araneus vent... NA              182803     114    114   50%   3e-30 91.53  73         GBN15320.1       
+ubiquitin-like protein 5 [Octopus sinensis]                       Octopus sine... East Asian c... 2607531    115    115   52%   3e-30 86.89  107        XP_036368522.1   
+EOG090X0OUK [Daphnia similis]                                     Daphnia similis NA              35528      117    117   63%   3e-30 75.68  174        SVE70860.1       
+hypothetical protein MSG28_010191 [Choristoneura fumiferana]      Choristoneur... eastern spru... 7141       116    116   50%   3e-30 91.53  145        KAI8436704.1     
+Ubiquitin-like protein 5 [Gryllus bimaculatus]                    Gryllus bima... two-spotted ... 6999       113    113   50%   3e-30 96.61  59         GLG99502.1       
+ubiquitin-like protein 5 [Planococcus citri]                      Planococcus ... citrus mealybug 170843     114    114   50%   3e-30 91.53  73         XP_065209575.1   
+PREDICTED: ubiquitin-like protein 5 [Habropoda laboriosa]         Habropoda la... NA              597456     114    114   50%   3e-30 91.53  73         XP_017789464.1   
+hypothetical protein evm_000102 [Chilo suppressalis]              Chilo suppre... striped rice... 168631     114    114   50%   4e-30 91.53  80         RVE55204.1       
+hypothetical protein O3P69_004301 [Scylla paramamosain]           Scylla param... green mud crab  85552      115    115   50%   4e-30 93.22  140        KAK8399134.1     
+EOG090X0OUK [Triops cancriformis]                                 Triops cancr... NA              194544     114    114   50%   4e-30 89.83  73         CAG4652392.1     
+hypothetical protein NL108_006146 [Boleophthalmus pectinirostris] Boleophthalm... great blue-s... 150288     113    113   53%   4e-30 85.48  66         KAJ0050797.1     
+EOG090X0OUK [Alona affinis]                                       Alona affinis   NA              381656     114    114   50%   4e-30 88.14  73         CAG4635250.1     
+Ubiquitin-like protein 5 [Amphibalanus amphitrite]                Amphibalanus... NA              1232801    114    114   50%   4e-30 89.83  73         KAF0298113.1     
+PREDICTED: ubiquitin-like protein 5 [Nicrophorus vespilloides]    Nicrophorus ... NA              110193     114    114   50%   4e-30 89.83  73         XP_017777315.1   
+hypothetical protein [Characodon lateralis]                       Characodon l... NA              208331     115    115   54%   4e-30 84.13  113        MED6293552.1     
+hypothetical protein DNTS_030233 [Danionella cerebrum]            Danionella c... NA              2873325    114    114   56%   4e-30 78.79  73         TRY86193.1       
+ubiquitin-like protein 5 isoform 1 [Mus musculus]                 Mus musculus    house mouse     10090      115    115   53%   4e-30 85.48  113        NP_001297675.1   
+
+
