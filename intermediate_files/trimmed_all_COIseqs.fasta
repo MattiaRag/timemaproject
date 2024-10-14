@@ -2560,7 +2560,7 @@ ctactatgtagtggcacatttccattatgtactctctatagg------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------------------
->Xeroderus
+>Xeroderus_sp.
 atttggaataatttcacatattatttcacatgaaagtggtaaaaaagaagtatttggaaa
 tttaggaataatttttgctatagcagcaattggtttattaggatttgtcgtatgagccca
 tcatatatttactgtaggtatagatgtagatacacgagcttattttacttcagcaacaat
@@ -2574,7 +2574,7 @@ tctaggattagcaggaataccacgacgatactctgattatccagacatatttacatcatg
 aaatattatttcatcaataggagctttaatttcaactataagaataataatatttattat
 aattttatgggaaagagtaacatctatacgacaaactatctttagttctcacataactag
 atcattagaatgaagacataatttacccccaactgaacat
->Agathemera
+>Agathemera_sp.
 atttggtataatttcacatattatttcacatgaaagaggaaaaaaagaagtatttggtaa
 cttaggaataatttttgcaatagccgcaattggtttactaggatttgtagtttgagctca
 ccatatatttacagttggtatagatgtagatactcgagcatattttacttcagcaactat
@@ -2588,7 +2588,7 @@ tcttgggttagccggaatgccacgacgatattcagattatccagatatattca-------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------------------
->Diapherodes
+>Diapherodes_venustula
 ----gggataatttctcacatcatctcacatgaaagaggaaaaaaagaagtatttggaaa
 tctaggaataatctttgcaataggggcaattggattattaggttttgtagtatgagcaca
 tcacatatttacagtaggcatagatgtagatacacgagcatattttacatcagctacaat
@@ -2602,7 +2602,7 @@ tctaggattagccgggatacctcggcgttattcggattacccagatatatttaccacatg
 aaatattatttcatcactaggagctattatctcaacagtaagaataataatatttattat
 gattatatgagaaagactatcaactatacgacattcaatatattcttctcatataataag
 atcattagaatgaatgcataatataccacctaatgaacat
->Pseudophasma
+>Pseudophasma_subapterum
 atttggaataatttcccacattatctcccacgaaagaggaaaaaaagaagtattcggtaa
 cctgggcataatttttgccatagccgcaattggtttactagggtttgtggtatgagcaca
 ccatatatttacagtaggtatagatgtagatacccgagcatactttacatcagcaacaat
@@ -2616,7 +2616,7 @@ tctaggcctagccggtataccacgacgatactcagattaccccgatatattcacttcatg
 aaatattgtatcaacaacaggggctttaatttcaactttaagtataataatatttattag
 aatcatttgagaaagaataacatcagaacgacaaacaatcttcagatctcacataacaaa
 ctccctcgaatgaaatcacgatttacctcccactgaacac
->Phyllium
+>Phyllium_giganteum
 ---------aatttcacatatcattgcacatgaaagaggaaaaaaggaagtatttggtaa
 cataggaataattttcgcaatggctgctatcggattactaggatttattgtttgagctca
 tcatatatttacagtaggaatagatgtagatacacgagcatactttacatctgcaacaat
@@ -2630,7 +2630,7 @@ tctagggttagcaggaataccgcgacgatacattgactacccagatatatttctaatatg
 aaatattatatcatcaataggagctataatttcagccattagaataataatattcatcat
 aattatttgagaaagtataacatcaatacgacaaacattaaatagttcccatacaagaag
 atcaaatgaatgaaatcaaaatttacctccaaatgaacat
->Xylica
+>Xylica_oedematosa
 atttggwgtaatctcacayattatttcacatgaaagaggtaaaaaggaagttnnnggnnn
 cttaggtataatytttgctatagcagcaattggtttaytaggttttgtagtttgagctca
 ycatatatttacagtaggratagaygttgatacacgagcatattttrcatcagcaacaat
@@ -2644,7 +2644,7 @@ tttaggtctagcaggtatrccccgacgatattcagattacccagatctatttacatcatg
 aaatattgtatmatcaataggagctttaatttcaacaattagtataataatatttattat
 aattatttgagaaagattattaacmatacgacmaacagtatttagttcaaatataaagag
 atcgttagaatgaaaccacagatt----------------
->Orthomeria
+>Orthomeria_kangi
 ---------tatttctcatattatttcacaagaaagaggaaaaaaagaagtattcggtaa
 tttaggtataatttttgctataagtgcaattggattattaggatttgttgtatgagcaca
 tcatatatttacagtaggaatagacgttgatacgcgggcttactttacttctgccacaat
@@ -2658,7 +2658,7 @@ tttagggttggcaggcataccccgacgatattcagattatccagatatatttttaacatg
 aaatattatatcatcaattggatcaatcatttcaatattaagaatattcatattcattat
 aattatttgagaaagaataacttcaattcgacaatctattttcagatcacatataaatag
 atccattgaatgaaatcataatttaccaccaactgaacac
->Diapheromera
+>Diapheromera_femorata
 atttggaataatttcacatattatctctaatgaaagaggtaaaaaggaagtatttggtaa
 tttaggtataatttttgcaataatagcaattggtctattaggatttgtagtatgagctca
 tcatatgtttacagttggtatagatgttgatacacgagcatactttacatcagctactat
@@ -2672,7 +2672,7 @@ tttaggtctagcaggtataccacgacgatattcggattatcctgatatatatacatcatg
 aaatattatttcatctataggagctttaatttcaacaattgctataataatatttattat
 aattatatgagaaagaataacatcaaaacgacaaacaatttttagatctcaaataattaa
 ttcacttgaatgaattcacaaccttccgccaactgaacat
->Eurycantha
+>Eurycantha_calcarata
 atttggaataatttctcatattatttcacatgaaagaggaaaaaaagaagtattcggaaa
 tctaggaataatttttgcaatagccgcaattggattactcgggtttgtagtatgagctca
 ccatatatttacagttggaatagatgttgatacacgagcatattttacttcagctacaat
@@ -2686,7 +2686,7 @@ tctaggactagctggaataccacgacggtactcagattatcccgacatatttacttcatg
 aaatattatttcatcaataggtgctttaatttcaacaataagaataataatatttattat
 aattatatgagaaagaatttcatcagaacgatataccttatttagaacacacataactaa
 ttcactagaatgaaatcataatttaccccctgccgaacat
->Sipyloidea
+>Sipyloidea_sipylus
 atttggtataatttcacacattatttcacacgaaagaggaaaaaaggaagtattcggaaa
 tctaggaataatctttgctatagcagcaattggtttactaggatttatagtatgagcaca
 tcatatatttacagtaggaatagatgttgatacacgagcctattttacatcagcaacaat
@@ -2700,7 +2700,7 @@ tctaggattagctgggatgcctcgacgttattcagattatccagatatattcacatcttg
 aaatattatttcatctataggagcattaatttcaactatcagaataataatatttatcat
 aattttatgagaaagtataacaactatacgacaaacaattttcagctcaaatatatcaac
 atcattagagtgaagacataatttaccaccaacagaacat
->Heteropteryx
+>Heteropteryx_dilatata
 atttggaataatttcacatattatttcaaatgaaagaggaaaaaaagaagtattcggaaa
 tctaggtataatcttcgcaatagctgcaattggtttattaggttttgtagtttgagctca
 ccatatatttactgtaggtatagatgttgatacacgagcctatttcacttcagcaaccat
@@ -2714,7 +2714,7 @@ cctaggattagcaggaataccacgacgatattctgattatccagacatattcacatcatg
 aaacattatttcatcaataggagctcttatttcaacaataagaataataatatttattat
 aattttatgagaaagattatcatcaatacgacaaacaattttcagatcacacataacaag
 atcaatagagtgaaatcacaatataccacccacagaacat
->Extatosoma
+>Extatosoma_tiaratum
 atttggtataatctcacatattatttccaatgaaagaggaaaaaaagaggttttcggaaa
 cttaggaataatctttgcaatagcagcaattggattattagggtttgtagtatgagctca
 tcatatatttactgtaggaatagatgttgatacacgagcatactttacatcagcaacaat
@@ -2728,7 +2728,7 @@ cctaggattagcaggaataccacgacgatattcagactatccagacatatttatatcatg
 aaatatcatttcatcaataggagctactatttcaacaattagaataataatattcattat
 aatcatatgagaaagaataatatcaatacgacaaacaatatttagatcacatataacaag
 atcactagaatgaaatcatgacttacctccaacagaacac
->Achrioptera
+>Achrioptera_fallax
 --------------------------cacaagaaagaggtaaaaaagaagtattcggaaa
 tcttggaataatttttgccatagccgccattggtttattaggatttgtagtatgagctca
 tcatatatttacagtaggaatagatgtagatacacgagcatattttacatctgctactat
@@ -2742,7 +2742,7 @@ ccttggtctagcaggtatacctcgacgatattctgattatccagatatatttacatcatg
 aaatattatctcatcattaggagcaattatttcaacaacaagaataataatatttattat
 aattttatgagaaagattaacaacaatacgacaaacaatctttagatcacatatatcaag
 aactatagaatgaaatcataatatacctccaactgaacat
->Medauroidea
+>Medauroidea_extradentata
 ----ggtatgatttctcatatcattgcacatgaaagaggtaaaaaagaagtatttggtaa
 cttaggaataattttcgctatagctgctattggtttattaggttttgtagtatgagcaca
 ccacatatttactgttggtatagatgtagatacacgggcctacttcacatcagctacaat
