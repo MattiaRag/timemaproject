@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.6:ORC v1.2.0:BEASTLabs v2.0.2" version="2.7">
+
+        
+
+    <data id="trimmedDEFINITIVEspnames" spec="Alignment"
+name="alignment">
+
+                            
+
+        <sequence id="seq_Achrioptera_fallax" spec="Sequence" taxon="Achrioptera_fallax" totalcount="4" value="--------------cacaagaaagaggtaaaaaagaagtattcggaaatcttggaataatttttgccatagccgccattggtttattaggatttgtagtatgagctcatcatatatttacagtaggaatagatgtagatacacgagcatattttacatctgctactataattatcgcagttccaacaggaattaaagtatttagatgactagctactatatatggatctaaattaacatttagaccatcatgtttatgagcaatagggtttgtatttttatttaccttaggtggattaacaggtattgtattatcaaattcatctattgatattacattacatgatacttattatgttgtagctcacttccattatgttttatcaatagg"/>
+
+                            
+
+        <sequence id="seq_Agathemera_sp" spec="Sequence" taxon="Agathemera_sp" totalcount="4" value="ttcacatattatttcacatgaaagaggaaaaaaagaagtatttggtaacttaggaataatttttgcaatagccgcaattggtttactaggatttgtagtttgagctcaccatatatttacagttggtatagatgtagatactcgagcatattttacttcagcaactataattattgcagttccaactggaattaaagtatttagatgattagccactatatatggatctaaaatatctttcagaccatcatgcttatggtcaataggatttgtattcttatttacacttggaggactaactggaattgtattatcaaattcatctattgatatttccctacacgacacatattatgtggtggcccattttcattatgtattatcaatagg"/>
+
+                            
+
+        <sequence id="seq_Aposthonia_ceylonica" spec="Sequence" taxon="Aposthonia_ceylonica" totalcount="4" value="ttctcatattctaacccaagaaagaggtaagccccaaactttcggaaacctaggaataattttcgccataatttccattggagcgctaggttttattgtatgagcccatcacatattcacagtaggaatagatgtagacacccgagcatactttacatcagctacaataatcattgcagtaccaacagggattaaaattttcagatgattgaccacagcccatggagctaaaatatcccacagcccctcatcttactgaaccataggatttatttttttatttactattggtggtcttacgggagtaatcctagctaattcatccatcgacattattctccatgacacctattatgtagtagcccactttcactatgttctctctatagg"/>
+
+                            
+
+        <sequence id="seq_Diapherodes_venustula" spec="Sequence" taxon="Diapherodes_venustula" totalcount="4" value="ttctcacatcatctcacatgaaagaggaaaaaaagaagtatttggaaatctaggaataatctttgcaataggggcaattggattattaggttttgtagtatgagcacatcacatatttacagtaggcatagatgtagatacacgagcatattttacatcagctacaataattattgctgttccaacaggaattaaagttttcagatgattagctacaatatttgggtcaaaactaacaataagaccctcttgtatatgatcaataggatttgtattcttatttacattagggggattaactggaatcgttttatcaaactcatcaattgatattacacttcatgacacttactatgtggtagcgcatttccactatgtcctatctatagg"/>
+
+                            
+
+        <sequence id="seq_Diapheromera_femorata" spec="Sequence" taxon="Diapheromera_femorata" totalcount="4" value="ttcacatattatctctaatgaaagaggtaaaaaggaagtatttggtaatttaggtataatttttgcaataatagcaattggtctattaggatttgtagtatgagctcatcatatgtttacagttggtatagatgttgatacacgagcatactttacatcagctactataattattgcagttcctactggtattaaggtatttagatgacttgctacaatacatgggtctaagttaacctttagtccatcctgcttatgagctctagggtttgtattcttattcacattagggggtttaacaggtattgttttatcaaattcatcaattgatattaccttacatgatacatattatgtagtagcccactttcattatgtcctatcaatagg"/>
+
+                            
+
+        <sequence id="seq_Embia_tyrrhenica" spec="Sequence" taxon="Embia_tyrrhenica" totalcount="4" value="ctcccacatcatcgcacaagaaagaggcaaaactcaaacatttggcaaccttggaataatctttgccataatcgcaattggattcttaggatttatcgtatgagctcaccacatattcactgtaggtatagatgtagatacccgagcttacttcacttcagcyaccatgatcattgccattcctacaggaatcaaaatttttagatggttatctacagctatagggtcgaaattctcattcagaccagttaaccattgagccataggcttcatttttctatttactattggaggcctaacaggggtaattctagctaactcctccatcgacatcattttacacgacacatactacgtcgtagcccatttccactatgtactatccatggg"/>
+
+                            
+
+        <sequence id="seq_Eurycantha_calcarata" spec="Sequence" taxon="Eurycantha_calcarata" totalcount="4" value="ttctcatattatttcacatgaaagaggaaaaaaagaagtattcggaaatctaggaataatttttgcaatagccgcaattggattactcgggtttgtagtatgagctcaccatatatttacagttggaatagatgttgatacacgagcatattttacttcagctacaataattattgctgtaccaacaggaattaaagtatttakatgattagctaccatatatggatctaaattaacatttagcccatcatgtttatgggctataggatttgtcttcctatttaccttaggkggtctaacaggaattgtattatctaattcatccattgatattacacttcatgacacctattatgttgttgcacactttcactacgttctttctatagg"/>
+
+                            
+
+        <sequence id="seq_Extatosoma_tiaratum_tiaratum" spec="Sequence" taxon="Extatosoma_tiaratum_tiaratum" totalcount="4" value="ctcacatattatttccaatgaaagaggaaaaaaagaggttttcggaaacttaggaataatctttgcaatagcagcaattggattattagggtttgtagtatgagctcatcatatatttactgtaggaatagatgttgatacacgagcatactttacatcagcaacaataatcattgcagtaccaacaggtatcaaagtatttagttgattagctacaatacatggatctaaattaatatttagaccatcttgtatatgagcaataggatttgtattcttattcacattaggtggattaaccggtattgtattatcaaattcatctattgatattaccctacatgatacttactatgtagttgcacacttccactatgtattatcaatagg"/>
+
+                            
+
+        <sequence id="seq_Heteropteryx_dilatata" spec="Sequence" taxon="Heteropteryx_dilatata" totalcount="4" value="ttcacatattatttcaaatgaaagaggaaaaaaagaagtattcggaaatctaggtataatcttcgcaatagctgcaattggtttattaggttttgtagtttgagctcaccatatatttactgtaggtatagatgttgatacacgagcctatttcacttcagcaaccataattattgcagtaccaacaggtattaaagtatttagttgactagcaacaatacatggatctaaattaacttttagaccatcatgcatatgagcaatagggtttgtatttctatttacattaggaggtttaaccggaattgtattatcaaattcatctattgacattacattacatgatacctattacgtagtagcacatttccattatgtattatcaatagg"/>
+
+                            
+
+        <sequence id="seq_Medauroidea_extradentata" spec="Sequence" taxon="Medauroidea_extradentata" totalcount="4" value="ttctcatatcattgcacatgaaagaggtaaaaaagaagtatttggtaacttaggaataattttcgctatagctgctattggtttattaggttttgtagtatgagcacaccacatatttactgttggtatagatgtagatacacgggcctacttcacatcagctacaataattattgctgtccctacaggaattaaagtgttcagatgattagcaactatatatgggtctaaattaacatttagaccatcctgtttatgatcaataggatttgtatttttattcacaataggtggtttaacaggaattgtgttatcaaattcatcaattgatattacattacacgacacatactatgtagtagctcatttccattacgttttatctatagg"/>
+
+                            
+
+        <sequence id="seq_Orthomeria_kangi" spec="Sequence" taxon="Orthomeria_kangi" totalcount="4" value="ttctcatattatttcacaagaaagaggaaaaaaagaagtattcggtaatttaggtataatttttgctataagtgcaattggattattaggatttgttgtatgagcacatcatatatttacagtaggaatagacgttgatacgcgggcttactttacttctgccacaataattattgcagtacctacaggaattaaagtatttagttgattagccactatttatggatcaaaattaacattcagtccatcatgtatatgagcaataggatttgtatttctattcactttaggtggattaacaggaattattttatctaattcatcaattgatattacattacatgatacatattatgtagttgcacattttcattatgtattatcaatagg"/>
+
+                            
+
+        <sequence id="seq_Phyllium_giganteum" spec="Sequence" taxon="Phyllium_giganteum" totalcount="4" value="ttcacatatcattgcacatgaaagaggaaaaaaggaagtatttggtaacataggaataattttcgcaatggctgctatcggattactaggatttattgtttgagctcatcatatatttacagtaggaatagatgtagatacacgagcatactttacatctgcaacaataattattgccgtacctacaggaatcaaagtttttagatgattaactaccatgtatgggtctaaaataacttttagaccatcatgcatatgaagattaggatttattttcctatttacactaggtgggttaacaggaatcgtactatcaaattcatcaattgatattacacttcatgacacatattatgtagtagcacactttcattatgtattatctatagg"/>
+
+                            
+
+        <sequence id="seq_Pseudophasma_subapterum" spec="Sequence" taxon="Pseudophasma_subapterum" totalcount="4" value="ttcccacattatctcccacgaaagaggaaaaaaagaagtattcggtaacctgggcataatttttgccatagccgcaattggtttactagggtttgtggtatgagcacaccatatatttacagtaggtatagatgtagatacccgagcatactttacatcagcaacaataattattgcagtgcccactggtattaaagtatttagttgattaacaacaatatacggatcaaaattaacttttagtccttcctgtttatgggcagtaggatttgtatttctatttactctcgggggtctgaccggtattattttatcaaattcatctattgacattacattacatgatacatattatgtagtagcacattttcactatgtattatcaatagg"/>
+
+                            
+
+        <sequence id="seq_Sipyloidea_sipylus" spec="Sequence" taxon="Sipyloidea_sipylus" totalcount="4" value="ttcacacattatttcacacgaaagaggaaaaaaggaagtattcggaaatctaggaataatctttgctatagcagcaattggtttactaggatttatagtatgagcacatcatatatttacagtaggaatagatgttgatacacgagcctattttacatcagcaacaataattattgctgtacctacaggtattaaagtttttagatgactagccactatatatggatctaaattaacttttagcccatcttgtatatgagcaataggttttgtatttttatttactttaggaggattaacaggaattgtattatcaaattcatctattgatatcactctgcatgatacatactatgtagttgcacactttcattatgtattatctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_bartmani" spec="Sequence" taxon="Timema_bartmani" totalcount="4" value="ctctcacattatttgtcatgaaagtggtaaaaaggaagcttttggaaacctgggtataatctttgctataattgctattggattccttggtttcgttgtatgggctcaccatatattcactgtaggaatagatgtagatactcgagcttattttacttcagcaactataatcattgcagtacctactggtattaaagtatttagatgattaacaactatttatggatcacgactttcatatagtgccccttgcttgtgagcaataggatttatcttcttatttactattggtggattaactggagttatattagctaattcatctgttgatattgtattacatgatacctactacgtagtggcacatttccattatgtactctctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_boharti" spec="Sequence" taxon="Timema_boharti" totalcount="4" value="ttcacatattatttgtcatgagagtggtaaaaaagaagcttnnggaaacttgggtataatttttgctataattgctattggatttcttggctttgtagtgtgggctcaccatatattcactgtaggaatagacgttgatacgcgagcttattttacttcagcaactataattattgcagttcctactggtattaaagtatttagatgattaacaactatttatggatcacgactttcatatagtgccccttgcctatgggcaataggattcatttttttattcactatcggaggactaaccggagttatactggccaactcatctgttgatattgtactacacgacacttactatgtagtggctcatttccattatgtattatctatggg"/>
+
+                            
+
+        <sequence id="seq_Timema_californicum" spec="Sequence" taxon="Timema_californicum" totalcount="4" value="ttcacatattatttgccacgaaagtggaaaaaaggaagcctttggaaatctgggtataatttttgctataatcgcaatcgggtttctaggttttgtagtctgagctcaccatatatttactgtaggtatagatgttgatactcgggcttattttacatcggctacaataattattgccgttccgacaggtattaaagtattcagctgattaacaacaatatacgggtcccgactaacgtatagagctccttgtttatgggctataggatttattttcttgttcaccattgggggattaactggagtaatacttgccaattcttctgtagatattgttcttcacgatacttattatgttgtagctcattttcattatgtactatctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_chumash" spec="Sequence" taxon="Timema_chumash" totalcount="4" value="ctctcacattatttgtcatgagagtggtaaaaaggaagcttttggaaatctgggtataatctttgccataattgctattggattccttggtttcgttgtatgggctcaccatatattcactgtagggatagatgtagatactcgagcttattttacttcagcaactataatcattgcagtacctaccggtattaaagtatttagatgattaacaactatttatggatcacgactttcatatagtgccccttgcttgtgagcaataggatttatcttcttattcactattggtggattanctggagttatattagctaattcatctgttgatattgtattacatgatacctactacgtagtggcacatttccattatgtattatctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_cristinae" spec="Sequence" taxon="Timema_cristinae" totalcount="4" value="ttcccatattatttgccatgaaagaggtaaaaaggaagcatttggtaatcttgggataatctttgccataattgctattggtttcctagggtttgtagtttgagctcatcatatatttaccgtaggtatagatgttgatacacgagcctactttacttcagctacaatgattattgcagtccctacaggtattaaagtatttagctgattaacaacaatatatggatcacgattaacttacagtgcaccttgcttatgagcaataggatttattttcttattcaccatcgggggattaacgggggtaatactagctaactcttctgtagatattgttttacacgatacatattacgtagtagctcattttcattatgtactgtctatggg"/>
+
+                            
+
+        <sequence id="seq_Timema_douglasi" spec="Sequence" taxon="Timema_douglasi" totalcount="4" value="ttcacatattatttgccacgaaagtggaaaaaaagaggcctttggaaatctaggtataatttttgctataatcgcaattgggtttctaggttttgtagtctgggctcatcatatatttaccgtaggtatagacgttgatactcgggcttattttacgtcggctacaataattattgccgttccaacaggtattaaagtattcagctgattaacaacaatatatggatcccgactaacttatagagctccttgtttatgagctatagggtttattttcttattcactattgggggattaactggagtaatactcgctaattcctccgtagatattgttcttcacgatacttactatgttgtagctcatt----------------------"/>
+
+                            
+
+        <sequence id="seq_Timema_genevievae" spec="Sequence" taxon="Timema_genevievae" totalcount="4" value="ctctcacattatttgtcatgaaagtggtaaaaaggaagcttttggaaacctgggtataatctttgccataattgctattggattccttggtttcgttgtatgggctcaccatatatttactgtaggaatagatgtagatactcgagcttattttacttcagcaactataatcattgcagtacctactggtattaaggtatttagatgattaacaactatttatggatcacggctttcatatagtgccccttgtttgtgagcaataggatttatcttcttatttactattggtggattaactggggttatattagccaattcatctgttgatattgtattacatgatacctactacgtagtggcacatttccattatgtattatctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_knulli" spec="Sequence" taxon="Timema_knulli" totalcount="4" value="---acatattattggccacgaaagtggaaaaaaggaagcatttggaaatctaggaataatttttgctataatcgcaattgggtttctaggttttgtagtctgggcccaccatatatttactgtaggaatagatgttgatacccgagcttattttacatcggctacaataattattgctgttccgacaggtattaaagtattcagatgattaacaacaatatatgggtcccgactaacttatagagctccttgtttatgagctataggatttattttcttgttcactattgggggattaactggagtaatacttgccaattcctctgtagatattgttcttcatgatacttattatgttgtagctcattttcattatgtactatctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_landelsensis" spec="Sequence" taxon="Timema_landelsensis" totalcount="4" value="ttcacatattatttgccacgaaagtggaaaaaaggaagcatttggaaatctaggaataatttttgctataatcgcaattgggtttttaggttttgtagtctgggcccaccatatatttactgtaggaatagatgttgatacccgggcttattttacatcggctacaataattattgctgttccgacaggtattaaagtattcagatgattaacaacaatatatgggtcccgactaacttatagagctccttgtttatgagctataggatttattttcttgttcactattggggggttaactggggtaatacttgccaattcctctgtagatattgttcttcatgatacttattatgttgtagctcattttcattatgtactctctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_monikensis" spec="Sequence" taxon="Timema_monikensis" totalcount="4" value="ttcccatattatctgccatgaaagaggtaaaaaggaagcatttggtaatcttgggataatctttgccataattgctattgtgttcctggggtttgtagtttgagctcatcatatatttaccgtaggtatagatgttgatacgcgagcctactttacttcagctacaatgattattgcagtccctacaggtattaaggtatttagctgattaacaacaatatatggatcccgattaacttacagtgcaccttgcttatgagctataggatttattttcttattcaccatcggaggattaacgggggtaatactagctaactcttctgtagatattgttttacatgatacatattatgtagtagctcattttcattatgtactgtctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_petita" spec="Sequence" taxon="Timema_petita" totalcount="4" value="ttcacatattatttgccacgaaagtggaaaaaaggaagcatttggaaatctaggtataatttttgctataatcgcaattgggtttctaggttttgtagtctgagctcaccatatatttaccgtaggtatagatgttgatactcgggcttattttacgtcggctacaataattattgccgttccgacaggtattaaagtattcagatgattaacaacaatatatggatcccggctaacttatagagctccttgtttatgagctataggatttattttcttgttcactattggaggattaactggagtaatacttgctaactcctctgtagatattgttcttcatgatacttattatgttgtagctcattttcattatgtattatctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_podura" spec="Sequence" taxon="Timema_podura" totalcount="4" value="ctctcacattatttgtcatgaaagtggtaaaaaggaggcttttggaaacctaggtataatctttgccataattgctattggattccttggattcgttgtatgggctcaccatatattcactgtagggatagatgtagatacacgagcttattttacttcagcaactataatcattgcagtacctaccggtattaaagtatttagatgattaacaactatttatggatcacgactttcatatagtgccccttgcttgtgagcaataggatttatcttcttattcactattggtggattgactggagttatattagctaattcatctgttgatattgtattacatgatacctactacgtagtggcacatttccattatgtattatctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_poppensis" spec="Sequence" taxon="Timema_poppensis" totalcount="4" value="ttcacatattatttgccacgaaagtggaaaaaaggaagcatttggaaatctaggtataatttttgctataatcgcaattggatttctaggttttgtagtctgggctcaccatatatttactgtaggtatagatgttgatactcgggcttattttacntcagccacaataattattgccgttccgacgggtattaaagtattcagctgattaacaacaatatatggatctcgactaacttatagagctccttgtttatgagctatatgatttatcttcttgttcactattggggggttaactggagtaatactggccaattcttctgtagatattgttcttcatgatacttattatgttgtagctcattttcattatgtattatctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_shepardii" spec="Sequence" taxon="Timema_shepardii" totalcount="4" value="ttcacatattatttgccacgaaagtggaaaaaaagaggcctttggaaatctaggtataatttttgctataatcgcaattgggtttctaggttttgtagtctgggctcatcatatatttaccgtaggtatagacgttgatactcgggcttattttacgtcggctacaataattattgccgttccaacaggtattaaagtattcagctgattaacaacaatatatggatcccgactaacttatagagctccttgtttatgagctatagggtttattttcttattcactattggaggattaactggagtaatactcgctaattcctccgtagatattgttcttcacgatacttactatgttgtagctcattttcattatgtactatctatagg"/>
+
+                            
+
+        <sequence id="seq_Timema_tahoe" spec="Sequence" taxon="Timema_tahoe" totalcount="4" value="ctctcacattatttgtcatgagagtggtaaaagggaagcttttggaaacctgggtataatttttgccataattgctattggattccttggtttcgttgtatgggctcaccatatatttactgtaggaatagatgtagatactcgagcttattttacttcagcaactataatcattgcagtacctaccggtattaaagtatttagatgattaacaactatttatggatcacgactttcatatagtgccccttgcttgtgagcaataggatttatcttcttattcactattggtggattaactggagttatattagctaattcatctgttgatattgttttacatgatacctactatgtagtggcacatttccattatgtactctctatagg"/>
+
+                            
+
+        <sequence id="seq_Xeroderus_sp" spec="Sequence" taxon="Xeroderus_sp" totalcount="4" value="ttcacatattatttcacatgaaagtggtaaaaaagaagtatttggaaatttaggaataatttttgctatagcagcaattggtttattaggatttgtcgtatgagcccatcatatatttactgtaggtatagatgtagatacacgagcttattttacttcagcaacaataattattgcagttccaacaggaattaaagtattcagatgattagcaacaatatatggatctaaactaacatttagaccatcttgtatatgagcaataggttttgtatttttattcactttaggaggattaactggaattgtattatcaaactcatcaattgatattacattacatgacacatattacgttgttgcacactttcattatgttttatcaatagg"/>
+
+                            
+
+        <sequence id="seq_Xylica_oedematosa" spec="Sequence" taxon="Xylica_oedematosa" totalcount="4" value="ctcacayattatttcacatgaaagaggtaaaaaggaagttnnnggnnncttaggtataatytttgctatagcagcaattggtttaytaggttttgtagtttgagctcaycatatatttacagtaggratagaygttgatacacgagcatattttrcatcagcaacaataattattgctgtrccaacaggaattaaaatttttagatgaytagcaactatttatggatcaaaattaacatgaagaccatcmtgtttatgrgcaataggwtttgtrtttttatttacattagggggtytaacrggaattgtattatctaattcttctattgayattacattacatgayacataytatgtagtagcacatttycattaygtattatcaatagg"/>
+
+                        
+
+    </data>
+
+        
+
+
+
+    
+
+
+
+    
+
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    
+
+    <run id="mcmc" spec="MCMC" chainLength="100000000">
+
+            
+
+        <state id="state" spec="State" storeEvery="5000">
+
+                    
+
+            <tree id="Tree.t:trimmedDEFINITIVEspnames" spec="beast.base.evolution.tree.Tree" name="stateNode">
+
+                            
+
+                <taxonset id="TaxonSet.trimmedDEFINITIVEspnames" spec="TaxonSet">
+
+                                    
+
+                    <alignment idref="trimmedDEFINITIVEspnames"/>
+
+                                
+
+                </taxonset>
+
+                        
+
+            </tree>
+
+                    
+
+            <parameter id="gammaShape.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" lower="0.1" name="stateNode">1.0</parameter>
+
+                    
+
+            <parameter id="rateAC.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+
+                    
+
+            <parameter id="rateAG.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+
+                    
+
+            <parameter id="rateAT.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+
+                    
+
+            <parameter id="rateCG.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+
+                    
+
+            <parameter id="rateGT.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+
+                    
+
+            <parameter id="freqParameter.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+
+                    
+
+            <parameter id="ORCsigma.c:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.2</parameter>
+
+                    
+
+            <parameter id="ORCRates.c:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" dimension="60" lower="1.0E-100" name="stateNode">0.5</parameter>
+
+                    
+
+            <parameter id="BDBirthRate.t:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+
+                    
+
+            <parameter id="BDDeathRate.t:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+
+                    
+
+            <parameter id="ORCucldMean.c:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+
+                
+
+        </state>
+
+            
+
+        <init id="RandomTree.t:trimmedDEFINITIVEspnames" spec="RandomTree" estimate="false" initial="@Tree.t:trimmedDEFINITIVEspnames" taxa="@trimmedDEFINITIVEspnames">
+
+                    
+
+            <populationModel id="ConstantPopulation0.t:trimmedDEFINITIVEspnames" spec="ConstantPopulation">
+
+                            
+
+                <parameter id="randomPopSize.t:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+
+                        
+
+            </populationModel>
+
+                
+
+        </init>
+
+            
+
+        <distribution id="posterior" spec="CompoundDistribution">
+
+                    
+
+            <distribution id="prior" spec="CompoundDistribution">
+
+                            
+
+                <distribution id="BirthDeath.t:trimmedDEFINITIVEspnames" spec="beast.base.evolution.speciation.BirthDeathGernhard08Model" birthDiffRate="@BDBirthRate.t:trimmedDEFINITIVEspnames" relativeDeathRate="@BDDeathRate.t:trimmedDEFINITIVEspnames" tree="@Tree.t:trimmedDEFINITIVEspnames"/>
+
+                            
+
+                <prior id="BirthRatePrior.t:trimmedDEFINITIVEspnames" name="distribution" x="@BDBirthRate.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Uniform id="Uniform.3" name="distr" upper="1000.0"/>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="DeathRatePrior.t:trimmedDEFINITIVEspnames" name="distribution" x="@BDDeathRate.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Uniform id="Uniform.4" name="distr"/>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="ORCRatePriorDistribution.c:trimmedDEFINITIVEspnames" name="distribution" x="@ORCRates.c:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <LogNormal id="LogNormalDistributionModel.0" S="@ORCsigma.c:trimmedDEFINITIVEspnames" meanInRealSpace="true" name="distr">
+
+                                            
+
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+
+                                        
+
+                    </LogNormal>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="ORCsigmaPrior.c:trimmedDEFINITIVEspnames" name="distribution" x="@ORCsigma.c:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Gamma id="Gamma.0" name="distr">
+
+                                            
+
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="alpha">5.0</parameter>
+
+                                            
+
+                        <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="beta">0.05</parameter>
+
+                                        
+
+                    </Gamma>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="ORCucldMeanPrior.c:trimmedDEFINITIVEspnames" name="distribution" x="@ORCucldMean.c:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Gamma id="Gamma.1" name="distr">
+
+                                            
+
+                        <alpha id="Function$Constant.0" spec="Function$Constant" value="0.1"/>
+
+                                            
+
+                        <beta id="Function$Constant.1" spec="Function$Constant" value="100.0"/>
+
+                                        
+
+                    </Gamma>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="FrequenciesPrior.s:trimmedDEFINITIVEspnames" name="distribution" x="@freqParameter.s:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <distr id="Dirichlet.0" spec="distribution.Dirichlet">
+
+                                            
+
+                        <parameter id="RealParameter.17" spec="parameter.RealParameter" dimension="4" estimate="false" name="alpha">4.0 4.0 4.0 4.0</parameter>
+
+                                        
+
+                    </distr>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="GammaShapePrior.s:trimmedDEFINITIVEspnames" name="distribution" x="@gammaShape.s:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Exponential id="Exponential.0" name="distr">
+
+                                            
+
+                        <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+
+                                        
+
+                    </Exponential>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="RateACPrior.s:trimmedDEFINITIVEspnames" name="distribution" x="@rateAC.s:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Gamma id="Gamma.2" name="distr">
+
+                                            
+
+                        <parameter id="RealParameter.5" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+
+                                            
+
+                        <parameter id="RealParameter.6" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+
+                                        
+
+                    </Gamma>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="RateAGPrior.s:trimmedDEFINITIVEspnames" name="distribution" x="@rateAG.s:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Gamma id="Gamma.3" name="distr">
+
+                                            
+
+                        <parameter id="RealParameter.7" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+
+                                            
+
+                        <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter>
+
+                                        
+
+                    </Gamma>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="RateATPrior.s:trimmedDEFINITIVEspnames" name="distribution" x="@rateAT.s:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Gamma id="Gamma.4" name="distr">
+
+                                            
+
+                        <parameter id="RealParameter.9" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+
+                                            
+
+                        <parameter id="RealParameter.10" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+
+                                        
+
+                    </Gamma>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="RateCGPrior.s:trimmedDEFINITIVEspnames" name="distribution" x="@rateCG.s:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Gamma id="Gamma.5" name="distr">
+
+                                            
+
+                        <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+
+                                            
+
+                        <parameter id="RealParameter.12" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+
+                                        
+
+                    </Gamma>
+
+                                
+
+                </prior>
+
+                            
+
+                <prior id="RateGTPrior.s:trimmedDEFINITIVEspnames" name="distribution" x="@rateGT.s:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <Gamma id="Gamma.7" name="distr">
+
+                                            
+
+                        <parameter id="RealParameter.15" spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+
+                                            
+
+                        <parameter id="RealParameter.16" spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter>
+
+                                        
+
+                    </Gamma>
+
+                                
+
+                </prior>
+
+                            
+
+                <distribution id="achxily.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="achxily" spec="TaxonSet">
+
+                                            
+
+                        <taxon id="Achrioptera_fallax" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Xylica_oedematosa" spec="Taxon"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="achxylplius.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="achxylplius" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Achrioptera_fallax"/>
+
+                                            
+
+                        <taxon id="Diapherodes_venustula" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Eurycantha_calcarata" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Extatosoma_tiaratum_tiaratum" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Medauroidea_extradentata" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Phyllium_giganteum" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Sipyloidea_sipylus" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Xeroderus_sp" spec="Taxon"/>
+
+                                            
+
+                        <taxon idref="Xylica_oedematosa"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="agapseu.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="agapseu" spec="TaxonSet">
+
+                                            
+
+                        <taxon id="Agathemera_sp" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Pseudophasma_subapterum" spec="Taxon"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="agapseudia.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="agapseudia" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Agathemera_sp"/>
+
+                                            
+
+                        <taxon id="Diapheromera_femorata" spec="Taxon"/>
+
+                                            
+
+                        <taxon idref="Pseudophasma_subapterum"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="bartah.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="bartah" spec="TaxonSet">
+
+                                            
+
+                        <taxon id="Timema_bartmani" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Timema_tahoe" spec="Taxon"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="boh.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="boh" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_bartmani"/>
+
+                                            
+
+                        <taxon id="Timema_boharti" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Timema_genevievae" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Timema_podura" spec="Taxon"/>
+
+                                            
+
+                        <taxon idref="Timema_tahoe"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="calshe.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="calshe" spec="TaxonSet">
+
+                                            
+
+                        <taxon id="Timema_californicum" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Timema_shepardii" spec="Taxon"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="chu.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="chu" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_bartmani"/>
+
+                                            
+
+                        <taxon idref="Timema_boharti"/>
+
+                                            
+
+                        <taxon id="Timema_chumash" spec="Taxon"/>
+
+                                            
+
+                        <taxon idref="Timema_genevievae"/>
+
+                                            
+
+                        <taxon idref="Timema_podura"/>
+
+                                            
+
+                        <taxon idref="Timema_tahoe"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="crimon1.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="crimon1" spec="TaxonSet">
+
+                                            
+
+                        <taxon id="Timema_cristinae" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Timema_monikensis" spec="Taxon"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="diaeuryextamedasipyxero.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="diaeuryextamedasipyxero" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Diapherodes_venustula"/>
+
+                                            
+
+                        <taxon idref="Eurycantha_calcarata"/>
+
+                                            
+
+                        <taxon idref="Extatosoma_tiaratum_tiaratum"/>
+
+                                            
+
+                        <taxon idref="Medauroidea_extradentata"/>
+
+                                            
+
+                        <taxon idref="Sipyloidea_sipylus"/>
+
+                                            
+
+                        <taxon idref="Xeroderus_sp"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="embia.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="embia" spec="TaxonSet">
+
+                                            
+
+                        <taxon id="Aposthonia_ceylonica" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Embia_tyrrhenica" spec="Taxon"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="est.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="est" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_californicum"/>
+
+                                            
+
+                        <taxon id="Timema_douglasi" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Timema_knulli" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Timema_landelsensis" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Timema_petita" spec="Taxon"/>
+
+                                            
+
+                        <taxon id="Timema_poppensis" spec="Taxon"/>
+
+                                            
+
+                        <taxon idref="Timema_shepardii"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="estplus.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="estplus" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_californicum"/>
+
+                                            
+
+                        <taxon idref="Timema_cristinae"/>
+
+                                            
+
+                        <taxon idref="Timema_douglasi"/>
+
+                                            
+
+                        <taxon idref="Timema_knulli"/>
+
+                                            
+
+                        <taxon idref="Timema_landelsensis"/>
+
+                                            
+
+                        <taxon idref="Timema_monikensis"/>
+
+                                            
+
+                        <taxon idref="Timema_petita"/>
+
+                                            
+
+                        <taxon idref="Timema_poppensis"/>
+
+                                            
+
+                        <taxon idref="Timema_shepardii"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="eupha.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="eupha" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Achrioptera_fallax"/>
+
+                                            
+
+                        <taxon idref="Agathemera_sp"/>
+
+                                            
+
+                        <taxon idref="Diapherodes_venustula"/>
+
+                                            
+
+                        <taxon idref="Diapheromera_femorata"/>
+
+                                            
+
+                        <taxon idref="Eurycantha_calcarata"/>
+
+                                            
+
+                        <taxon idref="Extatosoma_tiaratum_tiaratum"/>
+
+                                            
+
+                        <taxon id="Heteropteryx_dilatata" spec="Taxon"/>
+
+                                            
+
+                        <taxon idref="Medauroidea_extradentata"/>
+
+                                            
+
+                        <taxon id="Orthomeria_kangi" spec="Taxon"/>
+
+                                            
+
+                        <taxon idref="Phyllium_giganteum"/>
+
+                                            
+
+                        <taxon idref="Pseudophasma_subapterum"/>
+
+                                            
+
+                        <taxon idref="Sipyloidea_sipylus"/>
+
+                                            
+
+                        <taxon idref="Xeroderus_sp"/>
+
+                                            
+
+                        <taxon idref="Xylica_oedematosa"/>
+
+                                        
+
+                    </taxonset>
+
+                                    
+
+                    <Normal id="Normal.0" name="distr" offset="145.0">
+
+                                            
+
+                        <parameter id="RealParameter.18" spec="parameter.RealParameter" estimate="false" name="mean">15.0</parameter>
+
+                                            
+
+                        <parameter id="RealParameter.19" spec="parameter.RealParameter" estimate="false" name="sigma">15.0</parameter>
+
+                                        
+
+                    </Normal>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="eurysipy.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="eurysipy" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Eurycantha_calcarata"/>
+
+                                            
+
+                        <taxon idref="Sipyloidea_sipylus"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="exaxero.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="exaxero" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Extatosoma_tiaratum_tiaratum"/>
+
+                                            
+
+                        <taxon idref="Xeroderus_sp"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="exaxeromeda.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="exaxeromeda" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Extatosoma_tiaratum_tiaratum"/>
+
+                                            
+
+                        <taxon idref="Medauroidea_extradentata"/>
+
+                                            
+
+                        <taxon idref="Xeroderus_sp"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="exaxeromedadia.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="exaxeromedadia" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Diapherodes_venustula"/>
+
+                                            
+
+                        <taxon idref="Extatosoma_tiaratum_tiaratum"/>
+
+                                            
+
+                        <taxon idref="Medauroidea_extradentata"/>
+
+                                            
+
+                        <taxon idref="Xeroderus_sp"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="hete.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="hete" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Achrioptera_fallax"/>
+
+                                            
+
+                        <taxon idref="Diapherodes_venustula"/>
+
+                                            
+
+                        <taxon idref="Eurycantha_calcarata"/>
+
+                                            
+
+                        <taxon idref="Extatosoma_tiaratum_tiaratum"/>
+
+                                            
+
+                        <taxon idref="Heteropteryx_dilatata"/>
+
+                                            
+
+                        <taxon idref="Medauroidea_extradentata"/>
+
+                                            
+
+                        <taxon idref="Phyllium_giganteum"/>
+
+                                            
+
+                        <taxon idref="Sipyloidea_sipylus"/>
+
+                                            
+
+                        <taxon idref="Xeroderus_sp"/>
+
+                                            
+
+                        <taxon idref="Xylica_oedematosa"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="lanshecal.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="lanshecal" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_californicum"/>
+
+                                            
+
+                        <taxon idref="Timema_landelsensis"/>
+
+                                            
+
+                        <taxon idref="Timema_shepardii"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="noortho.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="noortho" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Achrioptera_fallax"/>
+
+                                            
+
+                        <taxon idref="Agathemera_sp"/>
+
+                                            
+
+                        <taxon idref="Diapherodes_venustula"/>
+
+                                            
+
+                        <taxon idref="Diapheromera_femorata"/>
+
+                                            
+
+                        <taxon idref="Eurycantha_calcarata"/>
+
+                                            
+
+                        <taxon idref="Extatosoma_tiaratum_tiaratum"/>
+
+                                            
+
+                        <taxon idref="Heteropteryx_dilatata"/>
+
+                                            
+
+                        <taxon idref="Medauroidea_extradentata"/>
+
+                                            
+
+                        <taxon idref="Phyllium_giganteum"/>
+
+                                            
+
+                        <taxon idref="Pseudophasma_subapterum"/>
+
+                                            
+
+                        <taxon idref="Sipyloidea_sipylus"/>
+
+                                            
+
+                        <taxon idref="Xeroderus_sp"/>
+
+                                            
+
+                        <taxon idref="Xylica_oedematosa"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="phasma.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="phasma" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Achrioptera_fallax"/>
+
+                                            
+
+                        <taxon idref="Agathemera_sp"/>
+
+                                            
+
+                        <taxon idref="Diapherodes_venustula"/>
+
+                                            
+
+                        <taxon idref="Diapheromera_femorata"/>
+
+                                            
+
+                        <taxon idref="Eurycantha_calcarata"/>
+
+                                            
+
+                        <taxon idref="Extatosoma_tiaratum_tiaratum"/>
+
+                                            
+
+                        <taxon idref="Heteropteryx_dilatata"/>
+
+                                            
+
+                        <taxon idref="Medauroidea_extradentata"/>
+
+                                            
+
+                        <taxon idref="Orthomeria_kangi"/>
+
+                                            
+
+                        <taxon idref="Phyllium_giganteum"/>
+
+                                            
+
+                        <taxon idref="Pseudophasma_subapterum"/>
+
+                                            
+
+                        <taxon idref="Sipyloidea_sipylus"/>
+
+                                            
+
+                        <taxon idref="Timema_bartmani"/>
+
+                                            
+
+                        <taxon idref="Timema_boharti"/>
+
+                                            
+
+                        <taxon idref="Timema_californicum"/>
+
+                                            
+
+                        <taxon idref="Timema_chumash"/>
+
+                                            
+
+                        <taxon idref="Timema_cristinae"/>
+
+                                            
+
+                        <taxon idref="Timema_douglasi"/>
+
+                                            
+
+                        <taxon idref="Timema_genevievae"/>
+
+                                            
+
+                        <taxon idref="Timema_knulli"/>
+
+                                            
+
+                        <taxon idref="Timema_landelsensis"/>
+
+                                            
+
+                        <taxon idref="Timema_monikensis"/>
+
+                                            
+
+                        <taxon idref="Timema_petita"/>
+
+                                            
+
+                        <taxon idref="Timema_podura"/>
+
+                                            
+
+                        <taxon idref="Timema_poppensis"/>
+
+                                            
+
+                        <taxon idref="Timema_shepardii"/>
+
+                                            
+
+                        <taxon idref="Timema_tahoe"/>
+
+                                            
+
+                        <taxon idref="Xeroderus_sp"/>
+
+                                            
+
+                        <taxon idref="Xylica_oedematosa"/>
+
+                                        
+
+                    </taxonset>
+
+                                    
+
+                    <Normal id="Normal.2" name="distr" offset="229.0">
+
+                                            
+
+                        <parameter id="RealParameter.22" spec="parameter.RealParameter" estimate="false" name="mean">15.0</parameter>
+
+                                            
+
+                        <parameter id="RealParameter.23" spec="parameter.RealParameter" estimate="false" name="sigma">15.0</parameter>
+
+                                        
+
+                    </Normal>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="phyll.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="phyll" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Diapherodes_venustula"/>
+
+                                            
+
+                        <taxon idref="Eurycantha_calcarata"/>
+
+                                            
+
+                        <taxon idref="Extatosoma_tiaratum_tiaratum"/>
+
+                                            
+
+                        <taxon idref="Medauroidea_extradentata"/>
+
+                                            
+
+                        <taxon idref="Phyllium_giganteum"/>
+
+                                            
+
+                        <taxon idref="Sipyloidea_sipylus"/>
+
+                                            
+
+                        <taxon idref="Xeroderus_sp"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="pobageta.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="pobageta" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_bartmani"/>
+
+                                            
+
+                        <taxon idref="Timema_genevievae"/>
+
+                                            
+
+                        <taxon idref="Timema_podura"/>
+
+                                            
+
+                        <taxon idref="Timema_tahoe"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="podgen.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="podgen" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_genevievae"/>
+
+                                            
+
+                        <taxon idref="Timema_podura"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="popdou.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="popdou" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_douglasi"/>
+
+                                            
+
+                        <taxon idref="Timema_poppensis"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="popdouknu.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="popdouknu" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_douglasi"/>
+
+                                            
+
+                        <taxon idref="Timema_knulli"/>
+
+                                            
+
+                        <taxon idref="Timema_poppensis"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="popdouknupet.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="popdouknupet" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_douglasi"/>
+
+                                            
+
+                        <taxon idref="Timema_knulli"/>
+
+                                            
+
+                        <taxon idref="Timema_petita"/>
+
+                                            
+
+                        <taxon idref="Timema_poppensis"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                            
+
+                <distribution id="timema.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <taxonset id="timema" spec="TaxonSet">
+
+                                            
+
+                        <taxon idref="Timema_bartmani"/>
+
+                                            
+
+                        <taxon idref="Timema_boharti"/>
+
+                                            
+
+                        <taxon idref="Timema_californicum"/>
+
+                                            
+
+                        <taxon idref="Timema_chumash"/>
+
+                                            
+
+                        <taxon idref="Timema_cristinae"/>
+
+                                            
+
+                        <taxon idref="Timema_douglasi"/>
+
+                                            
+
+                        <taxon idref="Timema_genevievae"/>
+
+                                            
+
+                        <taxon idref="Timema_knulli"/>
+
+                                            
+
+                        <taxon idref="Timema_landelsensis"/>
+
+                                            
+
+                        <taxon idref="Timema_monikensis"/>
+
+                                            
+
+                        <taxon idref="Timema_petita"/>
+
+                                            
+
+                        <taxon idref="Timema_podura"/>
+
+                                            
+
+                        <taxon idref="Timema_poppensis"/>
+
+                                            
+
+                        <taxon idref="Timema_shepardii"/>
+
+                                            
+
+                        <taxon idref="Timema_tahoe"/>
+
+                                        
+
+                    </taxonset>
+
+                                
+
+                </distribution>
+
+                        
+
+            </distribution>
+
+                    
+
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+
+                            
+
+                <distribution id="treeLikelihood.trimmedDEFINITIVEspnames" spec="ThreadedTreeLikelihood" data="@trimmedDEFINITIVEspnames" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                    
+
+                    <siteModel id="SiteModel.s:trimmedDEFINITIVEspnames" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:trimmedDEFINITIVEspnames">
+
+                                            
+
+                        <parameter id="mutationRate.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+
+                                            
+
+                        <parameter id="proportionInvariant.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+
+                                            
+
+                        <substModel id="gtr.s:trimmedDEFINITIVEspnames" spec="GTR" rateAC="@rateAC.s:trimmedDEFINITIVEspnames" rateAG="@rateAG.s:trimmedDEFINITIVEspnames" rateAT="@rateAT.s:trimmedDEFINITIVEspnames" rateCG="@rateCG.s:trimmedDEFINITIVEspnames" rateGT="@rateGT.s:trimmedDEFINITIVEspnames">
+
+                                                    
+
+                            <parameter id="rateCT.s:trimmedDEFINITIVEspnames" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
+
+                                                    
+
+                            <frequencies id="estimatedFreqs.s:trimmedDEFINITIVEspnames" spec="Frequencies" frequencies="@freqParameter.s:trimmedDEFINITIVEspnames"/>
+
+                                                
+
+                        </substModel>
+
+                                        
+
+                    </siteModel>
+
+                                    
+
+                    <branchRateModel id="OptimisedRelaxedClock.c:trimmedDEFINITIVEspnames" spec="beast.base.evolution.branchratemodel.UCRelaxedClockModel" clock.rate="@ORCucldMean.c:trimmedDEFINITIVEspnames" rates="@ORCRates.c:trimmedDEFINITIVEspnames" tree="@Tree.t:trimmedDEFINITIVEspnames">
+
+                                            
+
+                        <LogNormal id="ORCLogNormalDistributionModel.c:trimmedDEFINITIVEspnames" S="@ORCsigma.c:trimmedDEFINITIVEspnames" meanInRealSpace="true" name="distr">
+
+                                                    
+
+                            <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+
+                                                
+
+                        </LogNormal>
+
+                                        
+
+                    </branchRateModel>
+
+                                
+
+                </distribution>
+
+                        
+
+            </distribution>
+
+                
+
+        </distribution>
+
+            
+
+        <operator id="gammaShapeScaler.s:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="0.05">
+
+                    
+
+            <parameter idref="gammaShape.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="AVMNOperator.trimmedDEFINITIVEspnames" spec="kernel.AdaptableVarianceMultivariateNormalOperator" allowNonsense="true" beta="0.05" burnin="400" initial="800" weight="0.1">
+
+                            
+
+                <transformations id="AVMNSumTransform.trimmedDEFINITIVEspnames" spec="operator.kernel.Transform$LogConstrainedSumTransform">
+
+                                    
+
+                    <f idref="freqParameter.s:trimmedDEFINITIVEspnames"/>
+
+                                
+
+                </transformations>
+
+                            
+
+                <transformations id="AVMNLogTransform.trimmedDEFINITIVEspnames" spec="operator.kernel.Transform$LogTransform">
+
+                                    
+
+                    <f idref="gammaShape.s:trimmedDEFINITIVEspnames"/>
+
+                                    
+
+                    <f idref="rateAC.s:trimmedDEFINITIVEspnames"/>
+
+                                    
+
+                    <f idref="rateAG.s:trimmedDEFINITIVEspnames"/>
+
+                                    
+
+                    <f idref="rateAT.s:trimmedDEFINITIVEspnames"/>
+
+                                    
+
+                    <f idref="rateCG.s:trimmedDEFINITIVEspnames"/>
+
+                                    
+
+                    <f idref="rateGT.s:trimmedDEFINITIVEspnames"/>
+
+                                
+
+                </transformations>
+
+                            
+
+                <transformations id="AVMNNoTransform.trimmedDEFINITIVEspnames" spec="operator.kernel.Transform$NoTransform">
+
+                                    
+
+                    <f idref="Tree.t:trimmedDEFINITIVEspnames"/>
+
+                                
+
+                </transformations>
+
+                        
+
+            </operator>
+
+                    
+
+            <operator id="gammaShapeScalerX.s:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@gammaShape.s:trimmedDEFINITIVEspnames" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="RateACScaler.s:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="0.05">
+
+                    
+
+            <parameter idref="rateAC.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator idref="AVMNOperator.trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="RateACScalerX.s:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@rateAC.s:trimmedDEFINITIVEspnames" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="RateAGScaler.s:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="0.05">
+
+                    
+
+            <parameter idref="rateAG.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator idref="AVMNOperator.trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="RateAGScalerX.s:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@rateAG.s:trimmedDEFINITIVEspnames" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="RateATScaler.s:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="0.05">
+
+                    
+
+            <parameter idref="rateAT.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator idref="AVMNOperator.trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="RateATScalerX.s:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@rateAT.s:trimmedDEFINITIVEspnames" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="RateCGScaler.s:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="0.05">
+
+                    
+
+            <parameter idref="rateCG.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator idref="AVMNOperator.trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="RateCGScalerX.s:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@rateCG.s:trimmedDEFINITIVEspnames" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="RateGTScaler.s:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="0.05">
+
+                    
+
+            <parameter idref="rateGT.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator idref="AVMNOperator.trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="RateGTScalerX.s:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@rateGT.s:trimmedDEFINITIVEspnames" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="FrequenciesExchanger.s:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="0.05">
+
+                    
+
+            <parameter idref="freqParameter.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator idref="AVMNOperator.trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="FrequenciesExchangerX.s:trimmedDEFINITIVEspnames" spec="operator.kernel.BactrianDeltaExchangeOperator" delta="0.01" weight="0.1">
+
+                            
+
+                <parameter idref="freqParameter.s:trimmedDEFINITIVEspnames"/>
+
+                        
+
+            </operator>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="ORCAdaptableOperatorSampler_sigma.c:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="3.0">
+
+                    
+
+            <parameter idref="ORCsigma.c:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="ORCucldStdevScaler.c:trimmedDEFINITIVEspnames" spec="orc.consoperators.UcldScalerOperator" distr="@ORCLogNormalDistributionModel.c:trimmedDEFINITIVEspnames" rates="@ORCRates.c:trimmedDEFINITIVEspnames" scaleFactor="0.5" stdev="@ORCsigma.c:trimmedDEFINITIVEspnames" weight="1.0">
+
+                            
+
+                <kernel id="KernelDistribution$Bactrian.14" spec="operator.kernel.KernelDistribution$Bactrian"/>
+
+                        
+
+            </operator>
+
+                    
+
+            <operator id="ORCUcldStdevRandomWalk.c:trimmedDEFINITIVEspnames" spec="operator.kernel.BactrianRandomWalkOperator" parameter="@ORCsigma.c:trimmedDEFINITIVEspnames" scaleFactor="0.1" weight="1.0">
+
+                            
+
+                <kernelDistribution id="KernelDistribution$Bactrian.15" spec="operator.kernel.KernelDistribution$Bactrian"/>
+
+                        
+
+            </operator>
+
+                    
+
+            <operator id="ORCUcldStdevScale.c:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@ORCsigma.c:trimmedDEFINITIVEspnames" scaleFactor="0.5" upper="10.0" weight="1.0">
+
+                            
+
+                <kernelDistribution id="KernelDistribution$Bactrian.16" spec="operator.kernel.KernelDistribution$Bactrian"/>
+
+                        
+
+            </operator>
+
+                    
+
+            <operator id="ORCSampleFromPriorOperator_sigma.c:trimmedDEFINITIVEspnames" spec="orc.operators.SampleFromPriorOperator" parameter="@ORCsigma.c:trimmedDEFINITIVEspnames" prior2="@ORCsigmaPrior.c:trimmedDEFINITIVEspnames" weight="1.0"/>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="ORCAdaptableOperatorSampler_rates_root.c:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="1.0">
+
+                    
+
+            <parameter idref="ORCRates.c:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <tree idref="Tree.t:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="ORCRootOperator1.c:trimmedDEFINITIVEspnames" spec="orc.consoperators.SimpleDistance" clockModel="@OptimisedRelaxedClock.c:trimmedDEFINITIVEspnames" rates="@ORCRates.c:trimmedDEFINITIVEspnames" tree="@Tree.t:trimmedDEFINITIVEspnames" twindowSize="0.005" weight="1.0">
+
+                            
+
+                <kernel id="KernelDistribution$Bactrian.17" spec="operator.kernel.KernelDistribution$Bactrian"/>
+
+                        
+
+            </operator>
+
+                    
+
+            <operator id="ORCRootOperator2.c:trimmedDEFINITIVEspnames" spec="orc.consoperators.SmallPulley" clockModel="@OptimisedRelaxedClock.c:trimmedDEFINITIVEspnames" dwindowSize="0.005" rates="@ORCRates.c:trimmedDEFINITIVEspnames" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="1.0">
+
+                            
+
+                <kernel id="KernelDistribution$Bactrian.18" spec="operator.kernel.KernelDistribution$Bactrian"/>
+
+                        
+
+            </operator>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="ORCAdaptableOperatorSampler_rates_internal.c:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="20.0">
+
+                    
+
+            <parameter idref="ORCRates.c:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <tree idref="Tree.t:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="ORCInternalnodesOperator.c:trimmedDEFINITIVEspnames" spec="orc.consoperators.InConstantDistanceOperator" clockModel="@OptimisedRelaxedClock.c:trimmedDEFINITIVEspnames" rates="@ORCRates.c:trimmedDEFINITIVEspnames" tree="@Tree.t:trimmedDEFINITIVEspnames" twindowSize="0.005" weight="1.0">
+
+                            
+
+                <kernel id="KernelDistribution$Bactrian.19" spec="operator.kernel.KernelDistribution$Bactrian"/>
+
+                        
+
+            </operator>
+
+                    
+
+            <operator id="ORCRatesRandomWalk.c:trimmedDEFINITIVEspnames" spec="operator.kernel.BactrianRandomWalkOperator" parameter="@ORCRates.c:trimmedDEFINITIVEspnames" scaleFactor="0.1" weight="1.0">
+
+                            
+
+                <kernelDistribution id="KernelDistribution$Bactrian.20" spec="operator.kernel.KernelDistribution$Bactrian"/>
+
+                        
+
+            </operator>
+
+                    
+
+            <operator id="ORCRatesScale.c:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@ORCRates.c:trimmedDEFINITIVEspnames" scaleFactor="0.5" upper="10.0" weight="1.0">
+
+                            
+
+                <kernelDistribution id="KernelDistribution$Bactrian.21" spec="operator.kernel.KernelDistribution$Bactrian"/>
+
+                        
+
+            </operator>
+
+                    
+
+            <operator id="ORCSampleFromPriorOperator.rates.c:trimmedDEFINITIVEspnames" spec="orc.operators.SampleFromPriorOperator" parameter="@ORCRates.c:trimmedDEFINITIVEspnames" prior2="@ORCRatePriorDistribution.c:trimmedDEFINITIVEspnames" weight="1.0"/>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="ORCAdaptableOperatorSampler_NER.c:trimmedDEFINITIVEspnames" spec="AdaptableOperatorSampler" weight="10.0">
+
+                    
+
+            <tree idref="Tree.t:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <operator id="ORCNER_null.c:trimmedDEFINITIVEspnames" spec="Exchange" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="1.0"/>
+
+                    
+
+            <operator id="ORCNER_dAE_dBE_dCE.c:trimmedDEFINITIVEspnames" spec="orc.ner.NEROperator_dAE_dBE_dCE" rates="@ORCRates.c:trimmedDEFINITIVEspnames" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="1.0"/>
+
+                    
+
+            <metric id="RNNIMetric.0" spec="beastlabs.evolution.tree.RNNIMetric" taxonset="@TaxonSet.trimmedDEFINITIVEspnames"/>
+
+                
+
+        </operator>
+
+            
+
+        <operator id="BirthDeathBICEPSEpochTop.t:trimmedDEFINITIVEspnames" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="2.0"/>
+
+            
+
+        <operator id="BirthDeathBICEPSEpochAll.t:trimmedDEFINITIVEspnames" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="2.0"/>
+
+            
+
+        <operator id="BirthDeathBICEPSTreeFlex.t:trimmedDEFINITIVEspnames" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="2.0"/>
+
+            
+
+        <operator id="BirthDeathTreeRootScaler.t:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.1" tree="@Tree.t:trimmedDEFINITIVEspnames" upper="10.0" weight="3.0"/>
+
+            
+
+        <operator id="BirthDeathUniformOperator.t:trimmedDEFINITIVEspnames" spec="kernel.BactrianNodeOperator" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="30.0"/>
+
+            
+
+        <operator id="BirthDeathSubtreeSlide.t:trimmedDEFINITIVEspnames" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="15.0"/>
+
+            
+
+        <operator id="BirthDeathNarrow.t:trimmedDEFINITIVEspnames" spec="Exchange" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="15.0"/>
+
+            
+
+        <operator id="BirthDeathWide.t:trimmedDEFINITIVEspnames" spec="Exchange" isNarrow="false" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="3.0"/>
+
+            
+
+        <operator id="BirthDeathWilsonBalding.t:trimmedDEFINITIVEspnames" spec="WilsonBalding" tree="@Tree.t:trimmedDEFINITIVEspnames" weight="3.0"/>
+
+            
+
+        <operator id="BirthRateScaler.t:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@BDBirthRate.t:trimmedDEFINITIVEspnames" upper="10.0" weight="3.0"/>
+
+            
+
+        <operator id="DeathRateScaler.t:trimmedDEFINITIVEspnames" spec="kernel.BactrianScaleOperator" parameter="@BDDeathRate.t:trimmedDEFINITIVEspnames" upper="10.0" weight="3.0"/>
+
+            
+
+        <operator id="ORCucldMeanScaler.c:trimmedDEFINITIVEspnames" spec="ScaleOperator" parameter="@ORCucldMean.c:trimmedDEFINITIVEspnames" scaleFactor="0.5" weight="3.0"/>
+
+            
+
+        <operator id="ORC.UpDown.c:trimmedDEFINITIVEspnames" spec="operator.kernel.BactrianUpDownOperator" scaleFactor="0.75" weight="3.0">
+
+                    
+
+            <up idref="ORCucldMean.c:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <down idref="Tree.t:trimmedDEFINITIVEspnames"/>
+
+                
+
+        </operator>
+
+            
+
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+
+                    
+
+            <log idref="posterior"/>
+
+                    
+
+            <log idref="likelihood"/>
+
+                    
+
+            <log idref="prior"/>
+
+                    
+
+            <log idref="treeLikelihood.trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log id="TreeHeight.t:trimmedDEFINITIVEspnames" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="gammaShape.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="rateAC.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="rateAG.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="rateAT.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="rateCG.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="rateGT.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="freqParameter.s:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="ORCsigma.c:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log id="ORCRatesStat.c:trimmedDEFINITIVEspnames" spec="beast.base.evolution.RateStatistic" branchratemodel="@OptimisedRelaxedClock.c:trimmedDEFINITIVEspnames" tree="@Tree.t:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="BirthDeath.t:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="BDBirthRate.t:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="BDDeathRate.t:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="popdou.prior"/>
+
+                    
+
+            <log idref="popdouknu.prior"/>
+
+                    
+
+            <log idref="popdouknupet.prior"/>
+
+                    
+
+            <log idref="calshe.prior"/>
+
+                    
+
+            <log idref="lanshecal.prior"/>
+
+                    
+
+            <log idref="est.prior"/>
+
+                    
+
+            <log idref="crimon1.prior"/>
+
+                    
+
+            <log idref="estplus.prior"/>
+
+                    
+
+            <log idref="podgen.prior"/>
+
+                    
+
+            <log idref="bartah.prior"/>
+
+                    
+
+            <log idref="pobageta.prior"/>
+
+                    
+
+            <log idref="boh.prior"/>
+
+                    
+
+            <log idref="chu.prior"/>
+
+                    
+
+            <log idref="timema.prior"/>
+
+                    
+
+            <log idref="agapseu.prior"/>
+
+                    
+
+            <log idref="agapseudia.prior"/>
+
+                    
+
+            <log idref="exaxero.prior"/>
+
+                    
+
+            <log idref="exaxeromeda.prior"/>
+
+                    
+
+            <log idref="exaxeromedadia.prior"/>
+
+                    
+
+            <log idref="eurysipy.prior"/>
+
+                    
+
+            <log idref="diaeuryextamedasipyxero.prior"/>
+
+                    
+
+            <log idref="phyll.prior"/>
+
+                    
+
+            <log idref="achxily.prior"/>
+
+                    
+
+            <log idref="achxylplius.prior"/>
+
+                    
+
+            <log idref="hete.prior"/>
+
+                    
+
+            <log idref="noortho.prior"/>
+
+                    
+
+            <log idref="eupha.prior"/>
+
+                    
+
+            <log idref="ORCucldMean.c:trimmedDEFINITIVEspnames"/>
+
+                    
+
+            <log idref="embia.prior"/>
+
+                    
+
+            <log idref="phasma.prior"/>
+
+                
+
+        </logger>
+
+            
+
+        <logger id="screenlog" spec="Logger" logEvery="10000">
+
+                    
+
+            <log idref="posterior"/>
+
+                    
+
+            <log idref="likelihood"/>
+
+                    
+
+            <log idref="prior"/>
+
+                
+
+        </logger>
+
+            
+
+        <logger id="treelog.t:trimmedDEFINITIVEspnames" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="10000" mode="tree">
+
+                    
+
+            <log id="TreeWithMetaDataLogger.t:trimmedDEFINITIVEspnames" spec="beast.base.evolution.TreeWithMetaDataLogger" branchratemodel="@OptimisedRelaxedClock.c:trimmedDEFINITIVEspnames" tree="@Tree.t:trimmedDEFINITIVEspnames"/>
+
+                
+
+        </logger>
+
+            
+
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+
+        
+
+    </run>
+
+    
+
+</beast>
