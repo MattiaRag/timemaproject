@@ -57,14 +57,14 @@ process_trees() {
 
 # Process the files and get the paths to temporary files
 
-file1=$(process_trees "part_2a/beast/treerun1/beastTIMEMA-trimmedDEFINITIVEspnames.trees")
+file1=$(process_trees "part_2a/beast/all_COIseqs/constcoal/beastTIMEMA_allCOI_COALCONST-trimmed_all_COIseqs_def-1.trees")
 
-file2=$(process_trees "part_2a/beast/treerun2/beastTIMEMA-trimmedDEFINITIVEspnames.trees")
+file2=$(process_trees "part_2a/beast/all_COIseqs/constcoal/beastTIMEMA_allCOI_COALCONST-trimmed_all_COIseqs_def-2.trees")
 
 
 # Combine the chosen trees from both files into the final output
 
-output_file="part_2a/beast/extracted_1000.trees"
+output_file="part_2a/beast/all_COIseqs/constcoal/extracted_1000.trees"
 
 
 # Get the header from the first file
