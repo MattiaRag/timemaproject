@@ -79,7 +79,18 @@ def extract_data_from_table(table_lines):
 
         if not line.startswith("Description") and not line.startswith("Scientific"):
 
-            columns = re.split(r'\s{2,}', line.strip())
+            # Split based on multiple spaces (2 or more spaces as delimiters)
+
+            columns = re.split(r'\s{2,}', line.strip())  
+
+
+            # Check if the number of columns matches expected (10). If not, log the issue.
+
+            if len(columns) < 10:
+
+                print(f"Warning: Line may be split incorrectly: {line}")
+
+            
 
             rows.append(columns)
 
@@ -90,13 +101,11 @@ def extract_data_from_table(table_lines):
 
                     "Total Score", "Query Cover", "E Value", "Per. Ident", "Accession"]
 
-    
 
     if max_columns > len(column_names):
 
         column_names.extend([f"Extra_{i}" for i in range(1, max_columns - len(column_names) + 1)])
 
-    
 
     return pd.DataFrame(rows, columns=column_names[:max_columns])
 
@@ -107,17 +116,15 @@ def process_tables(file_name, tables):
 
     results = {}
 
-    
 
     for query_headers, table_lines in tables:
 
         df = extract_data_from_table(table_lines)
 
-        
 
-        # Find the index of the first non-"unnamed" row after the "unnamed" entries
+        # Exclude rows with "unnamed" or "uncharacterized" in the 'Description' column
 
-        valid_rows = df.loc[~df['Description'].str.contains('unnamed', case=False)]
+        valid_rows = df.loc[~df['Description'].str.contains('unnamed|uncharacterized', case=False)]
 
 
         # If there are no valid rows, skip this table
@@ -127,7 +134,7 @@ def process_tables(file_name, tables):
             continue
 
 
-        # Get the first valid row after "unnamed" entries
+        # Get the first valid row after filtering
 
         best_row = valid_rows.iloc[0].copy()
 
@@ -158,7 +165,6 @@ def process_tables(file_name, tables):
 
         results[species_code].append(best_row)
 
-    
 
     return results
 
@@ -169,7 +175,6 @@ def process_all_files(directory):
 
     all_results = {}
 
-    
 
     for file_name in os.listdir(directory):
 
@@ -191,7 +196,6 @@ def process_all_files(directory):
 
                 all_results[species_code].extend(rows)
 
-    
 
     return all_results
 
@@ -215,19 +219,19 @@ def save_results_to_excel(results, output_file):
             species_df.to_excel(writer, sheet_name=species_code, index=False)
 
 
+# Run the script with the modified filtering and column alignment logic
+
 if __name__ == "__main__":
 
     input_directory = "."  # Replace with your actual directory
 
-    output_file = "output_results.xlsx"
+    output_file = "blastedterms.xlsx"
 
-    
 
     # Process all files and group by species
 
     results = process_all_files(input_directory)
 
-    
 
     # Save the results to an Excel file with multiple sheets
 
