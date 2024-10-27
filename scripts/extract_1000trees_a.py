@@ -1,13 +1,11 @@
 import os
 
-import random
-
 import math
 
 
 # Function to process a .trees file and return selected trees
 
-def process_trees(input_file, percentage_to_exclude=0.10, num_trees_to_select=500):
+def process_trees(input_file, percentage_to_exclude=0.10, num_trees_to_select=1000):
 
     with open(input_file, 'r') as infile:
 
@@ -43,11 +41,17 @@ def process_trees(input_file, percentage_to_exclude=0.10, num_trees_to_select=50
     num_trees_to_exclude = math.ceil(total_trees * percentage_to_exclude)
 
 
-    # Exclude the first 10% of trees and choose trees randomly
+    # Exclude the first 10% of trees and select 1000 trees at regular intervals
 
     trees_to_choose_from = trees[num_trees_to_exclude:]
 
-    chosen_trees = random.sample(trees_to_choose_from, num_trees_to_select)
+    interval = max(1, len(trees_to_choose_from) // num_trees_to_select)
+
+    
+
+    # Select trees at regular intervals
+
+    chosen_trees = trees_to_choose_from[::interval][:num_trees_to_select]
 
 
     return header, chosen_trees, last_line
@@ -55,7 +59,7 @@ def process_trees(input_file, percentage_to_exclude=0.10, num_trees_to_select=50
 
 # Function to combine the selected trees from two files
 
-def combine_trees(file1, file2, output_file, num_trees_to_select=500):
+def combine_trees(file1, file2, output_file, num_trees_to_select=1000):
 
     # Process the first file
 
@@ -85,11 +89,11 @@ def combine_trees(file1, file2, output_file, num_trees_to_select=500):
 
 # Define file paths
 
-file1 = "part_2a/beast/all_COIseqs/constcoal/beastTIMEMA_allCOI_COALCONST-trimmed_all_COIseqs_def-1.trees"
+file1 = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs/constcoal/timemaconstr/treerun1/beastTIMEMA_allCOI_timemaconstr-trimmed_all_COIseqs_def (1).trees"
 
-file2 = "part_2a/beast/all_COIseqs/constcoal/beastTIMEMA_allCOI_COALCONST-trimmed_all_COIseqs_def-2.trees"
+file2 = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs/constcoal/timemaconstr/treerun2/beastTIMEMA_allCOI_timemaconstr-trimmed_all_COIseqs_def (1).trees"
 
-output_file = "part_2a/beast/all_COIseqs/constcoal/extracted_1000.trees"
+output_file = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs/constcoal/timemaconstr/extracted_1000.trees"
 
 
 # Combine trees from both files into the final output
