@@ -124,7 +124,7 @@ def process_tables(file_name, tables):
 
         # Exclude rows with "unnamed" or "uncharacterized" in the 'Description' column
 
-        valid_rows = df.loc[~df['Description'].str.contains('unnamed|uncharacterized', case=False)]
+        valid_rows = df.loc[~df['Description'].str.contains('unnamed|uncharacterized|hypothetical|Hypothetical', case=False)]
 
 
         # If there are no valid rows, skip this table

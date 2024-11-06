@@ -90,9 +90,8 @@ def combine_trees(file1, file2, output_file, num_trees_to_select=1000):
 
 # Define file paths
 
-file1 = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs/constcoal/timemaconstr_singlespecies/treerun1/beastTIMEMA_singlespecies_COI-trimmed_onesp_COIseqs_def.trees"
-
-file2 = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs/constcoal/timemaconstr_singlespecies/treerun2/beastTIMEMA_singlespecies_COI-trimmed_onesp_COIseqs_def.trees"
+file1 = "part_2a/beast/all_COIseqs/constcoal/timemaconstr_singlespecies/treerun1/beastTIMEMA_singlespecies_COI_correct-trimmed_onesp_COIseqs_def.trees"
+file2 = "part_2a/beast/all_COIseqs/constcoal/timemaconstr_singlespecies/treerun2/beastTIMEMA_singlespecies_COI_correct-trimmed_onesp_COIseqs_def.trees"
 
 output_file = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs/constcoal/timemaconstr_singlespecies/extracted_1000.trees"
 
