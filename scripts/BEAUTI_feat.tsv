@@ -20,3 +20,5 @@ Timematodea_Calibration_Mean	7.0
 Timematodea_Calibration_Sigma	9.0
 Timematodea_Calibration_Offset	28.0
 Timematodea_Calibration_Monophyletic	yes
+chainLength	110000000
+storeEvery	5000
