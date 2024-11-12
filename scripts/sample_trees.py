@@ -1,52 +1,55 @@
 import math
 
+import sys
+
 
 def sample_trees(input_file, output_file, num_trees_to_select=4000):
+
+    # Leggi il file di input
 
     with open(input_file, 'r') as infile:
 
         lines = infile.readlines()
 
 
-    # Identify where the trees start (usually after the species list and metadata)
+    # Identifica dove iniziano gli alberi (di solito dopo la lista delle specie e i metadati)
 
     tree_start_index = 0
 
     for i, line in enumerate(lines):
 
-        if line.startswith("tree "):  # Commonly, trees start with 'tree '
+        if line.startswith("tree "):  # Gli alberi iniziano comunemente con 'tree '
 
             tree_start_index = i
 
             break
 
 
-    # Header includes all lines before the first tree
+    # L'header include tutte le righe prima del primo albero
 
     header = lines[:tree_start_index]
 
-    last_line = lines[-1]  # Typically there is a last line after the trees block
+    last_line = lines[-1]  # Tipicamente c'è una riga finale dopo il blocco degli alberi
 
-    
 
-    # The actual tree data starts from the tree_start_index
+    # I dati degli alberi reali iniziano da tree_start_index
 
     trees = lines[tree_start_index:-1]
 
     total_trees = len(trees)
 
 
-    # Calculate the interval for regular sampling
+    # Calcola l'intervallo per il campionamento regolare
 
     interval = math.floor(total_trees / num_trees_to_select)
 
 
-    # Select trees at regular intervals
+    # Seleziona gli alberi a intervalli regolari
 
     selected_trees = [trees[i] for i in range(0, total_trees, interval)][:num_trees_to_select]
 
 
-    # Write the header, sampled trees, and last line to the output file
+    # Scrivi l'header, gli alberi campionati e l'ultima riga nel file di output
 
     with open(output_file, 'w') as outfile:
 
@@ -56,19 +59,21 @@ def sample_trees(input_file, output_file, num_trees_to_select=4000):
 
         outfile.write(last_line)
 
-    
 
-    print(f"File with {num_trees_to_select} sampled trees created: {output_file}")
-
-
-# Parameters
-
-input_file = "combined.trees"        # Replace with your .trees file name
-
-output_file = "output_4000.trees" # Output file name
+    print(f"File con {num_trees_to_select} alberi campionati creato: {output_file}")
 
 
-# Run the function to sample trees
+# Verifica se gli argomenti posizionali sono stati forniti
 
-sample_trees(input_file, output_file, num_trees_to_select=4000)
+if len(sys.argv) != 3:
+
+    print("Uso: python script.py <file_di_input> <file_di_output>")
+
+else:
+
+    input_file = sys.argv[1]  # Primo argomento: file di input
+
+    output_file = sys.argv[2]  # Secondo argomento: file di output
+
+    sample_trees(input_file, output_file, num_trees_to_select=4000)
 
