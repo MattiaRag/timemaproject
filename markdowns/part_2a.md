@@ -9,10 +9,10 @@
 
 ## Infer an ultrametric tree with BEAST2
 
-The ultrametric tree was inferred using just COI sequences, retrieved from NCBI, and including all 10 assessed species, integrated by 5 additional species of *Timema*, 14 species of euphasmatodeans, as outgroup of all *Timema* species, and 2 species of embiopterans, as main outgroup of all phasmatodeans.
+Bayesian Inference was performed on two datasets: a reduced dataset where all 15 known *Timema* species were represented by a single sequence and an extensive dataset encompassing over one hundred specimens. Both datasets consisted of mitochondrial COI sequences, as they are the only comparable sequence data available for all *Timema* species. Both datasets also included 14 species of Euphasmatodea (the sister clade of Timematodea) and two outgroup species (Embiopterans).
 The sequences can be downloaded from [NCBI](https://www.ncbi.nlm.nih.gov/), and formatted into a single fasta file through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/downloading_COIseq.sh).
 
-Once got a fasta fiel including all COI sequences, it was aligned using MAFFT:
+Once got a fasta file including all COI sequences, it was aligned using MAFFT:
 
 ```
 mafft --adjustdirection COI_sequences.fasta > aligned_COI.fasta
