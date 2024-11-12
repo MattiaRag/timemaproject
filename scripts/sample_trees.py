@@ -5,51 +5,51 @@ import sys
 
 def sample_trees(input_file, output_file, num_trees_to_select=4000):
 
-    # Leggi il file di input
+    # Read the input file
 
     with open(input_file, 'r') as infile:
 
         lines = infile.readlines()
 
 
-    # Identifica dove iniziano gli alberi (di solito dopo la lista delle specie e i metadati)
+    # Identify where the trees start (usually after the species list and metadata)
 
     tree_start_index = 0
 
     for i, line in enumerate(lines):
 
-        if line.startswith("tree "):  # Gli alberi iniziano comunemente con 'tree '
+        if line.startswith("tree "):  # Trees commonly start with 'tree '
 
             tree_start_index = i
 
             break
 
 
-    # L'header include tutte le righe prima del primo albero
+    # The header includes all lines before the first tree
 
     header = lines[:tree_start_index]
 
-    last_line = lines[-1]  # Tipicamente c'è una riga finale dopo il blocco degli alberi
+    last_line = lines[-1]  # Typically, there is a last line after the trees block
 
 
-    # I dati degli alberi reali iniziano da tree_start_index
+    # The actual tree data starts from tree_start_index
 
     trees = lines[tree_start_index:-1]
 
     total_trees = len(trees)
 
 
-    # Calcola l'intervallo per il campionamento regolare
+    # Calculate the interval for regular sampling
 
     interval = math.floor(total_trees / num_trees_to_select)
 
 
-    # Seleziona gli alberi a intervalli regolari
+    # Select trees at regular intervals
 
     selected_trees = [trees[i] for i in range(0, total_trees, interval)][:num_trees_to_select]
 
 
-    # Scrivi l'header, gli alberi campionati e l'ultima riga nel file di output
+    # Write the header, sampled trees, and the last line to the output file
 
     with open(output_file, 'w') as outfile:
 
@@ -60,20 +60,20 @@ def sample_trees(input_file, output_file, num_trees_to_select=4000):
         outfile.write(last_line)
 
 
-    print(f"File con {num_trees_to_select} alberi campionati creato: {output_file}")
+    print(f"File with {num_trees_to_select} sampled trees created: {output_file}")
 
 
-# Verifica se gli argomenti posizionali sono stati forniti
+# Check if positional arguments are provided
 
 if len(sys.argv) != 3:
 
-    print("Uso: python script.py <file_di_input> <file_di_output>")
+    print("Usage: python script.py <input_file> <output_file>")
 
 else:
 
-    input_file = sys.argv[1]  # Primo argomento: file di input
+    input_file = sys.argv[1]  # First argument: input file
 
-    output_file = sys.argv[2]  # Secondo argomento: file di output
+    output_file = sys.argv[2]  # Second argument: output file
 
     sample_trees(input_file, output_file, num_trees_to_select=4000)
 
