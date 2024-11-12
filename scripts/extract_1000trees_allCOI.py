@@ -93,7 +93,7 @@ file1 = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs
 
 file2 = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs/constcoal/timemaconstr/treerun2/beastTIMEMA_allCOI_timemaconstr-trimmed_all_COIseqs_def (1).trees"
 
-output_file = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs/constcoal/timemaconstr/extracted_1000.trees"
+output_file = "/home/STUDENTI/mattia.ragazzini/timemaproject/part_2a/beast/all_COIseqs/constcoal/timemaconstr/extracted_1000_allCOI.trees"
 
 
 # Combine trees from both files into the final output
