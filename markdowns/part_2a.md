@@ -26,7 +26,7 @@ trimal -in aligned_COI.fasta -resoverlap 0.5 -seqoverlap 50 -gappyout > trimmed_
 
 Before proceeding, the trimmed file was furtherly processed using [AliView - Alignment Viewer and Editor](https://ormbunkar.se/aliview/) to delete poorly aligned regions.
 
-A second FASTA (file)[https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/trimmed_onesp_COIseqs_def.fasta], containing one COI sequence per *Timema* species as well as sequences from all euphasmatodean species and outgroups, was manually created.
+A second FASTA [file](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/trimmed_onesp_COIseqs_def.fasta), containing one COI sequence per *Timema* species as well as sequences from all euphasmatodean species and outgroups, was manually created.
 
 An ultrametric tree for each dataset was inferred using BEAST2 tools package.
 An `.xml` file was set using the software application BEAUti (Bayesian Evolutionary Analysis Utility), with the features specified in this [`.tsv`](https://github.com/MattiaRag/timemaproject/blob/main/scripts/BEAUTI_feat.tsv). Topological constrains were included for each node of the concerned tree. Both calibration and topological data were retrieved from [Parker at al. 2019](https://www.researchgate.net/publication/336424541_Sex-biased_gene_expression_is_repeatedly_masculinized_in_asexual_females) and [Tihelka et al. 2020](https://royalsocietypublishing.org/doi/10.1098/rsos.201689).
