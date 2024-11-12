@@ -37,7 +37,7 @@ The exported `.xml` files were then submitted to beast, running 2 analyses indep
 ./beast beastTIMEMA.xml
 ```
 
-For each dataset, both runs were checked for convergence and ESS values using Tracer. An appropriate script was then employed for both the reduced and extensive datasets. These scripts were used to randomly select 500 trees from each MCMC run after applying an initial burn-in of 10%. The selected trees were combined to generate a new .trees file containing a total of 1,000 randomly extracted trees. 
+For each dataset, both runs were checked for convergence and ESS values using Tracer. An appropriate [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extract_1000trees.py) was then employed for both the reduced and extensive datasets. These scripts were used to randomly select 500 trees from each MCMC run after applying an initial burn-in of 10%. The selected trees were combined to generate a new .trees file containing a total of 1,000 randomly extracted trees. 
 
 ```
 python extract_1000trees.py input_file1.trees input_file2.trees output_1000_trees.trees
@@ -51,10 +51,11 @@ Both MCMC (Markov Chain Monte Carlo) runs were combined using LogCombiner:
 ./../beast/bin/logcombiner -log part_2a/beast/treerun1/beastTIMEMA-trimmedDEFINITIVEspnames.trees -log part_2a/beast/treerun2/beastTIMEMA-trimmedDEFINITIVEspnames.trees -o combined.trees -burnin 10
 ```
 
-The sampled trees were subsequently summarized using TreeAnnotator. Due to the size of the `.trees` files, a proper script was adopted to sub-sample 4000 trees from each distribuition, by regular intervals along the distribution.
+The sampled trees were subsequently summarized using TreeAnnotator. Due to the size of the `.trees` files, a proper [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/sample_trees.py) was adopted to sub-sample 4000 trees from each distribuition, by regular intervals along the distribution.
 
 ```
-./../beast/bin/treeannotator -burnin 10 -height CA part_2a/beast/combined.trees part_2a/beast/treeannotator_output.tree
+python sample_trees.py combined.trees output_4000.trees
+./../beast/bin/treeannotator -burnin 10 -height CA part_2a/beast/output_4000.trees part_2a/beast/treeannotator_output.tree
 ```
 
 ## Infer the ancestral state reconstruction
