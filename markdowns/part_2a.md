@@ -37,7 +37,13 @@ The exported `.xml` files were then submitted to beast, running 2 analyses indep
 ./beast beastTIMEMA.xml
 ```
 
-For each dataset, both runs were checked for convergence and ESS values using Tracer. Two appropriate scripts were then employed for both the [reduced](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extract_1000trees_singlesp.py) and [extensive](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extract_1000trees_allCOI.py) datasets. These scripts were used to randomly select 500 trees from each MCMC run after applying an initial burn-in of 10%. The selected trees were combined to generate a new .trees file containing a total of 1,000 randomly extracted trees. The computed files can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/extracted_1000_singlesp.trees) for the reduced and [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/extracted_1000_allCOI.trees) for the extensive datasets.
+For each dataset, both runs were checked for convergence and ESS values using Tracer. An appropriate script was then employed for both the reduced and extensive datasets. These scripts were used to randomly select 500 trees from each MCMC run after applying an initial burn-in of 10%. The selected trees were combined to generate a new .trees file containing a total of 1,000 randomly extracted trees. 
+
+```
+python extract_1000trees.py input_file1.trees input_file2.trees output_1000_trees.trees
+```
+
+The computed files can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/extracted_1000_singlesp.trees) for the reduced and [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/extracted_1000_allCOI.trees) for the extensive datasets.
 
 Both MCMC (Markov Chain Monte Carlo) runs were combined using LogCombiner:
 
