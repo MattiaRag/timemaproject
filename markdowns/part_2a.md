@@ -51,7 +51,7 @@ Both MCMC (Markov Chain Monte Carlo) runs were combined using LogCombiner:
 ./../beast/bin/logcombiner -log part_2a/beast/treerun1/beastTIMEMA-trimmedDEFINITIVEspnames.trees -log part_2a/beast/treerun2/beastTIMEMA-trimmedDEFINITIVEspnames.trees -o combined.trees -burnin 10
 ```
 
-The sampled trees were subsequently summarized using TreeAnnotator. Due to the size of the `.trees` files, a proper [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/sample_trees.py) was adopted to sub-sample 4000 trees from each distribuition, by regular intervals along the distribution.
+The sampled trees were then summarized using TreeAnnotator. Given the large size of the `.trees` files, a dedicated [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/sample_trees.py) was employed to sub-sample 4,000 trees from each distribution at regular intervals to ensure even representation across the dataset.
 
 ```
 python sample_trees.py combined.trees output_4000.trees
