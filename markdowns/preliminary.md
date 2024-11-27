@@ -324,8 +324,8 @@ iqtree2 -s Iqtreeinput_nu/orth.input.fa --prefix Iqtreeoutput_nu/loci_orth -T 8
 [main](https://github.com/MattiaRag/timemaproject/tree/main) /
 [exp_des](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) /
 prel /
-[1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) /
-[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) /
-[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) /
-[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)  
+[1](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1.md) /
+[2](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2.md) /
+[3](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_3.md) /
+[4](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_4.md)  
  
