@@ -169,8 +169,9 @@ The script accepts as input the following files:
 * [`fitch_asr_input_nu.txt`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_asr_inputs/fitch_asr_input_nu.txt).
 
 
-<figure> <img src="pictures/2A.png" alt="Fig. 2A" width="400"> <figcaption style="font-size: small; text-align: center;">Fig. 
-  2A: Distribuzione dei valori nei dati analizzati.</figcaption>
+<figure> 
+ <img src="pictures/2A.png" alt="Fig. 2A" width="400"> 
+ <figcaption style="font-size: small; text-align: center;">Fig. 2A: Distribuzione dei valori nei dati analizzati.</figcaption>
 </figure>
 
 
