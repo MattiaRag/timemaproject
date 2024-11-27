@@ -20,10 +20,10 @@ To test the **first hypothesis**, we adopted two approaches:
 
 
 
-**[1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md)**  -  an inference-based approach involving the use of [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file), a tool able to make statistical inferences about the probability of hemiplasy and homoplasy in large datasets that possibly contain both ILS and introgression;
+**[1](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1.md)**  -  an inference-based approach involving the use of [HeIST](https://github.com/lhugolach/HeIST?tab=readme-ov-file), a tool able to make statistical inferences about the probability of hemiplasy and homoplasy in large datasets that possibly contain both ILS and introgression;
 
 
-**[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md)**  -  an approach based on the detection of hemiplasic candidate genes, inferring the probability of hemiplasy of each orthogroup and corresponding gene tree, and performing a gene ontology and gene enrichment analyses.
+**[2](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2.md)**  -  an approach based on the detection of hemiplasic candidate genes, inferring the probability of hemiplasy of each orthogroup and corresponding gene tree, and performing a gene ontology and gene enrichment analyses.
 
  
 
@@ -33,10 +33,10 @@ To test the **second hypothesis**, we performed two different analyses:
 
 
 
-**[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md)**  -  an Ancestral State Recostruction (ASR) based on an ultrametric tree and the trait state for each species;
+**[3](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_3.md)**  -  an Ancestral State Recostruction (ASR) based on an ultrametric tree and the trait state for each species;
 
 
-**[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)**  -  the inference of probability, for parthenogenetic species, to undergo fewer changes than bisexual species.
+**[4](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_4.md)**  -  the inference of probability, for parthenogenetic species, to undergo fewer changes than bisexual species.
 
 
 
@@ -47,7 +47,7 @@ To test the **second hypothesis**, we performed two different analyses:
 [main](https://github.com/MattiaRag/timemaproject/tree/main) / 
 exp_des / 
 [prel](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) / 
-[1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) / 
-[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) / 
-[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) / 
-[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)
+[1](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1.md) / 
+[2](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2.md) / 
+[3](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_3.md) / 
+[4](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_4.md)
