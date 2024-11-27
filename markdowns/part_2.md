@@ -13,7 +13,7 @@ The Fitch parsimony test was applied on a properly formatted input file, compose
 
 An other input file, in `.tsv` format, is needed, and composed of a first column including codes from all 10 species, followed by a second column including a codified information on the species (0 = bisexual species, 1 = parthenogenetic species).
 
-The Fitch parsimony test [Rscript](https://github.com/MattiaRag/timemaproject/blob/main/scripts/fitch.R) was run using the following command lines:
+The Fitch parsimony test [Rscript](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/fitch.R) was run using the following command lines:
 
 
 ```
@@ -37,7 +37,7 @@ The complete fasta input file was submitted to OMA browser and an output was sub
 
 As input for gene enrichment in R, a properly formatted `.txt` document is necessary. It is composed of a first column indicating the orthogroup's name, and a second tab-delimited column composed of all comma-delimited GO terms assigned to the relative orthogroup. This can be performed through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/OMAoutput_formatting.sh) on the OMA output file. The computed file can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/OMA_formatted.txt).
 
-The R script for gene enrichment can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/scripts/timema_enrichment.R).
+The R script for gene enrichment can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_2.R).
 
 
 ---
@@ -46,10 +46,10 @@ The R script for gene enrichment can be retrieved [here](https://github.com/Matt
 [main](https://github.com/MattiaRag/timemaproject/tree/main) /
 [exp_des](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) /
 [prel](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) /
-[1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) /
-1b /
-[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) /
-[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)  
+[1](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1.md) /
+2 /
+[3](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_3.md) /
+[4](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_4.md)  
 
  
  
