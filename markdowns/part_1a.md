@@ -93,6 +93,8 @@ iqtree2 -t concat.treefile --gcf loci.treefile --prefix concord
 The flag `-t` specifies the species tree.
 The flag `--gcf` specifies a `loci.treefile`, a file including the list of gene trees in newick format. 
 
+All four inferred species trees and related gCFs are represented in [Fig. S1](https://github.com/MattiaRag/timemaproject/blob/main/pictures/Fig_S1.png), while the species tree derived from aminoacidic sequences of minimum 5 species-orthogroups is represented in [Fig. 1](https://github.com/MattiaRag/timemaproject/blob/main/pictures/Fig_1.png) as 1A.
+
 ## Run HeIST
 
 #### Prepare the NEXUS input for HeIST
@@ -153,6 +155,11 @@ python heist_summary_extract.py heist_nu_summary heist_nu_summary.tsv
 ```
 
 This script accepts, as input, the output files produced by `summary.py`.
+
+### Resulting graphs
+
+
+
 
 ---
 
