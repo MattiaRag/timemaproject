@@ -170,7 +170,7 @@ The script accepts as input the following files:
 
 
 <figure> 
- <img src="pictures/2A.png" alt="Fig. 2A" width="400"> 
+ <img src="https://github.com/MattiaRag/timemaproject/blob/main/pictures/2A-1.png" alt="Fig. 2A" width="400"> 
  <figcaption style="font-size: small; text-align: center;">Fig. 2A: Distribuzione dei valori nei dati analizzati.</figcaption>
 </figure>
 
