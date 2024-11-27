@@ -171,7 +171,7 @@ The script accepts as input the following files:
 
 <figure> 
  <img src="https://github.com/MattiaRag/timemaproject/blob/main/pictures/2A-1.png" alt="Fig. 2A" width="600"> 
- <figcaption style="font-size: small; text-align: center;">Fig. 2A: Distribuzione dei valori nei dati analizzati.</figcaption>
+ <figcaption style="font-size: x-small; text-align: center;">**Fig. 2A**: Frequency of hemiplasy across simulations and empirically. The first four bar plots represent the frequency of full and partial hemiplasy in the focal cases simulated using HeIST at four different mutation rates; the numbers indicate the count of focal cases that support each scenario. The analysis is based on the gene concordance factors inferred using the 10867 amino acid alignments of single-copy genes present in more than five Timema species that were used to infer the species tree in Figure 1. The results using nucleotide alignments or nucleotide and amino acids alignments of single-copy genes present in at least five Timema species can be found in Figure S3. The last bar plot represents the different homoplastic/hemiplasic scenarios calculated using Fitch parsimony on 3,813 genes found in at least four parthenogenetic and four gonochoric species and no branches shorter than 1e-6; numbers indicate the count of gene trees supporting each scenario.</figcaption>
 </figure>
 
 
