@@ -173,7 +173,7 @@ The script accepts as input the following files:
   <figure style="display: inline-block; text-align: center; margin: 0;">
     <img src="https://github.com/MattiaRag/timemaproject/blob/main/pictures/2A-1.png?raw=true" alt="Fig. 2A" width="600">
     <figcaption style="margin-top: 10px;">
-      <sub><strong>Fig. 2A:</strong> Frequency of hemiplasy across simulations and empirically. The first four bar plots represent the frequency of full and partial hemiplasy in the focal cases simulated using HeIST at four different mutation rates; the numbers indicate the count of focal cases that support each scenario. The analysis is based on the gene concordance factors inferred using the 10867 amino acid alignments of single-copy genes present in more than five Timema species that were used to infer the species tree in Figure 1. The results using nucleotide alignments or nucleotide and amino acids alignments of single-copy genes present in at least five Timema species can be found in Figure S3. The last bar plot represents the different homoplastic/hemiplasic scenarios calculated using Fitch parsimony on 3,813 genes found in at least four parthenogenetic and four gonochoric species and no branches shorter than 1e-6; numbers indicate the count of gene trees supporting each scenario.</sub>
+<sub><strong>Fig. 2A:</strong> Frequency of hemiplasy across simulations and empirically. The first four bar plots represent the frequency of full and partial hemiplasy in the focal cases simulated using HeIST at four different mutation rates; the numbers indicate the count of focal cases that support each scenario. The analysis is based on the gene concordance factors inferred using the 10867 amino acid alignments of single-copy genes present in more than five Timema species that were used to infer the species tree in Figure 1. The results using nucleotide alignments or nucleotide and amino acids alignments of single-copy genes present in at least five Timema species can be found in Figure S3. The last bar plot represents the different homoplastic/hemiplasic scenarios calculated using Fitch parsimony on 3,813 genes found in at least four parthenogenetic and four gonochoric species and no branches shorter than 1e-6; numbers indicate the count of gene trees supporting each scenario.</sub>
     </figcaption>
   </figure>
 </div>
@@ -186,7 +186,7 @@ The script accepts as input the following files:
 [main](https://github.com/MattiaRag/timemaproject/tree/main) /
 [exp_des](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) /
 [prel](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) /
-1a /
-[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) /
-[2a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2a.md) /
-[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)  
+1 /
+[2](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2.md) /
+[3](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_3.md) /
+[4](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_4.md)  
