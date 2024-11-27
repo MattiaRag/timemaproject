@@ -168,7 +168,7 @@ The script accepts as input the following files:
 * [`fitch_asr_input_aa.txt`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_asr_inputs/fitch_asr_input_aa.txt);
 * [`fitch_asr_input_nu.txt`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_asr_inputs/fitch_asr_input_nu.txt).
 
-![Fig. 2A](https://github.com/MattiaRag/timemaproject/blob/main/pictures/2A.pdf)
+![Fig. 2A](https://github.com/MattiaRag/timemaproject/blob/main/pictures/2A-1.png)
 
 ---
 
