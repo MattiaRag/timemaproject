@@ -2,11 +2,16 @@
 
 *environiments:* yaml.main
 
-*aim:* infer mutation accumulation in parthenogenetic and gonochoric species pairs
+*aim:* compare mutation accumulation rates between parthenogenetic and gonochoric species pairs
 
 ## Mutation accumulation in parthenogenetic and gonochoric species pairs
 
-Mutation accumulation inference in parthenogenetic and gonochoric species pairs - Using a custom R script (Team R Core, 2014), all gene trees previously inferred using amino acid alignments were examined to find instances where the species pair was in the correct relationship to each other. For each correct species pair, the ancestor node was retrieved, and the branch length of the parthenogen and the gonochoric species were collected. Subsequently, we tested that parthenogens accumulated fewer mutations using a paired Wilcoxon test and plotted the mean values in a lolliplot chart using ggplot2 (Wickham 2016). The approach used here considers only instances where gene trees are in accordance with the species tree and allows us not to force a specific topology in the gene trees tree; the latter might be potentially wrong (due to phenomena such as incomplete lineage sorting or introgressions), distort branch lengths inference and eventually the whole analysis (Mendes and Hahn, 2016).
+Using a custom [R script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_4.R), all gene trees previously inferred from amino acid alignments are analyzed to identify correct species pairs (where parthenogenetic and gonochoric species are in the expected relationship). For each valid pair:
+
+* Gene Trees Validation: gene trees are pruned to exclude tips with branch lengths exceeding 10% of the total tree length, ensuring data quality.
+* Branch Length Collection: the branch lengths from both parthenogenetic and gonochoric species are extracted at their most recent common ancestor (MRCA).
+* Statistical Test: a paired Wilcoxon test is performed to compare mutation accumulation between the two groups.
+The script accepts as input [fitch_asr_input_aa.txt](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/fitch_asr_inputs), and [Fig. 1B](https://github.com/MattiaRag/timemaproject/blob/main/pictures/1B.pdf) is produced as output.
 
 ---
 
