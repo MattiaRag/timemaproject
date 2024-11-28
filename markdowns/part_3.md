@@ -58,7 +58,7 @@ python sample_trees.py combined.trees output_4000.trees
 ./../beast/bin/treeannotator -burnin 10 -height CA part_2a/beast/output_4000.trees part_2a/beast/MCC_sampling.tree
 ```
 
-The post-Treeannotator trees can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_reduced.tree) for the reduced dataset and [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_extended.tree) for the extensive dataset.
+The post-Treeannotator trees can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_reduced.tree) for the reduced dataset and [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_extended.tree) for the extensive dataset. Both were represented in [Fig. S2]().
 
 ## Infer the ancestral state reconstruction
 
@@ -67,8 +67,8 @@ A [R script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscrip
 * [MCC_sampling_extended.tree](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_extended.tree);
 * [1k_random_sampling_reduced.trees](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/1k_random_sampling_reduced.trees);
 * [1k_random_sampling_extended.trees](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/1k_random_sampling_extended.trees);
-* [reproductive_strategies_reduced.tsv]();
-* [reproductive_strategies_extended.tsv]().
+* [reproductive_strategies_reduced.tsv](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/reproductive_strategies_reduced.tsv);
+* [reproductive_strategies_extended.tsv](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/reproductive_strategies_extended.tsv).
  
 The output files include [Fig. 1C](https://github.com/MattiaRag/timemaproject/blob/main/pictures/1C.pdf) and [Fig. S3](https://github.com/MattiaRag/timemaproject/blob/main/pictures/S3.pdf). Both analyses revealed uncertainty regarding the reproductive strategy of the *Timema* MRCA.
 
