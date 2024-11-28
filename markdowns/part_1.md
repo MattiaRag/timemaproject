@@ -160,6 +160,7 @@ This script accepts, as input, the output files produced by `summary.py`.
 
 
 A proper [R script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_1.R) was used to represent the frequency of hemiplasy across simulations and empirically ([Fig. 2A](https://github.com/MattiaRag/timemaproject/blob/main/pictures/2A.pdf)), as well as a HeIST sensitivity analyses leveraging the species tree and the corresponding gene concordance factors (gCFs) ([Fig. S4](https://github.com/MattiaRag/timemaproject/blob/main/pictures/S4.pdf)).
+
 The script accepts as input the following files:
 * [`heist_aa_summary.tsv`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/heist_aa_summary.tsv);
 * [`heist_nu_summary.tsv`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/heist_nu_summary.tsv);
