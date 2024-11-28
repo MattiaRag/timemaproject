@@ -58,7 +58,7 @@ python sample_trees.py combined.trees output_4000.trees
 ./../beast/bin/treeannotator -burnin 10 -height CA part_2a/beast/output_4000.trees part_2a/beast/MCC_sampling.tree
 ```
 
-The post-Treeannotator trees can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_reduced.tree) for the reduced dataset and [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_extended.tree) for the extensive dataset. Both were represented in [Fig. S2]().
+The post-Treeannotator trees can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_reduced.tree) for the reduced dataset and [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_extended.tree) for the extensive dataset. Both were represented in [Fig. S2](https://github.com/MattiaRag/timemaproject/blob/main/pictures/Fig_S2.png).
 
 ## Infer the ancestral state reconstruction
 
