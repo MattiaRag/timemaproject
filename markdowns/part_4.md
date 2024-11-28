@@ -1,4 +1,4 @@
-# Ancestral state hypothesis - parthenogens underwent fewer changes than bisexual spp
+# Ancestral state hypothesis - parthenogens underwent fewer changes than bisexual species
 
 *environiments:* yaml.main
 
