@@ -40,10 +40,10 @@ The exported `.xml` files were then submitted to beast, running 2 analyses indep
 For each dataset, both runs were checked for convergence and ESS values using Tracer. An appropriate [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/extract_1000trees.py) was then employed for both the reduced and extensive datasets. These scripts were used to randomly select 500 trees from each MCMC run after applying an initial burn-in of 10%. The selected trees were combined to generate a new .trees file containing a total of 1,000 randomly extracted trees. 
 
 ```
-python extract_1000trees.py input_file1.trees input_file2.trees output_1000_trees.trees
+python extract_1000trees.py input_file1.trees input_file2.trees 1k_random_sampling.trees
 ```
 
-The computed files can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/extracted_1000_singlesp.trees) for the reduced and [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/extracted_1000_allCOI.trees) for the extensive datasets.
+The computed files can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/1k_random_sampling_reduced.trees) for the reduced and [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/1k_random_sampling_extended.trees) for the extensive datasets.
 
 Both MCMC (Markov Chain Monte Carlo) runs were combined using LogCombiner:
 
@@ -55,8 +55,10 @@ The sampled trees were then summarized using TreeAnnotator. Given the large size
 
 ```
 python sample_trees.py combined.trees output_4000.trees
-./../beast/bin/treeannotator -burnin 10 -height CA part_2a/beast/output_4000.trees part_2a/beast/treeannotator_output.tree
+./../beast/bin/treeannotator -burnin 10 -height CA part_2a/beast/output_4000.trees part_2a/beast/MCC_sampling.tree
 ```
+
+The post-Treeannotator trees can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_reduced.tree) for the reduced dataset and [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_extended.tree) for the extensive dataset.
 
 ## Infer the ancestral state reconstruction
 
