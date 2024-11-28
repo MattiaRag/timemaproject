@@ -26,4 +26,4 @@ Heaviest intermediate files producted during these analyses have been uploaded o
 
 - [**part 3**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_3.md) - Ancestral state hypothesis - impact of evolutionary model assumption
 
-- [**part 4**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_4.md) - Ancestral state hypothesis - parthenogens underwent fewer changes than bisexual spp
+- [**part 4**](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_4.md) - Ancestral state hypothesis - parthenogens underwent fewer changes than bisexual species
