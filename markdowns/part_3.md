@@ -62,7 +62,9 @@ The post-Treeannotator trees can be retrieved [here](https://github.com/MattiaRa
 
 ## Infer the ancestral state reconstruction
 
-A [R script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_3.R) was used to infer the ASR (Ancestral State Reconstruction) on both reduced and extensive datasets. For each of the two datasets of COI sequences, two `.tsv` files must be prepared. Each file should include two columns: the first column should list the sample names, and the second should indicate the reproductive strategy. Reproductive strategies should be encoded as "B" for bisexual species and "P" for parthenogenetic species. The script accepts as input the following files:
+A [R script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_3.R) was used to infer the ASR (Ancestral State Reconstruction) on both reduced and extensive datasets. For each of the two datasets of COI sequences, two `.tsv` files must be prepared. Each file should include two columns: the first column should list the sample names, and the second should indicate the reproductive strategy. Reproductive strategies should be encoded as "B" for bisexual species and "P" for parthenogenetic species. 
+
+The script accepts as input the following files:
 * [MCC_sampling_reduced.tree](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_reduced.tree);
 * [MCC_sampling_extended.tree](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_extended.tree);
 * [1k_random_sampling_reduced.trees](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/1k_random_sampling_reduced.trees);
