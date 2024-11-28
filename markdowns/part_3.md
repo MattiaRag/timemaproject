@@ -63,12 +63,17 @@ The post-Treeannotator trees can be retrieved [here](https://github.com/MattiaRa
 ## Infer the ancestral state reconstruction
 
 A [R script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_3.R) was used to infer the ASR (Ancestral State Reconstruction) on both reduced and extensive datasets. The script accepts as input the following files:
-* 
+* [MCC_sampling_reduced.tree](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_reduced.tree);
+* [MCC_sampling_extended.tree](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/MCC_sampling_extended.tree);
+* [1k_random_sampling_reduced.trees](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/1k_random_sampling_reduced.trees);
+* [1k_random_sampling_extended.trees](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/1k_random_sampling_extended.trees);
+* [reproductive_strategies_reduced.tsv]();
+* [reproductive_strategies_extended.tsv]().
+ 
+The output files include [Fig. 1C](https://github.com/MattiaRag/timemaproject/blob/main/pictures/1C.pdf) and [Fig. S3](https://github.com/MattiaRag/timemaproject/blob/main/pictures/S3.pdf). Both analyses revealed uncertainty regarding the reproductive strategy of the *Timema* MRCA.
 
 
-Both analyses revealed uncertainty regarding the reproductive strategy of the *Timema* MRCA.
 
-Th out
 ---
 
 
