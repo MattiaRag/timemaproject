@@ -60,7 +60,7 @@ python sample_trees.py combined.trees output_4000.trees
 
 ## Infer the ancestral state reconstruction
 
-A [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/ASR.R) in R can be used.
+A [R script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_3.R) in R can be used, 
 
 ---
 
@@ -68,8 +68,8 @@ A [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/ASR.R) i
 [main](https://github.com/MattiaRag/timemaproject/tree/main) /
 [exp_des](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/exp_design.md) /
 [prel](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/preliminary.md) /
-[1a](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1a.md) /
-[1b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1b.md) /
-2a /
-[2b](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2b.md)  
+[1](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_1.md) /
+[2](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_2.md) /
+3 /
+[4](https://github.com/MattiaRag/timemaproject/blob/main/markdowns/part_4.md)  
 
