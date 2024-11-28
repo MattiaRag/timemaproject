@@ -79,7 +79,6 @@ The output files include [Fig. 1C](https://github.com/MattiaRag/timemaproject/bl
     <img src="https://github.com/MattiaRag/timemaproject/blob/main/pictures/1C-1.png?raw=true" alt="Fig. 2A" width="600">
     <figcaption style="margin-top: 10px;">
 
-     
 <sub><strong>Fig. 1C:</strong> Timema’s MRCA reproductive strategy was inferred using different combinations of model rates (⁠on the x-axis) and relative probability of transitions (⁠on the y-axis); on the left of the y-axis, it is 100 times more probable to transition from gonochorism to parthenogenesis, while on the right of the y-axis, it is 100x times more probable to transition from parthenogenesis to gonochorism. Each tile coloring represents the probability of Timema’s MRCA reproduction strategy based on the stochastic character mapping of a distribution of 10 timetrees sampled from a Bayesian Inference, encompassing all fifteen known Timema species. The Maximum Clade Credibility (MCC) BI tree is available in Figure S2A. A sensitivity analysis using a more extensive dataset, including over one hundred specimens, can be found in Figure S3, and the corresponding MCC tree is available in Figure S2B. </sub>
     </figcaption>
   </figure>
