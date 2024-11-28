@@ -60,8 +60,13 @@ python sample_trees.py combined.trees output_4000.trees
 
 ## Infer the ancestral state reconstruction
 
-A [R script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_3.R) in R can be used, 
+A [R script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_3.R) was used to infer the ASR (Ancestral State Reconstruction) on both reduced and extensive datasets. The script accepts as input the following files:
+* 
 
+
+Both analyses revealed uncertainty regarding the reproductive strategy of the *Timema* MRCA.
+
+Th out
 ---
 
 
