@@ -14,10 +14,13 @@ Using a custom [R script](https://github.com/MattiaRag/timemaproject/blob/main/s
 
 The script accepts as input [fitch_asr_input_aa.txt](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/fitch_asr_inputs), and [Fig. 1B](https://github.com/MattiaRag/timemaproject/blob/main/pictures/1B.pdf) is produced as output.
 
+
 <div style="text-align: center;">
   <figure style="display: inline-block; text-align: center; margin: 0;">
     <img src="https://github.com/MattiaRag/timemaproject/blob/main/pictures/1B-1.png?raw=true" alt="Fig. 1B" width="600">
     <figcaption style="margin-top: 10px;">
+
+      
 <sub><strong>Fig. 1B:</strong> The mean number of amino acid substitutions per site that each parthenogen and gonochoric sister species accumulated from their most recent common ancestors (MRCAs), inferred for 15781 comparisons. All parthenogen distributions are significantly smaller than the gonochoric ones in Wilcox tests (p < 0.0001). The five nodes of each gonochoric and parthenogenetic species pair in the lolliplot chart in this panel match those highlighted in the species tree in panel A. The dotted lines represent the median of all gonochoric and all parthenogenetic species. </sub>
     </figcaption>
   </figure>
