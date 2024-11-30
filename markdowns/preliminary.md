@@ -53,7 +53,7 @@ mamba create --name myenvname agat
 - [trimAL](https://vicfero.github.io/trimal/index.html) - Version: 1.4.rev22
 
   
-#### Manual installation of tools needing dedicated environmnents:
+#### Manual installation of tools needing dedicated environments:
 
 
 ```
