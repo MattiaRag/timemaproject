@@ -12,7 +12,7 @@ Using a custom [R script](https://github.com/MattiaRag/timemaproject/blob/main/s
 * Branch Length Collection: the branch lengths from both parthenogenetic and gonochoric species are extracted at their most recent common ancestor (MRCA).
 * Statistical Test: a paired Wilcoxon test is performed to compare mutation accumulation between the two groups.
 
-The script accepts as input [`fitch_asr_input_aa.txt`](https://github.com/MattiaRag/timemaproject/tree/main/intermediate_files/fitch_asr_inputs), and [Fig. 1B](https://github.com/MattiaRag/timemaproject/blob/main/pictures/1B.pdf) is produced as output.
+The script accepts as input [`fitch_asr_input_aa.txt`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_asr_inputs/fitch_asr_input_aa.txt), and [Fig. 1B](https://github.com/MattiaRag/timemaproject/blob/main/pictures/1B.pdf) is produced as output.
 
 
 <div style="text-align: center;">
