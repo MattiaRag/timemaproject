@@ -57,7 +57,7 @@ The same script produces an output file called `hemiplasy_aa_genes.tsv`, naming 
     <img src="https://github.com/MattiaRag/timemaproject/blob/main/pictures/2B.png" alt="Fig. 2B" width="600">
     <figcaption style="margin-top: 10px;">
 
-<sub><strong>Fig. 1C:</strong> GO terms enrichment analysis using the Biological Process ontology of 44 candidate genes supporting a hemiplasic scenario. None of the genes selected based on the above criteria support full hemiplasy (a single evolution of parthenogenesis). Only the top fifteen enriched terms are shown; the complete list can be found in Table S4. The putative homology of these genes can be found in Table S5. The third column reports the number of genes associated with each specific term within those supporting a hemiplasic scenario. </sub>
+<sub><strong>Fig. 2B:</strong> GO terms enrichment analysis using the Biological Process ontology of 44 candidate genes supporting a hemiplasic scenario. None of the genes selected based on the above criteria support full hemiplasy (a single evolution of parthenogenesis). Only the top fifteen enriched terms are shown; the complete list can be found in Table S4. The putative homology of these genes can be found in Table S5. The third column reports the number of genes associated with each specific term within those supporting a hemiplasic scenario. </sub>
     </figcaption>
   </figure>
 </div>
