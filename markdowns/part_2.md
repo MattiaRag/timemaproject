@@ -49,7 +49,9 @@ The script accepts as input the following files:
 The output files include:
 * [Fig. 2B](https://github.com/MattiaRag/timemaproject/blob/main/pictures/2B.png);
 * [`TabS4.tsv`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/TabS4.tsv).
-The same script produces an output file 
+The same script produces an output file called `hemiplasy_aa_genes.tsv`, naming all genes for which the script identify a condition of full or some hemiplasy, according to the relative tree and the Fitch parsimony results. In this case, 44 genes were identified, and an [Excel table](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/Table_S5.xlsx) was created. This table includes the best hit (determined by the E-value) obtained using [BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome).
+
+
 ---
 
 
