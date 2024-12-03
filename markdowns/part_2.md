@@ -49,9 +49,18 @@ The script accepts as input the following files:
 The output files include:
 * [Fig. 2B](https://github.com/MattiaRag/timemaproject/blob/main/pictures/2B.png);
 * [`TabS4.tsv`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/TabS4.tsv).
+
 The same script produces an output file called `hemiplasy_aa_genes.tsv`, naming all genes for which the script identify a condition of full or some hemiplasy, according to the relative tree and the Fitch parsimony results. In this case, 44 genes were identified, and an [Excel table](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/Table_S5.xlsx) was created. This table includes the best hit (determined by the E-value) obtained using [BLASTp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome).
 
+<div style="text-align: center;">
+  <figure style="display: inline-block; text-align: center; margin: 0;">
+    <img src="https://github.com/MattiaRag/timemaproject/blob/main/pictures/2B.png" alt="Fig. 2B" width="600">
+    <figcaption style="margin-top: 10px;">
 
+<sub><strong>Fig. 1C:</strong> GO terms enrichment analysis using the Biological Process ontology of 44 candidate genes supporting a hemiplasic scenario. None of the genes selected based on the above criteria support full hemiplasy (a single evolution of parthenogenesis). Only the top fifteen enriched terms are shown; the complete list can be found in Table S4. The putative homology of these genes can be found in Table S5. The third column reports the number of genes associated with each specific term within those supporting a hemiplasic scenario. </sub>
+    </figcaption>
+  </figure>
+</div>
 ---
 
 
