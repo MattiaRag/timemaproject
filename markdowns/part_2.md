@@ -38,11 +38,18 @@ The complete fasta input file was submitted to OMA browser and an output was sub
 As input for gene enrichment in R, a properly formatted `.txt` document is necessary. It is composed of a first column indicating the orthogroup's name, and a second tab-delimited column composed of all comma-delimited GO terms assigned to the relative orthogroup. This can be performed through this [script](https://github.com/MattiaRag/timemaproject/blob/main/scripts/OMAoutput_formatting.sh) on the OMA output file. The computed file can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/OMA_formatted.txt).
 
 The R script for gene enrichment can be retrieved [here](https://github.com/MattiaRag/timemaproject/blob/main/scripts/Rscripts/part_2.R). The species threshold is set to a minimum of 4 species, requiring both parthenogenesis-related taxa (prt) and bisexual taxa (bsx) to meet this criterion for a gene to be included in the analysis. The proportion of zero branch lengths is set to zero, meaning that branches with a length of zero are not considered. Additionally, the analysis assumes two independent evolutions of parthenogenesis, as indicated by the hemiplasy score derived from the Fitch results. For the enrichment analysis, the weight algorithm "weight01" is applied.
-The script accepts as input the following files:
-* 
-The output files include:
-* [Fig. 2B](https://github.com/MattiaRag/timemaproject/blob/main/pictures/2B.png): ;
 
+The script accepts as input the following files:
+* [`fitch_results_aa.txt`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_results/fitch_results_aa.txt);
+* [`fitch_results_nu.txt`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_results/fitch_results_nu.txt);
+* [`fitch_asr_input_aa.txt`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_asr_inputs/fitch_asr_input_aa.txt);
+* [`fitch_asr_input_nu.txt`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/fitch_asr_inputs/fitch_asr_input_nu.txt);
+* [`OMA_formatted.txt`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/OMA_formatted.txt).
+
+The output files include:
+* [Fig. 2B](https://github.com/MattiaRag/timemaproject/blob/main/pictures/2B.png);
+* [`TabS4.tsv`](https://github.com/MattiaRag/timemaproject/blob/main/intermediate_files/TabS4.tsv).
+The same script produces an output file 
 ---
 
 
