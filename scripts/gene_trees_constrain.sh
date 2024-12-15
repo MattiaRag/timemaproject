@@ -45,7 +45,7 @@ for fasta_file in "$input_dir"/*.input.fa; do
 
     # Run IQ-TREE with the constrained topology
 
-    iqtree -s "$fasta_file" -g "$topology_file" -pre "$output_prefix" -nt 4
+    iqtree -s "$fasta_file" -t "$topology_file" -pre "$output_prefix" -nt 4 -keep-ident
 
 
     # Print a message to track progress
