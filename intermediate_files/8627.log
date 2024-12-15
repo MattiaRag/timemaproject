@@ -4,8 +4,8 @@ Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    SGBGA-D142152S (AVX2, FMA3, 251 GB RAM)
 Command: iqtree -s preliminary/orthogroupsdisco_aa/Iqtreeinput_aa/8627.input.fa -g preliminary/orthogroupsdisco_aa/Iqtreeinput_aa/8627.input_cladogram.nwk -pre preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627 -nt 4
-Seed:    658268 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Sat Dec 14 13:29:12 2024
+Seed:    202653 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Dec 14 22:26:52 2024
 Kernel:  AVX+FMA - 4 threads (32 CPU cores detected)
 
 Reading alignment file preliminary/orthogroupsdisco_aa/Iqtreeinput_aa/8627.input.fa ... Fasta format detected
@@ -34,7 +34,7 @@ For your convenience alignment with unique sequences printed to preliminary/orth
 
 Creating fast initial parsimony tree by random order stepwise addition...
 WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
-0.001 seconds, parsimony score: 0 (based on 30 sites)
+0.000 seconds, parsimony score: 0 (based on 30 sites)
 NOTE: ModelFinder requires 0 MB RAM!
 ModelFinder will test 546 protein models (sample size: 109) ...
  No. Model         -LnL         df  AIC          AICc         BIC
@@ -287,7 +287,7 @@ WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to 
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 264  LG+I+G4       531.516      13  1089.031     1092.863     1124.019
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
-265  LG+R2         531.384      13  1088.768     1092.600     1123.756
+265  LG+R2         531.384      13  1088.769     1092.600     1123.756
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 266  LG+R3         531.358      15  1092.717     1097.878     1133.087
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
@@ -299,7 +299,7 @@ WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to 
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 277  LG+F+I+G4     513.901      32  1091.801     1119.591     1177.924
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
-278  LG+F+R2       514.056      32  1092.112     1119.902     1178.235
+278  LG+F+R2       514.056      32  1092.112     1119.902     1178.236
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 279  LG+F+R3       514.052      34  1096.103     1128.266     1187.609
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
@@ -323,7 +323,7 @@ WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to 
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 303  DCMut+F+I+G4  519.435      32  1102.870     1130.659     1188.993
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
-304  DCMut+F+R2    519.393      32  1102.786     1130.576     1188.910
+304  DCMut+F+R2    519.393      32  1102.787     1130.576     1188.910
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 305  DCMut+F+R3    519.373      34  1106.746     1138.909     1198.252
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
@@ -337,7 +337,7 @@ WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to 
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 317  PMB+R2        530.278      13  1086.555     1090.387     1121.543
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
-318  PMB+R3        530.244      15  1090.488     1095.650     1130.858
+318  PMB+R3        530.244      15  1090.488     1095.649     1130.858
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 326  PMB+F         524.152      30  1108.305     1132.151     1189.045
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
@@ -445,7 +445,7 @@ WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to 
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 434  FLU+F+R2      514.847      32  1093.693     1121.483     1179.816
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
-435  FLU+F+R3      514.782      34  1097.563     1129.726     1189.069
+435  FLU+F+R3      514.782      34  1097.564     1129.726     1189.069
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 443  Blosum62      538.429      11  1098.858     1101.580     1128.463
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
@@ -493,7 +493,7 @@ WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to 
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 486  mtMet+F+R2    510.517      32  1085.034     1112.824     1171.157
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
-487  mtMet+F+R3    510.475      34  1088.950     1121.112     1180.456
+487  mtMet+F+R3    510.475      34  1088.950     1121.112     1180.455
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 495  mtVer         566.611      11  1155.222     1157.943     1184.826
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
@@ -503,7 +503,7 @@ WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to 
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 498  mtVer+I+G4    548.347      13  1122.694     1126.526     1157.682
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
-499  mtVer+R2      548.166      13  1122.332     1126.164     1157.320
+499  mtVer+R2      548.166      13  1122.332     1126.163     1157.319
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
 500  mtVer+R3      548.101      15  1126.203     1131.364     1166.573
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
@@ -548,8 +548,8 @@ Bayesian Information Criterion:         HIVw+I
 Best-fit model: HIVw+I chosen according to BIC
 
 All model information printed to preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.model.gz
-CPU time for ModelFinder: 6.181 seconds (0h:0m:6s)
-Wall-clock time for ModelFinder: 1.563 seconds (0h:0m:1s)
+CPU time for ModelFinder: 4.499 seconds (0h:0m:4s)
+Wall-clock time for ModelFinder: 1.136 seconds (0h:0m:1s)
 
 NOTE: 0 MB RAM (0 GB) is required!
 WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
@@ -559,7 +559,7 @@ Estimate model parameters (epsilon = 0.100)
 3. Current log-likelihood: -520.286
 Optimal log-likelihood: -520.285
 Proportion of invariable sites: 0.673
-Parameters optimization took 3 rounds (0.004 sec)
+Parameters optimization took 3 rounds (0.002 sec)
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
@@ -662,12 +662,12 @@ WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforce
 WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
 WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
 WARNING: Constraint tree has all taxa and is bifurcating, which strictly enforces final tree!
-0.029 second
+0.018 second
 Current best score: -520.285
 
 Do NNI search on 1 best initial trees
 Finish initializing candidate tree set (1)
-Current best tree score: -520.285 / CPU time: 0.030
+Current best tree score: -520.285 / CPU time: 0.019
 Number of iterations: 1
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
@@ -697,14 +697,14 @@ BEST SCORE FOUND : -520.285
 Total tree length: 1.848
 
 Total number of iterations: 101
-CPU time used for tree search: 0.126 sec (0h:0m:0s)
-Wall-clock time used for tree search: 0.053 sec (0h:0m:0s)
-Total CPU time used: 0.160 sec (0h:0m:0s)
-Total wall-clock time used: 0.068 sec (0h:0m:0s)
+CPU time used for tree search: 0.107 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.039 sec (0h:0m:0s)
+Total CPU time used: 0.123 sec (0h:0m:0s)
+Total wall-clock time used: 0.049 sec (0h:0m:0s)
 
 Analysis results written to: 
   IQ-TREE report:                preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.iqtree
   Maximum-likelihood tree:       preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.treefile
   Screen log file:               preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.log
 
-Date and Time: Sat Dec 14 13:29:14 2024
+Date and Time: Sat Dec 14 22:26:53 2024
