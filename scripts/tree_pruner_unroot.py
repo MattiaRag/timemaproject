@@ -9,7 +9,7 @@ import re
 import sys
 
 
-# Define the directory where the input files are located relative to timemaproject
+# Define the directory where the input files are located
 
 input_dir = os.path.join(os.getcwd(), "preliminary/orthogroupsdisco_aa/Iqtreeinput_aa")
 
@@ -19,6 +19,7 @@ input_dir = os.path.join(os.getcwd(), "preliminary/orthogroupsdisco_aa/Iqtreeinp
 print(f"Searching for input files in: {input_dir}")
 
 file_list = glob.glob(os.path.join(input_dir, '*.input.fa'))
+
 
 if not file_list:
 
@@ -31,26 +32,27 @@ else:
     print(f"Found {len(file_list)} input files.")
 
 
-# Check if the complete reference cladogram file is provided
+# Check if the unrooted species tree file is provided
 
 if len(sys.argv) != 2:
 
-    print("Usage: python pruner.py complete_cladogram.nwk")
+    print("Usage: python pruner.py unrooted_cladogram.nwk")
 
     sys.exit(1)
 
 
-complete_cladogram = sys.argv[1]
+unrooted_cladogram = sys.argv[1]
 
-if not os.path.exists(complete_cladogram):
 
-    print(f"Error: Complete cladogram file '{complete_cladogram}' not found.")
+if not os.path.exists(unrooted_cladogram):
+
+    print(f"Error: Unrooted cladogram file '{unrooted_cladogram}' not found.")
 
     sys.exit(1)
 
 else:
 
-    print(f"Complete cladogram file '{complete_cladogram}' loaded successfully.")
+    print(f"Unrooted cladogram file '{unrooted_cladogram}' loaded successfully.")
 
 
 # Pruning
@@ -63,15 +65,15 @@ for idx, path in enumerate(file_list, start=1):
 
     try:
 
-        # Load the reference tree
+        # Load the unrooted reference tree
 
-        kuhl_cladogram = Tree(complete_cladogram, format=1)
+        species_tree = Tree(unrooted_cladogram, format=1)
 
-        print("  - Reference tree loaded successfully.")
+        print("  - Unrooted reference tree loaded successfully.")
 
     except Exception as e:
 
-        print(f"  - Error loading reference tree: {e}")
+        print(f"  - Error loading unrooted reference tree: {e}")
 
         continue
 
@@ -112,11 +114,11 @@ for idx, path in enumerate(file_list, start=1):
         continue
 
 
-    # Prune the reference tree
+    # Prune the unrooted reference tree
 
     try:
 
-        original_leaves = set(kuhl_cladogram.get_leaf_names())  # Get all species in the reference tree
+        original_leaves = set(species_tree.get_leaf_names())  # Get all species in the reference tree
 
         valid_leaves = [leaf for leaf in leaves if leaf in original_leaves]  # Keep only valid species
 
@@ -128,9 +130,14 @@ for idx, path in enumerate(file_list, start=1):
             print(f"  - Warning: Species not found in reference tree: {', '.join(missing_leaves)}")
 
 
-        kuhl_cladogram.prune(valid_leaves)
+        species_tree.prune(valid_leaves)
 
-        print("  - Reference tree pruned successfully.")
+
+        # Ensure the pruned tree remains unrooted
+
+        species_tree.unroot()
+
+        print("  - Reference tree pruned and unrooted successfully.")
 
     except Exception as e:
 
@@ -143,7 +150,7 @@ for idx, path in enumerate(file_list, start=1):
 
     try:
 
-        kuhl_cladogram.write(format=9, outfile=pruned_tree)
+        species_tree.write(format=9, outfile=pruned_tree)
 
         print(f"  - Pruned tree saved to: {pruned_tree}")
 
