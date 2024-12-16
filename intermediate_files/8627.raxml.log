@@ -1,0 +1,100 @@
+
+RAxML-NG v. 1.2.0 released on 09.05.2023 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz, 16 cores, 251 GB RAM
+
+RAxML-NG was called at 16-Dec-2024 15:42:18 as follows:
+
+raxml-ng --msa preliminary/orthogroupsdisco_aa/Iqtreeinput_aa/8627.input.fa --tree preliminary/orthogroupsdisco_aa/Iqtreeinput_aa/8627.input_cladogram.nwk --model HIVw+I --prefix preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): user
+  random seed: 1734360138
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: preliminary/orthogroupsdisco_aa/Iqtreeinput_aa/8627.input.fa
+[00:00:00] Loaded alignment with 9 taxa and 109 sites
+
+WARNING: Sequences TBI and TGE are exactly identical!
+WARNING: Sequences TBI and TCE are exactly identical!
+WARNING: Sequences TBI and TPA are exactly identical!
+WARNING: Duplicate sequences found: 3
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /home/STUDENTI/mattia.ragazzini/timemaproject/preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.raxml.reduced.phy
+
+Alignment comprises 1 partitions and 64 patterns
+
+Partition 0: noname
+Model: HIVW+I
+Alignment sites / patterns: 109 / 64
+Gaps: 25.99 %
+Invariant sites: 72.48 %
+
+
+NOTE: Binary MSA file created: preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.raxml.rba
+
+Parallelization scheme autoconfig: 1 worker(s) x 1 thread(s)
+
+[00:00:00] Loading user starting tree(s) from: preliminary/orthogroupsdisco_aa/Iqtreeinput_aa/8627.input_cladogram.nwk
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 64 / 1280
+[00:00:00] Data distribution: max. searches per worker: 1
+
+Starting ML tree search with 1 distinct starting trees
+
+[00:00:00 -566.205394] Initial branch length optimization
+[00:00:00 -536.510209] Model parameter optimization (eps = 10.000000)
+[00:00:00 -520.487014] AUTODETECT spr round 1 (radius: 5)
+[00:00:00 -520.356461] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:00 -520.356461] Model parameter optimization (eps = 3.000000)
+[00:00:00 -520.354133] FAST spr round 1 (radius: 5)
+[00:00:00 -520.316144] Model parameter optimization (eps = 1.000000)
+[00:00:00 -520.314727] SLOW spr round 1 (radius: 5)
+[00:00:00 -520.284666] Model parameter optimization (eps = 0.100000)
+
+[00:00:00] ML tree search #1, logLikelihood: -520.284579
+
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: NONE
+   P-inv (ML): 0.673386
+   Base frequencies (model): 0.037749 0.057321 0.089113 0.034203 0.024010 0.043782 0.061861 0.083850 0.015608 0.098364 0.057787 0.064168 0.015842 0.042274 0.045860 0.055085 0.081377 0.019597 0.020585 0.051564 
+   Substitution rates (model): 0.074481 0.617509 4.435210 0.167653 0.005000 5.563250 1.868500 0.005000 0.005000 0.160240 0.592784 0.005000 0.597923 1.009810 8.594200 24.142200 0.005000 0.005000 24.809400 0.160240 0.067454 2.863640 10.674600 0.025163 13.437900 6.844050 1.340690 0.586757 39.889700 3.286520 0.005000 0.404723 8.350240 0.928203 5.965640 0.005000 0.279425 29.408700 0.060493 0.342068 0.201526 0.060493 8.598760 0.987028 0.005000 10.665500 0.201526 0.005000 0.344848 14.569900 4.542060 0.005000 5.064750 0.074481 0.005000 0.005000 12.123300 10.396900 2.317790 0.145124 0.005000 0.894313 0.005000 0.005000 0.005000 0.427881 0.630395 0.005000 2.281540 2.917860 0.005000 0.005000 0.048980 0.005000 0.005000 0.005000 0.005000 0.005000 0.362959 0.005000 1.121950 0.005000 5.498940 8.348350 0.005000 3.206560 0.060493 18.546500 0.034225 2.890480 13.070500 0.005000 0.005000 3.045020 0.160240 0.203091 0.044330 0.005000 0.005000 14.780100 0.005000 0.039051 0.129839 23.962600 0.005000 0.005000 0.005000 0.005000 0.458743 0.005000 0.005000 2.199520 0.005000 0.005000 0.048980 0.279425 0.048980 0.005000 0.005000 6.279660 0.048980 2.825800 0.005000 2.796220 0.005000 1.763820 0.224060 0.005000 0.005000 13.944400 0.725157 0.959560 0.005000 47.488900 0.827479 9.102460 0.817481 17.306400 1.482880 0.005000 0.740091 9.363450 0.005000 0.114512 24.823100 0.005000 11.383900 7.487810 9.830950 6.143960 0.005000 1.370310 0.005000 2.953440 4.095640 0.005000 0.111928 0.005000 4.048020 0.005000 0.005000 0.128065 0.005000 0.005000 0.392575 7.413130 0.005000 0.579198 14.768300 0.034225 4.279390 0.114512 0.005000 4.127280 2.280000 14.249000 4.337010 0.005000 0.005000 0.005000 6.340790 1.101560 0.933142 0.862637 0.005000 0.490608 0.005000 0.005000 0.005000 1.354820 
+
+
+Final LogLikelihood: -520.284579
+
+AIC score: 1072.569158 / AICc score: 1078.482202 / BIC score: 1115.630724
+Free parameters (model + branch lengths): 16
+
+WARNING: Best ML tree contains 2 near-zero branches!
+
+Best ML tree with collapsed near-zero branches saved to: /home/STUDENTI/mattia.ragazzini/timemaproject/preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.raxml.bestTreeCollapsed
+Best ML tree saved to: /home/STUDENTI/mattia.ragazzini/timemaproject/preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.raxml.bestTree
+Optimized model saved to: /home/STUDENTI/mattia.ragazzini/timemaproject/preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.raxml.bestModel
+
+Execution log saved to: /home/STUDENTI/mattia.ragazzini/timemaproject/preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained/8627.raxml.log
+
+Analysis started: 16-Dec-2024 15:42:18 / finished: 16-Dec-2024 15:42:19
+
+Elapsed time: 0.109 seconds
+
