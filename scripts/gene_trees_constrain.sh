@@ -1,9 +1,11 @@
 #!/bin/bash
 
 
-# Define input and output directories
+# Input and output directories
 
 input_dir="preliminary/orthogroupsdisco_aa/Iqtreeinput_aa"
+
+model_dir="preliminary/orthogroupsdisco_aa/modelselectioniqtree_aa"
 
 output_dir="preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained"
 
@@ -13,47 +15,80 @@ output_dir="preliminary/orthogroupsdisco_aa/Iqtreeoutput_aa_constrained"
 mkdir -p "$output_dir"
 
 
-# Iterate over all *.input.fa files in the input directory
+# Loop over all .input.fa files in the input directory
 
-for fasta_file in "$input_dir"/*.input.fa; do
+for msa_file in "$input_dir"/*.input.fa; do
 
-    # Extract the base name without extension
+    # Extract the base name (e.g., 9994)
 
-    base_name=$(basename "$fasta_file" .input.fa)
+    base_name=$(basename "$msa_file" .input.fa)
 
+    
 
-    # Define the corresponding topology file with the correct naming convention
+    # Define the topology file and log file for the best-fit model
 
-    topology_file="$input_dir/${base_name}.input_cladogram.nwk"
+    cladogram_file="$input_dir/${base_name}.input_cladogram.nwk"
 
+    model_log_file="$model_dir/${base_name}.log"
 
-    # Check if the topology file exists
+    
 
-    if [ ! -f "$topology_file" ]; then
+    # Check if the required files exist
 
-        echo "WARNING: Topology file not found: $topology_file. Skipping $fasta_file."
+    if [[ ! -f "$cladogram_file" ]]; then
+
+        echo "Error: Missing topology file for $base_name. Skipping."
 
         continue
 
     fi
 
+    
 
-    # Define the output prefix for IQ-TREE
+    if [[ ! -f "$model_log_file" ]]; then
 
-    output_prefix="$output_dir/${base_name}"
+        echo "Error: Missing model log file for $base_name. Skipping."
 
+        continue
 
-    # Run IQ-TREE with the constrained topology
+    fi
 
-    iqtree -s "$fasta_file" -t "$topology_file" -pre "$output_prefix" -nt 4 -keep-ident
+    
 
+    # Extract the best-fit model from the log file
 
-    # Print a message to track progress
+    best_model=$(grep "Best-fit model" "$model_log_file" | sed -E 's/.+: (.[^ ]+) .+/\1/')
 
-    echo "Processed $fasta_file with topology $topology_file"
+    
+
+    if [[ -z "$best_model" ]]; then
+
+        echo "Error: No model found in $model_log_file. Skipping."
+
+        continue
+
+    fi
+
+    
+
+    # Define the output prefix
+
+    output_prefix="$output_dir/$base_name"
+
+    
+
+    # Run the RAxML-NG command
+
+    raxml-ng --msa "$msa_file" --tree "$cladogram_file" --model "$best_model" --prefix "$output_prefix" --evaluate --seeds 3
+
+    
+
+    # Print progress message
+
+    echo "Processed $msa_file with model $best_model and prefix $output_prefix"
 
 done
 
 
-echo "All files have been processed. Outputs are saved in $output_dir."
+echo "All files processed. Outputs are saved in $output_dir."
 
