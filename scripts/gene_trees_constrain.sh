@@ -79,7 +79,7 @@ for msa_file in "$input_dir"/*.input.fa; do
 
     # Run the RAxML-NG command
 
-    raxml-ng --msa "$msa_file" --tree "$cladogram_file" --model "$best_model" --prefix "$output_prefix" --evaluate --seeds 3
+    raxml-ng --msa "$msa_file" --tree "$cladogram_file" --model "$best_model" --prefix "$output_prefix" --evaluate --seed 3
 
     
 
