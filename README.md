@@ -1,4 +1,4 @@
-# timemaproject
+# timemaprojects
 
 ![image](https://photos.smugmug.com/Insects/Orthopteroid-Insects/Stick-Insects/i-S3tTc4h/2/4GPDB7Wg267WQ3QTvSKKFFcQsGR2NcVcf6h9F7Ph/XL/Timema5-XL.jpg)
  
